@@ -17,8 +17,15 @@
       "loop": "closed (bounded)",
       "improver_mutable": "yes",
       "evidence": "E4",
-      "confidence": "high",
-      "basis": "The 2026 self-improving-agent survey grades DGM L4; public code evolves the agent implementation and retains empirically validated variants."
+      "confidence": "medium",
+      "basis": "The 2026 self-improving-agent survey grades DGM L4; public code evolves the agent implementation and retains empirically validated variants. L4 is survey-aligned; E4 is an editorial reading of author-reported self-modification, not an isolated measurement of accelerating improvement or independent replication.",
+      "sources": [
+        "https://github.com/jennyzzt/dgm",
+        "https://arxiv.org/abs/2505.22954",
+        "https://github.com/D2I-ai/awesome-recursive-self-improving-agents"
+      ],
+      "reviewed_at": "2026-09-10",
+      "verification": "Author-reported; not independently reproduced by RSI Observatory"
     },
     {
       "name": "Gödel Agent",
@@ -30,21 +37,34 @@
       "loop": "closed (bounded)",
       "improver_mutable": "yes",
       "evidence": "E4",
-      "confidence": "high",
-      "basis": "The 2026 survey grades Gödel Agent L4; the agent is explicitly self-referential and can rewrite its own logic."
+      "confidence": "medium",
+      "basis": "The 2026 survey grades Gödel Agent L4; the agent is explicitly self-referential and can rewrite its own logic. L4 is survey-aligned; E4 is an editorial reading of author-reported self-modification, not an isolated measurement of accelerating improvement or independent replication.",
+      "sources": [
+        "https://github.com/Arvid-pku/Godel_Agent",
+        "https://arxiv.org/abs/2410.04444",
+        "https://github.com/D2I-ai/awesome-recursive-self-improving-agents"
+      ],
+      "reviewed_at": "2026-09-10",
+      "verification": "Author-reported; not independently reproduced by RSI Observatory"
     },
     {
       "name": "OpenRSI / OpenMLE",
       "repo": "FrontisAI/OpenRSI",
       "role": "RSI-directed meta-evolution",
       "scope": "Model + harness + trainer",
-      "depth": "L4-like (bounded)",
+      "depth": "L4-like framing; recursion unverified",
       "persistent": "yes",
       "loop": "closed (bounded domain)",
-      "improver_mutable": "bounded / demonstrated as meta-evolution",
-      "evidence": "E4",
+      "improver_mutable": "trained improver; autonomous meta-loop unverified",
+      "evidence": "E3",
       "confidence": "medium",
-      "basis": "OpenRSI explicitly says it begins with bounded meta-evolution—training the improver itself—and does not claim general RSI is solved."
+      "basis": "Authors report operator training and held-out transfer, and frame this as bounded meta-evolution. The reviewed sources do not establish autonomous repeated modification of the training/update mechanism; E4 is withheld.",
+      "sources": [
+        "https://github.com/FrontisAI/OpenRSI",
+        "https://arxiv.org/abs/2607.28568"
+      ],
+      "reviewed_at": "2026-09-10",
+      "verification": "Author-reported; not independently reproduced by RSI Observatory"
     },
     {
       "name": "Recuris",
@@ -57,7 +77,13 @@
       "improver_mutable": "not demonstrated",
       "evidence": "E3",
       "confidence": "high",
-      "basis": "Execution evidence drives persistent memory/harness updates; public evidence does not require the update mechanism itself to be mutable."
+      "basis": "Execution evidence drives persistent memory/harness updates; public evidence does not require the update mechanism itself to be mutable.",
+      "sources": [
+        "https://github.com/Gen-Verse/Recuris",
+        "https://arxiv.org/abs/2608.24876"
+      ],
+      "reviewed_at": "2026-09-10",
+      "verification": "Author-reported; not independently reproduced by RSI Observatory"
     },
     {
       "name": "Prime Agent",
@@ -66,11 +92,16 @@
       "scope": "Harness / skills / coding workflow",
       "depth": "L3-like",
       "persistent": "yes",
-      "loop": "closed",
+      "loop": "refinement available; trigger-dependent",
       "improver_mutable": "not demonstrated",
-      "evidence": "E2",
+      "evidence": "E1",
       "confidence": "medium",
-      "basis": "Public project is explicitly self-improving and long-running; recursive improvement-mechanism mutation is not treated as demonstrated here."
+      "basis": "The README documents durable supplemental harness state, a /refine operation and rollback. The base prompt is immutable. An improvement-specific executable evaluation was not established in this review.",
+      "sources": [
+        "https://github.com/PrimeIntellect-ai/prime-agent"
+      ],
+      "reviewed_at": "2026-09-10",
+      "verification": "Author-reported; not independently reproduced by RSI Observatory"
     },
     {
       "name": "KnowAct",
@@ -83,7 +114,12 @@
       "improver_mutable": "not demonstrated",
       "evidence": "E2",
       "confidence": "medium",
-      "basis": "Persistent personal-agent learning is central; the Observatory does not promote the project to L4 without evidence that the improver itself changes."
+      "basis": "The repository documents a Know–Route–Act–Reflect workflow, retained knowledge/skills and benchmark trajectories. This supports an executable GUI agent, without establishing recursive modification of its improver.",
+      "sources": [
+        "https://github.com/HITsz-TMG/KnowAct"
+      ],
+      "reviewed_at": "2026-09-10",
+      "verification": "Author-reported; not independently reproduced by RSI Observatory"
     },
     {
       "name": "Reflexion",
@@ -92,12 +128,17 @@
       "role": "Enabling / self-improving memory",
       "scope": "Data system / memory",
       "depth": "L3",
-      "persistent": "yes",
+      "persistent": "across task trials",
       "loop": "closed (task-level)",
       "improver_mutable": "no",
-      "evidence": "E3",
+      "evidence": "E2",
       "confidence": "high",
-      "basis": "The 2026 survey grades Reflexion L3: experience is retained, while the improvement mechanism remains fixed."
+      "basis": "Reflective text persists across subsequent trials; model weights and the updater stay fixed. Task-level gains alone do not establish retained improvement on fresh held-out tasks, so E3 is withheld.",
+      "sources": [
+        "https://arxiv.org/abs/2303.11366"
+      ],
+      "reviewed_at": "2026-09-10",
+      "verification": "Author-reported; not independently reproduced by RSI Observatory"
     },
     {
       "name": "The AI Scientist",
@@ -108,9 +149,14 @@
       "persistent": "research artifacts, not self-update",
       "loop": "closed research workflow",
       "improver_mutable": "no",
-      "evidence": "E3",
+      "evidence": "E2",
       "confidence": "high",
-      "basis": "Important automated research precursor, but the research agent itself is not the object of recursive self-modification."
+      "basis": "Released research workflows and evaluation code support E2. Research artifacts persist, but this does not establish held-out gains caused by persistent changes to the research agent itself.",
+      "sources": [
+        "https://github.com/SakanaAI/AI-Scientist"
+      ],
+      "reviewed_at": "2026-09-10",
+      "verification": "Author-reported; not independently reproduced by RSI Observatory"
     },
     {
       "name": "LightRSI",
@@ -123,7 +169,13 @@
       "improver_mutable": "score instantiated loop",
       "evidence": "E1",
       "confidence": "high",
-      "basis": "A runtime for deploying RSI loops should not receive capability checkmarks by itself; the instantiated system must be evaluated."
+      "basis": "A runtime for deploying RSI loops should not receive capability checkmarks by itself; the instantiated system must be evaluated.",
+      "sources": [
+        "https://github.com/zjunlp/LightRSI"
+      ],
+      "reviewed_at": "2026-09-10",
+      "verification": "Author-reported; not independently reproduced by RSI Observatory"
     }
-  ]
+  ],
+  "reviewed_at": "2026-09-10"
 }

@@ -4,7 +4,7 @@
 
 Not everything that improves an AI system is RSI. This library separates **Core self-improvement**, **Enabling mechanisms**, **Adjacent AI R&D/evaluation**, and **Foundational work** so breadth does not come at the cost of precision.
 
-**Coverage:** 213 research works · 101 Core · 58 Enabling · 37 Adjacent · 17 Foundational · 95 from 2026
+**Coverage:** 213 research works · 100 Core · 57 Enabling · 39 Adjacent · 17 Foundational · 95 from 2026
 
 [← Observatory](README.md) · [Landscape](LANDSCAPE.md) · [Scorecard](SCORECARD.md) · [Benchmarks](BENCHMARKS.md) · [Safety](SAFETY.md)
 
@@ -26,7 +26,7 @@ Not everything that improves an AI system is RSI. This library separates **Core 
 | [AI4AI-Bench](https://arxiv.org/abs/2608.20318) | **Evaluation** | Tests whether agents can improve training algorithms under executable evaluation. |
 | [PAST-Bench](https://arxiv.org/abs/2608.04003) | **Evaluation** | Tests whether retained experience actually improves later performance. |
 | [PostTrainBench: Can LLM Agents Automate LLM Post-Training?](https://arxiv.org/abs/2603.08640) | **Evaluation** | Measures autonomous post-training under a real compute/time budget. |
-| [AutoScientists](https://arxiv.org/abs/2605.28655) | **Meta-loop** | Improves the improvement mechanism rather than only the task solution. |
+| [AutoScientists](https://arxiv.org/abs/2605.28655) | **AI R&D** | Studies decentralized research teams that share evidence and coordinate around hypotheses; recursive updater modification is not established here. |
 | [Bilevel Autoresearch](https://arxiv.org/abs/2603.23420) | **Meta-loop** | Explicit bilevel optimization of the research/improvement process. |
 | [AREX: Towards a Recursively Self-Improving Agent for Deep Research](https://arxiv.org/abs/2607.21461) | **Research agent** | Uses an outer audit/improvement loop to drive targeted follow-up research. |
 | [Can AI agents conduct open-ended AI research? Early evidence from two case studies](https://arxiv.org/abs/2607.27191) | **Reality check** | Useful negative evidence on current open-ended AI R&D limits. |
@@ -146,13 +146,13 @@ The machine-readable source is [`data/paper-index.json`](data/paper-index.json).
 | [SkillOpt: Executive Strategy for Self-Evolving Agent Skills](https://arxiv.org/abs/2605.23904) | 2026 | **Core** |
 | [Dynamic Cheatsheet](https://arxiv.org/abs/2504.07952) | 2025 | **Core** |
 | [SCOPE](https://arxiv.org/abs/2512.15374) | 2025 | **Core** |
+| [STOP](https://arxiv.org/abs/2310.02304) | 2023 | **Core** |
 | [Automated Design of Agentic Systems](https://arxiv.org/abs/2408.08435) | 2024 | **Enabling** |
 | [TextGrad](https://arxiv.org/abs/2406.07496) | 2024 | **Enabling** |
 | [DSPy](https://arxiv.org/abs/2310.03714) | 2023 | **Enabling** |
 | [Language Agent Tree Search](https://arxiv.org/abs/2310.04406) | 2023 | **Enabling** |
 | [Large Language Models as Optimizers / OPRO](https://arxiv.org/abs/2309.03409) | 2023 | **Enabling** |
 | [Promptbreeder](https://arxiv.org/abs/2309.16797) | 2023 | **Enabling** |
-| [STOP](https://arxiv.org/abs/2310.02304) | 2023 | **Enabling** |
 
 </details>
 
@@ -171,13 +171,12 @@ The machine-readable source is [`data/paper-index.json`](data/paper-index.json).
 </details>
 
 <details>
-<summary><strong>Agent / Architecture</strong> — 28 works</summary>
+<summary><strong>Agent / Architecture</strong> — 27 works</summary>
 
 | Work | Year | Relevance |
 |---|---:|---|
 | [AgentFactory: A Self-Evolving Framework Through Executable Subagent Accumulation and Reuse](https://arxiv.org/abs/2603.18000) | 2026 | **Core** |
 | [AgentGA](https://arxiv.org/abs/2604.14655) | 2026 | **Core** |
-| [AREX: Towards a Recursively Self-Improving Agent for Deep Research](https://arxiv.org/abs/2607.21461) | 2026 | **Core** |
 | [EvoAgent: An Evolvable Agent Framework with Skill Learning and Multi-Agent Delegation](https://arxiv.org/abs/2604.20133) | 2026 | **Core** |
 | [EVOCHAMBER](https://arxiv.org/abs/2605.11136) | 2026 | **Core** |
 | [EvoFSM](https://arxiv.org/abs/2601.09465) | 2026 | **Core** |
@@ -261,11 +260,10 @@ The machine-readable source is [`data/paper-index.json`](data/paper-index.json).
 </details>
 
 <details>
-<summary><strong>Improvement mechanism</strong> — 4 works</summary>
+<summary><strong>Improvement mechanism</strong> — 3 works</summary>
 
 | Work | Year | Relevance |
 |---|---:|---|
-| [AutoScientists](https://arxiv.org/abs/2605.28655) | 2026 | **Core** |
 | [Bilevel Autoresearch](https://arxiv.org/abs/2603.23420) | 2026 | **Core** |
 | [EvoTrainer](https://arxiv.org/abs/2606.03108) | 2026 | **Core** |
 | [GEAR](https://arxiv.org/abs/2605.13874) | 2026 | **Core** |
@@ -273,7 +271,7 @@ The machine-readable source is [`data/paper-index.json`](data/paper-index.json).
 </details>
 
 <details>
-<summary><strong>AI R&D</strong> — 24 works</summary>
+<summary><strong>AI R&D</strong> — 26 works</summary>
 
 | Work | Year | Relevance |
 |---|---:|---|
@@ -286,7 +284,9 @@ The machine-readable source is [`data/paper-index.json`](data/paper-index.json).
 | [SMCEvolve](https://arxiv.org/abs/2605.15308) | 2026 | **Core** |
 | [TREX](https://arxiv.org/abs/2604.14116) | 2026 | **Core** |
 | [AI4AI-Bench](https://arxiv.org/abs/2608.20318) | 2026 | **Adjacent** |
+| [AREX: Towards a Recursively Self-Improving Agent for Deep Research](https://arxiv.org/abs/2607.21461) | 2026 | **Adjacent** |
 | [AutoResearch](https://arxiv.org/abs/2608.17906) | 2026 | **Adjacent** |
+| [AutoScientists](https://arxiv.org/abs/2605.28655) | 2026 | **Adjacent** |
 | [Can AI agents conduct open-ended AI research? Early evidence from two case studies](https://arxiv.org/abs/2607.27191) | 2026 | **Adjacent** |
 | [Frontis-MA1](https://arxiv.org/abs/2607.28568) | 2026 | **Adjacent** |
 | [FT-Dojo](https://arxiv.org/abs/2603.01712) | 2026 | **Adjacent** |
@@ -420,6 +420,7 @@ The machine-readable source is [`data/paper-index.json`](data/paper-index.json).
 
 ## Curation notes
 
+- [Source review](SOURCE_REVIEW.md): the featured 20 received title/abstract/relevance checks on 2026-09-10; this does not certify all 213 entries or reproduce results.
 - Freshness and importance are separate: the automated arXiv feed surfaces new work; this file is the curated long-lived index.
 - Labels are maintained by RSI Observatory and can be corrected through Issues/PRs.
 - The index is cross-checked against public field maps including Awesome RSI and The Path to Recursive Self-Improving Agents.

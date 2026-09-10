@@ -48,6 +48,8 @@ The E0–E5 ladder is an **RSI Observatory editorial standard**, not a community
 | **E4 — Bounded meta-improvement** | Public evidence shows the improvement mechanism itself changing inside a bounded loop. |
 | **E5 — Independent replication** | Independent multi-generation reproduction of the recursive gain. |
 
+E1–E4 can be based on author-reported artifacts and results; only E5 denotes independent replication. A survey depth label does not by itself establish an E-level. Task-trial memory is distinguished from demonstrated gains on fresh held-out work. See the [source review](SOURCE_REVIEW.md) for the actual review scope.
+
 No system is promoted because of Stars, marketing language, or naming alone.
 
 ## 4. Roles used by the Observatory

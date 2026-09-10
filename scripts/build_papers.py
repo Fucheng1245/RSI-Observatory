@@ -28,7 +28,7 @@ FEATURED = [
     ("https://arxiv.org/abs/2608.20318","Evaluation","Tests whether agents can improve training algorithms under executable evaluation."),
     ("https://arxiv.org/abs/2608.04003","Evaluation","Tests whether retained experience actually improves later performance."),
     ("https://arxiv.org/abs/2603.08640","Evaluation","Measures autonomous post-training under a real compute/time budget."),
-    ("https://arxiv.org/abs/2605.28655","Meta-loop","Improves the improvement mechanism rather than only the task solution."),
+    ("https://arxiv.org/abs/2605.28655","AI R&D","Studies decentralized research teams that share evidence and coordinate around hypotheses; recursive updater modification is not established here."),
     ("https://arxiv.org/abs/2603.23420","Meta-loop","Explicit bilevel optimization of the research/improvement process."),
     ("https://arxiv.org/abs/2607.21461","Research agent","Uses an outer audit/improvement loop to drive targeted follow-up research."),
     ("https://arxiv.org/abs/2607.27191","Reality check","Useful negative evidence on current open-ended AI R&D limits."),
@@ -94,11 +94,13 @@ def main():
         "- [The Path to Recursive Self-Improving Agents — living survey & project page](https://github.com/D2I-ai/awesome-recursive-self-improving-agents)",
         "- [RSI-Exam — code, data and evaluation resources](https://github.com/aiming-lab/RSI-Exam)","",
         "## Curation notes","",
+        "- [Source review](SOURCE_REVIEW.md): the featured 20 received title/abstract/relevance checks on 2026-09-10; this does not certify all 213 entries or reproduce results.",
         "- Freshness and importance are separate: the automated arXiv feed surfaces new work; this file is the curated long-lived index.",
         "- Labels are maintained by RSI Observatory and can be corrected through Issues/PRs.",
         "- The index is cross-checked against public field maps including Awesome RSI and The Path to Recursive Self-Improving Agents.","",
         f"_Index snapshot: {payload.get('generated_at','—')} · {len(papers)} research works._",""
     ]
+    (ROOT / "docs" / "paper-index.json").write_text(DATA.read_text(encoding="utf-8"), encoding="utf-8")
     OUT.write_text("\n".join(lines), encoding="utf-8")
 
 if __name__ == "__main__":

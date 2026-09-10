@@ -15,6 +15,8 @@
 
 **RSI = Recursive Self-Improvement**, not the trading Relative Strength Index.
 
+**[Open the live website →](https://fucheng1245.github.io/RSI-Observatory/)**
+
 **New here? [Take the five-minute tour →](START_HERE.md)**
 
 ---
@@ -52,17 +54,20 @@ The Observatory does **not** solve that by making a bigger link dump. It adds an
 ## Scorecard snapshot
 
 | System | Role | Scope | Depth | Improver mutable? | Evidence |
-|---|---|---|---:|---|---:|
-| [Darwin Gödel Machine](https://github.com/jennyzzt/dgm) | **Direct RSI** | Harness / agent code | **L4** | **Yes** | **E4** |
-| [Gödel Agent](https://github.com/Arvid-pku/Godel_Agent) | **Direct RSI** | Harness / agent code | **L4** | **Yes** | **E4** |
-| [OpenRSI / OpenMLE](https://github.com/FrontisAI/OpenRSI) | RSI-directed meta-evolution | Model + harness + trainer | **L4-like, bounded** | Bounded meta-evolution | **E4** |
-| [Recuris](https://github.com/Gen-Verse/Recuris) | Self-improving system | Data / memory + harness | **L3** | Not demonstrated | **E3** |
-| [Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent) | Self-improving system | Harness / skills | L3-like | Not demonstrated | E2 |
-| [Reflexion](https://arxiv.org/abs/2303.11366) | Enabling / self-improving memory | Data / memory | **L3** | No | **E3** |
-| [The AI Scientist](https://github.com/SakanaAI/AI-Scientist) | Adjacent AI R&D | Research process | Not RSI-scored | No | E3 |
-| [LightRSI](https://github.com/zjunlp/LightRSI) | RSI substrate | Harness / runtime | N/A | Score instantiated loop | E1 |
+|---|---|---|---|---|---|
+| [Darwin Gödel Machine](https://github.com/jennyzzt/dgm) | Direct RSI | Harness / agent source code | L4 | yes | E4 |
+| [Gödel Agent](https://github.com/Arvid-pku/Godel_Agent) | Direct RSI | Harness / agent code | L4 | yes | E4 |
+| [OpenRSI / OpenMLE](https://github.com/FrontisAI/OpenRSI) | RSI-directed meta-evolution | Model + harness + trainer | L4-like framing; recursion unverified | trained improver; autonomous meta-loop unverified | E3 |
+| [Recuris](https://github.com/Gen-Verse/Recuris) | Self-improving system | Data system / memory + harness | L3 | not demonstrated | E3 |
+| [Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent) | Self-improving system | Harness / skills / coding workflow | L3-like | not demonstrated | E1 |
+| [KnowAct](https://github.com/HITsz-TMG/KnowAct) | Self-improving system | Data system + harness | L3-like | not demonstrated | E2 |
+| [Reflexion](https://arxiv.org/abs/2303.11366) | Enabling / self-improving memory | Data system / memory | L3 | no | E2 |
+| [The AI Scientist](https://github.com/SakanaAI/AI-Scientist) | Adjacent AI R&D | Research process | Not RSI-scored | no | E2 |
+| [LightRSI](https://github.com/zjunlp/LightRSI) | RSI substrate | Harness / runtime | N/A (substrate) | score instantiated loop | E1 |
 
 **Why this is conservative:** the 2026 *Path to Recursive Self-Improving Agents* survey grades **Gödel Agent** and **Darwin Gödel Machine** L4. OpenRSI describes its current starting point as bounded **Meta-Evolution — training the improver itself — while explicitly not claiming general RSI is solved**. Other self-improving systems stay L3/L3-like here until comparable public evidence appears.
+
+Author-reported evidence; no independent reproduction by this Observatory. [Review scope and corrections](SOURCE_REVIEW.md).
 
 [Full scorecard + rationale →](SCORECARD.md)
 

@@ -33,7 +33,9 @@
       "url": "https://arxiv.org/abs/cs/0309048",
       "year": 2003,
       "layer": "Foundations",
-      "relevance": "Foundational"
+      "relevance": "Foundational",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "Optimal Ordered Problem Solver",
@@ -145,14 +147,18 @@
       "url": "https://arxiv.org/abs/2607.05297",
       "year": 2026,
       "layer": "Memory / Skills",
-      "relevance": "Core"
+      "relevance": "Core",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "PAST-Bench",
       "url": "https://arxiv.org/abs/2608.04003",
       "year": 2026,
       "layer": "Memory / Skills",
-      "relevance": "Core"
+      "relevance": "Core",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "Programmatic Skill Networks",
@@ -166,7 +172,9 @@
       "url": "https://arxiv.org/abs/2608.24876",
       "year": 2026,
       "layer": "Memory / Skills",
-      "relevance": "Core"
+      "relevance": "Core",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "SkillFoundry",
@@ -362,7 +370,9 @@
       "url": "https://arxiv.org/abs/2606.09498",
       "year": 2026,
       "layer": "Harness",
-      "relevance": "Core"
+      "relevance": "Core",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "SePO: Self-Evolving Prompt Agent for System Prompt Optimization",
@@ -439,7 +449,9 @@
       "url": "https://arxiv.org/abs/2310.02304",
       "year": 2023,
       "layer": "Harness",
-      "relevance": "Enabling"
+      "relevance": "Core",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
@@ -501,8 +513,10 @@
       "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
       "url": "https://arxiv.org/abs/2607.21461",
       "year": 2026,
-      "layer": "Agent / Architecture",
-      "relevance": "Core"
+      "layer": "AI R&D",
+      "relevance": "Adjacent",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "EvoAgent: An Evolvable Agent Framework with Skill Learning and Multi-Agent Delegation",
@@ -663,7 +677,9 @@
       "url": "https://arxiv.org/abs/2410.04444",
       "year": 2024,
       "layer": "Agent / Architecture",
-      "relevance": "Core"
+      "relevance": "Core",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "Self-evolving Agents with Reflective and Memory-Augmented Abilities",
@@ -698,7 +714,9 @@
       "url": "https://arxiv.org/abs/2605.27276",
       "year": 2026,
       "layer": "Cross-component",
-      "relevance": "Core"
+      "relevance": "Core",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "SkillRL",
@@ -740,7 +758,9 @@
       "url": "https://arxiv.org/abs/2505.22954",
       "year": 2025,
       "layer": "Code / Agent",
-      "relevance": "Core"
+      "relevance": "Core",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "Training Software Engineering Agents and Verifiers with SWE-Gym",
@@ -893,15 +913,19 @@
       "title": "AutoScientists",
       "url": "https://arxiv.org/abs/2605.28655",
       "year": 2026,
-      "layer": "Improvement mechanism",
-      "relevance": "Core"
+      "layer": "AI R&D",
+      "relevance": "Adjacent",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "Bilevel Autoresearch",
       "url": "https://arxiv.org/abs/2603.23420",
       "year": 2026,
       "layer": "Improvement mechanism",
-      "relevance": "Core"
+      "relevance": "Core",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "EvoTrainer",
@@ -978,7 +1002,9 @@
       "url": "https://arxiv.org/abs/2608.20318",
       "year": 2026,
       "layer": "AI R&D",
-      "relevance": "Adjacent"
+      "relevance": "Adjacent",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "AutoResearch",
@@ -992,14 +1018,18 @@
       "url": "https://arxiv.org/abs/2607.27191",
       "year": 2026,
       "layer": "AI R&D",
-      "relevance": "Adjacent"
+      "relevance": "Adjacent",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "Frontis-MA1",
       "url": "https://arxiv.org/abs/2607.28568",
       "year": 2026,
       "layer": "AI R&D",
-      "relevance": "Adjacent"
+      "relevance": "Adjacent",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "FT-Dojo",
@@ -1139,7 +1169,9 @@
       "url": "https://arxiv.org/abs/2603.08640",
       "year": 2026,
       "layer": "Evaluation",
-      "relevance": "Core"
+      "relevance": "Core",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "RSIBench-Data",
@@ -1440,21 +1472,27 @@
       "url": "https://arxiv.org/abs/2602.06911",
       "year": 2026,
       "layer": "Safety",
-      "relevance": "Enabling"
+      "relevance": "Enabling",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "Evaluating Goal Drift in Language Model Agents",
       "url": "https://arxiv.org/abs/2505.02709",
       "year": 2025,
       "layer": "Safety",
-      "relevance": "Enabling"
+      "relevance": "Enabling",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "Your Agent May Misevolve",
       "url": "https://arxiv.org/abs/2509.26354",
       "year": 2025,
       "layer": "Safety",
-      "relevance": "Enabling"
+      "relevance": "Enabling",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     },
     {
       "title": "AI Sandbagging: Language Models can Strategically Underperform on Evaluations",
@@ -1496,7 +1534,9 @@
       "url": "https://arxiv.org/abs/1605.03142",
       "year": 2016,
       "layer": "Safety",
-      "relevance": "Enabling"
+      "relevance": "Enabling",
+      "reviewed_at": "2026-09-10",
+      "review_scope": "Title, abstract and editorial relevance; no independent reproduction"
     }
   ],
   "companion_resources": [
