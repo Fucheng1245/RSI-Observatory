@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-09-09T05:20:00Z",
+  "papers": [
+    {
+      "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+      "url": "https://arxiv.org/abs/2608.24876",
+      "published": "2026-08-25T17:56:35Z",
+      "authors": [
+        "Zhaochen Yu",
+        "Yingcheng Wu",
+        "Zhenfei Yin"
+      ]
+    },
+    {
+      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/2608.20318",
+      "published": "2026-08-20T17:56:59Z",
+      "authors": [
+        "Yizhe Chi",
+        "Wenyi Li",
+        "Deyao Hong"
+      ]
+    },
+    {
+      "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+      "url": "https://arxiv.org/abs/2607.28568",
+      "published": "2026-07-30T17:34:01Z",
+      "authors": [
+        "Junlin Yang",
+        "Che Jiang",
+        "Yu Fu"
+      ]
+    },
+    {
+      "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+      "url": "https://arxiv.org/abs/2607.21461",
+      "published": "2026-07-23T16:05:46Z",
+      "authors": [
+        "Shuqi Lu",
+        "Chaofan Li",
+        "Kun Luo"
+      ]
+    },
+    {
+      "title": "Self-Improvements in Modern Agentic Systems: A Survey",
+      "url": "https://arxiv.org/abs/2607.13104",
+      "published": "2026-07-14T09:12:57Z",
+      "authors": [
+        "Zhe Ren",
+        "Yimeng Chen",
+        "Dandan Guo"
+      ]
+    },
+    {
+      "title": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
+      "url": "https://arxiv.org/abs/2607.07663",
+      "published": "2026-07-08T17:19:50Z",
+      "authors": [
+        "Mingguang Chen",
+        "Licheng Wang",
+        "Bo Qu"
+      ]
+    },
+    {
+      "title": "MetaSkill-Evolve: Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolution",
+      "url": "https://arxiv.org/abs/2607.05297",
+      "published": "2026-07-06T16:40:23Z",
+      "authors": [
+        "Zefeng Wang",
+        "Minxi Yan",
+        "Jinhe Bi"
+      ]
+    }
+  ]
+}

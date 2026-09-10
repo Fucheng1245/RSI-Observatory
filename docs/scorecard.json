@@ -1,0 +1,129 @@
+{
+  "schema_version": 2,
+  "methodology": "Conservative public-evidence classification. L-levels follow the 2026 Path to Recursive Self-Improving Agents framework where possible; E-levels are an RSI Observatory editorial evidence ladder.",
+  "dimensions": {
+    "scope": "What part of the evolving system changes? Model, harness, data system, trainer, improvement mechanism, or research process.",
+    "depth": "L1 manual; L2 assisted; L3 programmatic self-improvement with a fixed improver; L4 bounded RSI where the improvement mechanism is modifiable; L5 general RSI across broad evolving domains.",
+    "evidence": "E0 claim; E1 public artifact; E2 executable evaluation; E3 held-out persistent gain; E4 bounded meta-improvement; E5 independent multi-generation replication."
+  },
+  "systems": [
+    {
+      "name": "Darwin Gödel Machine",
+      "repo": "jennyzzt/dgm",
+      "role": "Direct RSI",
+      "scope": "Harness / agent source code",
+      "depth": "L4",
+      "persistent": "yes",
+      "loop": "closed (bounded)",
+      "improver_mutable": "yes",
+      "evidence": "E4",
+      "confidence": "high",
+      "basis": "The 2026 self-improving-agent survey grades DGM L4; public code evolves the agent implementation and retains empirically validated variants."
+    },
+    {
+      "name": "Gödel Agent",
+      "repo": "Arvid-pku/Godel_Agent",
+      "role": "Direct RSI",
+      "scope": "Harness / agent code",
+      "depth": "L4",
+      "persistent": "yes",
+      "loop": "closed (bounded)",
+      "improver_mutable": "yes",
+      "evidence": "E4",
+      "confidence": "high",
+      "basis": "The 2026 survey grades Gödel Agent L4; the agent is explicitly self-referential and can rewrite its own logic."
+    },
+    {
+      "name": "OpenRSI / OpenMLE",
+      "repo": "FrontisAI/OpenRSI",
+      "role": "RSI-directed meta-evolution",
+      "scope": "Model + harness + trainer",
+      "depth": "L4-like (bounded)",
+      "persistent": "yes",
+      "loop": "closed (bounded domain)",
+      "improver_mutable": "bounded / demonstrated as meta-evolution",
+      "evidence": "E4",
+      "confidence": "medium",
+      "basis": "OpenRSI explicitly says it begins with bounded meta-evolution—training the improver itself—and does not claim general RSI is solved."
+    },
+    {
+      "name": "Recuris",
+      "repo": "Gen-Verse/Recuris",
+      "role": "Self-improving system",
+      "scope": "Data system / memory + harness",
+      "depth": "L3",
+      "persistent": "yes",
+      "loop": "closed",
+      "improver_mutable": "not demonstrated",
+      "evidence": "E3",
+      "confidence": "high",
+      "basis": "Execution evidence drives persistent memory/harness updates; public evidence does not require the update mechanism itself to be mutable."
+    },
+    {
+      "name": "Prime Agent",
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "role": "Self-improving system",
+      "scope": "Harness / skills / coding workflow",
+      "depth": "L3-like",
+      "persistent": "yes",
+      "loop": "closed",
+      "improver_mutable": "not demonstrated",
+      "evidence": "E2",
+      "confidence": "medium",
+      "basis": "Public project is explicitly self-improving and long-running; recursive improvement-mechanism mutation is not treated as demonstrated here."
+    },
+    {
+      "name": "KnowAct",
+      "repo": "HITsz-TMG/KnowAct",
+      "role": "Self-improving system",
+      "scope": "Data system + harness",
+      "depth": "L3-like",
+      "persistent": "yes",
+      "loop": "closed",
+      "improver_mutable": "not demonstrated",
+      "evidence": "E2",
+      "confidence": "medium",
+      "basis": "Persistent personal-agent learning is central; the Observatory does not promote the project to L4 without evidence that the improver itself changes."
+    },
+    {
+      "name": "Reflexion",
+      "repo": null,
+      "url": "https://arxiv.org/abs/2303.11366",
+      "role": "Enabling / self-improving memory",
+      "scope": "Data system / memory",
+      "depth": "L3",
+      "persistent": "yes",
+      "loop": "closed (task-level)",
+      "improver_mutable": "no",
+      "evidence": "E3",
+      "confidence": "high",
+      "basis": "The 2026 survey grades Reflexion L3: experience is retained, while the improvement mechanism remains fixed."
+    },
+    {
+      "name": "The AI Scientist",
+      "repo": "SakanaAI/AI-Scientist",
+      "role": "Adjacent AI R&D",
+      "scope": "Research process",
+      "depth": "Not RSI-scored",
+      "persistent": "research artifacts, not self-update",
+      "loop": "closed research workflow",
+      "improver_mutable": "no",
+      "evidence": "E3",
+      "confidence": "high",
+      "basis": "Important automated research precursor, but the research agent itself is not the object of recursive self-modification."
+    },
+    {
+      "name": "LightRSI",
+      "repo": "zjunlp/LightRSI",
+      "role": "RSI substrate",
+      "scope": "Harness / runtime",
+      "depth": "N/A (substrate)",
+      "persistent": "N/A",
+      "loop": "N/A",
+      "improver_mutable": "score instantiated loop",
+      "evidence": "E1",
+      "confidence": "high",
+      "basis": "A runtime for deploying RSI loops should not receive capability checkmarks by itself; the instantiated system must be evaluated."
+    }
+  ]
+}

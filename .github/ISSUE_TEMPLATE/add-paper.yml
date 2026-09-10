@@ -1,0 +1,43 @@
+name: Add a paper
+about: Suggest a paper, survey, benchmark paper, or technical report for the Observatory
+labels: []
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Primary source URL
+      description: Prefer arXiv, DOI, OpenReview, conference, or official project page.
+    validations:
+      required: true
+  - type: dropdown
+    id: track
+    attributes:
+      label: Track
+      options:
+        - Foundations / survey
+        - Model / training
+        - Agent / harness
+        - Memory / skills
+        - Coding / self-modification
+        - Automated AI R&D
+        - Evolutionary / open-ended
+        - Embodied / robotics
+        - Benchmark / evaluation
+        - Safety / oversight
+        - Introspection / self-modeling
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+      description: One or two sentences explaining the RSI relevance. Please do not paste the abstract.
+    validations:
+      required: true

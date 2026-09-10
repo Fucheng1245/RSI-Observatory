@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "repositories": [
+    {
+      "full_name": "PrimeIntellect-ai/prime-agent",
+      "category": "Self-improving agent",
+      "note": "Self-improving RLM agent for coding workflows and long-running autonomous tasks; strong adjacent/direct-candidate signal."
+    },
+    {
+      "full_name": "SakanaAI/AI-Scientist",
+      "category": "Automated AI R&D",
+      "note": "Major open automated research system; adjacent to closed-loop AI R&D rather than strict RSI."
+    },
+    {
+      "full_name": "jennyzzt/dgm",
+      "category": "Open-ended agent evolution",
+      "note": "Darwin G\u00f6del Machine: open-ended evolution of self-improving agents via source-code modification and empirical selection."
+    },
+    {
+      "full_name": "FrontisAI/OpenRSI",
+      "category": "Core / AI4AI",
+      "note": "Open full-stack AI4AI work toward recursive self-improvement, including OpenMLE and Frontis-MA1."
+    },
+    {
+      "full_name": "HITsz-TMG/KnowAct",
+      "category": "Personal agent",
+      "note": "Recursive self-improvement personal assistant with persistent capability growth."
+    },
+    {
+      "full_name": "Arvid-pku/Godel_Agent",
+      "category": "Self-modifying agent",
+      "note": "Self-referential agent framework focused directly on recursive self-improvement."
+    },
+    {
+      "full_name": "Gen-Verse/Recuris",
+      "category": "Memory evolution",
+      "note": "Recursive experiential-working memory evolution for long-horizon agent harnesses."
+    },
+    {
+      "full_name": "zjunlp/LightRSI",
+      "category": "Runtime",
+      "note": "Runtime for lightweight recursive self-improvement loops in long-horizon agents."
+    },
+    {
+      "full_name": "aiming-lab/RSI-Exam",
+      "category": "Benchmark",
+      "note": "Measures recursive self-improvement through long-horizon executable research."
+    },
+    {
+      "full_name": "scaleapi/rsi-benchmark",
+      "category": "Benchmark",
+      "note": "Evaluates whether agents can develop capabilities required to advance AI R&D."
+    },
+    {
+      "full_name": "Gen-Verse/PAST-Bench",
+      "category": "Benchmark",
+      "note": "Benchmarks whether retained experience creates measurable future gains in personal agents."
+    },
+    {
+      "full_name": "CosmosMind-ai/RSI-Harness",
+      "category": "Harness evolution",
+      "note": "Harness-level recursive self-improvement experiments."
+    },
+    {
+      "full_name": "Tencent/VideoHarness-RSI",
+      "category": "Harness evolution",
+      "note": "Domain-specific harness RSI work for video systems."
+    },
+    {
+      "full_name": "lobehub/awesome-rsi",
+      "category": "Research map",
+      "note": "Curated research map spanning RSI models, agents, harnesses, benchmarks and safety."
+    },
+    {
+      "full_name": "selfimproving-agent/Awesome-Self-Improving-Agents",
+      "category": "Research map",
+      "note": "Broad survey-oriented collection of self-improving agent research."
+    },
+    {
+      "full_name": "D2I-ai/awesome-recursive-self-improving-agents",
+      "category": "Research map",
+      "note": "Survey resources on recursive self-improving agents."
+    }
+  ]
+}

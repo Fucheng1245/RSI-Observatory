@@ -1,0 +1,39 @@
+name: Add RSI project
+description: Suggest a repository for RSI Observatory tracking.
+title: "[Project]: "
+labels: ["project-candidate"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Repository URL
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Core / AI4AI
+        - Runtime
+        - Harness evolution
+        - Persistent memory / experience
+        - Self-modifying agent
+        - Automated AI R&D
+        - Benchmark
+        - Safety / oversight
+        - Tools
+        - Research map
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why is this relevant to recursive self-improvement?
+    validations:
+      required: true
+  - type: input
+    id: paper
+    attributes:
+      label: Paper or project page (optional)

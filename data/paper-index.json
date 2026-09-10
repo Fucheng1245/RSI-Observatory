@@ -1,0 +1,1518 @@
+{
+  "generated_at": "2026-09-09",
+  "methodology": {
+    "Core": "Persistent self-improvement, self-modification, or recursive/meta-improvement is central. Core does NOT automatically mean L4 RSI.",
+    "Enabling": "A component or mechanism that can support self-improvement/RSI but is not itself a recursive loop.",
+    "Adjacent": "Important AI R&D, evaluation, open-ended search, or safety work with material relevance to RSI.",
+    "Foundational": "Historical, theoretical, or survey work used to frame the field."
+  },
+  "papers": [
+    {
+      "title": "A Formulation of Recursive Self-Improvement and Its Possible Efficiency",
+      "url": "https://arxiv.org/abs/1805.06610",
+      "year": 2018,
+      "layer": "Foundations",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "From Seed AI to Technological Singularity via Recursively Self-Improving Software",
+      "url": "https://arxiv.org/abs/1502.06512",
+      "year": 2015,
+      "layer": "Foundations",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "Bounded Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/1312.6764",
+      "year": 2013,
+      "layer": "Foundations",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "Gödel Machines",
+      "url": "https://arxiv.org/abs/cs/0309048",
+      "year": 2003,
+      "layer": "Foundations",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "Optimal Ordered Problem Solver",
+      "url": "https://arxiv.org/abs/cs/0207097",
+      "year": 2002,
+      "layer": "Foundations",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "Evolutionary Principles in Self-Referential Learning",
+      "url": "https://people.idsia.ch/~juergen/diploma1987ocr.pdf",
+      "year": 1987,
+      "layer": "Foundations",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "Speculations Concerning the First Ultraintelligent Machine",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0065245808604180",
+      "year": 1965,
+      "layer": "Foundations",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
+      "url": "https://arxiv.org/abs/2607.07663",
+      "year": 2026,
+      "layer": "Field maps",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "Self-evolving Embodied AI",
+      "url": "https://arxiv.org/abs/2602.04411",
+      "year": 2026,
+      "layer": "Field maps",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "Self-Improvements in Modern Agentic Systems: A Survey",
+      "url": "https://arxiv.org/abs/2607.13104",
+      "year": 2026,
+      "layer": "Field maps",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "A Comprehensive Survey of Self-Evolving AI Agents",
+      "url": "https://arxiv.org/abs/2508.07407",
+      "year": 2025,
+      "layer": "Field maps",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "A Survey of Self-Evolving Agents",
+      "url": "https://arxiv.org/abs/2507.21046",
+      "year": 2025,
+      "layer": "Field maps",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "A Survey on Self-Evolution of Large Language Models",
+      "url": "https://arxiv.org/abs/2404.14387",
+      "year": 2024,
+      "layer": "Field maps",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "CoEvoSkills",
+      "url": "https://arxiv.org/abs/2604.01687",
+      "year": 2026,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "Decocted Experience",
+      "url": "https://arxiv.org/abs/2604.04373",
+      "year": 2026,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "From Procedural Skills to Strategy Genes",
+      "url": "https://arxiv.org/abs/2604.15097",
+      "year": 2026,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "Learning to Continually Learn via Meta-learning Agentic Memory Designs",
+      "url": "https://arxiv.org/abs/2602.07755",
+      "year": 2026,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "Live-Evo",
+      "url": "https://arxiv.org/abs/2602.02369",
+      "year": 2026,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "Memory Transfer Learning",
+      "url": "https://arxiv.org/abs/2604.14004",
+      "year": 2026,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "MetaSkill-Evolve",
+      "url": "https://arxiv.org/abs/2607.05297",
+      "year": 2026,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "PAST-Bench",
+      "url": "https://arxiv.org/abs/2608.04003",
+      "year": 2026,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "Programmatic Skill Networks",
+      "url": "https://arxiv.org/abs/2601.03509",
+      "year": 2026,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "Recursive Experiential-Working Memory Evolution / Recuris",
+      "url": "https://arxiv.org/abs/2608.24876",
+      "year": 2026,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "SkillFoundry",
+      "url": "https://arxiv.org/abs/2604.03964",
+      "year": 2026,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "SkillGen",
+      "url": "https://arxiv.org/abs/2605.10999",
+      "year": 2026,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "SkillOS",
+      "url": "https://arxiv.org/abs/2605.06614",
+      "year": 2026,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "SkillX",
+      "url": "https://arxiv.org/abs/2604.04804",
+      "year": 2026,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "Agentic Context Engineering",
+      "url": "https://arxiv.org/abs/2510.04618",
+      "year": 2025,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "Confucius Code Agent",
+      "url": "https://arxiv.org/abs/2512.10398",
+      "year": 2025,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "EvolveR",
+      "url": "https://arxiv.org/abs/2510.16079",
+      "year": 2025,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "FLEX",
+      "url": "https://arxiv.org/abs/2511.06449",
+      "year": 2025,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "MemEvolve: Meta-Evolution of Agent Memory Systems",
+      "url": "https://arxiv.org/abs/2512.18746",
+      "year": 2025,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "ReasoningBank",
+      "url": "https://arxiv.org/abs/2509.25140",
+      "year": 2025,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "SkillWeaver",
+      "url": "https://arxiv.org/abs/2504.07079",
+      "year": 2025,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "SWE-Exp",
+      "url": "https://arxiv.org/abs/2507.23361",
+      "year": 2025,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "ToolCoder",
+      "url": "https://arxiv.org/abs/2502.11404",
+      "year": 2025,
+      "layer": "Memory / Skills",
+      "relevance": "Core"
+    },
+    {
+      "title": "A-MEM: Agentic Memory for LLM Agents",
+      "url": "https://arxiv.org/abs/2502.12110",
+      "year": 2025,
+      "layer": "Memory / Skills",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "ExpeL: LLM Agents Are Experiential Learners",
+      "url": "https://arxiv.org/abs/2308.10144",
+      "year": 2023,
+      "layer": "Memory / Skills",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+      "url": "https://arxiv.org/abs/2305.10250",
+      "year": 2023,
+      "layer": "Memory / Skills",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2303.11366",
+      "year": 2023,
+      "layer": "Memory / Skills",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Tool Makers",
+      "url": "https://arxiv.org/abs/2305.17126",
+      "year": 2023,
+      "layer": "Memory / Skills",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses",
+      "url": "https://arxiv.org/abs/2604.25850",
+      "year": 2026,
+      "layer": "Harness",
+      "relevance": "Core"
+    },
+    {
+      "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+      "url": "https://arxiv.org/abs/2608.12307",
+      "year": 2026,
+      "layer": "Harness",
+      "relevance": "Core"
+    },
+    {
+      "title": "AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness",
+      "url": "https://arxiv.org/abs/2603.03329",
+      "year": 2026,
+      "layer": "Harness",
+      "relevance": "Core"
+    },
+    {
+      "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
+      "url": "https://arxiv.org/abs/2605.09998",
+      "year": 2026,
+      "layer": "Harness",
+      "relevance": "Core"
+    },
+    {
+      "title": "EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2608.05446",
+      "year": 2026,
+      "layer": "Harness",
+      "relevance": "Core"
+    },
+    {
+      "title": "Learning to Self-Evolve",
+      "url": "https://arxiv.org/abs/2603.18620",
+      "year": 2026,
+      "layer": "Harness",
+      "relevance": "Core"
+    },
+    {
+      "title": "MEMO",
+      "url": "https://arxiv.org/abs/2603.09022",
+      "year": 2026,
+      "layer": "Harness",
+      "relevance": "Core"
+    },
+    {
+      "title": "MemoHarness: Agent Harnesses That Learn from Experience",
+      "url": "https://arxiv.org/abs/2607.14159",
+      "year": 2026,
+      "layer": "Harness",
+      "relevance": "Core"
+    },
+    {
+      "title": "Reflective Context Learning",
+      "url": "https://arxiv.org/abs/2604.03189",
+      "year": 2026,
+      "layer": "Harness",
+      "relevance": "Core"
+    },
+    {
+      "title": "Self-Harness: Harnesses That Improve Themselves",
+      "url": "https://arxiv.org/abs/2606.09498",
+      "year": 2026,
+      "layer": "Harness",
+      "relevance": "Core"
+    },
+    {
+      "title": "SePO: Self-Evolving Prompt Agent for System Prompt Optimization",
+      "url": "https://arxiv.org/abs/2606.04465",
+      "year": 2026,
+      "layer": "Harness",
+      "relevance": "Core"
+    },
+    {
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "url": "https://arxiv.org/abs/2605.23904",
+      "year": 2026,
+      "layer": "Harness",
+      "relevance": "Core"
+    },
+    {
+      "title": "Dynamic Cheatsheet",
+      "url": "https://arxiv.org/abs/2504.07952",
+      "year": 2025,
+      "layer": "Harness",
+      "relevance": "Core"
+    },
+    {
+      "title": "SCOPE",
+      "url": "https://arxiv.org/abs/2512.15374",
+      "year": 2025,
+      "layer": "Harness",
+      "relevance": "Core"
+    },
+    {
+      "title": "Automated Design of Agentic Systems",
+      "url": "https://arxiv.org/abs/2408.08435",
+      "year": 2024,
+      "layer": "Harness",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "TextGrad",
+      "url": "https://arxiv.org/abs/2406.07496",
+      "year": 2024,
+      "layer": "Harness",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "DSPy",
+      "url": "https://arxiv.org/abs/2310.03714",
+      "year": 2023,
+      "layer": "Harness",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Language Agent Tree Search",
+      "url": "https://arxiv.org/abs/2310.04406",
+      "year": 2023,
+      "layer": "Harness",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Large Language Models as Optimizers / OPRO",
+      "url": "https://arxiv.org/abs/2309.03409",
+      "year": 2023,
+      "layer": "Harness",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Promptbreeder",
+      "url": "https://arxiv.org/abs/2309.16797",
+      "year": 2023,
+      "layer": "Harness",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "STOP",
+      "url": "https://arxiv.org/abs/2310.02304",
+      "year": 2023,
+      "layer": "Harness",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+      "url": "https://arxiv.org/abs/2309.11495",
+      "year": 2023,
+      "layer": "Verification",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing",
+      "url": "https://arxiv.org/abs/2305.11738",
+      "year": 2023,
+      "layer": "Verification",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+      "url": "https://arxiv.org/abs/2310.01798",
+      "year": 2023,
+      "layer": "Verification",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Let's Verify Step by Step",
+      "url": "https://arxiv.org/abs/2305.20050",
+      "year": 2023,
+      "layer": "Verification",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "url": "https://arxiv.org/abs/2303.17651",
+      "year": 2023,
+      "layer": "Verification",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+      "url": "https://arxiv.org/abs/2203.11171",
+      "year": 2022,
+      "layer": "Verification",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "AgentFactory: A Self-Evolving Framework Through Executable Subagent Accumulation and Reuse",
+      "url": "https://arxiv.org/abs/2603.18000",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "AgentGA",
+      "url": "https://arxiv.org/abs/2604.14655",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+      "url": "https://arxiv.org/abs/2607.21461",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "EvoAgent: An Evolvable Agent Framework with Skill Learning and Multi-Agent Delegation",
+      "url": "https://arxiv.org/abs/2604.20133",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "EVOCHAMBER",
+      "url": "https://arxiv.org/abs/2605.11136",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "EvoFSM",
+      "url": "https://arxiv.org/abs/2601.09465",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "EvoRepair",
+      "url": "https://arxiv.org/abs/2605.30105",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "FailureMem",
+      "url": "https://arxiv.org/abs/2603.17826",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "HyEvo",
+      "url": "https://arxiv.org/abs/2603.19639",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "Hyperagents",
+      "url": "https://arxiv.org/abs/2603.19461",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "JudgeFlow",
+      "url": "https://arxiv.org/abs/2601.07477",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "Learning to Compose",
+      "url": "https://arxiv.org/abs/2602.11114",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "Learning to Hand Off",
+      "url": "https://arxiv.org/abs/2605.19140",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution",
+      "url": "https://arxiv.org/abs/2607.26784",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "SWE-Replay",
+      "url": "https://arxiv.org/abs/2601.22129",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "Workflow-R1",
+      "url": "https://arxiv.org/abs/2602.01202",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "AdaptFlow",
+      "url": "https://arxiv.org/abs/2508.08053",
+      "year": 2025,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "Alita-G: Self-Evolving Generative Agent for Agent Generation",
+      "url": "https://arxiv.org/abs/2510.23601",
+      "year": 2025,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "EvoAgentX: An Automated Framework for Evolving Agentic Workflows",
+      "url": "https://arxiv.org/abs/2507.03616",
+      "year": 2025,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "EvoFlow",
+      "url": "https://arxiv.org/abs/2502.07373",
+      "year": 2025,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "Log-Augmented Generation",
+      "url": "https://arxiv.org/abs/2505.14398",
+      "year": 2025,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "MermaidFlow",
+      "url": "https://arxiv.org/abs/2505.22967",
+      "year": 2025,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "ScoreFlow",
+      "url": "https://arxiv.org/abs/2502.04306",
+      "year": 2025,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "SEW",
+      "url": "https://arxiv.org/abs/2505.18646",
+      "year": 2025,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "Agent-Pro: Learning to Evolve via Policy-Level Reflection and Optimization",
+      "url": "https://arxiv.org/abs/2402.17574",
+      "year": 2024,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/2410.04444",
+      "year": 2024,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "Self-evolving Agents with Reflective and Memory-Augmented Abilities",
+      "url": "https://arxiv.org/abs/2409.00872",
+      "year": 2024,
+      "layer": "Agent / Architecture",
+      "relevance": "Core"
+    },
+    {
+      "title": "AutoTTS",
+      "url": "https://arxiv.org/abs/2605.08083",
+      "year": 2026,
+      "layer": "Agent / Architecture",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "ARISE",
+      "url": "https://arxiv.org/abs/2603.16060",
+      "year": 2026,
+      "layer": "Cross-component",
+      "relevance": "Core"
+    },
+    {
+      "title": "CODESKILL",
+      "url": "https://arxiv.org/abs/2605.25430",
+      "year": 2026,
+      "layer": "Cross-component",
+      "relevance": "Core"
+    },
+    {
+      "title": "SIA: Self Improving AI with Harness & Weight Updates",
+      "url": "https://arxiv.org/abs/2605.27276",
+      "year": 2026,
+      "layer": "Cross-component",
+      "relevance": "Core"
+    },
+    {
+      "title": "SkillRL",
+      "url": "https://arxiv.org/abs/2602.08234",
+      "year": 2026,
+      "layer": "Cross-component",
+      "relevance": "Core"
+    },
+    {
+      "title": "VLAW",
+      "url": "https://arxiv.org/abs/2602.12063",
+      "year": 2026,
+      "layer": "Cross-component",
+      "relevance": "Core"
+    },
+    {
+      "title": "Live-SWE-agent",
+      "url": "https://arxiv.org/abs/2511.13646",
+      "year": 2025,
+      "layer": "Cross-component",
+      "relevance": "Core"
+    },
+    {
+      "title": "WebEvolver",
+      "url": "https://arxiv.org/abs/2504.21024",
+      "year": 2025,
+      "layer": "Cross-component",
+      "relevance": "Core"
+    },
+    {
+      "title": "A Self-Improving Coding Agent",
+      "url": "https://arxiv.org/abs/2504.15228",
+      "year": 2025,
+      "layer": "Code / Agent",
+      "relevance": "Core"
+    },
+    {
+      "title": "Darwin Gödel Machine",
+      "url": "https://arxiv.org/abs/2505.22954",
+      "year": 2025,
+      "layer": "Code / Agent",
+      "relevance": "Core"
+    },
+    {
+      "title": "Training Software Engineering Agents and Verifiers with SWE-Gym",
+      "url": "https://arxiv.org/abs/2412.21139",
+      "year": 2024,
+      "layer": "Code / Agent",
+      "relevance": "Core"
+    },
+    {
+      "title": "AgentCoder",
+      "url": "https://arxiv.org/abs/2312.13010",
+      "year": 2023,
+      "layer": "Code / Agent",
+      "relevance": "Core"
+    },
+    {
+      "title": "Teaching Large Language Models to Self-Debug",
+      "url": "https://arxiv.org/abs/2304.05128",
+      "year": 2023,
+      "layer": "Code / Agent",
+      "relevance": "Core"
+    },
+    {
+      "title": "EvoLM",
+      "url": "https://arxiv.org/abs/2605.03871",
+      "year": 2026,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "SERPO",
+      "url": "https://arxiv.org/abs/2607.26873",
+      "year": 2026,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Teaching LLMs to Self-Evolve / MetaEvolve",
+      "url": "https://arxiv.org/abs/2607.21971",
+      "year": 2026,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "TEMPO",
+      "url": "https://arxiv.org/abs/2604.19295",
+      "year": 2026,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "rStar-Math",
+      "url": "https://arxiv.org/abs/2501.04519",
+      "year": 2025,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Self-Adapting Language Models / SEAL",
+      "url": "https://arxiv.org/abs/2506.10943",
+      "year": 2025,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Meta-Rewarding Language Models",
+      "url": "https://arxiv.org/abs/2407.19594",
+      "year": 2024,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Quiet-STaR",
+      "url": "https://arxiv.org/abs/2403.09629",
+      "year": 2024,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Self-Play Fine-Tuning",
+      "url": "https://arxiv.org/abs/2401.01335",
+      "year": 2024,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Self-Rewarding Language Models",
+      "url": "https://arxiv.org/abs/2401.10020",
+      "year": 2024,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "The Sharpening Mechanism",
+      "url": "https://arxiv.org/abs/2412.01951",
+      "year": 2024,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Beyond Human Data",
+      "url": "https://arxiv.org/abs/2312.06585",
+      "year": 2023,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "RLAIF vs. RLHF",
+      "url": "https://arxiv.org/abs/2309.00267",
+      "year": 2023,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "SELF",
+      "url": "https://arxiv.org/abs/2310.00533",
+      "year": 2023,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Self-Alignment with Instruction Backtranslation",
+      "url": "https://arxiv.org/abs/2308.06259",
+      "year": 2023,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Large Language Models Can Self-Improve",
+      "url": "https://arxiv.org/abs/2210.11610",
+      "year": 2022,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Self-Instruct",
+      "url": "https://arxiv.org/abs/2212.10560",
+      "year": 2022,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "STaR",
+      "url": "https://arxiv.org/abs/2203.14465",
+      "year": 2022,
+      "layer": "Model / Trainer",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "AutoScientists",
+      "url": "https://arxiv.org/abs/2605.28655",
+      "year": 2026,
+      "layer": "Improvement mechanism",
+      "relevance": "Core"
+    },
+    {
+      "title": "Bilevel Autoresearch",
+      "url": "https://arxiv.org/abs/2603.23420",
+      "year": 2026,
+      "layer": "Improvement mechanism",
+      "relevance": "Core"
+    },
+    {
+      "title": "EvoTrainer",
+      "url": "https://arxiv.org/abs/2606.03108",
+      "year": 2026,
+      "layer": "Improvement mechanism",
+      "relevance": "Core"
+    },
+    {
+      "title": "GEAR",
+      "url": "https://arxiv.org/abs/2605.13874",
+      "year": 2026,
+      "layer": "Improvement mechanism",
+      "relevance": "Core"
+    },
+    {
+      "title": "Auto Research",
+      "url": "https://arxiv.org/abs/2605.05724",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Core"
+    },
+    {
+      "title": "CliffSearch",
+      "url": "https://arxiv.org/abs/2604.01210",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Core"
+    },
+    {
+      "title": "LLMZero",
+      "url": "https://arxiv.org/abs/2606.18388",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Core"
+    },
+    {
+      "title": "POISE",
+      "url": "https://arxiv.org/abs/2603.23951",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Core"
+    },
+    {
+      "title": "Reward Synthesis",
+      "url": "https://arxiv.org/abs/2605.02073",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Core"
+    },
+    {
+      "title": "RF-Agent",
+      "url": "https://arxiv.org/abs/2602.23876",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Core"
+    },
+    {
+      "title": "SMCEvolve",
+      "url": "https://arxiv.org/abs/2605.15308",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Core"
+    },
+    {
+      "title": "TREX",
+      "url": "https://arxiv.org/abs/2604.14116",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Core"
+    },
+    {
+      "title": "AI4AI-Bench",
+      "url": "https://arxiv.org/abs/2608.20318",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "AutoResearch",
+      "url": "https://arxiv.org/abs/2608.17906",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+      "url": "https://arxiv.org/abs/2607.27191",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "Frontis-MA1",
+      "url": "https://arxiv.org/abs/2607.28568",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "FT-Dojo",
+      "url": "https://arxiv.org/abs/2603.01712",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "MLEvolve",
+      "url": "https://arxiv.org/abs/2606.06473",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "Towards End-to-End Automation of AI Research / AI Scientist-v2",
+      "url": "https://doi.org/10.1038/s41586-026-10265-5",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "Towards Execution-Grounded Automated AI Research",
+      "url": "https://arxiv.org/abs/2601.14525",
+      "year": 2026,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "AIDE",
+      "url": "https://arxiv.org/abs/2502.13138",
+      "year": 2025,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "Anthropic Institute — When AI builds itself",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "year": 2025,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "LERO",
+      "url": "https://arxiv.org/abs/2503.21807",
+      "year": 2025,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "CARD",
+      "url": "https://arxiv.org/abs/2410.14660",
+      "year": 2024,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "DiscoPOP",
+      "url": "https://arxiv.org/abs/2406.08414",
+      "year": 2024,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "REvolve",
+      "url": "https://arxiv.org/abs/2406.01309",
+      "year": 2024,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "The AI Scientist",
+      "url": "https://arxiv.org/abs/2408.06292",
+      "year": 2024,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "Eureka: Human-Level Reward Design via Coding Large Language Models",
+      "url": "https://arxiv.org/abs/2310.12931",
+      "year": 2023,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "Agent0: Unleashing Self-Evolving Agents from Zero Data via Tool-Integrated Reasoning",
+      "url": "https://arxiv.org/abs/2511.16043",
+      "year": 2025,
+      "layer": "Multi-agent",
+      "relevance": "Core"
+    },
+    {
+      "title": "DEBATE, TRAIN, EVOLVE: Self Evolution of Language Model Reasoning",
+      "url": "https://arxiv.org/abs/2505.15734",
+      "year": 2025,
+      "layer": "Multi-agent",
+      "relevance": "Core"
+    },
+    {
+      "title": "EvoAgent: Towards Automatic Multi-Agent Generation via Evolutionary Algorithms",
+      "url": "https://arxiv.org/abs/2406.14228",
+      "year": 2024,
+      "layer": "Multi-agent",
+      "relevance": "Core"
+    },
+    {
+      "title": "SOTOPIA-π: Interactive Learning of Socially Intelligent Language Agents",
+      "url": "https://arxiv.org/abs/2403.08715",
+      "year": 2024,
+      "layer": "Multi-agent",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
+      "url": "https://arxiv.org/abs/2305.19118",
+      "year": 2023,
+      "layer": "Multi-agent",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+      "url": "https://arxiv.org/abs/2305.14325",
+      "year": 2023,
+      "layer": "Multi-agent",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "LongWoF-Bench: Evaluating EvoMap Genes for Verifiable Long-Workflow Tasks",
+      "url": "https://arxiv.org/abs/2608.23200",
+      "year": 2026,
+      "layer": "Evaluation",
+      "relevance": "Core"
+    },
+    {
+      "title": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?",
+      "url": "https://arxiv.org/abs/2603.08640",
+      "year": 2026,
+      "layer": "Evaluation",
+      "relevance": "Core"
+    },
+    {
+      "title": "RSIBench-Data",
+      "url": "https://arxiv.org/abs/2607.25886",
+      "year": 2026,
+      "layer": "Evaluation",
+      "relevance": "Core"
+    },
+    {
+      "title": "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence",
+      "url": "https://arxiv.org/abs/2603.24621",
+      "year": 2026,
+      "layer": "Evaluation",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "AutoLab: Can Frontier Models Solve Long-Horizon Auto Research and Engineering Tasks?",
+      "url": "https://arxiv.org/abs/2606.05080",
+      "year": 2026,
+      "layer": "Evaluation",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "Long-Horizon-Terminal-Bench",
+      "url": "https://arxiv.org/abs/2607.08964",
+      "year": 2026,
+      "layer": "Evaluation",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "MLS-Bench: A Holistic and Rigorous Assessment of AI Systems on Building Better AI",
+      "url": "https://arxiv.org/abs/2605.08678",
+      "year": 2026,
+      "layer": "Evaluation",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "OSWorld 2.0",
+      "url": "https://arxiv.org/abs/2606.29537",
+      "year": 2026,
+      "layer": "Evaluation",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "MCPMark",
+      "url": "https://arxiv.org/abs/2509.24002",
+      "year": 2025,
+      "layer": "Evaluation",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "METR Task-Completion Time Horizon",
+      "url": "https://arxiv.org/abs/2503.14499",
+      "year": 2025,
+      "layer": "Evaluation",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "SWE-Bench Pro",
+      "url": "https://arxiv.org/abs/2509.16941",
+      "year": 2025,
+      "layer": "Evaluation",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "TheAgentCompany",
+      "url": "https://arxiv.org/abs/2412.14161",
+      "year": 2024,
+      "layer": "Evaluation",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "ASPIRE",
+      "url": "https://arxiv.org/abs/2607.00272",
+      "year": 2026,
+      "layer": "Embodied",
+      "relevance": "Core"
+    },
+    {
+      "title": "ENPIRE",
+      "url": "https://arxiv.org/abs/2606.19980",
+      "year": 2026,
+      "layer": "Embodied",
+      "relevance": "Core"
+    },
+    {
+      "title": "MineEvolve",
+      "url": "https://arxiv.org/abs/2603.13131",
+      "year": 2026,
+      "layer": "Embodied",
+      "relevance": "Core"
+    },
+    {
+      "title": "RISE",
+      "url": "https://arxiv.org/abs/2602.11075",
+      "year": 2026,
+      "layer": "Embodied",
+      "relevance": "Core"
+    },
+    {
+      "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+      "url": "https://arxiv.org/abs/2608.11350",
+      "year": 2026,
+      "layer": "Embodied",
+      "relevance": "Core"
+    },
+    {
+      "title": "Self-Improving Vision-Language-Action Models via Residual RL",
+      "url": "https://iclr.cc/virtual/2026/poster/10008318",
+      "year": 2026,
+      "layer": "Embodied",
+      "relevance": "Core"
+    },
+    {
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "url": "https://arxiv.org/abs/2305.16291",
+      "year": 2023,
+      "layer": "Embodied",
+      "relevance": "Core"
+    },
+    {
+      "title": "PACEvolve",
+      "url": "https://arxiv.org/abs/2601.10657",
+      "year": 2026,
+      "layer": "Open-ended search",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "AlphaEvolve",
+      "url": "https://arxiv.org/abs/2506.13131",
+      "year": 2025,
+      "layer": "Open-ended search",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "FunSearch",
+      "url": "https://www.nature.com/articles/s41586-023-06924-6",
+      "year": 2024,
+      "layer": "Open-ended search",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "Higher Order and Self-Referential Evolution",
+      "url": "https://openreview.net/forum?id=3tk6AES1Aj",
+      "year": 2024,
+      "layer": "Open-ended search",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "AutoML-Zero",
+      "url": "https://arxiv.org/abs/2003.03384",
+      "year": 2020,
+      "layer": "Open-ended search",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "AI-GAs",
+      "url": "https://arxiv.org/abs/1905.10985",
+      "year": 2019,
+      "layer": "Open-ended search",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "POET",
+      "url": "https://arxiv.org/abs/1901.01753",
+      "year": 2019,
+      "layer": "Open-ended search",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "Learning to Learn by Gradient Descent by Gradient Descent",
+      "url": "https://arxiv.org/abs/1606.04474",
+      "year": 2016,
+      "layer": "Open-ended search",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "Quality Diversity",
+      "url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2016.00040/full",
+      "year": 2016,
+      "layer": "Open-ended search",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "MAP-Elites",
+      "url": "https://arxiv.org/abs/1504.04909",
+      "year": 2015,
+      "layer": "Open-ended search",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "POWERPLAY",
+      "url": "https://arxiv.org/abs/1112.5309",
+      "year": 2011,
+      "layer": "Open-ended search",
+      "relevance": "Adjacent"
+    },
+    {
+      "title": "Emergent Introspective Awareness in Large Language Models",
+      "url": "https://arxiv.org/abs/2601.01828",
+      "year": 2026,
+      "layer": "Self-modeling",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Self-Reference in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.04277",
+      "year": 2026,
+      "layer": "Self-modeling",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Structure Enables Effective Self-Localization of Errors",
+      "url": "https://arxiv.org/abs/2602.02416",
+      "year": 2026,
+      "layer": "Self-modeling",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Tell me about yourself",
+      "url": "https://arxiv.org/abs/2501.11120",
+      "year": 2025,
+      "layer": "Self-modeling",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Looking Inward",
+      "url": "https://arxiv.org/abs/2410.13787",
+      "year": 2024,
+      "layer": "Self-modeling",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Recursive Introspection",
+      "url": "https://arxiv.org/abs/2407.18219",
+      "year": 2024,
+      "layer": "Self-modeling",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Self-Recognition in Language Models",
+      "url": "https://arxiv.org/abs/2407.06946",
+      "year": 2024,
+      "layer": "Self-modeling",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Do LLMs Know What They Don't Know?",
+      "url": "https://arxiv.org/abs/2305.18153",
+      "year": 2023,
+      "layer": "Self-modeling",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Language Models (Mostly) Know What They Know",
+      "url": "https://arxiv.org/abs/2207.05221",
+      "year": 2022,
+      "layer": "Self-modeling",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Optimal Policies Tend to Seek Power",
+      "url": "https://arxiv.org/abs/1912.01683",
+      "year": 2019,
+      "layer": "Safety",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "Reward Tampering Problems and Solutions in Reinforcement Learning",
+      "url": "https://arxiv.org/abs/1908.04734",
+      "year": 2019,
+      "layer": "Safety",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "Risks from Learned Optimization in Advanced Machine Learning Systems",
+      "url": "https://arxiv.org/abs/1906.01820",
+      "year": 2019,
+      "layer": "Safety",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "Concrete Problems in AI Safety",
+      "url": "https://arxiv.org/abs/1606.06565",
+      "year": 2016,
+      "layer": "Safety",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "SAHOO",
+      "url": "https://arxiv.org/abs/2603.06333",
+      "year": 2026,
+      "layer": "Safety",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "TamperBench",
+      "url": "https://arxiv.org/abs/2602.06911",
+      "year": 2026,
+      "layer": "Safety",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Evaluating Goal Drift in Language Model Agents",
+      "url": "https://arxiv.org/abs/2505.02709",
+      "year": 2025,
+      "layer": "Safety",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Your Agent May Misevolve",
+      "url": "https://arxiv.org/abs/2509.26354",
+      "year": 2025,
+      "layer": "Safety",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "AI Sandbagging: Language Models can Strategically Underperform on Evaluations",
+      "url": "https://arxiv.org/abs/2406.07358",
+      "year": 2024,
+      "layer": "Safety",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+      "url": "https://arxiv.org/abs/2401.05566",
+      "year": 2024,
+      "layer": "Safety",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Model Evaluation for Extreme Risks",
+      "url": "https://arxiv.org/abs/2305.15324",
+      "year": 2023,
+      "layer": "Safety",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "AGI Agent Safety by Iteratively Improving the Utility Function",
+      "url": "https://arxiv.org/abs/2007.05411",
+      "year": 2020,
+      "layer": "Safety",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Performance of Bounded-Rational Agents With the Ability to Self-Modify",
+      "url": "https://arxiv.org/abs/2011.06275",
+      "year": 2020,
+      "layer": "Safety",
+      "relevance": "Enabling"
+    },
+    {
+      "title": "Self-Modification of Policy and Utility Function in Rational Agents",
+      "url": "https://arxiv.org/abs/1605.03142",
+      "year": 2016,
+      "layer": "Safety",
+      "relevance": "Enabling"
+    }
+  ],
+  "companion_resources": [
+    {
+      "title": "The Path to Recursive Self-Improving Agents",
+      "url": "https://github.com/D2I-ai/awesome-recursive-self-improving-agents",
+      "year": null,
+      "layer": "Field maps",
+      "relevance": "Foundational"
+    },
+    {
+      "title": "RSI-Exam",
+      "url": "https://github.com/aiming-lab/RSI-Exam",
+      "year": null,
+      "layer": "AI R&D",
+      "relevance": "Adjacent"
+    }
+  ]
+}

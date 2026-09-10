@@ -1,0 +1,40 @@
+name: Update RSI Observatory
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rsi-observatory-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Update repository and paper data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update.py
+      - name: Commit changed data
+        run: |
+          make check
+          git add README.md data/ docs/
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "rsi-observatory-bot"
+          git config user.email "rsi-observatory-bot@users.noreply.github.com"
+          git commit -m "chore(data): daily RSI Observatory update"
+          git push

@@ -1,0 +1,37 @@
+name: Publish RSI Weekly Radar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 4 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rsi-observatory-update
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate weekly Radar
+        run: python scripts/weekly.py
+      - name: Commit Radar
+        run: |
+          git add radar/
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "rsi-observatory-bot"
+          git config user.email "rsi-observatory-bot@users.noreply.github.com"
+          git commit -m "radar: weekly RSI field update"
+          git push

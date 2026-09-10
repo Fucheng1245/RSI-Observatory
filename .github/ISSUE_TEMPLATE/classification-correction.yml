@@ -1,0 +1,59 @@
+name: Classification / scorecard correction
+about: Challenge scope, L-depth, E-evidence, role, or factual description
+labels: []
+body:
+  - type: input
+    id: item
+    attributes:
+      label: System or paper
+      placeholder: Darwin Gödel Machine
+    validations:
+      required: true
+  - type: dropdown
+    id: field
+    attributes:
+      label: What should change?
+      options:
+        - Role (Direct RSI / RSI-directed / Self-improving / Substrate / Enabling / Adjacent)
+        - Improvement scope (Model / Harness / Data / Trainer / Improvement Mechanism)
+        - Recursive depth (L1–L5)
+        - Evidence level (E0–E5)
+        - Persistence / loop-closure description
+        - Improver-mutable judgment
+        - Confidence
+        - Description / factual correction
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current classification and why it is wrong or incomplete
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed replacement
+      description: Be explicit (for example, “Depth L3 → L4”).
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Primary-source evidence
+      description: Link to code, paper, experiment, benchmark, or official documentation. Quote only the minimum relevant passage.
+    validations:
+      required: true
+  - type: dropdown
+    id: reproduction
+    attributes:
+      label: Evidence status
+      options:
+        - Author-reported only
+        - Public executable artifact
+        - Held-out / externally checkable evaluation
+        - Independently reproduced
+        - Unknown
+    validations:
+      required: true
