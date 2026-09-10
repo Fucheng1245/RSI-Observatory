@@ -48,19 +48,13 @@ Watch: TamperBench, misevolution, goal-drift evaluation, safeguarded high-order 
 
 ## Repository signals
 
-Total Stars answer “what has accumulated attention?” Momentum answers “what is moving now?” The Observatory should compute:
+Total Stars measure accumulated attention. The live Radar reports stars, forks, last push time, and seven-day star changes when an exact seven-day baseline is available. Missing baselines appear as a dash.
 
-- **7d Star delta**;
-- **30d Star delta**;
-- **Star velocity** = delta / days observed;
-- **recent push age**;
-- **fork growth**;
-- **new contributors**;
-- **new releases/tags**;
-- **issue/PR activity**;
-- **new repo creation rate by subfield**.
+Longer time windows, contributor activity, release tracking, and subfield aggregates are planned extensions; they are not current measurements.
 
-## Research signals
+## Research signals to investigate
+
+The following questions are a reading guide, not a computed time series in the current Observatory.
 
 - papers/month containing `recursive self-improvement`;
 - papers/month containing `self-improving agent` or `self-evolving agent`;

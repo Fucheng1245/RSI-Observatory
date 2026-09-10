@@ -97,18 +97,8 @@ A public-output map of organizations producing work relevant to recursive self-i
 - Representative page: [When AI builds itself](https://www.anthropic.com/institute/recursive-self-improvement).
 - Observatory role: frontier-lab framing of automated AI development and loop closure.
 
-## What the Observatory should eventually track for labs
+## How to use this map
 
-For each organization:
+Follow the linked repositories and papers to inspect each team's public work. Inclusion indicates relevance to the field, not a ranking or an endorsement of every claim.
 
-- relevant public repositories;
-- new papers;
-- benchmarks/leaderboards;
-- project creation dates;
-- 30/90-day repository momentum;
-- whether work targets model, memory, harness, code, algorithm or research loop;
-- open-source availability;
-- safety/oversight mechanisms;
-- collaborations across labs.
-
-The long-term goal is a **research-activity map**, not a popularity ranking.
+This page is a curated directory. It does not currently measure organization-wide publication rates, contributor counts, or repository momentum. For project-level observations, see the [Radar](radar/LATEST.md).

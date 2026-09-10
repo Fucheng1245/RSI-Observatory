@@ -33,7 +33,7 @@
 
 - [ ] Community-maintained inclusion/review process
 - [ ] 100+ structured systems/projects
-- [ ] 200+ categorized papers
+- [x] 200+ categorized papers
 - [ ] Benchmark schema with evaluator/recursion metadata
 - [ ] Reproducible historical trend dataset
 - [ ] Public Pages UI for projects, papers, labs, benchmarks and trends

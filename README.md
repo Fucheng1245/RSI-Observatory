@@ -15,6 +15,8 @@
 
 **RSI = Recursive Self-Improvement**, not the trading Relative Strength Index.
 
+**New here? [Take the five-minute tour →](START_HERE.md)**
+
 ---
 
 ## Why this exists
