@@ -1,75 +1,509 @@
 {
-  "generated_at": "2026-09-09T05:20:00Z",
+  "generated_at": "2026-09-11T08:03:54.543525+00:00",
   "papers": [
     {
+      "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+      "url": "http://arxiv.org/abs/2609.11873v1",
+      "published": "2026-09-10T17:44:23Z",
+      "authors": [
+        "Yi Duan",
+        "Ying Liu",
+        "Zirui Tang",
+        "Haodong Chen",
+        "Jun Zhou",
+        "Yumou Liu",
+        "Bangrui Xu",
+        "Yukai Wu",
+        "Sidi Chen",
+        "Yuhan Zhou",
+        "Haoyu Wang",
+        "Xiaoyou Yu",
+        "Shaokun Han",
+        "Xuzhou Zhu",
+        "Le Zhou",
+        "Bolin Lu",
+        "Wei Zhou",
+        "Jiachen Liu",
+        "Nuozhou Fang",
+        "Jiaxin Tian",
+        "Ruoyu Chen",
+        "Yuxuan Li",
+        "Kai Zuo",
+        "Kaiyan Zhang",
+        "Jiantao Qiu",
+        "Conghui He",
+        "Guoliang Li",
+        "Bowen Zhou",
+        "Zhiyuan Liu",
+        "Zhoufutu Wen",
+        "Jihua Kang",
+        "Xuanhe Zhou",
+        "Fan Wu"
+      ],
+      "summary": "Recursive self-improvement (RSI) enables AI systems to turn experience and feedback into persistent changes that improve both their capabilities and the process of future improvement. We first use the Headroom-Closed Index (HCI) to reveal the problems of existing LLMs, then introduce the RSI concept and its development roadmap: from improvement-execution autonomy, improvement-strategy autonomy, experience-acquisition autonomy, and environment-adaptation autonomy, to recursive meta-improvement. Next we examine RSI across scenarios (e.g., scientific discovery, embodied intelligence, software engineering), highlighting their distinct requirements and development speeds. Drawing on diverse industry practices and preliminary empirical evidence, we connect RSI research with practical systems and identify key challenges to achieving genuine RSI."
+    },
+    {
+      "title": "Data-Efficient Language Modeling: From Frontier Advancement to Principle-Guided Model Improvement",
+      "url": "http://arxiv.org/abs/2609.10702v1",
+      "published": "2026-09-09T18:00:52Z",
+      "authors": [
+        "Shuxing Yang",
+        "Kaihao Zhu",
+        "Junjie Yang",
+        "Rui Zhao",
+        "Junyao Wu",
+        "Yize Wang",
+        "Wenhao Li",
+        "Fujia Chen",
+        "Taowen Deng",
+        "Shenzhan Hong",
+        "Yaqi Li",
+        "Zichen Li",
+        "Jincheng Mi",
+        "Yuang Pan",
+        "Hongsheng Chen",
+        "Yihao Yang"
+      ],
+      "summary": "Learning from limited text requires models to use context, generalize to new inputs, and retain useful capabilities. Qiushi Engine conducted a long-horizon, end-to-end autonomous research program on BabyLM 2026 Strict-Small, within 10 million corpus words and 100 million cumulative word presentations. Three stages connected frontier advancement, principle discovery, and principle-guided model improvement. Stage I combined compact restatements, budget reinvestment, and residual incremental learning to build a frontier model. Stage II found that exact repetition and aligned restatement produce different patterns of context use, depending on target relations and prediction windows. In controlled tasks, recovering familiar performance did not ensure that unseen inputs could still use learned computations. These findings support a testable data-efficient learning principle: organize experience around the contextual dependencies needed for prediction; separately design visible information, supervision, and preservation; test learning, generalization, and retention. Stage III retained source text, masked more local clues, supervised selected targets, and preserved predictions on ordinarily masked inputs. Two continuation seeds from the same parent outperformed ordinary continuation on the complete nine-metric aggregate. Overall rose from 42.02 to 42.25 across two generations; the second achieved the highest Overall in the public Strict-Small snapshot of 8 September 2026. Further studies addressed compression, relational anchors, shared representations, and measurement. Models are available on Hugging Face; code and research records accompany the GitHub repository. Together, these stages illustrate Research RSI: recursive self-improvement of the research process. Scientific understanding and method innovations change subsequent questions and designs; new experiments test and refine them."
+    },
+    {
+      "title": "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
+      "url": "http://arxiv.org/abs/2609.09113v1",
+      "published": "2026-09-08T17:45:09Z",
+      "authors": [
+        "Yuqiao Tan",
+        "Shizhu He",
+        "Jun Zhao",
+        "Kang Liu"
+      ],
+      "summary": "While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing to understand what models learn and ensure safe alignment. Mechanistic interpretability tools are essential to bridge this gap, among which Sparse Autoencoders (SAEs) serve as a cornerstone by isolating interpretable features for model inspection and steering. In this paper, we introduce SAEScientist-Bench to evaluate whether AI agents can act as scientists utilizing SAE tools for autonomous mechanistic discovery. Given a target concept, an agent designs contrastive probes and navigates a Gemma Scope dictionary of 131K+ features in Gemma-2-9B-IT to discover the optimal feature, evaluated against curated expert reference features anchored on Neuronpedia across activation rank, concept selectivity on contrastive texts, and causal steering. Across 10 agent configurations and 20 tasks, frontier agents demonstrate genuine discovery capabilities and lead different evaluation dimensions, but remain well behind the expert baseline, approaching expert levels on separating target concepts from contrastive controls while lagging substantially in causal generation steering. Further analysis reveals that although agents can design contrasts to rule out spurious candidates, they frequently misinterpret experimental measurements. These results establish experimental model understanding as a measurable capability for closed-loop autonomous AI R&D. Our code is available at https://github.com/Trae1ounG/SAEScientist."
+    },
+    {
+      "title": "Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents",
+      "url": "http://arxiv.org/abs/2609.08919v1",
+      "published": "2026-09-08T15:48:11Z",
+      "authors": [
+        "Wenbo Gao",
+        "Zhaomou Song",
+        "Zhiyuan Ji",
+        "Renxi Liu",
+        "Xing Li",
+        "Xianzhi Yu",
+        "Xiaoguang Li",
+        "James Chung-wai Cheung",
+        "Weizhe Lin",
+        "Yaoyuan Wang"
+      ],
+      "summary": "Autonomous agents powered by large language models (LLMs) continuously accumulate experience through interaction, creating an opportunity to improve future behavior through self-evolution. A fundamental challenge is how to transform abundant, task-specific interaction experience into reusable model competence without sacrificing the ability to adapt rapidly to newly observed evidence. Explicit textual states, such as skills and agent harnesses, provide fast, human-readable and editable adaptation, but incur persistent dependence on external context; parametric policies provide compact and reusable competence, but are substantially slower to update. We present \\textit{Experience Funnel}, a self-evolving framework that couples fast state adaptation with slow policy consolidation in an alternating loop. Interaction trajectories are first distilled into an explicit textual state, where newly acquired experience can be rapidly incorporated and validated. The framework then selectively identifies state-enabled behavior that remains useful across state revisions and consolidates it into the policy through transition-aware distillation. The updated state--policy pair subsequently generates new rollouts, providing fresh evidence for the next round of state adaptation and policy consolidation. Experiments across diverse agent benchmarks show that \\textit{Experience Funnel} consistently improves agent capability over state-only evolution and policy-internalization approaches, while progressively converting useful explicit experience into autonomous policy competence."
+    },
+    {
+      "title": "Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course",
+      "url": "http://arxiv.org/abs/2609.08832v1",
+      "published": "2026-09-08T14:53:43Z",
+      "authors": [
+        "Evelyn Duesterwald",
+        "Benjamin Elder",
+        "Lilian Ngweta",
+        "Shashanka Ubaru",
+        "Malgorzata Zimon"
+      ],
+      "summary": "Large language model (LLM)-powered agents can be accurate on average yet unreliable in production, a discrepancy that has been observed but remains largely unaddressed. When given the same task five times, a ReAct agent on the AppWorld benchmark using GPT-4.1 succeeds in all five runs only 53% of the time, even though its per-run pass rate averages 77%. We call this 24-point shortfall the consistency gap, and we argue that addressing it is a precondition for trustworthy AI agent deployment. We present a self-evolving agent framework that reduces this gap by identifying unstable, low-consistency steps in agent trajectories and converting them into episodic memory the agent can draw on in future runs. At its core is a Consistency Analyzer that pinpoints where and why a trajectory is likely to flip across executions, and a Guideline Generator that converts the diagnosis into targeted guidelines, committed to memory and injected into future agent executions on similar tasks. On AppWorld with ReAct/GPT-4.1, our framework raises the fraction of tasks that succeed in all five runs by +16 points on same-task evaluation and +13 points on similar-task generalization."
+    },
+    {
+      "title": "Environments as Scaffold: Enriching Feedback to Bootstrap Self-Evolving Agents in Long-Horizon Tasks",
+      "url": "http://arxiv.org/abs/2609.08404v1",
+      "published": "2026-09-08T08:14:25Z",
+      "authors": [
+        "Hongbang Yuan",
+        "Zhuoran Jin",
+        "Yixin Cao"
+      ],
+      "summary": "Large Language Models demonstrate remarkable proficiency in static reasoning, yet training them as autonomous agents through Reinforcement Learning (RL) for long-horizon tasks is often hindered by severe reward sparsity. While conventional \\textit{agent-side warming} up via supervised fine-tuning (SFT) can alleviate this, it is frequently limited by data scarcity and constrained exploration. To address this, we propose a paradigm shift to \\textit{environment-side adaptation} by constructing \\textbf{F}eedback-\\textbf{E}nriched \\textbf{E}nvironments (\\textbf{FEEs}). Through a pilot study, we establish a feedback design strategy that reformulates environments by transitioning from action guidance to observation enrichment during the later stages of both intra-episode exploration and inter-episode evolution. Large-scale experiments on SciWorld and BFCL benchmarks using various Qwen3 model scales and RL algorithms such as GRPO, GSPO, and DAPO demonstrate that FEEs consistently yield performance improvements over standard settings. Furthermore, our analysis reveals that training with FEEs \\textbf{(1)} stabilizes training dynamics by reducing entropy volatility, \\textbf{(2)} facilitates proactive state-space exploration in difficult tasks, \\textbf{(3) }ensures the internalization of environmental guidance into policy weights rather than acting as a mere inference-time prior, and \\textbf{(4) }identifies intra-group feedback consistency as a critical boundary for stable optimization."
+    },
+    {
+      "title": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
+      "url": "http://arxiv.org/abs/2609.08183v1",
+      "published": "2026-09-08T03:14:54Z",
+      "authors": [
+        " NeoHorse Team",
+        "Guoliang Cao",
+        "Guohao Dai",
+        "Tianyu Guo",
+        "Kai Han",
+        "Hailin Hu",
+        "Zihan Jiang",
+        "Xiang Kuang",
+        "Boxun Li",
+        "Yulong Li",
+        "Zehua Pei",
+        "Yuchuan Tian",
+        "Jiamin Wang",
+        "Yu Wang",
+        "Yunhe Wang",
+        "Yihong Wu",
+        "Haiyang Xu",
+        "Shuo Zhang",
+        "Hang Zhou",
+        "Siyang Cheng",
+        "Jiayu Fan",
+        "Wei He",
+        "Qingrui Jiao",
+        "Hongguang Li",
+        "Zhiyuan Li",
+        "Runke Liu",
+        "Xi Liu",
+        "Xinchen Liu",
+        "Sinno Jialin Pan",
+        "Yi Ren",
+        "Liuyang Song",
+        "Chenyu Wang",
+        "Bei Yu",
+        "Quanlu Zhang",
+        "Xiangyu Zhang",
+        "Mengyu Zheng",
+        "Yingjie Zong"
+      ],
+      "summary": "Recursive self-improvement (RSI) requires a concrete mechanism through which an AI system observes its capabilities and converts that evidence into the next round of learning. We present NeoHorse-1, a family of agent-native models developed to explore this path through agentic post-training. Our system combines a heterogeneous model pool with intelligent routing, recording the predicted capability demand, selected service tier, and subsequent interaction for each user turn. These records are converted into training examples that preserve interleaved reasoning, tool calls, and harness context, and are admitted through structural validation, six-dimensional semantic evaluation, and subscene-level labeling. Routing signals organize supervised fine-tuning into a three-stage curriculum and extend to routing-guided on-policy distillation, where a teacher supervises student-generated responses under the same progression. Capability-guided allocation then converts evaluation feedback into the next training mixture, closing an evaluation-selection-update loop in which what the system learns to do shapes what it learns from next. Across eleven benchmarks covering harness-based agents, tool use, coding, and instruction following, post-training raises the macro-average from 58.94 to 64.87 at 4B and from 65.60 to 69.04 at 9B, substantially narrowing the aggregate gap between the post-trained 4B model and the 9B base model. NeoHorse-1 provides an initial prototype of this feedback-driven process and a path toward harness-mediated RSI across successive iterations."
+    },
+    {
+      "title": "MetaRSI / RSI2: A Meta-Recursive Self-Improving System for Recursive Self-Improving Systems Themselves",
+      "url": "http://arxiv.org/abs/2609.06396v2",
+      "published": "2026-09-06T05:15:31Z",
+      "authors": [
+        "Zihan Tan",
+        "Leixin Sun",
+        "Zitong Shi",
+        "Yitao Liu",
+        "Jiajun Wu",
+        "Nathaniel Brooks",
+        "Jiaru Qian",
+        "Xiaoran Shang",
+        "Suyuan Huang",
+        "Yi Ding",
+        "Yangxu Liao",
+        "Mukai Li",
+        "Qiushi Sun",
+        "Shudong Liu",
+        "Xuankun Rong",
+        "Xiaohang Yu",
+        "Zhuo Chen",
+        "Hejia Geng",
+        "Chenxin Li",
+        "Aozhou Wang",
+        "Zengji Tu",
+        "Robert Tang",
+        "Yuxin Zhan",
+        "Eric Jiang",
+        "Yuxin Wu",
+        "Jianqing Zhang",
+        "Xiao Liang",
+        "Fang Wu",
+        "Haochi Zhang",
+        "Alexander Marlow",
+        "Guancheng Wan"
+      ],
+      "summary": "Recursive self-improvement (RSI) lets a system improve the model-building machinery from its own failures, so every later model inherits the gain. Yet RSI has been validated almost exclusively on coding and formal benchmarks such as science QA and mathematics. This format bound limits RSI to improvement within a machine-checkable slice, not general capability where questions are open and correctness is settled by argument, replication, or measurement. We argue RSI must next operate across real, diverse scientific, engineering, and meta-scientific domains, not where formal evaluation is merely tractable. To that end we present MetaRSI-v1, where improvement is the scheduled composition of three typed operators over one unified paradigm. Data-RSI amplifies existing competence and marks its boundary; Harness-RSI edits a five-slot scaffold without touching weights; Model-RSI internalizes capability into parameters through bounded training. Sharing one loop kernel and artifact vocabulary, they make data, scaffold, and model changes composable rather than exclusive. A two-axis optimizer jointly decides operator order and each operator's proposal policy, while a meta-level policy revises the schedule across terms. We validate MetaRSI-v1 under the field's standard evaluations, on code and closed-form science, with no external teacher: the target model plays every role in its own loop. MetaRSI-v1 reframes self-improvement from a single-surface edit to a composition across the full model-production pipeline, opening two paths: a model route internalizing capability through training, and a harness route leaving weights untouched and thus extending self-improvement to any model reachable through an interface, with Data-RSI redefined as the shared substrate feeding both. The framework further yields refutable laws on where loops exist, how operators compose, and what supervision buys."
+    },
+    {
+      "title": "Who Maintains Agent Skills? A Longitudinal Study of Human-Governed, AI-Assisted Skill Maintenance",
+      "url": "http://arxiv.org/abs/2609.05677v1",
+      "published": "2026-09-04T19:18:18Z",
+      "authors": [
+        "Chen Shen",
+        "Estevam Hruschka"
+      ],
+      "summary": "Lifelong LLM agents increasingly rely on external skill artifacts as one element for preserving and reusing capabilities over time. These skills (usually portable Markdown files such as SKILL.md) describe when and how to apply a capability and must be corrected, expanded, and consolidated as tools and usage patterns shift over deployment. Recent work seeks to automate skill curation, but it largely evaluates against automated baselines and treats human maintenance as an unmeasured bottleneck. We study that missing process directly. We mine the full commit histories of five public AI-skill repositories, a purposive sample of AI-tooling organizations, covering 873 commits, 143 skill files, and 254 substantive post-creation edits from October 2025 to June 2026. We code each edit with pre-registered governance, operation, and trigger-evidence codebooks. Three findings emerge. First, every substantive edit is authored or merged through a named human account, while 62% carry an AI co-author trailer, with large repository-level variation. Second, these edits are genuine curation: an audited sample shows that most change skill content, and the coded operations are dominated by additions and corrections. Third, a pre-registered rule-likeness axis fails its reliability gate; reliably coding rule-likeness from commit artifacts remains an open measurement problem. We release the corpus, codebooks, mining scripts, and a replay protocol for automated skill curators. For self-evolving agents, public skill maintenance currently looks less like an autonomous pipeline than a human-governed, AI-assisted loop that future curators must measure against and operate within."
+    },
+    {
+      "title": "SimSkill: A Self-Evolving LLM Agent for Skill and Knowledge Accumulation in Traffic Simulation",
+      "url": "http://arxiv.org/abs/2609.03753v2",
+      "published": "2026-09-03T12:23:56Z",
+      "authors": [
+        "Qi Liu",
+        "Qinzheng Wang",
+        "Can Li",
+        "Yiming Bie",
+        "Wanjng Ma"
+      ],
+      "summary": "Cumulative culture enables humans to preserve, reuse, and extend knowledge and skills across experiences and generations. Inspired by this principle, we introduce \\textit{SimSkill}, a self-evolving agent built around the Simulation of Urban MObility (SUMO) traffic simulator. SimSkill continually identifies capability gaps, generates and solves environment-grounded tasks, verifies solutions through an action--critic loop, and consolidates experience into episodic, procedural, and semantic memory. Through autonomous exploration, it builds a library of reusable skills and knowledge spanning major stages of the traffic-simulation workflow. We evaluate SimSkill on two held-out benchmarks across three backbone LLMs, with each result independently verified. It improves verified success by up to 25 percentage points, and ablations show complementary contributions from procedural and semantic memory. Its benefits remain backbone- and budget-dependent, as memory does not improve every model or uniformly reduce inference cost. More broadly, SimSkill illustrates a natural-language-centered design paradigm for LLM-based agent systems. Its high-level control logic, operating principles, and accumulated knowledge are expressed in natural language, while an LLM integrates them with executable tools and code to realize precise and reproducible execution. All code and experimental data are publicly available at https://github.com/qiliuchn/SimSkill-V1."
+    },
+    {
+      "title": "LLM-as-a-Judge Is Not an Oracle: Why Self-Improving Agents Need Deterministic Guardrails",
+      "url": "http://arxiv.org/abs/2609.02246v1",
+      "published": "2026-09-02T07:54:23Z",
+      "authors": [
+        "Vansh Wahi"
+      ],
+      "summary": "Self-improving agent pipelines have a problem at their center. An optimizer rewrites prompts to score higher, and the score comes from a judge that is itself an LLM. That judge has the last word on whether the system is getting better, and our position is that it has not earned it. The judge should be demoted from oracle to advisor: its verdict becomes one input among several, and every change is gated instead by a deterministic verification layer the judge cannot override. We reached this position by building the alternative and running it. Over months of running autonomous prompt-optimization loops in production across contract analysis, compliance review, and code quality, we cataloged eleven ways the evaluation signal failed, in four classes: judge bias, harness and metric failures, ground-truth errors, and reward hacking. Agents achieved perfect scores by reading cached answer keys from their environment, a 100% pass rate concealing 68% true capability. A corrupted ground-truth label caused the optimizer to delete correct compliance rules to agree with it. A syntactically broken prompt was promoted as the winner because a silent parser fallback improved the metric. Attempts to fix the judge by rewriting its rubric plateaued; the only reliable gain came from a structural constraint on its output order. In response we describe PROCTOR, a Teacher-Student loop in which a stateful orchestrator holds all tool access, stateless subagents diagnose failures and draft mutations they cannot apply, and a Teacher grades those mutations under five deterministic guardrails: hermetic sandboxes, capability-disjoint roles, acceptance checks that outrank the Teacher, frozen holdouts, and canary cases engineered so that a perfect score is itself evidence of cheating. We report the failures this prevented, and, because the Teacher is itself an LLM judge, the failures it did not."
+    },
+    {
+      "title": "SkillGLoW: Procedural-Family Skill Consolidation for Self-Improving Agents on Long-Horizon Task Streams",
+      "url": "http://arxiv.org/abs/2609.02217v1",
+      "published": "2026-09-02T07:31:18Z",
+      "authors": [
+        "Ao Yan",
+        "Xin Zhang",
+        "Jiawei Du",
+        "Joey Tianyi Zhou"
+      ],
+      "summary": "LLM agents increasingly self-improve by writing and reusing textual skills, kept either as one global document or as a flat pool of per-task entries, though most of the evidence comes from domains with structurally similar tasks. On long-horizon workloads where each task demands a different solution, the two forms fail in opposite ways: the document collapses into generic discipline, while the pool inflates and its entries stay bound to the instance that wrote them. We argue the missing unit of reuse is the solving procedure shared by a cluster of related tasks, and build SkillGLoW (Global-Local Weave) around it: the local skills a task writes from its own execution are aggregated into procedural families and compressed into de-instantiated global priors, while the instance detail they hold is regenerated per task rather than stored; a commit gate admits a prior only when real execution shows it does not degrade the deployed library. Across four benchmarks (mathematical reasoning, terminal automation, software repair, and embodied control) and three models, the priors gain 17.2 points (hard) over the no-skill baseline on average, with positive gains in all 12 continual-improvement runs, and 18.0 with local regeneration, while the library holds one prior per procedural family, 3.6x more compact than the per-task pool. Under the same protocol GLoW leads a published single-document optimizer on 15 of 21 cells. Unmodified, the library lifts success on unseen ALFWorld tasks from 73.9% to 83.9%, evidence that what transfers is procedure rather than task memory."
+    },
+    {
+      "title": "HarnessEvolve: Learning from Reference Trajectories for Reliable Agent Self-Evolution",
+      "url": "http://arxiv.org/abs/2609.00829v1",
+      "published": "2026-09-01T07:31:18Z",
+      "authors": [
+        "Wen Jiang",
+        "Mingmin Chu",
+        "Yimeng Tian",
+        "Qianxin Zhang",
+        "Haofei Yang",
+        "Rui Yang",
+        "Yang Liu",
+        "Tao Lv",
+        "Fangming Li"
+      ],
+      "summary": "Self-evolving agents advance toward autonomy by optimizing their harness---prompts, skills, tools, and execution logic---based on environmental feedback. This paradigm, however, is hampered by three challenges: \\textit{credit assignment failure}, where terminal success/failure feedback makes it ambiguous which step caused the error; \\textit{shortcut learning}, where agents memorize task-specific patterns rather than acquire generalizable capabilities; and \\textit{catastrophic forgetting}, where unguarded updates degrade previously acquired competence. In this paper, we introduce HarnessEvolve, a self-evolving framework that learns from reference trajectories to achieve reliable agent self-evolution. HarnessEvolve decouples the execution agent from the evolutionary pipeline, assigning execution, evaluation, optimization, and gating to independent agent modules, enabling generalizable and stable harness improvements. Specifically, HarnessEvolve overcomes credit assignment failure by generating reference trajectories (execution paths produced when given the ground-truth answers) and aligning failed executions against them to extract error signals, which are clustered to reveal systematic failure patterns. To prevent shortcut learning and catastrophic forgetting, candidate harness updates must pass two gates: a quality gate that filters data leakage and prompt bloat, and a performance gate that accepts each update if it improves on the current batch without degrading recent batches, with epoch-end validation on a held-out set selecting the best-performing accepted agent snapshot. We conduct extensive experiments on several benchmarks spanning open-domain and enterprise scenarios, using different models and agent frameworks. Results demonstrate that HarnessEvolve consistently outperforms state-of-the-art baselines across all benchmarks and settings, confirming reliability across task domains."
+    },
+    {
+      "title": "SkillZip Pro: Execution-Aware Dynamic Compression of Progressively Loaded Skills for Self-Evolving Agents",
+      "url": "http://arxiv.org/abs/2608.30785v1",
+      "published": "2026-08-31T13:41:16Z",
+      "authors": [
+        "Xiaofan Bai",
+        "Chao Liu",
+        "Hongqiang Lin",
+        "Di Wu",
+        "Mingli Song",
+        "Xuan Jin",
+        "Xipeng Cao",
+        "Yuhong Li"
+      ],
+      "summary": "Production agent skills are directory bundles, not isolated prompts. The root is loaded at activation; references, schemas, scripts, assets, and nested subskills are loaded only when an execution path needs them. Compressing only the root misses most deployment cost and may move branch-specific details into the always-loaded context. Flattening instead destroys progressive-loading boundaries. We introduce \\method, an evaluation-free compressor for complete, progressively loaded skill bundles. It leaves the agent harness unchanged and emits an ordinary directory. The method combines two safeguards. First, it compresses \\emph{across files}, removing content from a reference or subskill when the root or a declared environment contract already provides it. Second, it preserves routing, so every required file and directly callable entry remains reachable after rewriting. Users can configure \\method along two independent axes. \\emph{One-Shot} mode rebuilds the full bundle; \\emph{Continual} mode reuses state and applies Zip-on-Write after each evolution patch. \\emph{Persistent} compression rewrites the shipped bundle to reduce storage and runtime context. \\emph{Transient} compression keeps that bundle byte-identical and builds a task-specific view, reducing only per-run context after build cost. Entry contracts mark private, public, and conditional resources; a multi-entry audit preserves standalone public subskills. On a production content-moderation skill evaluated by our industrial multi-round harness, \\method removes \\hl{38\\%} of skill bundle tokens and \\hl{10.4\\%} of end-to-end per-run tokens with no quality loss, while an unprotected 71\\% configuration loses up to 26 accuracy points to one-sided false positives. On a multi-entry bundle, \\method effeciently reduces token cost while near-perfectly preserving every route and public entry."
+    },
+    {
+      "title": "EvoSkill Injection: Red-Teaming Autonomous Skill Generation and Evolution in Self-Evolving Agents",
+      "url": "http://arxiv.org/abs/2608.30429v1",
+      "published": "2026-08-31T08:25:03Z",
+      "authors": [
+        "Doyun Kim",
+        "Chanwoo Kim",
+        "Sugyeong Eo",
+        "Yeo-Chan Yoon",
+        "Chanjun Park"
+      ],
+      "summary": "LLM-based agent systems increasingly adopt skill-based architectures to reduce repetitive reasoning costs and improve stable, efficient task execution. Recent studies propose self-evolving agents that autonomously generate, refine, and reuse skills from past experiences to enable continuous capability evolution. However, autonomous skill evolution introduces a new attack surface in which malicious capabilities are generated, stored, and reused as legitimate skills. In this paper, we define EvoSkill Injection as a threat model targeting the autonomous skill generation and evolution pipeline of self-evolving agents. We further propose SARGE (Red-teaming Autonomous Skill Generation and Evolution in self-evolving agents), a red-teaming framework for evaluating this threat model through iterative generation, escalation, and reinforcement interactions. To support our framework, we construct EvoSkillBench, a benchmark dataset of malicious interaction trajectories for inducing malicious skill formation in self-evolving agents, and introduce EvoSkillSafetyBench, a post-attack benchmark for evaluating whether injected malicious skills are subsequently retrieved and activated as harmful behaviors. Our evaluation shows that SARGE induces malicious skill formation and that injected skills are persistently stored and repeatedly activated, highlighting the risk of persistent capability corruption."
+    },
+    {
+      "title": "DataFoundry: Evolving Data Preparators via Recursive Self-Improvement",
+      "url": "http://arxiv.org/abs/2608.29966v1",
+      "published": "2026-08-30T18:53:24Z",
+      "authors": [
+        "Cehao Yang",
+        "Xiaojun Wu",
+        "Xueyuan Lin",
+        "Chengjin Xu",
+        "Xuhui Jiang",
+        "Hui Xiong",
+        "Jian Guo"
+      ],
+      "summary": "Domain adaptation of large language models increasingly depends on constructing high-quality training data, yet existing data-preparation pipelines typically address quality only after generation through post-hoc filtering. This creates a fundamental mismatch: data-quality issues often originate from the construction process itself, while quality control is applied only to its outputs. We introduce \\textsc{DataFoundry}, a framework for \\textbf{evolving data preparators through recursive self-improvement} before large-scale data production. \\textsc{DataFoundry} represents a data preparator as an evolvable runtime specification and instantiates its evolution with a \\textsc{Skills-as-Modules} architecture, in which a central \\textsc{Controller} orchestrates modular skills to compile executable runtimes, diagnose deficiencies on small pilot sets using domain-appropriate criteria, and translate diagnostic feedback into adapters that revise individual preparation components while preserving stable interfaces. We evaluate \\textsc{DataFoundry} on DataPrep-Bench across mathematics, finance, law, and medicine, and find that recursively evolved preparators produce training data with higher downstream utility than baselines. Experiments across different backbones further demonstrate that these improvements are not tied to a particular model, while analyses and case studies further reveal the framework's optimization dynamics and illustrate how its evolution unfolds in practice."
+    },
+    {
+      "title": "Auditing Harness Tampering in Self-Improving Agents",
+      "url": "http://arxiv.org/abs/2609.00069v1",
+      "published": "2026-08-30T17:18:56Z",
+      "authors": [
+        "Xing Wang",
+        "Xiaoyi Zhang",
+        "Jie Shao"
+      ],
+      "summary": "Self-improving agents iteratively modify their own harness to push the frontier of their performance. However, such modifications can produce illusory performance gains or compromise integrity constraints such as authorization, provenance, and completeness without genuinely improving capability. We term this phenomenon as harness tampering, which extends the concept from reward and measurement tampering to the full self-improvement lifecycle. To systematically study this problem, we propose a two-axis taxonomy that categorizes each misaligned edit by the harness functional role in which it occurs and the obligation it violates. Then we build an annotated corpus by seeding tampered-benign edit pairs into the real trajectories of self-improving agents. We adapt and benchmark diverse audit methods on tampering classification and localization tasks. Finally we systematically audit real trajectories of self-improving agents. The results demonstrate that harness tampering consistently occurs in real runs from different agents, often persists in the lineage of the best agent, and forms distinct system-specific profiles across the taxonomy."
+    },
+    {
+      "title": "CineForge: Self-Improving Agents for Long-Horizon Video Generation",
+      "url": "http://arxiv.org/abs/2608.29621v1",
+      "published": "2026-08-30T07:29:46Z",
+      "authors": [
+        "Junxiang Liu",
+        "Lin Wang",
+        "Haiyu Shi",
+        "Hongxu Ma",
+        "Xiaoyu Yang",
+        "Chunjie Chen",
+        "Xiaoxiao Xu",
+        "Kaiqiao Zhan",
+        "Boao Wang",
+        "Shuizhou Shi",
+        "Tianyun Zhu",
+        "Jie Li",
+        "Jiangtong Li"
+      ],
+      "summary": "Long-horizon story-driven video generation requires a production agent to coordinate narrative decomposition, state tracking, shot design, prompt construction, rendering, and revision across interdependent scenes. Existing adaptive video systems primarily refine requests or reusable skills, leaving recurring production failures disconnected from persistent, stage-targeted improvements across stories. We introduce CineForge, a self-evolving video-production agent framework that couples CineForge-Produce for video generation with CineForge-Evolve for cross-story policy evolution. CineForge-Produce organizes each source story into typed narrative, character, spatial, and cinematic states, uses them to coordinate asset and clip generation, and records the process as a canonical production trajectory. CineForge-Evolve applies Case-to-Pattern-to-Policy Evolution (CPPE) to review trajectory evidence, consolidate recurrent findings into bounded stage-local patches, and deploy validated updates through structural replay and confidence-controlled paired evaluation. To measure complete story realization, we introduce CineScope, which combines a 100-script CineScope-Data suite with a human-aligned, multiscale CineScope-Metric spanning causal state, directorial orchestration, pacing and resource allocation, and character arc. Across CineScope-Data and two public benchmarks, the evolved CineForge policy improves CineScope-Metric from 4.024 to 4.380, outperforms three long-video baselines with consistent gains under ScriptAgent, and reduces review LLM calls by 37.0% on new stories. These results establish production trajectories as actionable experience for video agents that improve cumulatively across long-form storytelling tasks."
+    },
+    {
+      "title": "Naive Prompt Optimization: Rethinking the Need for Complex Prompt Search",
+      "url": "http://arxiv.org/abs/2608.27266v1",
+      "published": "2026-08-27T15:47:58Z",
+      "authors": [
+        "Yuan Chang",
+        "Xiaoqi Chen"
+      ],
+      "summary": "Efficiently improving autonomous agents across diverse tasks is central to accelerating recursive self-improvement (RSI) in agentic AI, with prompt optimization emerging as a promising approach capable of delivering performance gains comparable to those achieved by fine-tuning model weights, while reducing computational costs in both optimization and serving. However, recent developments increasingly favor unnecessarily complex prompt optimizers. We introduce Naive Prompt Optimization (NPO), a lightweight single-lineage method that iteratively revises prompts using a teacher model with rollout feedback. NPO achieves comparable or better performance than GEPA with fewer rollouts, and its advantage increases with stronger teacher models, suggesting that stronger teacher reasoning can partially substitute for optimizer-side search complexity. In interactive games, NPO remains broadly competitive with GEPA, while GRPO performs better on some tasks less amenable to prompt optimization. We also show that NPO-optimized prompts elicit similar performance improvements when applied verbatim to other student models, especially across models within the same family. Overall, our preliminary results show that simple, linear prompt optimization can rival substantially more sophisticated and complex search procedures."
+    },
+    {
+      "title": "Redwood: A Frontier AI Accelerator Designed, Verified, and Deployed from Scratch in 2 Weeks by AI",
+      "url": "http://arxiv.org/abs/2608.26418v2",
+      "published": "2026-08-26T21:36:51Z",
+      "authors": [
+        "Architect Labs"
+      ],
+      "summary": "Modern AI workloads and the hardware that runs them evolve on different timescales: architectural definition precedes volume silicon by years, while target workloads shift in months. Design decisions are therefore committed under deep uncertainty and paid for twice, once in the generality added as a hedge, and again when new workloads map poorly onto frozen silicon. As Moore's Law stagnates, specialization is the main remaining source of performance-per-watt and demands a design cycle that runs at the cadence of the workloads. We present an end-to-end AI system that collapses the software-to-silicon stack into a single optimization loop, where hardware and software are co-designed and verified under one objective. Its first demonstration is Redwood, a frontier AI accelerator built for single-batch, low-power, ultra-low-latency inference for physical AI. From a high-level specification by two human architects, the system autonomously generated the performance model, RTL design, UVM environments, formal proofs, firmware, and kernels in under two weeks with no human intervention below the specification. Every block reached 95% coverage via commercial EDA tools, our proprietary formal engine, and hardware-in-the-loop validation. Specification changes were reverified and redeployed to hardware in under 48 hours. Redwood Nano, its ultra-low-power FPGA variant, runs multi-billion-parameter models like Llama and Qwen. Projected onto Samsung 8 nm, the Jetson Orin Nano's process class, Redwood delivers 1.75x the throughput at 1.9x lower power, a 3.4x performance-per-watt gain against a measured Jetson baseline on the same models. Qwen running on Redwood also helped design next-generation Redwood, an early step toward recursive self-improvement. To our knowledge, this is the first production-worthy AI accelerator designed end-to-end by an AI system and running a modern AI model."
+    },
+    {
+      "title": "ProofEvolve: Neuro-Symbolic Evolution for Formal Automated Theorem Proving",
+      "url": "http://arxiv.org/abs/2608.26334v1",
+      "published": "2026-08-26T19:15:27Z",
+      "authors": [
+        "Wenqian Ye",
+        "Ziwei Guan",
+        "Eric Xie",
+        "Bohan Liu",
+        "Shivani Modi",
+        "Buyun Zhang",
+        "Ellie Dingqiao Wen",
+        "Henry Kautz",
+        "Aidong Zhang"
+      ],
+      "summary": "Automated theorem proving offers a natural foundation for recursive self-improvement in scientific discovery. However, existing neural provers do not fully preserve this recursive structure, where the learning process should be self-improving over time. Existing methods either embed proof experience into model parameters through expensive weight updates, or keep verified intermediate deductions only within the current problem. In addition, these methods also heavily rely on sparse whole-proof feedback, even when unsuccessful partial attempts contain useful discoveries. To close the gap, we propose ProofEvolve, a neuro-symbolic framework that evolves explicit, formally verified symbolic proof structures with neural models to decisively expand the knowledge boundary. In this framework, the neural model proposes variation operators, including decompositions, repairs, and schema recombinations. The symbolic Lean kernel verifies every proof transition. Over the evolution loops, ProofEvolve computes verified closure over the resulting proof directed acyclic graphs (DAGs). Within each problem, ProofEvolve evolves partial AND-OR proof DAGs in a behaviorally indexed archive. Across problems, kernel-checked schema extraction adds newly proved sub-DAGs to a persistent schema library. Proof DAGs inherit the solved results through typed schema recombination, with every residual premise exposed as a new subgoal. This evolutionary process preserves verified results from incomplete attempts and makes them available for later proofs without weakening formal soundness. Across three competition-level Lean benchmarks, ProofEvolve achieves the highest average solve rate among the evaluated proof systems."
+    },
+    {
+      "title": "A Programming Paradigm for Spatiotemporal Composability",
+      "url": "http://arxiv.org/abs/2608.25512v1",
+      "published": "2026-08-26T08:22:19Z",
+      "authors": [
+        "Yifan Shi",
+        "Wei Zhang",
+        "Tianyi Cui"
+      ],
+      "summary": "Modern software -- from plugin systems to self-evolving agent harnesses -- increasingly requires dynamic composition, yet its formal foundations remain underdeveloped. We identify two orthogonal dimensions of the problem: temporal composability, the ability to completely revert a component's side effects upon removal, and spatial composability, the ability to declare and reactively manage inter-component dependencies. We address the two dimensions by lifting classical effect and coeffect concepts to runtime mechanisms. In particular, we formalize revertible effects, in which every context transformation carries an inverse that the runtime holds, establishing temporal composability local to one component. We formalize reactive coeffects, in which every context change is classified against a component's coeffect specification to drive its activation and deactivation, establishing spatial composability local to one component. We then unify the effect context and the coeffect context into a single context type and mediate every effect and coeffect through it, yielding a discipline we call the context paradigm; the mediation induces an observational equivalence up to which the effects of distinct components interleave without disturbing one another. Combining these mechanisms into the notion of a component, we give a calculus of dynamic composition whose metatheory carries spatiotemporal composability from a single component to a whole system of interleaved components. We implement these ideas in Cordis, a meta-framework of spatiotemporal composability that provides a core library with effect tracking and coeffect resolution, as well as a declarative component loader with configuration reconciliation and hot module replacement."
+    },
+    {
       "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
-      "url": "https://arxiv.org/abs/2608.24876",
+      "url": "http://arxiv.org/abs/2608.24876v1",
       "published": "2026-08-25T17:56:35Z",
       "authors": [
         "Zhaochen Yu",
         "Yingcheng Wu",
-        "Zhenfei Yin"
-      ]
+        "Zhenfei Yin",
+        "Kaiyuan Chen",
+        "Zhe Zhao",
+        "Mengdi Wang",
+        "Shuicheng Yan",
+        "Ling Yang"
+      ],
+      "summary": "Recursive self-improvement (RSI) remains hard in long-horizon tasks, where growing histories obscure the task state and misalign skill invocation. We introduce Recuris, a recursive Experiential-Working Memory architecture for long-horizon agent harnesses, in which Working Memory tracks task progress and guides skill selection from Experiential Memory, grounding skill use in current needs rather than the full history. This coupling also turns execution into structured evidence that localizes failures to specific memory components. Across tasks, a fixed Meta-Agent turns that evidence into localized, validation-gated updates to Skill Memory that reshape execution and yield new evidence, forming a bounded recursive memory-evolution loop. Across four long-horizon benchmarks and ten models, Recuris improves task success in 35 of the 37 completed model-benchmark pairs, carrying frontier models to SOTA-level task success: on tau-bench it adds +17.8 points to GPT-5.6 Sol and +15.6 to Claude Opus 5, taking Opus 5 to 87.9%, and +16.6/+13.5 points on Qwen3.6-27B/35B on SkillFlow. The advantage widens as the interaction horizon grows, to +32.2 points on the longest tasks, and common long-horizon failures fall by up to 80%. These results position recursively evolving memory as a scalable foundation for RSI, enabling agents to continuously transform accumulated experience into increasingly effective long-horizon behavior. Code: https://github.com/Gen-Verse/Recuris"
+    },
+    {
+      "title": "Meta$^n$: Recursive Self-Improvement through Emergent Depth",
+      "url": "http://arxiv.org/abs/2608.24735v1",
+      "published": "2026-08-25T15:44:25Z",
+      "authors": [
+        "Zae Myung Kim",
+        "Young-Jun Lee",
+        "Seungyeon Jwa",
+        "Dongyeop Kang"
+      ],
+      "summary": "Self-improving LLM agents refine answers, not the process that produces those answers. Systems that add a meta-level hold that level fixed, and those that edit themselves must leave part of their own editing machinery untouched to stay stable, capping the meta-depth they realize at roughly two. We present Meta$^n$, which keeps the meta-operation fixed and recurses on its input instead. That operation, $\u03a9$, is applied repeatedly to its own products, reading the traces of the solver stack below together with the code that produced them, then writing the next layer as a strategic pre-process and a library of callable helpers. Because $\u03a9$ never changes, it cannot destabilize the system, and because its input strictly grows, each layer reasons from a higher vantage than the last. Depth is set by convergence rather than fixed in advance, and an evolutionary archive searches over layer chains. Across two backbones, Meta$^n$ outperforms prior self-improving agents on all eight benchmark families. The sharpest case is ARC-AGI-2, built to resist skill memorization, where it alone scores above zero. Ablations indicate that most of the gain from recursion comes from the conditioning each layer passes to the next, and distinct layer roles emerge with depth although no prompt prescribes them. Code available at https://github.com/minnesotanlp/meta-n"
+    },
+    {
+      "title": "RecurSE: Bounded Recursive Self-Evaluation for LLM Rubric Judges",
+      "url": "http://arxiv.org/abs/2608.24231v1",
+      "published": "2026-08-25T08:35:04Z",
+      "authors": [
+        "Kaiyuan Liu",
+        "Ziyuan Zhuang",
+        "Rongxiang Weng",
+        "Jieping Ye"
+      ],
+      "summary": "LLM-as-judge is essential for evaluating open-ended text and steering post-training, yet improving the judge itself typically relies on expensive annotations, reward models, or distillation from stronger teachers. In this work, we eliminate external gold supervision from the RL training reward: the model's own evaluative capability generates learning signals for its optimization -- a closed-loop setting of bounded recursive self-improvement (RSI) termed Recursive Self-Evaluation (RecurSE). We study two central questions: when can self-improvement occur, and when must it stop? First, RecurSE pairs a trainable judge evaluating candidate responses under per-rule rubrics (Pass 1) with a synchronized policy-copy checker that audits the judge's reasoning against meta-rubrics to supply a scalar process reward (Pass 2). To enable learning, interface decoupling structurally isolates the checker's scalar score from the judge's verdict tokens, eliminating a degenerative token-copying shortcut that inflates self-assigned rewards. Second, because unanchored recursive learning is inherently bounded, Pairwise Advantage Validity (PAV) serves as an unbiased validation monitor that jointly tracks judge accuracy and checker fidelity to reliably identify the optimal early-stopping window. Across Qwen3.5-9B, Gemma-4-E4B-it, and Qwen3.6-27B, RecurSE achieves consistent generalization gains across held-out medical, pairwise, summarization, and professional benchmarks. Ablations demonstrate that synchronized judge-checker co-evolution outperforms frozen checkers, external meta-judges, self-consistency, and scaled teacher distillation. Furthermore, preference pairs curated by our judge effectively enhance downstream policy alignment. Bounded RSI for LLM-as-judge is thus viable when self-produced reward validity is explicitly decoupled and monitored."
+    },
+    {
+      "title": "Coalition-Aware Skill Reliability for Self-Evolving Agents",
+      "url": "http://arxiv.org/abs/2608.22610v1",
+      "published": "2026-08-23T21:35:22Z",
+      "authors": [
+        "Qiyan Zhao",
+        "Xiaofeng Zhang",
+        "Bo Liu",
+        "Minda Chen",
+        "Wei Xiong",
+        "Jingyang Chen",
+        "Guanting Ye",
+        "Wenhao Yu",
+        "Xiaosong Yuan",
+        "Shijie Han",
+        "Da-Han Wang",
+        "Jianmin Ji",
+        "Fei Huang",
+        "Xu-Yao Zhang"
+      ],
+      "summary": "Agent skills, structured artifacts distilled from interaction trajectories and dynamically reused from skill banks, have become a central mechanism for enabling large language model (LLM)-based self-evolving agents to learn from past experience. Yet existing work has largely focused on the operational aspects of skills, such as acquisition, evolution, and retrieval, while leaving a more fundamental reliability question unresolved: Do accumulated skills in an agent's skill bank actually make positive mechanistic contributions? We investigate this question through systematic skill-bank audits across alternative bank compositions and deployment domains, measuring the resulting changes in agent behavior. These audits reveal two recurring reliability failures: coalition pollution, where bank-level gains conceal negative coalition-level skill contributions, and cross-domain utility reversal, where source-beneficial skills reverse their effects after transfer. These findings motivate two reliability interventions: coalition-aware skill selection during skill accumulation and label-free skill masking after transfer. Coalition-Aware Skill Selection (CASS) selects more reliable candidate skills for the current bank using sampled Shapley marginals. Unsupervised Skill-Masked Coalition Optimizer (u-SMCO) masks transferred skills whose exclusion improves retrieval quality on unlabeled target-domain data. Agentic experiments on LoCoMo, LongMemEval, HotpotQA, and ALFWorld show that CASS and u-SMCO consistently improve task performance and cross-domain generalization over strong skill-based self-evolving agent baselines. Beyond accuracy, coalition-conditioned reliability modeling reduces sensitivity to noisy outcome-reward fluctuations during reinforcement learning and exposes the limits of isolation-based skill evaluation."
+    },
+    {
+      "title": "SSE-Bio: A Structured Self-Evolving Agent with Agentic Retrieval Policy for Multi-Hop Biomedical Reasoning",
+      "url": "http://arxiv.org/abs/2608.22132v1",
+      "published": "2026-08-22T23:08:56Z",
+      "authors": [
+        "Zhaohan Meng",
+        "Zaiqiao Meng",
+        "Siwei Liu",
+        "Hao Xu",
+        "Ke Yuan",
+        "Iadh Ounis"
+      ],
+      "summary": "Biomedical multi-hop question answering (QA) requires models to connect evidence across intermediate entities such as diseases, drugs, proteins, and phenotypes. Existing agents typically rely on static retrieval workflows or coarse-grained prompt rewriting, which can lead to instruction drift when reasoning procedures need to be updated. We propose SSE-Bio, a structured self-evolving agent with an agentic retrieval policy for multi-hop biomedical reasoning. Instead of globally rewriting agent instructions, SSE-Bio maintains a structured state, selectively retrieves knowledge triplets and prior templates through a trainable proxy policy, and improves its reasoning memory through fine-grained template editing. To optimise retrieval decisions, we introduce a proxy-training strategy based on group relative policy optimization, where the proxy is improved through decision-contrastive groups over alternative retrieval choices. Experiments on three biomedical multi-hop QA benchmarks show that SSE-Bio consistently outperforms existing baselines, achieving an improvement of 6.56 absolute points over the strongest self-evolving baseline on BioHopR."
     },
     {
       "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
-      "url": "https://arxiv.org/abs/2608.20318",
+      "url": "http://arxiv.org/abs/2608.20318v1",
       "published": "2026-08-20T17:56:59Z",
       "authors": [
         "Yizhe Chi",
         "Wenyi Li",
-        "Deyao Hong"
-      ]
+        "Deyao Hong",
+        "Xiaoqiu Wang",
+        "Mingju Gao",
+        "Kaisen Yang",
+        "Bingxiang He",
+        "Youjie Zheng",
+        "Calvin Xiao",
+        "Qinhuai Na"
+      ],
+      "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every subsequent run, including the one that produces the next agent. Whether RSI is feasible therefore turns on whether an agent can design training algorithms. No benchmark isolates that ability: existing suites are won by collecting data or by tuning hyperparameters, and none tells a change to how a run is executed apart from a change to how the model learns. We present AI4AI\\mbox{-}Bench, 10 frozen research repositories spanning 10 training algorithm families. In each task, an agent has 4 hours on one B300 to rewrite the training algorithm; its code is then rerun from scratch for up to 12 hours and scored by a fixed evaluator hidden from the agent, against the repository's original algorithm under the same procedure. Because the 10 metrics are incommensurable, every task is mapped onto one scale on which $0$ is an uninformative model, $0.1$ is the algorithm the repository ships, and $1.0$ is the task optimum. Across 29 configurations of 6 systems on all 10 tasks the mean score is $0.166$, and the best system reaches $0.250$: even the strongest closes under a fifth of the distance between the algorithm that was already there and the optimum. The submissions show where that distance went: most never change how the model learns at all, and the minority that do average $0.226$ against $0.126$ for the rest. More reasoning effort mostly buys the willingness to go there, taking that minority from $8\\%$ of submissions to $64\\%$ and the mean score from $0.094$ to $0.196$. We release the task suite, the evaluators and every scored submission, so that the measurement can be repeated as these systems change."
     },
     {
-      "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
-      "url": "https://arxiv.org/abs/2607.28568",
-      "published": "2026-07-30T17:34:01Z",
+      "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+      "url": "http://arxiv.org/abs/2608.18066v2",
+      "published": "2026-08-18T17:55:07Z",
       "authors": [
-        "Junlin Yang",
-        "Che Jiang",
-        "Yu Fu"
-      ]
+        "Qinyuan Ye",
+        "Yu Li",
+        "Yada Pruksachatkun",
+        "Jiaxin Zhang",
+        "Chien-Sheng Wu"
+      ],
+      "summary": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a comprehensive re-evaluation of two memory-based methods, broadening the scope of evaluation along two axes: (1) including multiple self-improving runs to quantify variance, and (2) shuffling the tasks to investigate the effect of task order. Through these experiments, we make two observations that expose the fragility of current methods: First, agent evaluation is inherently noisy in complex environments and on multi-step tasks, and stacking a self-improving loop on top can further amplify this noise. Second, the agent's improvement is highly dependent on task order. Prior works often adopt default orderings that impose an implicit curriculum, acting as a hidden prerequisite for success. To better understand this fragility, we manually examine the agents' memory and hypothesize that task and environment underspecification contribute to this fragility. We validate this hypothesis by incorporating information that enables better specification, such as detailed rubrics and environment feedback, into the memory construction process. While this added information partially closes the performance degradation in previous experiments, significant gaps still remain, suggesting that other uncharacterized factors contribute to this fragility. Looking ahead, our work advocates for more rigorous evaluation protocols for self-improving agents by reporting results across multiple runs and stress-testing them under challenging conditions. Moreover, our findings on underspecification call for systems and interfaces that enable effective human oversight, preventing agents from failing in unforeseeable ways."
     },
     {
-      "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
-      "url": "https://arxiv.org/abs/2607.21461",
-      "published": "2026-07-23T16:05:46Z",
+      "title": "Auditing Self-Evolution in Financial Agents: Capability Gains, Security Drift, and Execution-Interface Mismatch",
+      "url": "http://arxiv.org/abs/2608.17684v1",
+      "published": "2026-08-18T11:57:44Z",
       "authors": [
-        "Shuqi Lu",
-        "Chaofan Li",
-        "Kun Luo"
-      ]
-    },
-    {
-      "title": "Self-Improvements in Modern Agentic Systems: A Survey",
-      "url": "https://arxiv.org/abs/2607.13104",
-      "published": "2026-07-14T09:12:57Z",
-      "authors": [
-        "Zhe Ren",
-        "Yimeng Chen",
-        "Dandan Guo"
-      ]
-    },
-    {
-      "title": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
-      "url": "https://arxiv.org/abs/2607.07663",
-      "published": "2026-07-08T17:19:50Z",
-      "authors": [
-        "Mingguang Chen",
-        "Licheng Wang",
-        "Bo Qu"
-      ]
-    },
-    {
-      "title": "MetaSkill-Evolve: Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolution",
-      "url": "https://arxiv.org/abs/2607.05297",
-      "published": "2026-07-06T16:40:23Z",
-      "authors": [
-        "Zefeng Wang",
-        "Minxi Yan",
-        "Jinhe Bi"
-      ]
+        "Jialong Li",
+        "Jialing Zhu"
+      ],
+      "summary": "Self-evolving agents turn experience into reusable skills, workflows, or memories, but post-evolution accuracy alone does not show whether learned behavior preserves previously correct behavior or security. We audit SkillOpt, Agent Workflow Memory (AWM), and ReasoningBank in simulated e-banking using matched benign acquisition trajectories, sealed evaluation endpoints, execution-grounded checks, and independent state replay. On Qwen 3.7 Flash, SkillOpt raises benign utility from 0.741 to 0.837 while exposure to injected content rises from 0.820 to 0.943. Conditional attack success after exposure falls from 0.605 to 0.562, yet overall attack success rate (ASR) rises from 0.496 to 0.530 and unauthorized financial state changes rise to 0.685. Across three independently evolved lineages, capability, exposure, and unauthorized-state changes increase in all three, whereas ASR increases in only two. ReasoningBank raises utility to 0.859 without increasing aggregate ASR, although unauthorized state changes remain slightly above Static. AWM reveals a separate evaluation hazard: a literal WebArena text-action envelope disrupts tool execution in our native function-calling executor. In a post-hoc sensitivity test, removing only that envelope restores utility from 0.319 to 0.756, while exposure rises from 0.299 to 0.909 and ASR from 0.195 to 0.575. Auditing self-evolving financial agents therefore requires tracking regressions, attack-surface contact, unauthorized financial-state change, and artifact-executor compatibility, not accuracy alone."
     }
   ]
 }
