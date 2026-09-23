@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T08:33:11.263659+00:00",
+  "generated_at": "2026-09-23T08:35:32.708535+00:00",
   "failures": [],
   "papers_generated_at": "2026-09-16T08:36:10.987789+00:00",
   "repositories": [
@@ -9,15 +9,15 @@
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "category": "Self-improving agent",
       "note": "Self-improving RLM agent for coding workflows and long-running autonomous tasks; strong adjacent/direct-candidate signal.",
-      "stars": 21155,
-      "forks": 2314,
-      "open_issues": 88,
+      "stars": 21202,
+      "forks": 2319,
+      "open_issues": 84,
       "language": "TypeScript",
       "created_at": "2026-05-08T01:42:41Z",
-      "updated_at": "2026-09-22T08:16:29Z",
-      "pushed_at": "2026-09-22T08:27:45Z",
+      "updated_at": "2026-09-23T08:23:46Z",
+      "pushed_at": "2026-09-23T08:33:26Z",
       "topics": [],
-      "delta_7d": 335
+      "delta_7d": 325
     },
     {
       "full_name": "SakanaAI/AI-Scientist",
@@ -25,15 +25,15 @@
       "description": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery \ud83e\uddd1\u200d\ud83d\udd2c",
       "category": "Automated AI R&D",
       "note": "Major open automated research system; adjacent to closed-loop AI R&D rather than strict RSI.",
-      "stars": 14598,
-      "forks": 2055,
+      "stars": 14602,
+      "forks": 2054,
       "open_issues": 120,
       "language": "Jupyter Notebook",
       "created_at": "2024-08-12T09:32:55Z",
-      "updated_at": "2026-09-22T07:10:16Z",
+      "updated_at": "2026-09-23T07:44:53Z",
       "pushed_at": "2025-12-19T07:46:21Z",
       "topics": [],
-      "delta_7d": 42
+      "delta_7d": 40
     },
     {
       "full_name": "jennyzzt/dgm",
@@ -41,15 +41,15 @@
       "description": "Darwin G\u00f6del Machine: Open-Ended Evolution of Self-Improving Agents",
       "category": "Open-ended agent evolution",
       "note": "Darwin G\u00f6del Machine: open-ended evolution of self-improving agents via source-code modification and empirical selection.",
-      "stars": 2362,
+      "stars": 2363,
       "forks": 448,
       "open_issues": 27,
       "language": "Python",
       "created_at": "2025-05-23T14:25:57Z",
-      "updated_at": "2026-09-22T07:31:14Z",
+      "updated_at": "2026-09-23T05:30:20Z",
       "pushed_at": "2025-08-13T10:40:14Z",
       "topics": [],
-      "delta_7d": 33
+      "delta_7d": 27
     },
     {
       "full_name": "FrontisAI/OpenRSI",
@@ -57,15 +57,15 @@
       "description": "Executable, measurable, and reproducible AI4AI toward recursive self-improvement. Home of OpenMLE and Frontis-MA1.",
       "category": "Core / AI4AI",
       "note": "Open full-stack AI4AI work toward recursive self-improvement, including OpenMLE and Frontis-MA1.",
-      "stars": 737,
+      "stars": 742,
       "forks": 73,
       "open_issues": 7,
       "language": "Python",
       "created_at": "2026-07-30T17:19:53Z",
-      "updated_at": "2026-09-21T22:36:13Z",
+      "updated_at": "2026-09-23T07:07:03Z",
       "pushed_at": "2026-09-17T14:17:36Z",
       "topics": [],
-      "delta_7d": 55
+      "delta_7d": 50
     },
     {
       "full_name": "HITsz-TMG/KnowAct",
@@ -78,7 +78,7 @@
       "open_issues": 0,
       "language": "Python",
       "created_at": "2026-07-12T04:30:28Z",
-      "updated_at": "2026-09-19T11:43:38Z",
+      "updated_at": "2026-09-22T21:09:32Z",
       "pushed_at": "2026-08-26T07:45:59Z",
       "topics": [],
       "delta_7d": 0
@@ -97,7 +97,7 @@
       "updated_at": "2026-09-22T06:48:12Z",
       "pushed_at": "2025-09-17T22:21:44Z",
       "topics": [],
-      "delta_7d": 7
+      "delta_7d": 6
     },
     {
       "full_name": "Gen-Verse/Recuris",
@@ -121,7 +121,7 @@
         "memory-system",
         "rsi"
       ],
-      "delta_7d": 20
+      "delta_7d": 13
     },
     {
       "full_name": "zjunlp/LightRSI",
@@ -134,8 +134,8 @@
       "open_issues": 0,
       "language": "TypeScript",
       "created_at": "2026-05-21T04:57:46Z",
-      "updated_at": "2026-09-22T07:37:36Z",
-      "pushed_at": "2026-09-22T07:37:30Z",
+      "updated_at": "2026-09-23T00:33:24Z",
+      "pushed_at": "2026-09-23T00:33:50Z",
       "topics": [
         "ai-agent",
         "claude-code",
@@ -152,7 +152,7 @@
         "plugin",
         "skills"
       ],
-      "delta_7d": 8
+      "delta_7d": 7
     },
     {
       "full_name": "aiming-lab/RSI-Exam",
@@ -160,18 +160,18 @@
       "description": "RSI-Exam: Measuring Recursive Self-Improvement on Long-Horizon, Executable Research Tasks \u00b7 Discord https://discord.gg/FBzhepyE",
       "category": "Benchmark",
       "note": "Measures recursive self-improvement through long-horizon executable research.",
-      "stars": 141,
+      "stars": 148,
       "forks": 8,
       "open_issues": 1,
       "language": "Python",
       "created_at": "2026-08-26T06:58:55Z",
-      "updated_at": "2026-09-22T07:25:11Z",
+      "updated_at": "2026-09-23T06:57:01Z",
       "pushed_at": "2026-09-17T04:38:07Z",
       "topics": [
         "benchmark",
         "recursive-self-improvement"
       ],
-      "delta_7d": 31
+      "delta_7d": 35
     },
     {
       "full_name": "scaleapi/rsi-benchmark",
@@ -179,15 +179,15 @@
       "description": "RSI Bench is an ongoing effort to evaluate whether AI agents can develop the capabilities required to advance AI R&D. ",
       "category": "Benchmark",
       "note": "Evaluates whether agents can develop capabilities required to advance AI R&D.",
-      "stars": 54,
-      "forks": 9,
-      "open_issues": 2,
+      "stars": 58,
+      "forks": 10,
+      "open_issues": 5,
       "language": "Python",
       "created_at": "2026-07-30T14:53:49Z",
-      "updated_at": "2026-09-21T22:06:28Z",
-      "pushed_at": "2026-09-16T17:58:28Z",
+      "updated_at": "2026-09-23T04:45:22Z",
+      "pushed_at": "2026-09-22T21:04:33Z",
       "topics": [],
-      "delta_7d": 11
+      "delta_7d": 12
     },
     {
       "full_name": "Gen-Verse/PAST-Bench",
@@ -195,12 +195,12 @@
       "description": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
       "category": "Benchmark",
       "note": "Benchmarks whether retained experience creates measurable future gains in personal agents.",
-      "stars": 28,
+      "stars": 29,
       "forks": 6,
       "open_issues": 4,
       "language": "Python",
       "created_at": "2026-08-02T03:51:01Z",
-      "updated_at": "2026-09-17T05:12:34Z",
+      "updated_at": "2026-09-23T07:31:09Z",
       "pushed_at": "2026-08-05T01:16:45Z",
       "topics": [
         "agent",
@@ -222,15 +222,15 @@
       "description": "RSIH \u2014 versionable, shareable agent harness: Pi coding agent + Genome config layer",
       "category": "Harness evolution",
       "note": "Harness-level recursive self-improvement experiments.",
-      "stars": 714,
+      "stars": 719,
       "forks": 25,
-      "open_issues": 11,
+      "open_issues": 4,
       "language": "TypeScript",
       "created_at": "2026-09-03T08:45:37Z",
-      "updated_at": "2026-09-22T08:16:26Z",
-      "pushed_at": "2026-09-22T08:16:22Z",
+      "updated_at": "2026-09-23T04:01:41Z",
+      "pushed_at": "2026-09-22T10:56:11Z",
       "topics": [],
-      "delta_7d": 550
+      "delta_7d": 236
     },
     {
       "full_name": "Tencent/VideoHarness-RSI",
@@ -238,12 +238,12 @@
       "description": null,
       "category": "Harness evolution",
       "note": "Domain-specific harness RSI work for video systems.",
-      "stars": 6,
+      "stars": 7,
       "forks": 0,
       "open_issues": 0,
       "language": "Python",
       "created_at": "2026-09-03T13:39:15Z",
-      "updated_at": "2026-09-21T12:15:01Z",
+      "updated_at": "2026-09-23T07:59:00Z",
       "pushed_at": "2026-09-07T14:35:37Z",
       "topics": [],
       "delta_7d": 3
@@ -254,12 +254,12 @@
       "description": "A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.",
       "category": "Research map",
       "note": "Curated research map spanning RSI models, agents, harnesses, benchmarks and safety.",
-      "stars": 303,
+      "stars": 310,
       "forks": 19,
       "open_issues": 15,
       "language": null,
       "created_at": "2026-08-11T03:59:57Z",
-      "updated_at": "2026-09-22T08:29:43Z",
+      "updated_at": "2026-09-23T08:09:15Z",
       "pushed_at": "2026-09-09T18:40:19Z",
       "topics": [
         "agi",
@@ -282,7 +282,7 @@
         "self-improving-ai",
         "self-improving-systems"
       ],
-      "delta_7d": 93
+      "delta_7d": 74
     },
     {
       "full_name": "selfimproving-agent/Awesome-Self-Improving-Agents",
@@ -290,12 +290,12 @@
       "description": "A curated list for Self-Improvement in Foundation Model Based Agentic Systems.",
       "category": "Research map",
       "note": "Broad survey-oriented collection of self-improving agent research.",
-      "stars": 500,
+      "stars": 504,
       "forks": 50,
       "open_issues": 5,
       "language": "TeX",
       "created_at": "2025-12-28T05:29:23Z",
-      "updated_at": "2026-09-22T07:49:40Z",
+      "updated_at": "2026-09-22T22:27:48Z",
       "pushed_at": "2026-09-11T09:34:14Z",
       "topics": [
         "agent",
@@ -323,7 +323,7 @@
       "updated_at": "2026-09-20T13:01:52Z",
       "pushed_at": "2026-08-27T09:50:12Z",
       "topics": [],
-      "delta_7d": 4
+      "delta_7d": 3
     }
   ],
   "papers": [
