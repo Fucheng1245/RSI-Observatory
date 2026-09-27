@@ -136,21 +136,21 @@ Seven-day changes require a snapshot from exactly seven days earlier. A dash mea
 <!-- TRENDING_START -->
 | Repository | Category | Stars | 7d Δ | Forks | Last push |
 |---|---|---:|---:|---:|---|
-| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | Self-improving agent | 21293 | +252 | 2335 | 2026-09-26 |
-| [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) | Research map | 330 | +62 | 20 | 2026-09-25 |
-| [FrontisAI/OpenRSI](https://github.com/FrontisAI/OpenRSI) | Core / AI4AI | 757 | +39 | 73 | 2026-09-17 |
-| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Automated AI R&D | 14619 | +36 | 2052 | 2025-12-19 |
-| [jennyzzt/dgm](https://github.com/jennyzzt/dgm) | Open-ended agent evolution | 2373 | +31 | 449 | 2025-08-13 |
-| [aiming-lab/RSI-Exam](https://github.com/aiming-lab/RSI-Exam) | Benchmark | 154 | +28 | 8 | 2026-09-26 |
-| [CosmosMind-ai/RSI-Harness](https://github.com/CosmosMind-ai/RSI-Harness) | Harness evolution | 711 | +21 | 27 | 2026-09-23 |
-| [selfimproving-agent/Awesome-Self-Improving-Agents](https://github.com/selfimproving-agent/Awesome-Self-Improving-Agents) | Research map | 511 | +18 | 50 | 2026-09-11 |
-| [scaleapi/rsi-benchmark](https://github.com/scaleapi/rsi-benchmark) | Benchmark | 60 | +12 | 14 | 2026-09-25 |
-| [Gen-Verse/Recuris](https://github.com/Gen-Verse/Recuris) | Memory evolution | 218 | +10 | 29 | 2026-08-30 |
-| [Arvid-pku/Godel_Agent](https://github.com/Arvid-pku/Godel_Agent) | Self-modifying agent | 227 | +4 | 53 | 2025-09-17 |
-| [D2I-ai/awesome-recursive-self-improving-agents](https://github.com/D2I-ai/awesome-recursive-self-improving-agents) | Research map | 42 | +3 | 3 | 2026-08-27 |
-| [HITsz-TMG/KnowAct](https://github.com/HITsz-TMG/KnowAct) | Personal agent | 486 | +2 | 42 | 2026-08-26 |
-| [zjunlp/LightRSI](https://github.com/zjunlp/LightRSI) | Runtime | 70 | +2 | 11 | 2026-09-26 |
+| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | Self-improving agent | 21308 | +223 | 2337 | 2026-09-27 |
+| [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) | Research map | 341 | +61 | 21 | 2026-09-25 |
+| [FrontisAI/OpenRSI](https://github.com/FrontisAI/OpenRSI) | Core / AI4AI | 761 | +38 | 73 | 2026-09-17 |
+| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Automated AI R&D | 14621 | +30 | 2052 | 2025-12-19 |
+| [jennyzzt/dgm](https://github.com/jennyzzt/dgm) | Open-ended agent evolution | 2376 | +29 | 451 | 2025-08-13 |
+| [aiming-lab/RSI-Exam](https://github.com/aiming-lab/RSI-Exam) | Benchmark | 155 | +21 | 8 | 2026-09-27 |
+| [selfimproving-agent/Awesome-Self-Improving-Agents](https://github.com/selfimproving-agent/Awesome-Self-Improving-Agents) | Research map | 511 | +16 | 50 | 2026-09-26 |
+| [CosmosMind-ai/RSI-Harness](https://github.com/CosmosMind-ai/RSI-Harness) | Harness evolution | 712 | +14 | 28 | 2026-09-23 |
+| [scaleapi/rsi-benchmark](https://github.com/scaleapi/rsi-benchmark) | Benchmark | 62 | +13 | 16 | 2026-09-25 |
+| [Gen-Verse/Recuris](https://github.com/Gen-Verse/Recuris) | Memory evolution | 218 | +7 | 29 | 2026-08-30 |
+| [Arvid-pku/Godel_Agent](https://github.com/Arvid-pku/Godel_Agent) | Self-modifying agent | 227 | +4 | 54 | 2025-09-17 |
+| [D2I-ai/awesome-recursive-self-improving-agents](https://github.com/D2I-ai/awesome-recursive-self-improving-agents) | Research map | 44 | +4 | 3 | 2026-08-27 |
+| [zjunlp/LightRSI](https://github.com/zjunlp/LightRSI) | Runtime | 71 | +2 | 11 | 2026-09-26 |
 | [Tencent/VideoHarness-RSI](https://github.com/Tencent/VideoHarness-RSI) | Harness evolution | 7 | +2 | 0 | 2026-09-07 |
+| [HITsz-TMG/KnowAct](https://github.com/HITsz-TMG/KnowAct) | Personal agent | 486 | +1 | 42 | 2026-08-26 |
 <!-- TRENDING_END -->
 
 ### Recent paper feed
