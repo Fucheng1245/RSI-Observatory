@@ -42,6 +42,11 @@
       "note": "Runtime for lightweight recursive self-improvement loops in long-horizon agents."
     },
     {
+      "full_name": "Human-Agent-Society/reef",
+      "category": "Runtime",
+      "note": "Serving and training substrate for continual agent improvement: records requests behind OpenAI-/Anthropic-compatible endpoints, matches later reported feedback to those records, and publishes accepted weight or harness updates as versioned artifacts; the improvement mechanism is operator-defined, so score the instantiated loop."
+    },
+    {
       "full_name": "aiming-lab/RSI-Exam",
       "category": "Benchmark",
       "note": "Measures recursive self-improvement through long-horizon executable research."
