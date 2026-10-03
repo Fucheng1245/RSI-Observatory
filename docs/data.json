@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02T09:46:40.448832+00:00",
+  "generated_at": "2026-10-03T09:09:37.074937+00:00",
   "failures": [],
-  "papers_generated_at": "2026-10-01T10:08:57.059875+00:00",
+  "papers_generated_at": "2026-10-03T09:09:37.074937+00:00",
   "repositories": [
     {
       "full_name": "PrimeIntellect-ai/prime-agent",
@@ -9,15 +9,15 @@
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "category": "Self-improving agent",
       "note": "Self-improving RLM agent for coding workflows and long-running autonomous tasks; strong adjacent/direct-candidate signal.",
-      "stars": 21476,
-      "forks": 2371,
-      "open_issues": 137,
+      "stars": 21498,
+      "forks": 2370,
+      "open_issues": 114,
       "language": "Rust",
       "created_at": "2026-05-08T01:42:41Z",
-      "updated_at": "2026-10-02T09:25:17Z",
-      "pushed_at": "2026-10-02T09:38:07Z",
+      "updated_at": "2026-10-03T08:34:28Z",
+      "pushed_at": "2026-10-03T05:54:37Z",
       "topics": [],
-      "delta_7d": 196
+      "delta_7d": 205
     },
     {
       "full_name": "SakanaAI/AI-Scientist",
@@ -25,15 +25,15 @@
       "description": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery \ud83e\uddd1\u200d\ud83d\udd2c",
       "category": "Automated AI R&D",
       "note": "Major open automated research system; adjacent to closed-loop AI R&D rather than strict RSI.",
-      "stars": 14648,
+      "stars": 14649,
       "forks": 2056,
       "open_issues": 121,
       "language": "Jupyter Notebook",
       "created_at": "2024-08-12T09:32:55Z",
-      "updated_at": "2026-10-01T17:15:13Z",
+      "updated_at": "2026-10-03T04:45:34Z",
       "pushed_at": "2025-12-19T07:46:21Z",
       "topics": [],
-      "delta_7d": 35
+      "delta_7d": 30
     },
     {
       "full_name": "jennyzzt/dgm",
@@ -49,7 +49,7 @@
       "updated_at": "2026-10-01T01:30:06Z",
       "pushed_at": "2025-08-13T10:40:14Z",
       "topics": [],
-      "delta_7d": 17
+      "delta_7d": 13
     },
     {
       "full_name": "FrontisAI/OpenRSI",
@@ -57,15 +57,15 @@
       "description": "Executable, measurable, and reproducible AI4AI toward recursive self-improvement. Home of OpenMLE and Frontis-MA1.",
       "category": "Core / AI4AI",
       "note": "Open full-stack AI4AI work toward recursive self-improvement, including OpenMLE and Frontis-MA1.",
-      "stars": 777,
-      "forks": 76,
+      "stars": 778,
+      "forks": 75,
       "open_issues": 14,
       "language": "Python",
       "created_at": "2026-07-30T17:19:53Z",
-      "updated_at": "2026-10-02T05:02:21Z",
+      "updated_at": "2026-10-03T04:13:22Z",
       "pushed_at": "2026-09-17T14:17:36Z",
       "topics": [],
-      "delta_7d": 22
+      "delta_7d": 21
     },
     {
       "full_name": "HITsz-TMG/KnowAct",
@@ -81,7 +81,7 @@
       "updated_at": "2026-09-27T06:12:49Z",
       "pushed_at": "2026-08-26T07:45:59Z",
       "topics": [],
-      "delta_7d": 1
+      "delta_7d": 0
     },
     {
       "full_name": "Arvid-pku/Godel_Agent",
@@ -121,7 +121,7 @@
         "memory-system",
         "rsi"
       ],
-      "delta_7d": 8
+      "delta_7d": 7
     },
     {
       "full_name": "zjunlp/LightRSI",
@@ -131,11 +131,11 @@
       "note": "Runtime for lightweight recursive self-improvement loops in long-horizon agents.",
       "stars": 71,
       "forks": 15,
-      "open_issues": 1,
+      "open_issues": 0,
       "language": "TypeScript",
       "created_at": "2026-05-21T04:57:46Z",
-      "updated_at": "2026-10-02T05:31:42Z",
-      "pushed_at": "2026-10-02T05:31:38Z",
+      "updated_at": "2026-10-03T04:39:49Z",
+      "pushed_at": "2026-10-03T04:39:45Z",
       "topics": [
         "ai-agent",
         "claude-code",
@@ -160,12 +160,12 @@
       "description": "RSI-Exam: Measuring Recursive Self-Improvement on Long-Horizon, Executable Research Tasks \u00b7 Discord https://discord.gg/FBzhepyE",
       "category": "Benchmark",
       "note": "Measures recursive self-improvement through long-horizon executable research.",
-      "stars": 166,
+      "stars": 167,
       "forks": 8,
       "open_issues": 1,
       "language": "Python",
       "created_at": "2026-08-26T06:58:55Z",
-      "updated_at": "2026-10-02T06:13:26Z",
+      "updated_at": "2026-10-02T16:54:36Z",
       "pushed_at": "2026-09-27T04:22:53Z",
       "topics": [
         "benchmark",
@@ -179,15 +179,15 @@
       "description": "RSI Bench is an ongoing effort to evaluate whether AI agents can develop the capabilities required to advance AI R&D. ",
       "category": "Benchmark",
       "note": "Evaluates whether agents can develop capabilities required to advance AI R&D.",
-      "stars": 67,
-      "forks": 25,
+      "stars": 70,
+      "forks": 26,
       "open_issues": 21,
       "language": "Python",
       "created_at": "2026-07-30T14:53:49Z",
-      "updated_at": "2026-10-02T09:34:15Z",
+      "updated_at": "2026-10-03T08:00:40Z",
       "pushed_at": "2026-10-02T09:34:10Z",
       "topics": [],
-      "delta_7d": 7
+      "delta_7d": 10
     },
     {
       "full_name": "Gen-Verse/PAST-Bench",
@@ -227,10 +227,10 @@
       "open_issues": 4,
       "language": "TypeScript",
       "created_at": "2026-09-03T08:45:37Z",
-      "updated_at": "2026-10-02T07:40:24Z",
+      "updated_at": "2026-10-03T09:06:05Z",
       "pushed_at": "2026-09-23T10:13:45Z",
       "topics": [],
-      "delta_7d": -5
+      "delta_7d": 12
     },
     {
       "full_name": "Tencent/VideoHarness-RSI",
@@ -254,12 +254,12 @@
       "description": "A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.",
       "category": "Research map",
       "note": "Curated research map spanning RSI models, agents, harnesses, benchmarks and safety.",
-      "stars": 380,
-      "forks": 28,
-      "open_issues": 30,
+      "stars": 387,
+      "forks": 31,
+      "open_issues": 32,
       "language": null,
       "created_at": "2026-08-11T03:59:57Z",
-      "updated_at": "2026-10-02T06:32:33Z",
+      "updated_at": "2026-10-03T08:10:23Z",
       "pushed_at": "2026-09-25T09:18:10Z",
       "topics": [
         "agi",
@@ -282,7 +282,7 @@
         "self-improving-ai",
         "self-improving-systems"
       ],
-      "delta_7d": 56
+      "delta_7d": 57
     },
     {
       "full_name": "selfimproving-agent/Awesome-Self-Improving-Agents",
@@ -290,12 +290,12 @@
       "description": "A curated list for Self-Improvement in Foundation Model Based Agentic Systems.",
       "category": "Research map",
       "note": "Broad survey-oriented collection of self-improving agent research.",
-      "stars": 522,
-      "forks": 53,
-      "open_issues": 5,
+      "stars": 524,
+      "forks": 54,
+      "open_issues": 6,
       "language": "TeX",
       "created_at": "2025-12-28T05:29:23Z",
-      "updated_at": "2026-10-01T14:55:41Z",
+      "updated_at": "2026-10-02T14:15:11Z",
       "pushed_at": "2026-09-30T04:35:55Z",
       "topics": [
         "agent",
@@ -307,7 +307,7 @@
         "self-evolving",
         "self-improving-agents"
       ],
-      "delta_7d": 16
+      "delta_7d": 13
     },
     {
       "full_name": "D2I-ai/awesome-recursive-self-improving-agents",
@@ -327,6 +327,43 @@
     }
   ],
   "papers": [
+    {
+      "title": "My FAULT: Self-Diagnosis as Credit Assignment in Self-Evolving Agentic Reinforcement Learning",
+      "url": "http://arxiv.org/abs/2610.01161v1",
+      "published": "2026-10-01T06:41:10Z",
+      "authors": [
+        "Yihua Zhu",
+        "Qianying Liu",
+        "Weixu Qiao",
+        "Xuan Ren",
+        "Weiwei Xu",
+        "Wenbo Li",
+        "Wei Wang",
+        "Ruijia Chen",
+        "Xinmiao Luan",
+        "Yin Luo",
+        "Hao Huang",
+        "Xiang Zheng",
+        "Hidetoshi Shimodaira"
+      ],
+      "summary": "Agentic reinforcement learning (RL) has emerged as a powerful approach for training large language model agents on multi-step tasks, yet reliance on terminal outcome rewards creates two credit-assignment problems, particularly in long-horizon tasks. First, same-outcome rollout groups provide no learning signal from terminal rewards. Second, terminal rewards provide only trajectory-wide feedback, making it difficult to identify which decisions caused a failure. Recent work supplements terminal rewards with finer-grained information from trajectory analysis, such as natural-language reflections on intermediate decisions and errors. However, natural-language diagnoses are difficult to use directly for credit assignment: their error claims may be unreliable, and they do not quantify how much each error should affect learning. We propose Self-Diagnosis-guided Terminal Credit Redistribution (FAULT), which turns diagnosed errors into explicit step-level credit anchored by terminal outcomes. FAULT checks diagnostic evidence and learns relative error costs from task outcomes. During training, the policy and self-diagnoser co-evolve, while error costs are updated online from recent outcomes. On ALFWorld, FAULT recovers learning signals from same-outcome groups, reaching 95% signal coverage versus 41% for GRPO and 72% for GiGPO, while better localizing credit to specific error steps. Across two model scales, FAULT delivers strong. improvements on the long-horizon ALFWorld and WebShop tasks while remaining competitive on short-horizon Search-based QA."
+    },
+    {
+      "title": "Safety Must Survive Self-Improvement: Why Failures Persist and How Agents Recover",
+      "url": "http://arxiv.org/abs/2610.01073v1",
+      "published": "2026-10-01T05:13:51Z",
+      "authors": [
+        "Yunbei Zhang",
+        "Janet Wang",
+        "Saiyue Lyu",
+        "Yingqiang Ge",
+        "Kaiqu Liang",
+        "Zijian Jin",
+        "Chandan K Reddy",
+        "Jihun Hamm"
+      ],
+      "summary": "Recursive self-improvement (RSI) allows agents to carry useful changes across generations. Maintaining safety across these generations involves both preventing unsafe behavior from persisting and enabling recovery when failures occur. We study these challenges through a controlled testbed of stateful authorization tasks, where fixed LLM editors optimize executable agent components and independent traces record their effects. Paired interventions separate which revisions pass validation, which program continues running, and which program the editor revises next. After a new authorization dependency invalidates previously tested optimizations, historical scores preserve the same unsafe programs in 22 of 48 framework histories despite a correct alternative in every affected archive. Refreshing scores restores correctness on the original suite, with residual failures on independently composed tests. Failures also persist under an unchanged contract when all proposals are rejected and the failed incumbent remains active. Starting from shared failures, editing the initial implementation instead of the failed one improves recovery, although the advantage varies across editors. Full validation and validated rollback end with fully correct programs in the core trajectory study while retaining over 43% deployment savings. Preserving agent safety requires checking what will run under current conditions and choosing which implementation to edit next."
+    },
     {
       "title": "Turbo Harness: Instance-Adaptive Harness Optimization",
       "url": "http://arxiv.org/abs/2609.40330v1",
@@ -393,7 +430,7 @@
     },
     {
       "title": "EmbodiRSI: Recursive Self-Improvement for Data-Efficient Robot Adaptation",
-      "url": "http://arxiv.org/abs/2609.38905v1",
+      "url": "http://arxiv.org/abs/2609.38905v2",
       "published": "2026-09-30T03:54:53Z",
       "authors": [
         "Haoran Lang",
@@ -595,38 +632,6 @@
         "Mengling Feng"
       ],
       "summary": "Text-guided image editors can generate high-fidelity medical deepfakes, challenging the reliability of clinical imagery. Although reasoning-based detectors perform strongly in distribution, they degrade substantially under deployment shift. MedForge-Reasoner, an 8B vision-language model trained with supervised fine-tuning and reinforcement learning, achieves 99.2% accuracy on its target distribution, yet misclassifies 40% of authentic scans, reaches only 77% accuracy on unseen generators, and falls to 59% under transmission distortion. Adapting such models through conventional retraining is costly, requiring large-scale supervision and expert-designed guidelines. We introduce MedForge-RSI, a recursive self-improvement framework that enables a deployed detector to adapt while keeping its model weights frozen. Over 20 rounds, the detector analyzes verified errors, accumulates reusable experience, and autonomously develops image-analysis tools, while an independent acceptance test retains only validated improvements. Across 49 registered configurations, MedForge-RSI increases average accuracy over four test sets from 75.0% to 84.4%. On a held-out 4,000-image evaluation, it improves clean accuracy from 76.5% to 87.9% and transmission-distorted accuracy from 59.0% to 70.5%, with the largest gains in authentic-image recall. Controlled analysis across all 49 trajectories identifies which self-improvement mechanisms replicate across seeds, shows acceptance testing to be the largest individual contributor, and reveals a taxonomy of failed adaptations. We release the complete trajectories, including all rejected and rolled-back changes."
-    },
-    {
-      "title": "MERID: Multimodal Exploration via Recursive Self-Improvement Agents for Major Depression Analysis",
-      "url": "http://arxiv.org/abs/2609.36235v1",
-      "published": "2026-09-28T20:29:26Z",
-      "authors": [
-        "Lei Liu",
-        "Zhaokang Liang",
-        "Qingcheng Zeng",
-        "Chenda Duan",
-        "Lu Mi",
-        "Zhen Tan",
-        "Tianyu Liu"
-      ],
-      "summary": "Major depressive disorder (MDD) severely impacts daily activities and quality of life. Detecting MDD involves multimodal data, such as interview recordings and sensor measurements. This is particularly challenging, as these heterogeneous modalities often demand distinct, customized prediction pipelines. Existing efforts to address this challenge have explored both manually engineered multimodal architectures and agent-assisted pipeline development. Despite their progress, it remains challenging to autonomously revise pipelines based on experimental feedback and carry verified improvements forward into subsequent designs. To this end, we propose Multimodal Exploration via Recursive Self-Improvement Agents for Major Depression Analysis (MERID). The framework develops depression pipelines through experience-based recursive self-improvement (RSI). Grounded State Construction (GSC) grounds experience by aligning multimodal records with subject-level depression targets. Coupled Pipeline Exploration (CPE) jointly modifies representations, fusion, and predictors to build successor pipelines for classification and severity estimation. Evidence-Guided Evolution (EGE) guides revisions through feedback and verifies gains under uncertainty in small depression cohorts before inheritance. Extensive experiments on depression benchmarks show that MERID achieves the best results on multiple tasks compared with multimodal and agent-based baselines. Further analysis highlights the value of acoustic and linguistic cues for depression detection. Our code is available at https://github.com/DiscoAILab/MERID"
-    },
-    {
-      "title": "SAGE: A Statistical Acceptance Gate for Self-Evolving Agents",
-      "url": "http://arxiv.org/abs/2609.36043v1",
-      "published": "2026-09-28T18:07:45Z",
-      "authors": [
-        "Yihao Wang",
-        "Linhan Xia",
-        "Rui Liu",
-        "Zhaofeng Zhang",
-        "Hongyu Wu",
-        "Yang Yang",
-        "Jinglu He",
-        "Yu Guo",
-        "Kai Lei"
-      ],
-      "summary": "Large Language Model (LLM)-based agents increasingly self-evolve by editing a persistent skill document that encodes their workflow, tool-use rules, and decision logic. This loop has two steps, an optimizer that proposes a candidate edit and a gate that accepts or rejects it. Prior work has concentrated on the optimizer, while the gate still follows a naive rule that keeps any edit which improves an aggregate validation score. We show that this rule fails in two ways. First, it admits permanent regressions, since an edit can raise the average while breaking items the skill already solves. Second, it is vulnerable to the Optimizer's Curse, since the best observed score on a finite and noisy validation set is upward biased. To solve the above two limitations, we propose a statistical acceptance gate for self-evolving agents (SAGE). Compared with previous work, SAGE has two contributions. First, SAGE proposes a per-item paired comparison that evaluates the current skill and the edited skill on identical validation items, which exposes regressions that an aggregate score hides and penalizes them asymmetrically. Second, SAGE also employs a one-sided paired test that commits an edit only when its wins are statistically reliable against its losses, and it abstains otherwise. SAGE is a conservative refinement of the standard gate that recovers the baseline exactly at a boundary setting. It commits only a subset of the baseline's edits, filtering out those whose gains are unreliable or purchased by breaking already-solved items. Across five benchmarks and four backbone LLMs under an equal-budget protocol, SAGE lowers the regression rate in 19 of 20 settings and matches the baseline in the remaining one, for example from 36.5% to 0% on LiveMath and from 42.8% to 0% on OfficeQA with DeepSeek-V4. SAGE also attains the highest final score in all 20 settings, raising LiveMath from 34.15 to 48.78."
     }
   ]
 }
