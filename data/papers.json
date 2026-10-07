@@ -1,6 +1,132 @@
 {
-  "generated_at": "2026-10-06T10:18:27.562477+00:00",
+  "generated_at": "2026-10-07T10:16:28.439814+00:00",
   "papers": [
+    {
+      "title": "RIWANav: Recursive World-Action Models with Self-Improvement for Urban Navigation",
+      "url": "http://arxiv.org/abs/2610.08640v1",
+      "published": "2026-10-06T16:33:01Z",
+      "authors": [
+        "Jing Xie",
+        "Shouwei Ruan",
+        "Yubin Wang",
+        "Yuxiang Zhang",
+        "Haitao Yang",
+        "Songchang Jin",
+        "Dianxi Shi"
+      ],
+      "summary": "Long-horizon urban navigation requires sequential local decisions whose errors can compound over time. Imitation learning (IL) rarely learns from failures, while physical trial-and-error reinforcement learning (RL) is costly. Action-conditioned world models can provide imagined feedback by predicting visual consequences for candidate actions. However, a frozen world model may become less reliable as the policy evolves. In this paper, we introduce RIWANAV, a post-training framework that casts the coupled adaptation of a world model and an action model (policy) as task-specific recursive self-improvement (RSI). Each cycle alternates two updates. The world model evaluates policy actions through imagined outcomes, providing comparative feedback for group-relative policy optimization (GRPO). The improved policy then constructs a grounded self-curriculum, selecting expert-consistent action-video pairs by behavioral novelty and prediction error. The refined world model supplies feedback for the next policy update, closing the recursive self-improvement loop. Experiments show that RIWANAV outperforms training baselines and prior methods, validating the proposed recursive self-improvement loop between the policy and world model. Real-world trials further demonstrate its practical applicability."
+    },
+    {
+      "title": "Towards In-Parameter Memory Augmentation for Large Language Models",
+      "url": "http://arxiv.org/abs/2610.08630v1",
+      "published": "2026-10-06T16:27:47Z",
+      "authors": [
+        "Haoyu Huang",
+        "Zhongwei Xie",
+        "Jiaxin Bai",
+        "Yisen Gao",
+        "Hong Ting Tsang",
+        "Wuganjing Song",
+        "Huihao Jing",
+        "Yufei Li",
+        "Yangqiu Song"
+      ],
+      "summary": "Recently Large Language Models (LLMs) and LLM-based agents increasingly need to incorporate knowledge acquired after pretraining, e.g., domain facts, user preferences, documents, and interaction experience. In-context learning (ICL) and ICL-based agent harness remain flexible, but they consume context capacity and incur repeated discretized encoding cost that grows with context length. \\textbf{In-parameter memory} offers a complementary substrate: reusable memory information is represented in model parameters, adapters, or other parameter-like objects that are composed into the forward pass at inference time. This survey focuses on methods that augment LLMs with such parametric memory at deployment: a memory-bearing parameter object is plugged into the forward pass during inference, whether it is acquired before or during deployment. We organize the landscape with two orthogonal axes: \\textbf{Parameter Placement}, which includes Embedding, Attention, FFN layers, or Hybrid when two or more layers are used; and \\textbf{Parameter Acquisition Time}, which distinguishes methods whose memory object is acquired during deployment (online) from those acquired before it (offline). We clarify boundaries, conduct comparisons, and discuss open directions in interference, safety, co-design with ICL, and recursive self-improvement."
+    },
+    {
+      "title": "MedZERO: Self-Evolving Agents for Open-Ended Medical Reasoning Through Controlled Knowledge Accumulation",
+      "url": "http://arxiv.org/abs/2610.08327v1",
+      "published": "2026-10-06T13:25:55Z",
+      "authors": [
+        "Xilin Dang",
+        "Weilin Ruan",
+        "Xue Yang",
+        "Jinghao Wang",
+        "Xiaowei Hu",
+        "Jinpeng Li",
+        "Pheng-Ann Heng"
+      ],
+      "summary": "Large language models (LLMs) have shown promise in medical question answering and clinical reasoning, yet their improvement remains constrained by static parametric knowledge and costly expert supervision. Self-evolving agents offer a promising alternative by enabling models to improve through iterative task generation and problem-solving. However, most existing self-evolving methods are designed for easily verifiable domains such as mathematics and coding, where solutions can be checked by exact answers or executable programs. Medical reasoning is fundamentally different: it is open-ended, knowledge-intensive, and often only partially verifiable. We present MedZERO, a self-evolving framework for open-ended medical reasoning. MedZERO couples an Examiner that generates frontier medical question-option pairs with a Reasoner that solves them through evidence-grounded multi-turn reasoning with external knowledge tools. To support reliable, continual improvement, MedZERO adopts controlled knowledge accumulation, which maintains temporary exploratory knowledge and curated persistent knowledge in reasoning. We evaluate MedZERO on five public medical reasoning benchmarks using 4B- and 8B-scale base models under open-ended evaluation. Across all settings, MedZERO consistently outperforms the underlying base models and prior self-evolving baselines, achieving up to 13.7 average accuracy-point gains over the next-best self-evolving baseline."
+    },
+    {
+      "title": "Learning from Revision Consequences: Hindsight Meta-Experience Distillation for Self-Improving Agents",
+      "url": "http://arxiv.org/abs/2610.07979v1",
+      "published": "2026-10-06T08:43:43Z",
+      "authors": [
+        "Qianhan Feng",
+        "Zhongzhen Huang",
+        "Yakun Zhu",
+        "Xiaofan Zhang",
+        "Qi Dou"
+      ],
+      "summary": "As agents continuously improve by generating and revising Skills, the process that discovers and refines those Skills becomes a learnable object in its own right. Task-Skills directly act on task execution, whereas Meta-Skills govern how agents discover and improve future Skills; their value therefore emerges through the subsequent search processes they induce. Existing approaches improve Meta-Skills from observed raw Skill-search trajectories and branch outcomes. However, branch performance entangles the effects of the initial discovery state and the Meta-Skill revision that generated the search process, making it difficult to characterize what a particular revision actually changed, and pushing updates toward revisions that benefit from favorable states rather than those that improve the process. We introduce HMED (Hindsight Meta-Experience Distillation), a mechanism for constructing Meta-Experience for self-improving agents. HMED revisits the completed event from which a revision originates and re-executes the incumbent and revised Meta-Skills from the same restored discovery state, so that the changes associated with the revision can be observed under a shared condition. Each comparison is distilled into a Meta-Experience, a structured record that can be reused by future updates, so that even revisions that are not ultimately retained still contribute a learning signal. Across three interactive agent benchmarks and both open-source and closed-source models, HMED consistently improves Skill discovery performance over strong baselines, shifting Meta-Skill learning beyond branch outcomes toward the consequences of changing the improvement process."
+    },
+    {
+      "title": "EmbodiedSmith: Scaling Embodied Data through Recursive Self-Improvement Flywheel in Simulation",
+      "url": "http://arxiv.org/abs/2610.07969v1",
+      "published": "2026-10-06T08:34:28Z",
+      "authors": [
+        "Yikai Qin",
+        "Yifei Deng",
+        "Mingjian Liang",
+        "Wenxuan Song",
+        "Zepeng Lin",
+        "Zhiyi Jiang",
+        "Jiajun Fu",
+        "Qiao Sun",
+        "Huashuo Lei",
+        "Xicheng Gong",
+        "Jiayi Chen",
+        "Han Zhao",
+        "Shuanghao Bai",
+        "Pengxiang Ding",
+        "Pengwei Wang",
+        "Haoang Li"
+      ],
+      "summary": "Scaling robotic foundation models requires diverse training data and reliable evaluation environments. Simulation offers a scalable solution, yet existing generation pipelines remain constrained by predefined assets and skills, a disconnect between scene generation and task generation, and limited support for complex embodiments and physics. We introduce EmbodiedSmith, a framework for scalable embodied data generation through recursive self-improvement (RSI). EmbodiedSmith unifies asset, scene, and task generation in a pipeline that supports autonomous creation and language-driven customization. Its core is an agentic refinement loop: scene generation anticipates downstream task requirements, while task generation guides targeted scene edits, allowing scenes and tasks to iteratively improve one another. This joint refinement improves task generation success, including for long-horizon tasks. The framework further supports mobile manipulators, humanoids, and dexterous hands, as well as interactions involving deformable objects and fluids, broadening the range of behaviors and physical phenomena represented in generated data. Together, these capabilities provide a flexible simulation engine for both robot pretraining and evaluation. Extensive experiments validate the quality, diversity, and generation efficiency of the resulting data, while downstream policy experiments demonstrate that increased data diversity improves generalization."
+    },
+    {
+      "title": "Selective Critique for Cost-Aware LLM Agents in Long-Horizon Decision Making",
+      "url": "http://arxiv.org/abs/2610.07335v1",
+      "published": "2026-10-05T20:09:48Z",
+      "authors": [
+        "Heewon Park",
+        "Somin Im",
+        "Minhae Kwon"
+      ],
+      "summary": "Improving the reliability of large language model (LLM) agents in long-horizon decision-making remains a key challenge. When deployed as autonomous agents interacting with complex environments, early mistakes can propagate through trajectories and cause cascading failures. Recent approaches improve reliability by incorporating external critique or deliberation, but invoking these mechanisms at every step substantially increases token consumption and latency, limiting practical deployment. We propose SAG (Self-improving Agent with Gated critique), a cost-aware framework that formulates critique invocation as a step-wise decision problem during long-horizon interaction. SAG introduces a lightweight, training-free gating mechanism that estimates the utility of critique using action-level ambiguity signals--global entropy and local top-2 margin--computed over admissible actions. From a decision-theoretic perspective, this mechanism approximates the Value of Information (VoI) of critique, enabling the agent to selectively allocate expensive feedback only when its expected benefit justifies the cost. SAG further incorporates online bootstrapped self-improvement, allowing the actor to internalize critic-assisted behaviors and progressively reduce reliance on critique. Across three long-horizon interactive benchmarks and multiple backbone models, SAG substantially improves the performance-cost trade-off compared with both no-critique and always-on critique agents. On ALFWorld, SAG increases task success from 24.6% to 78.4% while maintaining a token budget comparable to ReAct, yielding a $3.1\\times$ improvement in normalized token efficiency. Moreover, a 7B actor with a lightweight 3B critic achieves performance comparable to a 14B actor without critique, showing that selective critique can recover most of the reliability benefits of deliberation while dramatically reducing inference cost."
+    },
+    {
+      "title": "SPECTRUM: Proximal Spectral Modulation for Looped Self-Distillation",
+      "url": "http://arxiv.org/abs/2610.07237v1",
+      "published": "2026-10-05T18:43:09Z",
+      "authors": [
+        "Yunbo Long",
+        "WenJie Chen",
+        "Jiaquan Zhang",
+        "Guangya Hao",
+        "Zihang Zeng",
+        "Pengze Li",
+        "Xi Chen"
+      ],
+      "summary": "A model that learns from its own outputs inherits more than their correctness: it inherits which solutions it produces. We formulate Looped Self-Distillation, a self-evolution framework for code generation in which a model repeatedly generates and learns from its own raw outputs, under a fixed information budget, without ongoing external assessment or test-based selection of the generated samples. We identify a consequential separation: correctness can improve while the breadth of correct implementations contracts. We introduce SPECTRUM, which re-estimates loss-sensitive key/value geometry from a fixed reference anchor at each round and converts it into full-rank proximal spectral modulation. All generated completions train a single student, whose subsequent inference requires no intervention. After five rounds of experiments on MBPP, SPECTRUM retains 89.9% of the initial model's 64-sample correct AST richness, compared with 66.4% for Vanilla self-distillation and 65.5% for a subspace-projection control. The advantage persists at matched correct-sample counts. Without further training or recalibration, the resulting student also achieves higher matched-correct richness than Vanilla SD on HumanEval+ and APPS Intro, demonstrating transfer of the diversity benefit. These findings establish correct-solution retention as a complementary objective of recursive self-improvement (RSI) and show that generation-time intervention can improve the solution repertoire retained by subsequent students."
+    },
+    {
+      "title": "Beyond Successor Accuracy: State Retention for Recursive Self-Improvement in Recommendation",
+      "url": "http://arxiv.org/abs/2610.07105v1",
+      "published": "2026-10-05T15:03:27Z",
+      "authors": [
+        "Jinfeng Xu",
+        "Zheyu Chen",
+        "Ziyue Peng",
+        "Zheng Lin",
+        "Wenhao Yuan",
+        "Jian Chen",
+        "Shujie Li",
+        "Edith Ngai"
+      ],
+      "summary": "Recommendation recursive self-improvement (Rec-RSI) feeds recommender outputs into subsequent training. Evaluating each round solely through its latest model assumes that the successor consolidates the update, although pre- and post-update models may retain complementary ranking decisions. We term this \\emph{distributed progress} and quantify it using cross-generation advantage (CGA), a marginally matched contrast between cross- and within-generation model pairs. A rank-separation statistic, label-free at selection time, predicts which family to retain. Across four datasets and three sequential recommendation encoders, the preferred retention regime varies by architecture: cross-generation pairing benefits GRU4Rec and SASRec, whereas FMLP initially favors within-generation pairing and shifts toward cross-generation pairing after a second update. Rank separation selects the stronger family in 12/12 first-update and 5/6 second-update dataset-encoder settings; on held-out tests, the selected family outperforms the direct successor in 34/36 trajectories. Five transfer mechanisms do not consistently reproduce these gains in one model. These findings establish state retention as a distinct Rec-RSI problem: progress may reside in relations between generations as well as in the latest model. Code is available at \\href{https://github.com/Jinfeng-Xu/RecRSI}{https://github.com/Jinfeng-Xu/RecRSI}."
+    },
     {
       "title": "Second-Order Problem Solving for Recursive Self-Improvement in Formal Verification",
       "url": "http://arxiv.org/abs/2610.05701v1",
@@ -339,116 +465,6 @@
         "Yiling Lou"
       ],
       "summary": "Agent harness bugs exhibit unique characteristics and remain challenging for state-of-the-art software agents to repair. Progress in this area is further hindered by existing benchmarks, which contain only a small and fixed number of executable harness bugs while requiring hundreds of human hours to construct. This work presents AgentBug-Smith, an automated harness bug reproduction approach that continuously discovers and reproduces real-world harness bugs from open-source agentic systems. Across different backbone LLMs, AgentBug-Smith consistently outperforms existing bug reproduction techniques designed for general software, achieving 10.67% - 27.56% higher success rates of reproducing harness bugs. By applying AgentBug-Smith to open-source agentic systems in the wild, we construct Live-Harness-Bench, a live and extensible benchmark that currently contains 200 reproducible harness bugs. We further demonstrate the utility of Live-Harness-Bench through two downstream applications. First, we use Live-Harness-Bench as the evaluation benchmark to systematically evaluate state-of-the-art software agents, revealing their limited capabilities in repairing real-world harness bugs. Second, we use Live-Harness-Bench as a knowledge base of real-world harness bug fixes, from which reusable repair skills can be distilled to improve existing software agents, increasing their harness-bug repair rates by 6.32%. Together, AgentBug-Smith and Live-Harness-Bench establish a scalable foundation for continuously evaluating and improving software agents on harness bug repair, turning real-world agent failures into executable evaluation instances and reusable knowledge for harness improvement, thus contributing to the ultimate goal of recursively self-improving agents."
-    },
-    {
-      "title": "Mixture of Self-Improving Branches For Agent Harness Optimization",
-      "url": "http://arxiv.org/abs/2609.37834v1",
-      "published": "2026-09-29T15:37:38Z",
-      "authors": [
-        "Haoyu Dong",
-        "Yuhang Zhou",
-        "Zihao Lin",
-        "Yifan Wu",
-        "Bo Peng",
-        "Mingyi Wang",
-        "Xiangjun Fan",
-        "Lizhu Zhang",
-        "Zhuokai Zhao"
-      ],
-      "summary": "Harness optimization provides a practical setting for recursive self-improvement (RSI), where agent-generated modifications inform subsequent changes through execution feedback. Recent work such as Meta-Harness implements this process through iterative code generation and evaluation, but retains a fixed development set and proposal policy. These constraints channel evolution along a single search trajectory, increasing the risk of converging to a local optimum. We make the improvement process itself adaptive by organizing search into branches with evolving development subsets and proposal policies. Each branch retains development cases solved by more of its leading harnesses than by those of other branches, drops cases solved by every leading harness across all branches, and revises its proposal policy using its own search history. To deploy the resulting complementary harnesses, we propose a router to select one development-selected branch head for each new input before execution. Across mathematical reasoning and agentic coding benchmarks, our system achieves relative improvements over Meta-Harness of 34.8% on Olympiad-level mathematical reasoning, 11.6% on Terminal-Bench 2.0, and 3.8% on SWE-bench Lite, with harness selection and router configuration based solely on development data. These results show that evolving branch objectives and proposal policies can yield complementary harnesses whose strengths a router combines without access to test outcomes."
-    },
-    {
-      "title": "AnyAct: Universal Action for Self-Evolving Agents",
-      "url": "http://arxiv.org/abs/2609.37025v1",
-      "published": "2026-09-29T08:41:27Z",
-      "authors": [
-        "Lingrui Xu",
-        "Yangqin Jiang",
-        "Jiachang Zhang",
-        "Xubin Ren",
-        "Chao Huang"
-      ],
-      "summary": "As large language models (LLMs) advance, AI agents are increasingly deployed in open-world environments to tackle complex sequential tasks (e.g., document processing, cross-application collaboration), relying heavily on actions ranging from GUI operations to semantic APIs. However, three core challenges persist: the \"scale dilemma\" of massive tool ecosystems exceeding LLM context windows, the \"non-stationarity\" of tool quality due to updates or outages, and the \"heterogeneity\" of feedback formats (pixels, text, structured data) creating information silos. To address these, we propose AnyAct, a universal action layer that unifies available capabilities into a self-evolving action space, enabling agents to operate efficiently and reliably in large-scale, dynamic tool ecosystems. AnyAct's core design focuses on two objectives: constructing this action space via hierarchical progressive retrieval (filtering task-relevant actions) and test-time reliability evolution (pruning unreliable actions), and enabling reliability-aware action orchestration through a heterogeneous observation grounding module that unifies multi-modal feedback. Additionally, it defines a hybrid action space (primitive + semantic actions) and optimizes for a balance between task success rate and execution cost. Evaluations on LiveMCPBench and OSMCP (a new benchmark we developed for multi-granularity action collaboration) demonstrate state-of-the-art performance. AnyAct delivers substantial performance gains over baseline methods across various LLM base models on LiveMCPBench and improvements are particularly notable for models with constrained native capabilities. On OSMCP, it achieves 77.27% overall success with only 50 steps, which is half the steps required by most competitors."
-    },
-    {
-      "title": "EASE: Behavior-Adaptive Skill Curation for Self-Evolving Agents",
-      "url": "http://arxiv.org/abs/2609.36746v1",
-      "published": "2026-09-29T05:18:24Z",
-      "authors": [
-        "Zhen Xiong",
-        "Qiaoyu Tan"
-      ],
-      "summary": "Agent skills provide a lightweight mechanism for self-evolving agents to accumulate reusable procedural knowledge without updating model parameters. However, existing learned skill curators typically optimize curation without explicitly modeling downstream executor behavior. We show that this can cause systematic cross-executor degradation: curators trained with different executors perform best when paired with their own training executor, indicating that effective skill curation is executor-dependent. We formulate behavior-adaptive skill curation and introduce EASE, a framework that learns a single curator that adapts its decisions to different executor behaviors. EASE maintains an online behavioral profile of recent execution patterns and conditions the curator on this profile, the current trajectory, and retrieved skills to add, modify, or remove skills from an evolving repository. We train the shared curator jointly across multiple frozen executors with reinforcement learning, using retrieval-aware and behavior-aware temporal attribution to focus optimization on curation actions with observable downstream influence. Across ALFWorld, ScienceWorld, and WebShop, with executors ranging from Qwen3-8B/32B and GPT-OSS-120B to unseen Kimi K2.6, DeepSeek V4 Flash, and Gemini 3.5 Flash, EASE outperforms strong skill- and memory-based baselines without per-executor finetuning. EASE also maintains 34.5--41.0% fewer skills, improves skill retrieval by 36.3--38.7% and measured edit utility by 51.8--60.0%, and reduces deployment-time inference tokens by 9.1--14.5%. These results establish behavior-adaptive skill curation as an effective principle for building self-evolving agents."
-    },
-    {
-      "title": "Know Thyself, Teach Thyself: Internal Information Flow for Selective Self-Distillation",
-      "url": "http://arxiv.org/abs/2609.36695v2",
-      "published": "2026-09-29T04:35:46Z",
-      "authors": [
-        "Rui Wang",
-        "Ruijie Wang",
-        "Bo Chen",
-        "Jiangxuan Long",
-        "Yingyu Liang"
-      ],
-      "summary": "Self-distillation turns knowledge distillation into a closed learning loop and offers a path toward recursive self-improvement. Without an external teacher, however, the model must determine both what information can improve its supervision and which induced changes should be learned. Existing methods typically improve teacher-generated data or select training examples in isolation, leaving the information transferred between these stages unmeasured. We introduce InFlow, a retrieval-guided on-policy self-distillation framework that models this process as potential-to-realized information flow. InFlow first retrieves potentially informative sources using certainty-calibrated hidden-state trajectories, then measures their realized effect through the Jensen--Shannon divergence between the teacher's initial and retrieval-conditioned answer beliefs. Examples with larger belief shifts are selected for on-policy distillation. Our analysis formalizes the information optimized by retrieval and selection and relates the answer-level shift to the teacher--student distillation gap. Across four open-weight language models and three knowledge domains, InFlow achieves the strongest cross-model average among the compared selection methods, with ablations supporting both stages of the framework. Our code is available at https://github.com/1240148048/INFLOW."
-    },
-    {
-      "title": "G\u00f6del Forest: Balancing Search Depth and Breadth for Data-Centric Recursive Self-Improvement",
-      "url": "http://arxiv.org/abs/2609.36675v1",
-      "published": "2026-09-29T04:14:48Z",
-      "authors": [
-        "Ziqi Zhao",
-        "Fanqing Meng",
-        "Haocheng Lu",
-        "Lingxiao Du",
-        "Qiguang Chen",
-        "Mengkang Hu",
-        "Xiao-Ming Wu"
-      ],
-      "summary": "Recursive self-improvement (RSI) aims to achieve compounding gains by having models improve themselves. While most existing RSI systems optimize external agent harnesses or prompts around a frozen base model, data-centric RSI directly updates the model's own parameters by training on agent-generated data. However, because validating data strategies requires expensive model training, existing methods face a fundamental dilemma: a single agent gets trapped in narrow directions and lacks exploration breadth, while naive parallel search or heavy trace sharing sacrifices long-horizon search depth. To address this challenge, we introduce G\"odel Forest, a multi-agent framework that organizes recursive self-improvement as an ensemble of co-evolving search trees. In G\"odel Forest, each agent autonomously grows a persistent tree, deepening, branching, or pruning data strategies based on model feedback to secure depth, while parallel trees explore distinct regions of the data space to expand breadth. Crucially, rather than leaving trees isolated or flooding them with heavy execution logs, a dynamically co-evolving memory connects the forest: agents continuously distill their successes and failures into compact procedural lessons anchored to a global leaderboard. Through this forest ecosystem, a dead-end in one tree instantly warns the whole forest against unpromising paths, while an empirical breakthrough quickly seeds new exploration branches in neighboring trees. Evaluated on RSIBench-Data across six diverse domains, G\"odel Forest outperforms the single-agent baseline by an average of 10.70% while reducing wall-clock time on five tasks. Ablations confirm that co-evolving shared memory yields a +7.00% gain over independent parallel search, demonstrating that collective distillation is key to scalable self-improvement. The code is available at https://github.com/evolvent-ai/Godel-Forest."
-    },
-    {
-      "title": "MedForge-RSI: Medical Deepfake Detection via Recursive Self-Improvement",
-      "url": "http://arxiv.org/abs/2609.36549v1",
-      "published": "2026-09-29T02:37:09Z",
-      "authors": [
-        "Zhihui Chen",
-        "Mengling Feng"
-      ],
-      "summary": "Text-guided image editors can generate high-fidelity medical deepfakes, challenging the reliability of clinical imagery. Although reasoning-based detectors perform strongly in distribution, they degrade substantially under deployment shift. MedForge-Reasoner, an 8B vision-language model trained with supervised fine-tuning and reinforcement learning, achieves 99.2% accuracy on its target distribution, yet misclassifies 40% of authentic scans, reaches only 77% accuracy on unseen generators, and falls to 59% under transmission distortion. Adapting such models through conventional retraining is costly, requiring large-scale supervision and expert-designed guidelines. We introduce MedForge-RSI, a recursive self-improvement framework that enables a deployed detector to adapt while keeping its model weights frozen. Over 20 rounds, the detector analyzes verified errors, accumulates reusable experience, and autonomously develops image-analysis tools, while an independent acceptance test retains only validated improvements. Across 49 registered configurations, MedForge-RSI increases average accuracy over four test sets from 75.0% to 84.4%. On a held-out 4,000-image evaluation, it improves clean accuracy from 76.5% to 87.9% and transmission-distorted accuracy from 59.0% to 70.5%, with the largest gains in authentic-image recall. Controlled analysis across all 49 trajectories identifies which self-improvement mechanisms replicate across seeds, shows acceptance testing to be the largest individual contributor, and reveals a taxonomy of failed adaptations. We release the complete trajectories, including all rejected and rolled-back changes."
-    },
-    {
-      "title": "MERID: Multimodal Exploration via Recursive Self-Improvement Agents for Major Depression Analysis",
-      "url": "http://arxiv.org/abs/2609.36235v2",
-      "published": "2026-09-28T20:29:26Z",
-      "authors": [
-        "Lei Liu",
-        "Zhaokang Liang",
-        "Qingcheng Zeng",
-        "Chenda Duan",
-        "Lu Mi",
-        "Zhen Tan",
-        "Tianyu Liu"
-      ],
-      "summary": "Major depressive disorder (MDD) severely impacts daily activities and quality of life. Detecting MDD involves multimodal data, such as interview recordings and sensor measurements. This is particularly challenging, as these heterogeneous modalities often demand distinct, customized prediction pipelines. Existing efforts to address this challenge have explored both manually engineered multimodal architectures and agent-assisted pipeline development. Despite their progress, it remains challenging to autonomously revise pipelines based on experimental feedback and carry verified improvements forward into subsequent designs. To this end, we propose Multimodal Exploration via Recursive Self-Improvement Agents for Major Depression Analysis (MERID). The framework develops depression pipelines through experience-based recursive self-improvement (RSI). Grounded State Construction (GSC) grounds experience by aligning multimodal records with subject-level depression targets. Coupled Pipeline Exploration (CPE) jointly modifies representations, fusion, and predictors to build successor pipelines for classification and severity estimation. Evidence-Guided Evolution (EGE) guides revisions through feedback and verifies gains under uncertainty in small depression cohorts before inheritance. Extensive experiments on depression benchmarks show that MERID achieves the best results on multiple tasks compared with multimodal and agent-based baselines. Further analysis highlights the value of acoustic and linguistic cues for depression detection. Our code is available at https://github.com/DiscoAILab/MERID"
-    },
-    {
-      "title": "SAGE: A Statistical Acceptance Gate for Self-Evolving Agents",
-      "url": "http://arxiv.org/abs/2609.36043v1",
-      "published": "2026-09-28T18:07:45Z",
-      "authors": [
-        "Yihao Wang",
-        "Linhan Xia",
-        "Rui Liu",
-        "Zhaofeng Zhang",
-        "Hongyu Wu",
-        "Yang Yang",
-        "Jinglu He",
-        "Yu Guo",
-        "Kai Lei"
-      ],
-      "summary": "Large Language Model (LLM)-based agents increasingly self-evolve by editing a persistent skill document that encodes their workflow, tool-use rules, and decision logic. This loop has two steps, an optimizer that proposes a candidate edit and a gate that accepts or rejects it. Prior work has concentrated on the optimizer, while the gate still follows a naive rule that keeps any edit which improves an aggregate validation score. We show that this rule fails in two ways. First, it admits permanent regressions, since an edit can raise the average while breaking items the skill already solves. Second, it is vulnerable to the Optimizer's Curse, since the best observed score on a finite and noisy validation set is upward biased. To solve the above two limitations, we propose a statistical acceptance gate for self-evolving agents (SAGE). Compared with previous work, SAGE has two contributions. First, SAGE proposes a per-item paired comparison that evaluates the current skill and the edited skill on identical validation items, which exposes regressions that an aggregate score hides and penalizes them asymmetrically. Second, SAGE also employs a one-sided paired test that commits an edit only when its wins are statistically reliable against its losses, and it abstains otherwise. SAGE is a conservative refinement of the standard gate that recovers the baseline exactly at a boundary setting. It commits only a subset of the baseline's edits, filtering out those whose gains are unreliable or purchased by breaking already-solved items. Across five benchmarks and four backbone LLMs under an equal-budget protocol, SAGE lowers the regression rate in 19 of 20 settings and matches the baseline in the remaining one, for example from 36.5% to 0% on LiveMath and from 42.8% to 0% on OfficeQA with DeepSeek-V4. SAGE also attains the highest final score in all 20 settings, raising LiveMath from 34.15 to 48.78."
     }
   ]
 }
