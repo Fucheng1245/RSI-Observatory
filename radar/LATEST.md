@@ -1,6 +1,6 @@
-# RSI Radar — 2026-W41
+# RSI Radar — 2026-W42
 
-> Generated 2026-10-05 · Recursive Self-Improvement, self-improving agents, AI4AI and evaluation signals.
+> Generated 2026-10-12 · Recursive Self-Improvement, self-improving agents, AI4AI and evaluation signals.
 
 [← Observatory](../README.md) · [Scorecard](../SCORECARD.md) · [Trends](../TRENDS.md)
 
@@ -8,34 +8,34 @@
 
 | Project | Track | Stars | 7d Δ | Last push |
 |---|---|---:|---:|---|
-| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | Self-improving agent | 21,543 | +194 | 2026-10-05 |
-| [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) | Research map | 396 | +43 | 2026-10-05 |
-| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Automated AI R&D | 14,660 | +23 | 2025-12-19 |
-| [FrontisAI/OpenRSI](https://github.com/FrontisAI/OpenRSI) | Core / AI4AI | 781 | +17 | 2026-09-17 |
-| [CosmosMind-ai/RSI-Harness](https://github.com/CosmosMind-ai/RSI-Harness) | Harness evolution | 724 | +12 | 2026-09-23 |
-| [selfimproving-agent/Awesome-Self-Improving-Agents](https://github.com/selfimproving-agent/Awesome-Self-Improving-Agents) | Research map | 528 | +12 | 2026-09-30 |
-| [aiming-lab/RSI-Exam](https://github.com/aiming-lab/RSI-Exam) | Benchmark | 167 | +11 | 2026-09-27 |
-| [jennyzzt/dgm](https://github.com/jennyzzt/dgm) | Open-ended agent evolution | 2,390 | +10 | 2025-08-13 |
+| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | Self-improving agent | 21,926 | +383 | 2026-10-12 |
+| [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) | Research map | 619 | +223 | 2026-10-12 |
+| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Automated AI R&D | 14,701 | +41 | 2025-12-19 |
+| [FrontisAI/OpenRSI](https://github.com/FrontisAI/OpenRSI) | Core / AI4AI | 805 | +24 | 2026-09-17 |
+| [jennyzzt/dgm](https://github.com/jennyzzt/dgm) | Open-ended agent evolution | 2,411 | +21 | 2025-08-13 |
+| [selfimproving-agent/Awesome-Self-Improving-Agents](https://github.com/selfimproving-agent/Awesome-Self-Improving-Agents) | Research map | 548 | +20 | 2026-10-12 |
+| [aiming-lab/RSI-Exam](https://github.com/aiming-lab/RSI-Exam) | Benchmark | 181 | +14 | 2026-09-27 |
+| [Gen-Verse/Recuris](https://github.com/Gen-Verse/Recuris) | Memory evolution | 235 | +9 | 2026-08-30 |
 
 ## Recently active
 
-- **[lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi)** — Research map · last push 2026-10-05
-- **[PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)** — Self-improving agent · last push 2026-10-05
+- **[lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi)** — Research map · last push 2026-10-12
+- **[PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)** — Self-improving agent · last push 2026-10-12
+- **[selfimproving-agent/Awesome-Self-Improving-Agents](https://github.com/selfimproving-agent/Awesome-Self-Improving-Agents)** — Research map · last push 2026-10-12
+- **[CosmosMind-ai/RSI-Harness](https://github.com/CosmosMind-ai/RSI-Harness)** — Harness evolution · last push 2026-10-10
+- **[scaleapi/rsi-benchmark](https://github.com/scaleapi/rsi-benchmark)** — Benchmark · last push 2026-10-10
 - **[zjunlp/LightRSI](https://github.com/zjunlp/LightRSI)** — Runtime · last push 2026-10-03
-- **[scaleapi/rsi-benchmark](https://github.com/scaleapi/rsi-benchmark)** — Benchmark · last push 2026-10-02
-- **[selfimproving-agent/Awesome-Self-Improving-Agents](https://github.com/selfimproving-agent/Awesome-Self-Improving-Agents)** — Research map · last push 2026-09-30
-- **[aiming-lab/RSI-Exam](https://github.com/aiming-lab/RSI-Exam)** — Benchmark · last push 2026-09-27
 
 ## Fresh research
 
-- **[Recursive Self-Improvement in Unified Multimodal Models](http://arxiv.org/abs/2610.03002v1)** — Huijuan Wang, Chufan Shi, Cheng Yang · 2026-10-02
-- **[My FAULT: Self-Diagnosis as Credit Assignment in Self-Evolving Agentic Reinforcement Learning](http://arxiv.org/abs/2610.01161v1)** — Yihua Zhu, Qianying Liu, Weixu Qiao · 2026-10-01
-- **[Safety Must Survive Self-Improvement: Why Failures Persist and How Agents Recover](http://arxiv.org/abs/2610.01073v1)** — Yunbei Zhang, Janet Wang, Saiyue Lyu · 2026-10-01
-- **[Turbo Harness: Instance-Adaptive Harness Optimization](http://arxiv.org/abs/2609.40330v1)** — Tunyu Zhang, Hao Wang, Kai Xu · 2026-09-30
-- **[ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation](http://arxiv.org/abs/2609.39306v1)** — Shengjie Jin, Hengbo Xu, Zelong Sun · 2026-09-30
-- **[ASENA: Self-evolving Agents for Embodied Navigation](http://arxiv.org/abs/2609.39207v1)** — An-Chieh Cheng, Isabella Liu, Edmund Bu · 2026-09-30
-- **[RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement](http://arxiv.org/abs/2609.39045v1)** — Wenyi Wu, Minghao Fu, Jieyu You · 2026-09-30
-- **[EmbodiRSI: Recursive Self-Improvement for Data-Efficient Robot Adaptation](http://arxiv.org/abs/2609.38905v2)** — Haoran Lang, Haotao Lu, Shiyu Sang · 2026-09-30
+- **[RSI-Anything: Unlocking Recursive Self-Improvement with World Models](http://arxiv.org/abs/2610.13912v1)** — Taoyong Cui, Pinxian Zeng, Wanghan Xu · 2026-10-09
+- **[MC-EvoBench: Auditing Experience-Driven Self-Improvement in Minecraft Agents](http://arxiv.org/abs/2610.13829v1)** — Jingwei Song, Zhisheng Chen, Bingfan Zeng · 2026-10-09
+- **[EndoRSI: Physical-Evidence-Driven Recursive Improvement of Endoscopic Robot Policies](http://arxiv.org/abs/2610.13376v1)** — Chi Kit Ng, Yidong Zhang, Tianchun Wu · 2026-10-09
+- **[VETR: Execution-Grounded Self-Improving Agent for Symbolic Graphics Reasoning](http://arxiv.org/abs/2610.13098v1)** — Yingbo Ma, Kuangshi Ai, Gordon Dai · 2026-10-09
+- **[Evo$^2$: Evolving the Evolver through Weight-Harness Co-Evolution](http://arxiv.org/abs/2610.13025v1)** — Chejian Xu, Shujian Zhang, Wenxuan Zhou · 2026-10-09
+- **[EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents](http://arxiv.org/abs/2610.13021v1)** — Jie Huang, Yanan Chen, Ruixun Liu · 2026-10-09
+- **[Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement](http://arxiv.org/abs/2610.12369v1)** — Kairui Hu, Siyuan Hu, Fangzhou Hong · 2026-10-08
+- **[TestPrism: Rethinking Test Evaluation Beyond a Single Reference](http://arxiv.org/abs/2610.12289v1)** — Han Li, Lingxiang Hu, Jiacheng Huang · 2026-10-08
 
 ## Questions worth watching
 
