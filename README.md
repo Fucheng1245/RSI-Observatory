@@ -136,20 +136,20 @@ Seven-day changes require a snapshot from exactly seven days earlier. A dash mea
 <!-- TRENDING_START -->
 | Repository | Category | Stars | 7d Δ | Forks | Last push |
 |---|---|---:|---:|---:|---|
-| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | Self-improving agent | 21926 | +383 | 2419 | 2026-10-12 |
-| [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) | Research map | 619 | +223 | 45 | 2026-10-12 |
-| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Automated AI R&D | 14701 | +41 | 2059 | 2025-12-19 |
-| [FrontisAI/OpenRSI](https://github.com/FrontisAI/OpenRSI) | Core / AI4AI | 805 | +24 | 77 | 2026-09-17 |
-| [jennyzzt/dgm](https://github.com/jennyzzt/dgm) | Open-ended agent evolution | 2411 | +21 | 451 | 2025-08-13 |
-| [selfimproving-agent/Awesome-Self-Improving-Agents](https://github.com/selfimproving-agent/Awesome-Self-Improving-Agents) | Research map | 548 | +20 | 55 | 2026-10-12 |
-| [aiming-lab/RSI-Exam](https://github.com/aiming-lab/RSI-Exam) | Benchmark | 181 | +14 | 7 | 2026-09-27 |
-| [Gen-Verse/Recuris](https://github.com/Gen-Verse/Recuris) | Memory evolution | 235 | +9 | 29 | 2026-08-30 |
-| [scaleapi/rsi-benchmark](https://github.com/scaleapi/rsi-benchmark) | Benchmark | 80 | +9 | 38 | 2026-10-10 |
-| [zjunlp/LightRSI](https://github.com/zjunlp/LightRSI) | Runtime | 78 | +7 | 15 | 2026-10-03 |
+| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | Self-improving agent | 21978 | +413 | 2428 | 2026-10-13 |
+| [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) | Research map | 647 | +247 | 48 | 2026-10-12 |
+| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Automated AI R&D | 14712 | +42 | 2061 | 2025-12-19 |
+| [FrontisAI/OpenRSI](https://github.com/FrontisAI/OpenRSI) | Core / AI4AI | 808 | +27 | 77 | 2026-09-17 |
+| [selfimproving-agent/Awesome-Self-Improving-Agents](https://github.com/selfimproving-agent/Awesome-Self-Improving-Agents) | Research map | 554 | +25 | 55 | 2026-10-12 |
+| [jennyzzt/dgm](https://github.com/jennyzzt/dgm) | Open-ended agent evolution | 2413 | +23 | 451 | 2025-08-13 |
+| [aiming-lab/RSI-Exam](https://github.com/aiming-lab/RSI-Exam) | Benchmark | 183 | +14 | 7 | 2026-09-27 |
+| [Gen-Verse/Recuris](https://github.com/Gen-Verse/Recuris) | Memory evolution | 236 | +10 | 29 | 2026-08-30 |
+| [scaleapi/rsi-benchmark](https://github.com/scaleapi/rsi-benchmark) | Benchmark | 81 | +9 | 41 | 2026-10-12 |
+| [zjunlp/LightRSI](https://github.com/zjunlp/LightRSI) | Runtime | 79 | +8 | 15 | 2026-10-03 |
+| [Arvid-pku/Godel_Agent](https://github.com/Arvid-pku/Godel_Agent) | Self-modifying agent | 235 | +7 | 54 | 2025-09-17 |
 | [D2I-ai/awesome-recursive-self-improving-agents](https://github.com/D2I-ai/awesome-recursive-self-improving-agents) | Research map | 52 | +6 | 3 | 2026-08-27 |
-| [Arvid-pku/Godel_Agent](https://github.com/Arvid-pku/Godel_Agent) | Self-modifying agent | 233 | +5 | 54 | 2025-09-17 |
+| [Gen-Verse/PAST-Bench](https://github.com/Gen-Verse/PAST-Bench) | Benchmark | 34 | +1 | 7 | 2026-08-05 |
 | [Tencent/VideoHarness-RSI](https://github.com/Tencent/VideoHarness-RSI) | Harness evolution | 9 | +1 | 0 | 2026-09-07 |
-| [Gen-Verse/PAST-Bench](https://github.com/Gen-Verse/PAST-Bench) | Benchmark | 33 | 0 | 7 | 2026-08-05 |
 | [HITsz-TMG/KnowAct](https://github.com/HITsz-TMG/KnowAct) | Personal agent | 485 | -1 | 41 | 2026-08-26 |
 <!-- TRENDING_END -->
 
