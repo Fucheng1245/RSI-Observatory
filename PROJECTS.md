@@ -26,6 +26,7 @@ See [METHODOLOGY.md](METHODOLOGY.md) for the formal rules.
 | [KnowAct](https://github.com/HITsz-TMG/KnowAct) | Self-improving system | Personal-agent capabilities | Persistent personal-agent setting for recursive capability growth. |
 | [RSI-Harness](https://github.com/CosmosMind-ai/RSI-Harness) | RSI substrate / experiment | Agent harness / configuration | Versionable harness and genome-style configuration surface for iterative evolution. |
 | [VideoHarness-RSI](https://github.com/Tencent/VideoHarness-RSI) | RSI-directed / domain experiment | Video-agent harness | Domain-specific harness self-improvement work. |
+| [Reef](https://github.com/Human-Agent-Society/reef) | RSI substrate | Model weights / agent harness tree | Records served agent traffic, links later reported feedback to those records, and publishes an accepted candidate as a versioned artifact while the endpoint stays live; the updater and its evaluation are operator-defined. |
 | [A Self-Improving Coding Agent](https://arxiv.org/abs/2504.15228) | Self-improving system | Coding-agent implementation | Agent edits its own implementation and evaluates changes empirically. |
 | [MetaSkill-Evolve](https://arxiv.org/abs/2607.05297) | RSI-directed meta-evolution | Skills + meta-skill updater | Two-timescale design where task skills and the improvement controller both evolve. |
 | [AREX](https://arxiv.org/abs/2607.21461) | Self-improving system | Deep-research improvement state | Outer verification loop recursively improves long-horizon research behavior. |
