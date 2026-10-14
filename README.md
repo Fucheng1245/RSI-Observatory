@@ -136,21 +136,21 @@ Seven-day changes require a snapshot from exactly seven days earlier. A dash mea
 <!-- TRENDING_START -->
 | Repository | Category | Stars | 7d Δ | Forks | Last push |
 |---|---|---:|---:|---:|---|
-| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | Self-improving agent | 21978 | +413 | 2428 | 2026-10-13 |
-| [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) | Research map | 647 | +247 | 48 | 2026-10-12 |
-| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Automated AI R&D | 14712 | +42 | 2061 | 2025-12-19 |
-| [FrontisAI/OpenRSI](https://github.com/FrontisAI/OpenRSI) | Core / AI4AI | 808 | +27 | 77 | 2026-09-17 |
-| [selfimproving-agent/Awesome-Self-Improving-Agents](https://github.com/selfimproving-agent/Awesome-Self-Improving-Agents) | Research map | 554 | +25 | 55 | 2026-10-12 |
-| [jennyzzt/dgm](https://github.com/jennyzzt/dgm) | Open-ended agent evolution | 2413 | +23 | 451 | 2025-08-13 |
-| [aiming-lab/RSI-Exam](https://github.com/aiming-lab/RSI-Exam) | Benchmark | 183 | +14 | 7 | 2026-09-27 |
-| [Gen-Verse/Recuris](https://github.com/Gen-Verse/Recuris) | Memory evolution | 236 | +10 | 29 | 2026-08-30 |
-| [scaleapi/rsi-benchmark](https://github.com/scaleapi/rsi-benchmark) | Benchmark | 81 | +9 | 41 | 2026-10-12 |
-| [zjunlp/LightRSI](https://github.com/zjunlp/LightRSI) | Runtime | 79 | +8 | 15 | 2026-10-03 |
-| [Arvid-pku/Godel_Agent](https://github.com/Arvid-pku/Godel_Agent) | Self-modifying agent | 235 | +7 | 54 | 2025-09-17 |
-| [D2I-ai/awesome-recursive-self-improving-agents](https://github.com/D2I-ai/awesome-recursive-self-improving-agents) | Research map | 52 | +6 | 3 | 2026-08-27 |
+| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | Self-improving agent | 22008 | +416 | 2433 | 2026-10-14 |
+| [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) | Research map | 669 | +267 | 51 | 2026-10-14 |
+| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Automated AI R&D | 14711 | +37 | 2061 | 2025-12-19 |
+| [FrontisAI/OpenRSI](https://github.com/FrontisAI/OpenRSI) | Core / AI4AI | 813 | +32 | 77 | 2026-09-17 |
+| [selfimproving-agent/Awesome-Self-Improving-Agents](https://github.com/selfimproving-agent/Awesome-Self-Improving-Agents) | Research map | 556 | +27 | 57 | 2026-10-12 |
+| [jennyzzt/dgm](https://github.com/jennyzzt/dgm) | Open-ended agent evolution | 2416 | +25 | 452 | 2025-08-13 |
+| [aiming-lab/RSI-Exam](https://github.com/aiming-lab/RSI-Exam) | Benchmark | 184 | +12 | 8 | 2026-09-27 |
+| [Gen-Verse/Recuris](https://github.com/Gen-Verse/Recuris) | Memory evolution | 238 | +11 | 29 | 2026-08-30 |
+| [zjunlp/LightRSI](https://github.com/zjunlp/LightRSI) | Runtime | 82 | +11 | 15 | 2026-10-03 |
+| [scaleapi/rsi-benchmark](https://github.com/scaleapi/rsi-benchmark) | Benchmark | 82 | +9 | 42 | 2026-10-14 |
+| [D2I-ai/awesome-recursive-self-improving-agents](https://github.com/D2I-ai/awesome-recursive-self-improving-agents) | Research map | 53 | +7 | 3 | 2026-08-27 |
+| [Arvid-pku/Godel_Agent](https://github.com/Arvid-pku/Godel_Agent) | Self-modifying agent | 235 | +6 | 54 | 2025-09-17 |
+| [Tencent/VideoHarness-RSI](https://github.com/Tencent/VideoHarness-RSI) | Harness evolution | 10 | +2 | 0 | 2026-09-07 |
 | [Gen-Verse/PAST-Bench](https://github.com/Gen-Verse/PAST-Bench) | Benchmark | 34 | +1 | 7 | 2026-08-05 |
-| [Tencent/VideoHarness-RSI](https://github.com/Tencent/VideoHarness-RSI) | Harness evolution | 9 | +1 | 0 | 2026-09-07 |
-| [HITsz-TMG/KnowAct](https://github.com/HITsz-TMG/KnowAct) | Personal agent | 485 | -1 | 41 | 2026-08-26 |
+| [HITsz-TMG/KnowAct](https://github.com/HITsz-TMG/KnowAct) | Personal agent | 480 | -6 | 41 | 2026-08-26 |
 <!-- TRENDING_END -->
 
 ### Recent paper feed
@@ -158,18 +158,18 @@ Seven-day changes require a snapshot from exactly seven days earlier. A dash mea
 Automatically discovered papers are candidates for review, not curated endorsements.
 
 <!-- PAPERS_START -->
-- **[RSI-Anything: Unlocking Recursive Self-Improvement with World Models](http://arxiv.org/abs/2610.13912v1)** — Taoyong Cui, Pinxian Zeng, Wanghan Xu et al. (2026-10-09)
-- **[MC-EvoBench: Auditing Experience-Driven Self-Improvement in Minecraft Agents](http://arxiv.org/abs/2610.13829v1)** — Jingwei Song, Zhisheng Chen, Bingfan Zeng et al. (2026-10-09)
-- **[EndoRSI: Physical-Evidence-Driven Recursive Improvement of Endoscopic Robot Policies](http://arxiv.org/abs/2610.13376v1)** — Chi Kit Ng, Yidong Zhang, Tianchun Wu et al. (2026-10-09)
-- **[VETR: Execution-Grounded Self-Improving Agent for Symbolic Graphics Reasoning](http://arxiv.org/abs/2610.13098v1)** — Yingbo Ma, Kuangshi Ai, Gordon Dai et al. (2026-10-09)
-- **[Evo$^2$: Evolving the Evolver through Weight-Harness Co-Evolution](http://arxiv.org/abs/2610.13025v1)** — Chejian Xu, Shujian Zhang, Wenxuan Zhou et al. (2026-10-09)
-- **[EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents](http://arxiv.org/abs/2610.13021v1)** — Jie Huang, Yanan Chen, Ruixun Liu et al. (2026-10-09)
-- **[Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement](http://arxiv.org/abs/2610.12369v1)** — Kairui Hu, Siyuan Hu, Fangzhou Hong et al. (2026-10-08)
-- **[TestPrism: Rethinking Test Evaluation Beyond a Single Reference](http://arxiv.org/abs/2610.12289v1)** — Han Li, Lingxiang Hu, Jiacheng Huang et al. (2026-10-08)
-- **[Language Models as AI Research World Models](http://arxiv.org/abs/2610.12235v1)** — Zijun Wang, Zewen Liu, Minhua Lin et al. (2026-10-08)
-- **[ReSI: Recursive Safety Improvement toward Resistant and Resilient AI](http://arxiv.org/abs/2610.12233v1)** — Jingnan Zheng, Dongcheng Zhang, Yi Zhang et al. (2026-10-08)
-- **[DataSense-Bench: The First Step Toward an AI Scientist](http://arxiv.org/abs/2610.12190v1)** — Yudi Zhang, Mingyu Cao, Lu Yin et al. (2026-10-08)
-- **[Recursive Self-Improvement through Multi-Agent Self-Supervision](http://arxiv.org/abs/2610.12176v1)** — Hyunin Lee, Jinglue Xu, Jeffrey Seely et al. (2026-10-08)
+- **[Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards](http://arxiv.org/abs/2610.18868v1)** — Wenbo Hu, Shraman Pramanick, Krishna Kumar Singh et al. (2026-10-13)
+- **[The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement](http://arxiv.org/abs/2610.18845v1)** — Sijie Zhao, Zeqi Zhou, Heli Qi et al. (2026-10-13)
+- **[Who Improves the Robot? Toward Physical Recursive Self-Improvement](http://arxiv.org/abs/2610.18842v1)** — Hai Zhou, Fan Yang, Zeyi Chen et al. (2026-10-13)
+- **[Self-Evolving Agent Harness](http://arxiv.org/abs/2610.18813v1)** — Chuyang Wei, Haoxiang Guan, Minghang Zhu et al. (2026-10-13)
+- **[SEAR: Self-Evolving Agentic Robotics](http://arxiv.org/abs/2610.18792v1)** — Xinyi Wang, Bangzheng Li, Hanyu Wang et al. (2026-10-13)
+- **[The Singularity Has a Distribution: Exact Timing Laws and Detection Limits for a Stochastic Intelligence Explosion](http://arxiv.org/abs/2610.18445v1)** — Xiaoyu Li, Zheng Gao, Chiwun Yang et al. (2026-10-13)
+- **[APT: Feedback-Driven Agentic Post-Training for Text-to-Image Generation](http://arxiv.org/abs/2610.18097v1)** — Sirui Zhang, Fangyun Wei, Dong Chen et al. (2026-10-13)
+- **[AReaL-RSI: Adaptive Scaling and Coordination of Recursive Self-Improvement](http://arxiv.org/abs/2610.18083v1)** — Wenhao Zhou, Jiajun Song, Haitao Wang et al. (2026-10-13)
+- **[ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution](http://arxiv.org/abs/2610.17718v1)** — Xiaoliang Wang, Zhuo Chen, Chuanyang Zheng et al. (2026-10-13)
+- **[D-World: An Explicit World-Language-Action Model with Recursive Self-Improvement under Dual Control](http://arxiv.org/abs/2610.17114v1)** — Xuan Wen, Baichao Wang (2026-10-12)
+- **[Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems](http://arxiv.org/abs/2610.16491v1)** — Xin Xu, Ke Cheng, Hao Wang et al. (2026-10-12)
+- **[Heterogeneous Agentic Coevolution](http://arxiv.org/abs/2610.16078v1)** — Wenqian Ye, Ziwei Guan, Zi Yang et al. (2026-10-12)
 <!-- PAPERS_END -->
 
 The automated layer tracks GitHub metadata, daily snapshots and a fresh paper feed. Human curation stays separate from automation.
