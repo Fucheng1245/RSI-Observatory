@@ -1,6 +1,219 @@
 {
-  "generated_at": "2026-10-19T08:53:39.115673+00:00",
+  "generated_at": "2026-10-20T08:33:11.684647+00:00",
   "papers": [
+    {
+      "title": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
+      "url": "http://arxiv.org/abs/2610.26848v1",
+      "published": "2026-10-19T17:59:30Z",
+      "authors": [
+        "Zekai Li",
+        "Jiayi Yu",
+        "Jinlu Zhang",
+        "Luyang Niu",
+        "Zekun Qi",
+        "Jun Zheng",
+        "Xuchuan Chen",
+        "Dairu Liu",
+        "Yintianrun Zhang",
+        "He Wang",
+        "Li Yi"
+      ],
+      "summary": "In this paper, we systematically investigate the mechanisms, scaling behavior, and generalization of physical Recursive self-improvement. We introduce PhysRSI-eval to quantify physical RSI through a five-axis metric: First-Attempt Performance, Efficiency, Success, Budget and Improvement from failure. Different VLMs are evaluated on 18 manipulation tasks under a fixed interaction budget. The analysis of experimental results motivates the Physical Barrel Hypothesis: different capabilities may constrain different parts of improvement. The five-axis metrics also distinguish systems with close public benchmark averages and show that high scores need not come with early or efficient gains. We study observational scaling from two perspectives: predicting the relative performance of VLM agents from their public capabilities, and forecasting later progress from early physical feedback. Together, these analyses ask how quickly and how far an agent can improve. Moreover, we conduct workspace interventions and then analyze what improvement leaves behind. Removing history reduces late-round success, frozen workspaces remain useful on unseen layouts, and three cross-task cases achieve success earlier. The results suggest that scene-specific adaptation and reusable experience can coexist."
+    },
+    {
+      "title": "HarnessPro: Recursive Harness Self-Improvement with Pareto Optimization for Performance-Cost Trade-offs",
+      "url": "http://arxiv.org/abs/2610.26770v1",
+      "published": "2026-10-19T17:27:38Z",
+      "authors": [
+        "Zhuoshi Pan",
+        "ZhiYuan Feng",
+        "Yukuo Cen",
+        "Honglin Lin",
+        "Junru Lu",
+        "Zhongxia Chen",
+        "Shuo Yang",
+        "H. Vicky Zhao",
+        "Jie Tang"
+      ],
+      "summary": "Harness development plays a crucial role in building capable AI agents. Recent approaches improve harnesses through recursive self-improvement (RSI), but their performance gains often come with higher execution costs. We introduce HarnessPro, a label-free method for evolving harnesses to improve task performance while reducing execution cost. In this setting, candidate harnesses are evaluated using LLM-generated tests without access to ground-truth solutions or official tests. Specialized agents diagnose execution trajectories, plan updates with different performance-cost priorities, and implement them as candidate harnesses. Rather than returning a single harness, HarnessPro uses normalized weighted squared-distance selection to provide cost-focused (lite), balanced (medium), and performance-focused (heavy) harnesses for different deployment budgets. Selected harnesses enter the next iteration, where execution feedback guides further updates. Our experiments cover Terminal-Bench 2, SWE-Bench Pro, and ProgramBench, using GPT-5.5 with Codex and GLM-5.2 with Claude Code. Across these benchmarks using GPT-5.5 with Codex, the heavy mode of HarnessPro achieves an average pass-rate gain of 2.0 percentage points and an average per-task cost reduction of 26.1% relative to RHO. This advantage also holds when using GLM-5.2 with Claude Code. Code is available at https://github.com/pzs19/HarnessPro"
+    },
+    {
+      "title": "BetaMem: Learning to Remember a Changing World for Embodied Agents",
+      "url": "http://arxiv.org/abs/2610.26554v1",
+      "published": "2026-10-19T15:13:56Z",
+      "authors": [
+        "Mai Liu",
+        "He Sun",
+        "Siru Zhong",
+        "Kerun Chen",
+        "Hao Yan",
+        "Xiaohui Lv",
+        "Shuai Tao",
+        "Wulong Liu"
+      ],
+      "summary": "Long-horizon embodied agents face temporal confusion and incomplete or distorted records, recurring errors from fixed memory rules, and growing storage and retrieval costs. We present BetaMem, a framework for building and evolving traceable long-term memory through six linked layers: working, spatial, entity, episodic, experiential, and procedural memory. A dual-level write contract constrains operation executability and source support for content: supervised fine-tuning learns compliant memory operations, while reinforcement learning combines repeated sampling with teacher verification of the original observations to reward complete, accurate records and penalize omissions, distortion, and unsupported content. We formulate failure-driven policy recursive self-improvement through diagnosis along the causal sequence of memory operations and local rule repairs gated by independent replay. Atomic tools frame storage, updates, retrieval, and forgetting as cost-utility allocation under storage and read budgets. Using the open-source Qwen3.5-9B model for memory generation, BetaMem achieves overall scores of 48.08% on M3-Bench-robot, 92.08% on LoCoMo, 72.6% on OpenEQA EM-EQA, and 62.4% on EgoLifeQA, the highest among the listed memory methods under their respective evaluation protocols. Training the model for memory generation raises the contract pass rate from 50.9% to 86.2% while reducing output tokens per stored action by 47.3%. A separate Qwen3-VL-8B-Instruct evaluation on EMem-Bench achieves an average success rate of 38.4% and an average error recurrence rate of 24.9%. We perform best among evaluated methods using comparably sized open-source models. Category results show that we have advantages in integrating information across observations, recalling events over long histories, and inferring personal habits."
+    },
+    {
+      "title": "VibeTraining-Bench: Data-Trainer-Harness Co-Design for Iterative System Improvement",
+      "url": "http://arxiv.org/abs/2610.26342v1",
+      "published": "2026-10-19T13:10:54Z",
+      "authors": [
+        "Ruotian Peng",
+        "Yuanyi Ren",
+        "Shuaiqi Liu",
+        "Xin Guo",
+        "Fang Zhu",
+        "Yangyi Huang",
+        "Yue Wu",
+        "Zheng Wang",
+        "Yandong Wen",
+        "Zhihang Fu"
+      ],
+      "summary": "Recursive self-improvement (RSI) requires agents to diagnose system bottlenecks and coordinate improvements across training and inference. We refer to the agents' capability to jointly optimize training data, the trainer, and the inference harness as cross-component co-design. We introduce VibeTraining-Bench, a benchmark for evaluating this capability across tasks spanning terminal operation, software engineering, multi-turn tool use, and mathematical reasoning. Within each task, research agents start from an identical initial agent system under a fixed resource budget. Guided by validation feedback, they iteratively refine data, trainers, and inference harnesses, then select and submit a final agent system for evaluation on the test set. To prevent reward hacking, we enforce three safeguards: test data isolation, separate research and grading containers, and network restrictions for research agents. Our evaluation results show that frontier research agents substantially improve target agent systems. For example, on SWE-bench Verified, GPT-6-Astra raises the target agent system's performance from 32.9% to 53.7%, comparable to the human-developed instruct model's 55.4%. However, there is still room to improve their ability to co-design and iteratively refine data, trainer, and harness to achieve cumulative performance gains. We hope that VibeTraining-Bench will serve as a unified platform for advancing RSI, deepening our understanding of cross-component optimization for agent systems. Code and data are available at https://github.com/D2I-ai/VibeTrainingBench."
+    },
+    {
+      "title": "Are Self-Evolving Agents Continual Learners?",
+      "url": "http://arxiv.org/abs/2610.25858v1",
+      "published": "2026-10-19T06:12:45Z",
+      "authors": [
+        "Xiaoyin Chen",
+        "Yizheng Huang",
+        "Yinglun Xu",
+        "Ziyun Zhao",
+        "Emmett McQuinn",
+        "Julie Liu",
+        "Hope Yao"
+      ],
+      "summary": "Large language model agents are often deployed in environments where new knowledge, tools, and workflows keep arriving. Such an agent is therefore expected to adapt continually, learning new tasks as they arrive without forgetting earlier ones. This resembles the continual learning problem, but at a pace that conventional gradient updates cannot sustain. Nonparametric self-evolving agents are a natural alternative: they adapt by rewriting their own harness, such as prompts, memory, and skills, from task feedback while the model weights stay frozen. We study whether such agents are effective continual learners across four drifting task streams that shift in topic, workflow, or domain (built from BIRD, BFCL, and ScienceWorld). Evaluating three representative methods spanning experience retrieval and self-modification (ReasoningBank, GEPA, and Meta-Harness), we find that although self-evolution improves aggregate performance on most streams, higher plasticity consistently comes at the cost of stability. Specifically, self-modifying methods apply global edits to a shared prompt or workspace, interfering with unseen tasks and overwriting earlier knowledge as the stream shifts. Conversely, similarity-based memory retrieval localizes updates across distant domains, but still retrieves foreign memories on unseen tasks and suffers from retrieval collision when similar queries require conflicting workflows. These findings show that current self-evolving agents remain incomplete continual learners."
+    },
+    {
+      "title": "Compile Once, Run Cheap: Frozen, Portable Skills for Embodied Agents, and What Recursive Self-Improvement Adds",
+      "url": "http://arxiv.org/abs/2610.25114v1",
+      "published": "2026-10-18T08:46:13Z",
+      "authors": [
+        "Jingwen Bai",
+        "Guochao Bai",
+        "Canbo Zhang",
+        "Shuangqi Li",
+        "Minchao Hu",
+        "Weichun Huang",
+        "Shuang Liu"
+      ],
+      "summary": "Embodied AI lacks the data-rich pretraining that gave language models their agents and skills, so new manipulation capability costs demonstrations per task or a frontier model in every episode. We study a third route: a strong general model acts only as an offline author that writes, runs, diagnoses and repairs a manipulation skill in simulation until it passes an exam on layouts drawn after freezing; the frozen skill then runs as code alone or under a cheap caller that reads only its description. We call this skill-level recursive self-improvement Skill-RSI and specify a compile protocol (isolated, audited author; hidden validation layouts; no-feedback and inherit-only controls; tamper-evident ledger) and a reuse protocol that runs the identical files with executors from another model family. On 7 RoboTwin 2.0 tasks with cluttered tables, Claude Code compiled 4 tasks into 7 frozen skills, 5 from a first draft needing only qualification, at USD 4.29-8.22 of author cost each (USD 55 per skill counting the 13 failed campaigns). The other three tasks did not compile in 18 campaigns, including five with GPT-6 and a pre-registered 150-layout run: on the hardest task every campaign scored 78-95 of 100 but had 3-16 safety aborts, failing the gate of 95% success with zero aborts; a 100-episode exam bounds an abort rate only to 3.6%. On hidden layouts, repair that inherits the previous version beat from-scratch rewriting in 8 of 8 controlled campaigns (sign test p = 0.004); an inherit-only lineage attributes most of the gap to inheritance, with development feedback adding a little (3 of 3, p = 0.125). Write-once campaigns found no detectable first-draft effect of practice (minimum detectable effect 14 points). The frozen skills kept 148/150 successes on new layouts with no model and 147/150 with a DeepSeek-flash caller at USD 0.00028-0.00054 per episode; no direct-control baseline was run."
+    },
+    {
+      "title": "DAGLoop: Aligning Method Design with Experimental Feedback in Automated AI Research",
+      "url": "http://arxiv.org/abs/2610.25089v1",
+      "published": "2026-10-18T07:53:55Z",
+      "authors": [
+        "Dengyuxing Wang",
+        "Yonggang Zhang",
+        "Qianshu Cai",
+        "Huajiang Zheng",
+        "Jun Song",
+        "Yangqiu Song",
+        "Yike Guo"
+      ],
+      "summary": "Automated AI research agents aim to improve machine learning methods by iteratively proposing, implementing, and evaluating candidate methods. Existing work uses the outcome of each evaluation to determine how the next candidate should be revised for performance improvement. However, a candidate often combines multiple design decisions, and its overall outcome alone does not reveal which decisions produced their expected effects, whether their required conditions were satisfied, or which decisions should be retained or revised. Inspired by ablation studies in the machine learning community, we propose DAGLoop to test the expected effect of a design decision by comparing implementations with and without that decision while preserving the other decisions it requires. Specifically, DAGLoop translates each design decision's rationale into a testable expectation and pairs it with a targeted experiment, forming an experimental specification for assessing the expected effect under its required conditions. Using these specifications, we formulate ablation planning as the construction of a directed acyclic graph (DAG) from the candidate method's design: nodes associate decisions with tests, and edges encode dependencies. The DAG specifies which decisions each experiment must retain and supports joint tests when an expected effect requires several decisions to act together. Outcomes are recorded with the tested decisions, expectations, and conditions to form structured research memory. This memory guides the agent in retaining experimentally supported decisions, revising unsupported ones, and planning further experiments when the evidence is unresolved. Experiments on dozens of research tasks demonstrate substantial performance improvements achieved by DAGLoop across diverse executable research settings. Code and evaluation scripts are available at https://github.com/deng34567/DAGLoop."
+    },
+    {
+      "title": "CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?",
+      "url": "http://arxiv.org/abs/2610.25078v1",
+      "published": "2026-10-18T07:38:03Z",
+      "authors": [
+        "Jiaqi Su",
+        "Guibin Zhang",
+        "Jie-Jing Shao",
+        "Cong Pang",
+        "Tiankuo Yao",
+        "Ivor Tsang",
+        "Haiyan Yin",
+        "Shuicheng Yan"
+      ],
+      "summary": "Model--harness co-evolution has emerged as a prominent paradigm for recursive self-improving (RSI) agents, jointly evolving their execution scaffolds and intrinsic capabilities. We study the persistent yet often overlooked brain--body mismatch problem in this paradigm, where an evolving harness (body) demands behaviors its model (brain) has not learned or restricts capabilities it already possesses. We introduce CoEvo-RSI, a RSI framework that advances model--harness co-evolution through agent-driven, bidirectional historical inheritance. Drawing on a shared evolutionary archive and execution feedback, a meta-agent coordinates harness development from historical designs with model checkpoint selection or merging and subsequent adaptation under the selected harness, aligning inherited capabilities with evolving execution requirements to reduce brain--body mismatch. Using only supervised fine-tuning (SFT) on its own rejection-sampled trajectories, CoEvo-RSI makes Qwen3.5-9B competitive with larger models across diverse vertical applications, including multi-agent failure attribution, role-aware text-to-SQL, and smart-home instruction following. It surpasses DeepSeek-V4-Pro on TraceElephant (+14.16 agent accuracy) and GLM-5.3 on HomeBench VM (+4.90 success rate), underscoring the need for brain--body alignment and the potential of bidirectional historical inheritance to advance agent co-evolution."
+    },
+    {
+      "title": "Conjugate Compilation: Self-Improving Agentic Co-Compilation for Speculative Decoding",
+      "url": "http://arxiv.org/abs/2610.25012v1",
+      "published": "2026-10-18T04:46:51Z",
+      "authors": [
+        "Annabelle Sujun Tang",
+        "Rohan Mahapatra",
+        "Christopher Priebe",
+        "Hanyang Xu",
+        "Manya Ghobadi",
+        "Christopher Rossbach",
+        "Hadi Esmaeilzadeh"
+      ],
+      "summary": "As LLM adoption surges, scaling model serving requires unlocking stranded GPU capacity alongside deploying more GPUs. Speculative decoding brings two models into the serving process: a small draft model proposes tokens that a larger target model verifies. Yet compiling these models individually leaves their shared execution outside the compiler's optimization boundary. We introduce CONJUGATE COMPILATION, which reframes speculative decoding as a cross-model compilation problem and jointly optimizes the draft and target models within their shared execution rather than treating each in isolation. Our key insight is that cross-model compilation should be informed by the measured performance of the co-located shared execution it produces: an optimization that improves a kernel in isolation need not improve the models when they execute together. To expand cross-model opportunities, we devise operand layouts that interleave blocks from both models within common tiles, co-locating GEMM and non-GEMM work while preserving their mathematics. We realize CONJUGATE COMPILATION through a self-improving agentic search system in which an LLM edits cross-model optimization plans using the compiler and GPU execution as its environment. Each proposed plan is compiled and evaluated through its co-located shared execution, whose measured score, together with kernel-level verdicts and compiler feedback, informs subsequent proposals, while Monte Carlo tree search accumulates rewards to guide exploration. Across six single-GPU speculative-decoding configurations on NVIDIA B300 and RTX 5090 GPUs, CONJUGATE COMPILATION achieves a geometric-mean per-round speedup of 1.37x over conventional execution. Interleaved kernels raise this speedup to 1.45x, reaching 1.59x in the best case. CONJUGATE COMPILATION also improves GPU utilization on average by 1.46x on RTX 5090 and 1.50x on B300."
+    },
+    {
+      "title": "Epi: Towards a Persistent, Self-Improving Agent for Autonomous Research",
+      "url": "http://arxiv.org/abs/2610.24944v1",
+      "published": "2026-10-18T01:30:40Z",
+      "authors": [
+        "Yue Huang",
+        "Zhangchen Xu",
+        "Xiaonan Luo",
+        "Zheyuan Liu",
+        "Lichi Li",
+        "Yiping Wang",
+        "Peiyang Song",
+        "Eric Gabriel Ramos",
+        "Enze Xie",
+        "Olexandr Isayev",
+        "Paul Liang",
+        "Nouha Dziri",
+        "Huan Sun",
+        "Jianfeng Gao",
+        "Ying Liu",
+        "Misha Sra",
+        "Xiangliang Zhang",
+        "Alex Pentland",
+        "Zichen Chen"
+      ],
+      "summary": "We present \u00c9pi, an autonomous research agent that sustains investigations across model sessions and evolves its methods through accumulated experience. \u00c9pi combines persistent research history, hierarchical memory, branching and independent review to maintain research continuity, learn from experiments, and explore and revisit alternative approaches. Its experiments run across session boundaries, and a fixed verifier evaluates their outputs. \u00c9pi produced 120 record-setting results, comprising 20 numerical bound records across 12 families and 100 construction records across eight families. These include an approximately 84-fold narrower interval for the $n$-queens constant and a more than 3.6-million-fold narrower rigorous interval for the quartic Feigenbaum attractor dimension. Exact dual certificates establish that the Cohn-Elkies linear-programming bound cannot be sharp in dimensions 10 and 11. Beyond numerical improvements, \u00c9pi gives a computer-assisted proof of Tuza's conjecture for split graphs with an eight-vertex clique part and at most three triangle-active neighborhood types, with arbitrary multiplicities. We extend this research process to algorithmic coding with \u00c9pi-turbo, a lightweight configuration that develops executable solvers for tasks including vehicle routing, scheduling and production planning. On 30 FrontierOR tasks, \u00c9pi-turbo achieves a 5.4% higher total benchmark score than Codex at 64% of its model cost, using the same underlying model and reasoning effort. \u00c9pi is designed to support human understanding by connecting computational results to explicit methods and mathematical arguments that researchers can examine and build upon."
+    },
+    {
+      "title": "Learning to Compose: Recursive Self-Improvement of Shared Executable Stacks for Zero-Shot Long-Horizon Robot Manipulation",
+      "url": "http://arxiv.org/abs/2610.24464v1",
+      "published": "2026-10-17T05:10:05Z",
+      "authors": [
+        "Yangzhi Chen",
+        "Feiran Liu",
+        "Zishuo Wang",
+        "Zijian Jin",
+        "Xin Zhu",
+        "Lecheng Ruan",
+        "Wenjuan Han"
+      ],
+      "summary": "Individually competent robot skills can fail when composed: tools may lack a required capability, completion signals may misrepresent physical progress, and one skill may leave a state that violates its successor's prerequisites. We introduce Recursia, a recursive self-improvement framework that treats the shared executable stack, rather than individual task programs, as the persistent unit of improvement. The stack integrates tools, skills with execution contracts, handoffs, and verifiers. Source-side execution traces guide failure attribution and the generation of missing tools or repairs to existing shared components. Generality checks, mechanism tests, and paired selection and regression gates determine which changes become the next parent. The resulting stack is frozen and reused through declarative task adapters, allowing source-derived changes to support new compositions without target-side code repair. Experiments cover LIBERO-Pro Long simulation and a physical Franka FR3 equipped with a Franka Hand. In simulation, Recursia improves success over ASPIRE by 5.8 percentage points under Pos perturbations and 15.1 points under Task perturbations. Across three physical compositional target tasks, it improves mean success over the Skill Document Only baseline by 40 percentage points. Analyses of constituent execution, candidate rejection, and inference drivers distinguish local mechanism improvements from complete task success and characterize the cost of feedback-conditioned orchestration. These results examine shared executable interfaces as a concrete mechanism for compositional transfer in robot programming."
+    },
+    {
+      "title": "MELD: Recursive Self-Improvement via Hierarchical Coordination for Multi-Agent Scientific Discovery",
+      "url": "http://arxiv.org/abs/2610.24454v1",
+      "published": "2026-10-17T04:43:40Z",
+      "authors": [
+        "Sizhe Tang",
+        "Zuyuan Zhang",
+        "Zeyu Fang",
+        "Tian Lan"
+      ],
+      "summary": "Multi-agent scientific discovery with large language models raises a coupled learning problem: research assignments determine both which experiments are pursued and the experiences from which agents adapt. We introduce MELD, a unified hierarchical test-time training framework that jointly adapts a team-level Coordinator policy and agent-level individual Scientist policies within a single discovery process. The Coordinator generates a joint portfolio of search branches and research directives over a shared derivation tree, while Scientists develop hypotheses and execution plans implemented by a shared frozen Executor. Both levels receive alternating GRPO-style parameter updates under a shared smooth best-of-budget objective, allowing team organization and individual research behavior to co-evolve in a recursive self-improvement loop. Our analysis establishes objective alignment for the hierarchy, characterizes conditions for coordination gains over independent parallel discovery and the first-order benefit of private adaptation, and derives a finite-budget regret bound for adapted models. On 22 MLGym and MLE-bench tasks, MELD is best on 20 of them and achieves the highest aggregate normalized scores on MLGym, using a 4B backbone for coordination and research. Most baselines use proprietary Scientists, and all systems share one frozen Executor."
+    },
+    {
+      "title": "Hippo: Training-Free Agent Self-Evolution via Hippocampal Replay",
+      "url": "http://arxiv.org/abs/2610.24453v1",
+      "published": "2026-10-17T04:43:26Z",
+      "authors": [
+        "Yutong Song",
+        "Jiang Wu",
+        "Yuxuan Ren",
+        "Tony Qin",
+        "Baoyuan Wang"
+      ],
+      "summary": "Motivated by recursive self-improvement (RSI), we study how LLM agents can learn through external memory without updating model parameters. Extracting useful experience from a single attempt is difficult: flawed reasoning can produce success, while poor execution can obscure a sound strategy. Preserving its value over time is also difficult: our accumulation baseline without consolidation initially improves but eventually performs below a no-memory baseline. Our key idea is to compare attempts at the same task to identify reusable decisions and refine when they apply. We introduce Hippo, a memory framework inspired by selective hippocampal encoding and replay that learns from these comparisons when shortcomings are diagnosed. It compares the resulting experience with existing memory to merge overlaps and resolve conflicts through explicit applicability conditions. This allows prior guidance to be revised without storing every lesson as a separate entry. Experiments on SWE-bench Verified, WebArena, and Mind2Web show performance gains in all three settings and substantially fewer retained experiences than the accumulation baseline. The gains extend across the evaluated base models of varying capabilities, indicating that memory-based adaptation remains useful even for highly capable models."
+    },
     {
       "title": "From Trajectories to Differentiated Skills: Cognitive Differentiation for Self-Improving Agents",
       "url": "http://arxiv.org/abs/2610.23599v1",
@@ -35,7 +248,7 @@
     },
     {
       "title": "QD-Rec: Open-Ended Evolution of Recommendations via Quality-Diversity",
-      "url": "http://arxiv.org/abs/2610.23470v1",
+      "url": "http://arxiv.org/abs/2610.23470v2",
       "published": "2026-10-16T13:49:22Z",
       "authors": [
         "Takashi Ishida",
@@ -268,232 +481,6 @@
         "Prakhar Mehrotra"
       ],
       "summary": "A self-improving agent has to decide which new skills to keep, and in practice it keeps whatever earns a high reward, convinces a judge model, or compresses its library, even when the skill is wrong. That is fine until the answers have to be exactly right: over a table of transactions, a total is either right or wrong. We ask a harder question: can an agent grow what it can compute with no reward, no judge, and no answer key, and still be exactly right? A single frozen model runs two nested loops over a small, exact domain-specific language (DSL). The inner loop answers new questions only when two independently written expressions agree on every record. The outer loop discovers its own missing capability and authors an operator for it, admitted only when an independent second implementation agrees and the result obeys a conservation law, all without ground truth. The inner loop roughly triples the answerable-question set, and the outer loop self-extends on disjoint starting sets, inventing operators outside the starting closure; a no-induction control answers none of the new questions. The admission rule is empirically sound: it rejects 138 of 138 buggy operator variants under an independent reference, even one written by a different model family, where the admit-if-it-runs, self-consistency, and compression signals the field relies on admit most of them. Unmodified, the same mechanism self-extends on two further domains with unrelated schemas, business-ledger and clinical-encounter question answering, growing their answerable sets more than tenfold and nearly twentyfold. The loop transfers across model families too: run with further proposers, the gate stays sound and independent families self-extend comparably, with only the induction yield tracking each proposer's DSL fluency."
-    },
-    {
-      "title": "AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents",
-      "url": "http://arxiv.org/abs/2610.20474v1",
-      "published": "2026-10-14T16:51:09Z",
-      "authors": [
-        "Peidong Wang",
-        "Ying Chang",
-        "Zhiming Ma",
-        "Xiaocui Yang",
-        "Shi Feng",
-        "Daqi Liu",
-        "Yuzhe Yang",
-        "Xu Cao",
-        "Chuang Wang",
-        "Jian Su",
-        "Daling Wang"
-      ],
-      "summary": "Pretrained vision-language-action models (VLAs) often fail midway through unseen long-horizon tasks. Recursive self-improvement (RSI) offers a remedy, but embodied RSI methods either refine the harness around a frozen executor and so cannot add a missing motion, or train the executor on persistent failures without asking whether a failure lies in how the executor is called or in what it can do. We ask when a self-improving embodied system should change the weights of its executor, and propose AdaRSI, an on-demand RSI framework for embodied agents. A coding agent first improves its skills and harness, then attributes persistent failures by retrying failing sub-steps from saved states, and fine-tunes only the sub-steps that remain unreliable, with demonstrations it collects itself and experience carried over from earlier tasks. On all 50 target tasks of RoboCasa365, with GR00T N1.5 as the executor and no human demonstrations, AdaRSI improves the VLA on all three suites and raises its success on unseen composite tasks from 4.6% to 13.8%. Compared with fine-tuning every sub-step, it reaches slightly higher success while using only 28% of the GPU time and 22% of the self-collected demonstrations, and fine-tuning without a harness trains more yet gains far less."
-    },
-    {
-      "title": "SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm",
-      "url": "http://arxiv.org/abs/2610.20431v1",
-      "published": "2026-10-14T16:21:45Z",
-      "authors": [
-        "Qianru Meng",
-        "Xi Zhang",
-        "Konstantinos Papakostas",
-        "Congfeng Cao",
-        "Wenxiang Hu",
-        "Tianyi Lu",
-        "Xiao Zhang",
-        "Lun Zhou",
-        "Zaiqiao Meng",
-        "Zhaochun Ren",
-        "Xiaohui Yan",
-        "Yougang Lyu"
-      ],
-      "summary": "Recursive self-improvement (RSI) in scientific research aims to improve agents' research capabilities through their own experimental experience. Scientific agent swarms can combine evidence and implementations from different research directions to guide their agents' subsequent experiments. However, poor experimental results can leave unclear whether to revise a hypothesis or its implementation, while overall program scores can hide components useful to other agents. To address these challenges, we introduce SwarmRSI, a framework that evolves scientific agent swarms for recursive self-improvement. We devise Feedback-Guided Swarm Mutation to refine hypotheses and their implementations using experimental feedback from other agents. We also propose Complementary Swarm Recombination to reuse retained hypotheses and complementary program components across agents, allowing partial results to support new research. Recursive Swarm Evolution integrates both mechanisms into a feedback loop, using new experimental evidence to guide subsequent research. Experiments on OpenProblems, NatureBench and MLE-Bench Lite demonstrate SwarmRSI's state-of-the-art (SOTA) performance. Further evaluations show that accumulated research experience improves performance on held-out tasks. Biologists also reproduce its programs for follow-up biological analyses."
-    },
-    {
-      "title": "Reflect After Failure: Brain-Inspired Self-Evolving Agents for Embodied Spatial Intelligence",
-      "url": "http://arxiv.org/abs/2610.20312v1",
-      "published": "2026-10-14T14:59:04Z",
-      "authors": [
-        "Xin Li",
-        "Xiaohuan Gu",
-        "Yifan Wang",
-        "Shaobin Ling",
-        "Tianli Shi",
-        "Jingao Xu",
-        "Zhimeng Yin",
-        "Dapeng Wu",
-        "Yun Wang"
-      ],
-      "summary": "Vision-Language Models (VLMs) have made substantial progress in spatial reasoning, and self-evolving agents further extend these capabilities to embodied environments by learning from interactions. However, current self-evolution remains particularly challenging in embodied spatial tasks, complex and multi-step decisions from partial visual evidence making it difficult to determine why an execution fails. The failure may stem from misperception, insufficient exploration, or incorrect planning, yet execution feedback alone rarely reveals which component is responsible. As a result, simply accumulating interaction experience can reinforce ineffective strategies. To address this, we propose HiMeco, a brain-inspired self-evolving agent for embodied spatial intelligence, inspired by metacognitive monitoring and hippocampal memory consolidation. Through Hippocampal-Metacognitive Reflection, HiMeco diagnoses failures in perception-exploration-planning (PEP), then compares execution attempts to derive reusable strategies and guidance for avoiding recurring errors. It also abstracts interaction programs into parameterized skills, using evidence contracts and execution-based validation to determine their retention and reuse. These strategies and skills guide subsequent interactions, with memory updated only between rounds and model parameters kept frozen. HiMeco achieves state-of-the-art performance on ESI-Bench, and it also improves accuracy on EmbSpatial-Bench by 3.94 percentage points without evolution."
-    },
-    {
-      "title": "MMLA-RSI: Recursive Self-Improvement through RTT and RTMA",
-      "url": "http://arxiv.org/abs/2610.20294v1",
-      "published": "2026-10-14T14:47:50Z",
-      "authors": [
-        "Junyi Zou",
-        "Avrova Donz"
-      ],
-      "summary": "An agent can improve its behavior within an unresolved problem by changing how it acts and which experience it retains. We propose MMLA-RSI, a recursive self-improvement scheme with two implementations in Memory-Mediated Learning Architecture: Reasoning-Time Training (RTT) changes the policy state $\u03a6$, while Reasoning-Time Memory Adaptation (RTMA) changes authoritative memory $M$. Each route also makes its adaptation method an object of improvement. A current numerical updater trains the policy proposing its successor; a current memory manager chooses the records available to the process proposing its successor. An independently admitted successor takes over the same role in the next generation. We give bounded executable rule languages, shared task/proposal interfaces, and one algorithm for either route or their composition. The RTT instance changes scalar schedules in a clipped-momentum update. The RTMA instance chooses NULL or a complete-row write with possible eviction. A fixed interpreter, trusted committer, and independent evaluator bound what can change. State versions, read closures, and conditional properties describe causal execution, accepted transitions, and finite work. Existing numerical-component studies motivate the construction. In four-candidate program selection, retaining LARC feedback updates reduces expected error by 24.65 and 36.65 percentage points for two trained initializations. In chronological continuous-integration replay, feedback binding is positive while retention increases loss. Completed SQL studies improve substantially over an unadapted substrate but do not establish the required additional online benefit. These results characterize their declared components. The two recursive routes and their joint realization are specified here; their beneficial recursive chains and discovery efficiency remain to be evaluated."
-    },
-    {
-      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-      "url": "http://arxiv.org/abs/2610.20665v1",
-      "published": "2026-10-14T09:35:54Z",
-      "authors": [
-        "Ningxin Pan",
-        "Hanyu Li",
-        "Yeqing Shen",
-        "Ning Ding",
-        "Yehui Tang",
-        "Wentao Zhang"
-      ],
-      "summary": "Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across six game types, to evaluate agents while games continue running during inference. Paired evaluations show that GPT-6.1-sol outperforms the faster Jev when games are paused, but falls behind when they keep running. We propose Two-Timescale Offline Recursive Self-Improvement (TORSI): a slow teacher studies failures and tests corrections in paused games between attempts, then writes reusable instructions for a fast student. The student acts without teacher calls during gameplay, and validation scores determine which updates are adopted. Two rounds raise Jev's average test score from 13.51 to 24.19 on a 0--100 progress scale, improving all six game types. The instructions also improve average scores for three other models without retuning. These findings point toward real-time intelligence: enabling powerful LLM agents to remain effective in a continuously changing world by organizing deliberation, learning, and action across timescales."
-    },
-    {
-      "title": "DarKnight: Retrieval-Guided Agentic Framework for Breaking Dark Web CAPTCHA Gates",
-      "url": "http://arxiv.org/abs/2610.19830v1",
-      "published": "2026-10-14T09:04:50Z",
-      "authors": [
-        "Binghui Wu",
-        "Yeo Zi Yi",
-        "Darren Tan",
-        "Manit Baser",
-        "Levente Csikor",
-        "Dinil Mon Divakaran"
-      ],
-      "summary": "Cyber Threat Intelligence (CTI) investigators who monitor dark web marketplaces for leaked credentials and breach listings must pass the diverse CAPTCHAs that operators deploy to block automated collection. Existing solvers either need unscalable per-site fine-tuning or rely on commercial Vision-Language Model (VLM) APIs, which surrender operational sovereignty: provider policies, Tor-exit blocking, government regulation, or model updates outside the investigator's control can halt or alter the solver overnight, and per-call costs recur with every session and retry. We present DarKnight, a self-improving agentic framework designed to run on a single workstation GPU inside an investigator's Tor crawler and solve CAPTCHAs with small, locally hosted open-weight VLMs that no provider decision can withdraw, without per-market training or third-party services. For each CAPTCHA, DarKnight retrieves successful and failed past attempts on similar images (dual-signal RAG), composes an image-specific preprocessing pipeline, and learns from the site's pass/fail verdict. In a case study on four real-world dark web marketplaces, agentic tool selection outperformed parameter scaling. A deployable open-weight VLM with DarKnight reached 83.2\\% on the most heavily defended market, 37.2 percentage points above its base model, outperforming even the frontier Claude Opus~5 (44%). DarKnight recovered 48.2% of baseline failures at a 7.6% degeneration cost, indicating that selective tool use can avoid much of the degradation caused by uniform preprocessing."
-    },
-    {
-      "title": "TimeRSI: Towards Self-Improved Agentic Deployment for Time-Series Foundation Models",
-      "url": "http://arxiv.org/abs/2610.19725v2",
-      "published": "2026-10-14T07:48:38Z",
-      "authors": [
-        "Haoxin Liu",
-        "Deqing Fu",
-        "Lucheng Fu",
-        "Yiqiao Jin",
-        "Rushi Qiang",
-        "Harshavardhan Kamarthi",
-        "B. Aditya Prakash"
-      ],
-      "summary": "Time-series foundation models provide strong zero-shot forecast, but deployment for real-world applications still requires task-specific designs for model inputs and outputs. Direct inference can leave domain knowledge and recurring forecast errors unaddressed, while tailored pipelines require substantial human expertise and effort. We introduce TimeRSI, a self-improving agentic deployment system around frozen forecasting models. A coding agent translates task descriptions into executable pipeline changes. It tests each revision on historical forecasting windows and uses observed errors to guide subsequent revisions. During deployment, an adaptive selector chooses among the resulting pipelines using completed forecasts under similar conditions. Across 198 tasks on TIME and fev-bench, TimeRSI outperforms all submissions on six point and probabilistic forecasting metrics. Controlled comparisons support the value of feedback-guided revision over non-iterative pipeline search. Further experiments verify the generalization with different coding agents and forecasting models. Code is available at https://github.com/haoxin1998/TimeRSI."
-    },
-    {
-      "title": "L3M: A Verifiable Harness and Runtime for Self-Extending and Self-Improving Agents",
-      "url": "http://arxiv.org/abs/2610.19591v1",
-      "published": "2026-10-14T05:03:06Z",
-      "authors": [
-        "Carson Eisenach",
-        "Robert Joseph George",
-        "Vincent Quenneville-Belair",
-        "Kate Gwimm",
-        "Dean Foster"
-      ],
-      "summary": "The lasting gains in AI have come from methods that absorb more computation, and language models already scale computation within a call. Useful work, though, happens across calls: over hours or days, through tools and external systems, among many agents and the humans they work for, and increasingly through code the agents write themselves. Whether that work compounds is enabled by the harness around it, and the harness faces a constraint the model does not: of the three participants in such a computation, the human, the model and code, only the human's attention does not scale, so the computation can grow only if the human is not in every loop. L3M is a runtime built on that premise, written in Lean 4 so that one language implements the harness, states its invariants, and is the language agents extend it in. One computation spans humans, agents, models and code, and all of its state lives in Git: a rich state trajectory -- rather than a chat conversation -- is an object the runtime can resume, rewind, fork, compare and merge. Waiting, communication, delegation and undo are primitives, not patterns the model reasons through each time. When an agent works out a procedure, it can write it once as a sealed Lean program whose type is its permission request, and the harness offers it back as a tool -- machinery for the model to use. To take the human out of the loop, L3M uses reversibility to decide where that is safe: a tool's review tier follows from how far its effects can be undone, so agents act freely where the runtime can recover. Because the machinery can change, the properties that make this safe are stated as kernel-checked theorems about the code that runs. On Terminal-Bench, an untuned L3M reaches about two thirds of its (unsafe) shell-equipped pass rate using only safe (not needing human review) tools."
-    },
-    {
-      "title": "VideoHarness-SRSI: Structured Recursive Self-Improvement for Video Understanding Harness",
-      "url": "http://arxiv.org/abs/2610.19424v2",
-      "published": "2026-10-14T02:17:07Z",
-      "authors": [
-        "Zihao Lin",
-        "Haoyu Dong",
-        "Haobo Xu",
-        "Chi-Chih Chang",
-        "Xuying Ning",
-        "Yinglong Xia",
-        "Shuang Yang",
-        "Zhuokai Zhao",
-        "Xinying Song",
-        "Dongfang Liu",
-        "Lifu Huang",
-        "Yang Song",
-        "Qifan Wang"
-      ],
-      "summary": "LLM system capabilities depend not only on model parameters but also on the executable harnesses that organize information acquisition, tool use, reasoning, and memory. Recursive harness evolution can automate their design, but how it can reliably discover generalizable systems from limited, noisy, and repeatedly reused feedback remains unclear. We study this question in agentic video understanding, where rich multimodal evidence and coupled mechanisms make harness optimization challenging. We first introduce VHarness-BRSI, a recursive self-improvement framework that evolves video harnesses around a frozen vision-language model. Analyzing over 4,000 evolved candidates, we find it competitive with hand-engineered systems but identify three interconnected failure modes: validation overfitting, search-budget dilution, and the early-experience trap. We trace all three to a common root: the same imperfect validation evidence drives both harness revisions and the proposer's search strategy. We therefore propose VHarness-SRSI, an evidence-governed framework in which every search decision rests on evidence that is transferable, sufficient, and gathered before the search commits. It restricts the proposer to content-free feedback, informs exploration with instrumented warm-up experiments, and develops mechanisms in isolated probe-race branches before factorial composition and joint refinement. Across four video understanding benchmarks, VideoHarness-SRSI improves the equally weighted mean held-out score by 6.2% relative to VideoHarness-BRSI and reduces the mean validation-test gap by 37.9%. Reliable harness evolution thus depends on how search is organized and informed, not only on how well it optimizes validation performance."
-    },
-    {
-      "title": "EpiGuard: An Autonomous Infectious-Disease Early Warning Agent Platform",
-      "url": "http://arxiv.org/abs/2610.19396v1",
-      "published": "2026-10-14T01:46:04Z",
-      "authors": [
-        "Tonglong Wei",
-        "Zheng Yuan",
-        "Lingshuai Lin",
-        "Yuhui Yao",
-        "Xing Xie",
-        "Na Zou"
-      ],
-      "summary": "Infectious disease outbreaks often spread rapidly before signs of widespread transmission become apparent, leaving a big challenge for rapid response and effective intervention. However, current infectious-disease early-warning systems face three major challenges: fragmented epidemiological evidence across diverse surveillance sources, highly uneven data availability across diseases and geographic regions, and delayed warning procedure caused by manual data collection, analysis, and reporting. To address these challenges, we present EpiGuard, an autonomous, continually self-improving agentic platform for timely and reliable early warning of more than 50 infectious diseases across different regions. EpiGuard proactively monitors and captures newly released official surveillance records, using the latest available evidence for risk assessments. It dynamically adjusts its analytical strategy across three evidence availability regimes, enabling reliable risk assessment under diverse data conditions, ranging from the absence of historical observations to sparse and abundant evidence. Moreover, EpiGuard learns from the successful execution process by preserving effective data-acquisition and analytical procedures as reusable standard operating procedures, enabling it to progressively generalize to previously unseen diseases and regions. We use officially released infectious-disease surveillance data from the China CDC and the United States CDC to evaluate EpiGuard's effectiveness. Experimental results demonstrate that EpiGuard outperforms state-of-the-art forecasting systems, improving forecasting performance by 9.68% and 14.04% on the China CDC and U.S. CDC datasets, respectively."
-    },
-    {
-      "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
-      "url": "http://arxiv.org/abs/2610.18868v1",
-      "published": "2026-10-13T17:59:51Z",
-      "authors": [
-        "Wenbo Hu",
-        "Shraman Pramanick",
-        "Krishna Kumar Singh",
-        "Nanyun Peng",
-        "Kai-Wei Chang",
-        "Yong Jae Lee"
-      ],
-      "summary": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely for lack of both training data and a working recipe, and scaling both is hard: long, complex tasks are difficult to curate and verify, and their rewards are sparse. We address both. First, we introduce Tev-Gym, the first long-horizon agent training dataset with verifiable, dense, progressive rewards -- 1,170 verified task environments across 7 domains. It is built on a latent-world-first approach that first constructs a latent world: a complete and correct hidden specification of the task domain, workflow, and expected state after each step. Each task is then progressively rendered from this specification into an agent-facing environment, enabling controllable complexity and a natural progress metric. Second, we turn this metric into a training recipe: via progress-potential reward shaping (PPRS), we convert progress into a dense per-step reward that improves training efficiency and makes otherwise-intractable tasks trainable. Training with this recipe yields Tev-27B, which achieves substantial gains on the Agents' Last Exam computing and math sciences domains (ALE-CM), matching GPT-6 Astra and Claude Opus 5 at Pass@5. Despite training only on ALE-related data, it generalizes to the Terminal-Bench (TB) 3.0 and 4.0 subsets, surpassing GLM 5.2 and Gemini 3.7 Flash, and reaches Claude Opus 4.8-level performance on middle-horizon tasks such as TB 2.1."
-    },
-    {
-      "title": "The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement",
-      "url": "http://arxiv.org/abs/2610.18845v2",
-      "published": "2026-10-13T17:57:51Z",
-      "authors": [
-        "Sijie Zhao",
-        "Zeqi Zhou",
-        "Heli Qi",
-        "Xuanchao Fu",
-        "Zhuo Zheng",
-        "Junshi Xia",
-        "Junjue Wang",
-        "Weihao Xuan",
-        "Naoto Yokoya"
-      ],
-      "summary": "Earth observation (EO) models are still built by hand. For each new task, experts design a training recipe and tune it against a benchmark. We show that this loop can be handed to an agent. Any verifiable task can be cast as a harness and a verifier, where the harness defines what the agent may use and the verifier defines what counts as success. Every EO task can be made verifiable, through labeled benchmarks, independent sensors, physical models or the repeated observation of the same place. Given only these two components, a general-purpose coding agent builds the EO model and improves it recursively on its own outputs. Settings long treated as separate research problems, from learning with a handful of labels to adapting across domains, become choices of harness and verifier. On six EO benchmarks spanning optical, SAR and multispectral time-series imagery, with outputs that range from land-cover maps and ship instances to canopy heights and answers about large images, agent-built models surpass the state of the art on every one, and on land-cover mapping, they do so from 11% of the training labels. This establishes a new paradigm for EO, in which people design harnesses and verifiers and agents build the models, so EO models improve as agents do."
-    },
-    {
-      "title": "Who Improves the Robot? Toward Physical Recursive Self-Improvement",
-      "url": "http://arxiv.org/abs/2610.18842v1",
-      "published": "2026-10-13T17:57:04Z",
-      "authors": [
-        "Hai Zhou",
-        "Fan Yang",
-        "Zeyi Chen",
-        "Lejun Zhang",
-        "Chenyang Fu",
-        "Jianping Li",
-        "Jiayi Zhu",
-        "Xianyang Liu",
-        "Yingxuan Yang",
-        "Lili Meng",
-        "Lu Wang",
-        "Xinyang Han",
-        "Jiankai Sun",
-        "Weirui Ye",
-        "Guanchu Wang",
-        "Wanhua Li",
-        "Ming Zhou",
-        "Boyi Li",
-        "Ming Jin",
-        "Kun Shao",
-        "Muhao Chen",
-        "Guang Chen",
-        "Lei Ma",
-        "Joey Tianyi Zhou",
-        "Costas Spanos",
-        "Xia Hu",
-        "Mac Schwager",
-        "Weinan Zhang",
-        "Qian Feng",
-        "Shangding Gu"
-      ],
-      "summary": "Robots are increasingly autonomous in task execution, yet their improvement remains largely human-driven. This study investigates Physical Recursive Self-Improvement (Physical RSI), in which physical experience guides lasting updates to both a robot's capabilities and its improvement procedure, making subsequent improvement more effective across tasks. Physical RSI faces challenges from noisy observations, continuous dynamics, costly trials, and irreversible consequences. We present an L0-L5 framework that differentiates capability-level from meta-level updates and within-task from across-task gains, reserving L5 for independently verified recursive gain. We study existing methods around harness adaptation and model training, alongside safety and control mechanisms that govern execution and successive updates. Our analysis reveals that, despite substantial progress in self-improvement, the surveyed literature does not yet demonstrate Physical RSI as defined by our framework. We identify research priorities in reliable feedback, causal attribution, safety preservation, and benchmarking, outlining a path toward robots that autonomously improve how they learn while ensuring safety. The GitHub repository for Physical RSI is available at https://github.com/SAIL-Research-Lab/Physical-RSI."
     }
   ]
 }
