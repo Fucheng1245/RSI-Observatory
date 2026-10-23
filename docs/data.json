@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22T08:37:13.270750+00:00",
+  "generated_at": "2026-10-23T08:33:19.665679+00:00",
   "failures": [],
-  "papers_generated_at": "2026-10-22T08:37:13.270750+00:00",
+  "papers_generated_at": "2026-10-23T08:33:19.665679+00:00",
   "repositories": [
     {
       "full_name": "PrimeIntellect-ai/prime-agent",
@@ -9,15 +9,15 @@
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "category": "Self-improving agent",
       "note": "Self-improving RLM agent for coding workflows and long-running autonomous tasks; strong adjacent/direct-candidate signal.",
-      "stars": 22251,
-      "forks": 2463,
-      "open_issues": 144,
+      "stars": 22272,
+      "forks": 2466,
+      "open_issues": 140,
       "language": "Rust",
       "created_at": "2026-05-08T01:42:41Z",
-      "updated_at": "2026-10-22T07:43:00Z",
-      "pushed_at": "2026-10-22T08:22:50Z",
+      "updated_at": "2026-10-23T07:01:28Z",
+      "pushed_at": "2026-10-22T23:27:31Z",
       "topics": [],
-      "delta_7d": 214
+      "delta_7d": 220
     },
     {
       "full_name": "SakanaAI/AI-Scientist",
@@ -25,15 +25,15 @@
       "description": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery \ud83e\uddd1\u200d\ud83d\udd2c",
       "category": "Automated AI R&D",
       "note": "Major open automated research system; adjacent to closed-loop AI R&D rather than strict RSI.",
-      "stars": 14771,
+      "stars": 14777,
       "forks": 2068,
       "open_issues": 123,
       "language": "Jupyter Notebook",
       "created_at": "2024-08-12T09:32:55Z",
-      "updated_at": "2026-10-22T08:29:42Z",
+      "updated_at": "2026-10-23T08:29:30Z",
       "pushed_at": "2025-12-19T07:46:21Z",
       "topics": [],
-      "delta_7d": 53
+      "delta_7d": 38
     },
     {
       "full_name": "jennyzzt/dgm",
@@ -41,15 +41,15 @@
       "description": "Darwin G\u00f6del Machine: Open-Ended Evolution of Self-Improving Agents",
       "category": "Open-ended agent evolution",
       "note": "Darwin G\u00f6del Machine: open-ended evolution of self-improving agents via source-code modification and empirical selection.",
-      "stars": 2444,
-      "forks": 455,
+      "stars": 2447,
+      "forks": 456,
       "open_issues": 30,
       "language": "Python",
       "created_at": "2025-05-23T14:25:57Z",
-      "updated_at": "2026-10-22T06:57:34Z",
+      "updated_at": "2026-10-23T08:31:21Z",
       "pushed_at": "2025-08-13T10:40:14Z",
       "topics": [],
-      "delta_7d": 26
+      "delta_7d": 28
     },
     {
       "full_name": "FrontisAI/OpenRSI",
@@ -57,15 +57,15 @@
       "description": "Executable, measurable, and reproducible AI4AI toward recursive self-improvement. Home of OpenMLE and Frontis-MA1.",
       "category": "Core / AI4AI",
       "note": "Open full-stack AI4AI work toward recursive self-improvement, including OpenMLE and Frontis-MA1.",
-      "stars": 845,
+      "stars": 847,
       "forks": 77,
       "open_issues": 16,
       "language": "Python",
       "created_at": "2026-07-30T17:19:53Z",
-      "updated_at": "2026-10-22T07:41:19Z",
+      "updated_at": "2026-10-23T04:31:44Z",
       "pushed_at": "2026-09-17T14:17:36Z",
       "topics": [],
-      "delta_7d": 23
+      "delta_7d": 20
     },
     {
       "full_name": "HITsz-TMG/KnowAct",
@@ -89,12 +89,12 @@
       "description": "G\u00f6del Agent: A Self-Referential Agent Framework for Recursive Self-Improvement",
       "category": "Self-modifying agent",
       "note": "Self-referential agent framework focused directly on recursive self-improvement.",
-      "stars": 237,
+      "stars": 239,
       "forks": 54,
       "open_issues": 2,
       "language": "Python",
       "created_at": "2024-10-06T05:30:33Z",
-      "updated_at": "2026-10-16T07:30:30Z",
+      "updated_at": "2026-10-22T13:16:04Z",
       "pushed_at": "2025-09-17T22:21:44Z",
       "topics": [],
       "delta_7d": 2
@@ -106,8 +106,8 @@
       "category": "Memory evolution",
       "note": "Recursive experiential-working memory evolution for long-horizon agent harnesses.",
       "stars": 245,
-      "forks": 29,
-      "open_issues": 1,
+      "forks": 30,
+      "open_issues": 2,
       "language": "Python",
       "created_at": "2026-08-25T05:33:44Z",
       "updated_at": "2026-10-21T11:54:17Z",
@@ -121,7 +121,7 @@
         "memory-system",
         "rsi"
       ],
-      "delta_7d": 6
+      "delta_7d": 4
     },
     {
       "full_name": "zjunlp/LightRSI",
@@ -162,12 +162,12 @@
       "description": "RSI-Exam: Measuring Recursive Self-Improvement on Long-Horizon, Executable Research Tasks \u00b7 Discord https://discord.gg/FBzhepyE",
       "category": "Benchmark",
       "note": "Measures recursive self-improvement through long-horizon executable research.",
-      "stars": 189,
+      "stars": 190,
       "forks": 9,
       "open_issues": 2,
       "language": "Python",
       "created_at": "2026-08-26T06:58:55Z",
-      "updated_at": "2026-10-20T06:06:39Z",
+      "updated_at": "2026-10-23T01:20:08Z",
       "pushed_at": "2026-10-18T07:26:43Z",
       "topics": [
         "benchmark",
@@ -181,15 +181,15 @@
       "description": "RSI Bench is an ongoing effort to evaluate whether AI agents can develop the capabilities required to advance AI R&D. ",
       "category": "Benchmark",
       "note": "Evaluates whether agents can develop capabilities required to advance AI R&D.",
-      "stars": 94,
-      "forks": 51,
-      "open_issues": 36,
+      "stars": 96,
+      "forks": 52,
+      "open_issues": 35,
       "language": "Python",
       "created_at": "2026-07-30T14:53:49Z",
-      "updated_at": "2026-10-22T07:10:24Z",
-      "pushed_at": "2026-10-21T17:43:14Z",
+      "updated_at": "2026-10-23T07:19:32Z",
+      "pushed_at": "2026-10-22T21:28:29Z",
       "topics": [],
-      "delta_7d": 10
+      "delta_7d": 11
     },
     {
       "full_name": "Gen-Verse/PAST-Bench",
@@ -232,7 +232,7 @@
       "updated_at": "2026-10-22T05:25:31Z",
       "pushed_at": "2026-10-10T12:02:25Z",
       "topics": [],
-      "delta_7d": -228
+      "delta_7d": -262
     },
     {
       "full_name": "Tencent/VideoHarness-RSI",
@@ -240,15 +240,15 @@
       "description": null,
       "category": "Harness evolution",
       "note": "Domain-specific harness RSI work for video systems.",
-      "stars": 10,
+      "stars": 11,
       "forks": 0,
       "open_issues": 0,
       "language": "Python",
       "created_at": "2026-09-03T13:39:15Z",
-      "updated_at": "2026-10-14T01:36:56Z",
+      "updated_at": "2026-10-23T04:26:05Z",
       "pushed_at": "2026-09-07T14:35:37Z",
       "topics": [],
-      "delta_7d": 0
+      "delta_7d": 1
     },
     {
       "full_name": "lobehub/awesome-rsi",
@@ -256,12 +256,12 @@
       "description": "A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.",
       "category": "Research map",
       "note": "Curated research map spanning RSI models, agents, harnesses, benchmarks and safety.",
-      "stars": 844,
-      "forks": 69,
-      "open_issues": 22,
+      "stars": 856,
+      "forks": 71,
+      "open_issues": 24,
       "language": null,
       "created_at": "2026-08-11T03:59:57Z",
-      "updated_at": "2026-10-22T05:40:19Z",
+      "updated_at": "2026-10-23T06:34:25Z",
       "pushed_at": "2026-10-15T14:47:23Z",
       "topics": [
         "agi",
@@ -284,7 +284,7 @@
         "self-improving-ai",
         "self-improving-systems"
       ],
-      "delta_7d": 125
+      "delta_7d": 120
     },
     {
       "full_name": "selfimproving-agent/Awesome-Self-Improving-Agents",
@@ -292,12 +292,12 @@
       "description": "A curated list for Self-Improvement in Foundation Model Based Agentic Systems.",
       "category": "Research map",
       "note": "Broad survey-oriented collection of self-improving agent research.",
-      "stars": 583,
-      "forks": 64,
-      "open_issues": 4,
+      "stars": 585,
+      "forks": 65,
+      "open_issues": 5,
       "language": "TeX",
       "created_at": "2025-12-28T05:29:23Z",
-      "updated_at": "2026-10-22T07:56:39Z",
+      "updated_at": "2026-10-23T03:20:10Z",
       "pushed_at": "2026-10-19T05:15:53Z",
       "topics": [
         "agent",
@@ -309,7 +309,7 @@
         "self-evolving",
         "self-improving-agents"
       ],
-      "delta_7d": 22
+      "delta_7d": 19
     },
     {
       "full_name": "D2I-ai/awesome-recursive-self-improving-agents",
@@ -329,6 +329,25 @@
     }
   ],
   "papers": [
+    {
+      "title": "CANNBot-CAKE: Collaborative Agentic Kernel Evolution for Ascend NPU",
+      "url": "http://arxiv.org/abs/2610.31034v1",
+      "published": "2026-10-22T10:12:45Z",
+      "authors": [
+        "Deng Pan",
+        "Xue-Jian Gao",
+        "Junyi Fan",
+        "Bin Du",
+        "Jiasheng Li",
+        "Xinxian Chen",
+        "Nok Yan Chang",
+        "Xinlin Li",
+        "Lingchao Zheng",
+        "Jun Li",
+        "Yuwei Fan"
+      ],
+      "summary": "Efficient custom operators are essential for modern deep learning workloads, yet developing high-performance kernels for Ascend NPUs remains slow, expert-intensive, and difficult to automate. Although AI agents now approach expert performance on GPU kernel benchmarks, current models remain less capable of generating AscendC kernels for NPUs, potentially reflecting the relative scarcity of relevant training data. We thus present CAKE, a CANN-native system for deployable custom operators that combines adaptive multi-DSL routing, separate Generation and Evolution modes, and reviewed knowledge reuse through CAKE Book and a Self-Evolving Agent. On 53 CANN-Bench v1.1 operators on Ascend 950PR, CAKE's aggregated results achieve $100\\%$ case pass rate on the standard set (1,060/1,060) and $98.28\\%$ on the hidden set (4,167/4,240), with an overall mean score of 78.63 out of 100 and an average performance speedup of $1.334\\times$ over the baseline. Evolution then pushes correct operators further: EngramGateFusion cuts aggregate device time by $46.6\\%$ over 20 rounds and roughly halves the mean roofline gap. These results offer a practical path toward closing Ascend's AI-for-kernel capability gap."
+    },
     {
       "title": "HGM-Dual: Lineage-Aware Guided Agent Harness Optimization for Long-Horizon Planning",
       "url": "http://arxiv.org/abs/2610.30042v1",
@@ -356,7 +375,7 @@
     },
     {
       "title": "Evolving with Open Worlds: Towards Recursive Self-Improvement for Future Forecasting",
-      "url": "http://arxiv.org/abs/2610.29784v1",
+      "url": "http://arxiv.org/abs/2610.29784v2",
       "published": "2026-10-21T14:09:57Z",
       "authors": [
         "Zhipeng Chen",
@@ -375,7 +394,7 @@
         "Bryan Dai",
         "Wayne Xin Zhao"
       ],
-      "summary": "Most contemporary artificial intelligence (AI) systems are released with frozen parameters and improve through external updates, whereas an ideal system would keep improving from its own experience, a capacity we call recursive self-improvement (RSI). Yet studying RSI requires an environment that is continuously changing, objectively verifiable, and naturally grounded, posing a fundamental challenge for agent evolution. Here we introduce DeepEvolve, a sustainable evolution agent system grounded in future event prediction, in which agents continuously interact with a dynamically evolving environment and improve by internalizing and externalizing the experience gained through these interactions. A living environment synthesizes verifiable tasks, and a recursive-evolution engine turns the reasoning trajectory behind each prediction back into capability: decoupling search from prediction adapts parameter-level evolution to the contamination-prone live environment, while distilling reusable skills lets the agent evolve from the limited live trajectories such an environment affords. On the external FutureX leaderboard, which evaluates predictions against real-world outcomes and is updated weekly, our self-improved forecaster ranked first across all systems over three consecutive weeks, achieving up to a 195% improvement in rating. On our synthesized evaluation, it ranked among the top three across four base LLMs, outperforming the strongest baseline by up to 10.7 Bradley--Terry points. More broadly, these results suggest that a system built for self-improvement is best understood as an agent that co-evolves with a genuinely living, open-ended environment, pointing to a shift in AI from training static models on fixed data toward cultivating agents that grow stronger from their own experience, with such an open world as the indispensable basis of that growth."
+      "summary": "Most contemporary artificial intelligence (AI) systems are released with frozen parameters and improve through external updates, whereas an ideal system would keep improving from its own experience, a capacity we call recursive self-improvement (RSI). Yet studying RSI requires an environment that is continuously changing, objectively verifiable, and naturally grounded, posing a fundamental challenge for agent evolution. Here we introduce EvoForesight, a sustainable evolution agent system grounded in future event prediction, in which agents continuously interact with a dynamically evolving environment and improve by internalizing and externalizing the experience gained through these interactions. A living environment synthesizes verifiable tasks, and a recursive-evolution engine turns the reasoning trajectory behind each prediction back into capability: decoupling search from prediction adapts parameter-level evolution to the contamination-prone live environment, while distilling reusable skills lets the agent evolve from the limited live trajectories such an environment affords. On the external FutureX leaderboard, which evaluates predictions against real-world outcomes and is updated weekly, our self-improved forecaster ranked first across all systems over three consecutive weeks, achieving up to a 195% improvement in rating. On our synthesized evaluation, it ranked among the top three across four base LLMs, outperforming the strongest baseline by up to 10.7 Bradley--Terry points. More broadly, these results suggest that a system built for self-improvement is best understood as an agent that co-evolves with a genuinely living, open-ended environment, pointing to a shift in AI from training static models on fixed data toward cultivating agents that grow stronger from their own experience, with such an open world as the indispensable basis of that growth."
     },
     {
       "title": "Will AI kill us all---or just make mathematicians obsolete?",
@@ -528,7 +547,7 @@
     },
     {
       "title": "RSI Control: Can AI Models Perform Covert Sabotage in the Self-Improvement Process?",
-      "url": "http://arxiv.org/abs/2610.27735v1",
+      "url": "http://arxiv.org/abs/2610.27735v2",
       "published": "2026-10-20T06:57:59Z",
       "authors": [
         "Kaiwen Zhou",
@@ -614,18 +633,6 @@
         "Wulong Liu"
       ],
       "summary": "Long-horizon embodied agents face temporal confusion and incomplete or distorted records, recurring errors from fixed memory rules, and growing storage and retrieval costs. We present BetaMem, a framework for building and evolving traceable long-term memory through six linked layers: working, spatial, entity, episodic, experiential, and procedural memory. A dual-level write contract constrains operation executability and source support for content: supervised fine-tuning learns compliant memory operations, while reinforcement learning combines repeated sampling with teacher verification of the original observations to reward complete, accurate records and penalize omissions, distortion, and unsupported content. We formulate failure-driven policy recursive self-improvement through diagnosis along the causal sequence of memory operations and local rule repairs gated by independent replay. Atomic tools frame storage, updates, retrieval, and forgetting as cost-utility allocation under storage and read budgets. Using the open-source Qwen3.5-9B model for memory generation, BetaMem achieves overall scores of 48.08% on M3-Bench-robot, 92.08% on LoCoMo, 72.6% on OpenEQA EM-EQA, and 62.4% on EgoLifeQA, the highest among the listed memory methods under their respective evaluation protocols. Training the model for memory generation raises the contract pass rate from 50.9% to 86.2% while reducing output tokens per stored action by 47.3%. A separate Qwen3-VL-8B-Instruct evaluation on EMem-Bench achieves an average success rate of 38.4% and an average error recurrence rate of 24.9%. We perform best among evaluated methods using comparably sized open-source models. Category results show that we have advantages in integrating information across observations, recalling events over long histories, and inferring personal habits."
-    },
-    {
-      "title": "Learning What to Remember: Resource-Efficient Self-Improvement for Lifelong Agents",
-      "url": "http://arxiv.org/abs/2610.26453v2",
-      "published": "2026-10-19T14:09:45Z",
-      "authors": [
-        "Guannan Lai",
-        "Zi-Yang Bai",
-        "Jun-Peng Jiang",
-        "Han-Jia Ye"
-      ],
-      "summary": "Self-improving agents aim to continuously improve their behavior by learning from experience after deployment. However, accumulating and reusing more experience does not necessarily lead to better decisions, particularly when generation, interaction, and memory resources are jointly constrained. Under such stringent constraints, we find that several existing lifelong-memory methods provide limited benefits over simple retrieval or even no-memory agents. This reveals a fundamental challenge for resource-efficient self-improvement: agents must learn not only which past experiences are relevant, but which are actually worth reusing to improve future decisions. When memory capacity and opportunities for reasoning and recovery are limited, retrieving an ineffective experience can consume scarce resources and hinder downstream execution. To address this challenge, we propose TokenWorth, a lightweight feedback-driven memory adaptation framework that learns query-dependent memory worth from sparse execution feedback. Without updating the backbone model, TokenWorth uses the learned worth to guide both experience retrieval and bounded memory management, enabling the agent to continually adapt how it reuses accumulated experience. Across three LifelongAgentBench environments and both local and API-based deployments, TokenWorth achieves the highest task success rate while using the fewest output tokens among the evaluated methods under the specified resource budgets. These results suggest that effective self-improvement under resource constraints depends not on accumulating more experience, but on learning what is worth remembering. Our code is publicly available at https://github.com/AIGNLAI/TokenWorth."
     }
   ]
 }
