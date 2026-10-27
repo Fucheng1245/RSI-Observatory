@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-26T08:56:04.288051+00:00",
+  "generated_at": "2026-10-27T09:00:19.351842+00:00",
   "failures": [],
-  "papers_generated_at": "2026-10-26T08:56:04.288051+00:00",
+  "papers_generated_at": "2026-10-27T09:00:19.351842+00:00",
   "repositories": [
     {
       "full_name": "PrimeIntellect-ai/prime-agent",
@@ -9,15 +9,15 @@
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "category": "Self-improving agent",
       "note": "Self-improving RLM agent for coding workflows and long-running autonomous tasks; strong adjacent/direct-candidate signal.",
-      "stars": 22340,
-      "forks": 2477,
-      "open_issues": 144,
+      "stars": 22381,
+      "forks": 2484,
+      "open_issues": 148,
       "language": "Rust",
       "created_at": "2026-05-08T01:42:41Z",
-      "updated_at": "2026-10-26T08:54:58Z",
-      "pushed_at": "2026-10-26T08:29:20Z",
+      "updated_at": "2026-10-27T08:41:30Z",
+      "pushed_at": "2026-10-27T03:27:52Z",
       "topics": [],
-      "delta_7d": 185
+      "delta_7d": 190
     },
     {
       "full_name": "SakanaAI/AI-Scientist",
@@ -25,15 +25,15 @@
       "description": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery \ud83e\uddd1\u200d\ud83d\udd2c",
       "category": "Automated AI R&D",
       "note": "Major open automated research system; adjacent to closed-loop AI R&D rather than strict RSI.",
-      "stars": 14795,
-      "forks": 2069,
+      "stars": 14807,
+      "forks": 2070,
       "open_issues": 123,
       "language": "Jupyter Notebook",
       "created_at": "2024-08-12T09:32:55Z",
-      "updated_at": "2026-10-26T08:19:13Z",
+      "updated_at": "2026-10-27T08:32:23Z",
       "pushed_at": "2025-12-19T07:46:21Z",
       "topics": [],
-      "delta_7d": 32
+      "delta_7d": 43
     },
     {
       "full_name": "jennyzzt/dgm",
@@ -41,15 +41,15 @@
       "description": "Darwin G\u00f6del Machine: Open-Ended Evolution of Self-Improving Agents",
       "category": "Open-ended agent evolution",
       "note": "Darwin G\u00f6del Machine: open-ended evolution of self-improving agents via source-code modification and empirical selection.",
-      "stars": 2453,
+      "stars": 2458,
       "forks": 458,
-      "open_issues": 30,
+      "open_issues": 28,
       "language": "Python",
       "created_at": "2025-05-23T14:25:57Z",
-      "updated_at": "2026-10-26T05:43:04Z",
+      "updated_at": "2026-10-27T03:46:40Z",
       "pushed_at": "2025-08-13T10:40:14Z",
       "topics": [],
-      "delta_7d": 19
+      "delta_7d": 22
     },
     {
       "full_name": "FrontisAI/OpenRSI",
@@ -57,15 +57,15 @@
       "description": "Executable, measurable, and reproducible AI4AI toward recursive self-improvement. Home of OpenMLE and Frontis-MA1.",
       "category": "Core / AI4AI",
       "note": "Open full-stack AI4AI work toward recursive self-improvement, including OpenMLE and Frontis-MA1.",
-      "stars": 856,
+      "stars": 859,
       "forks": 78,
       "open_issues": 16,
       "language": "Python",
       "created_at": "2026-07-30T17:19:53Z",
-      "updated_at": "2026-10-26T03:55:28Z",
+      "updated_at": "2026-10-26T19:28:04Z",
       "pushed_at": "2026-09-17T14:17:36Z",
       "topics": [],
-      "delta_7d": 21
+      "delta_7d": 17
     },
     {
       "full_name": "HITsz-TMG/KnowAct",
@@ -105,12 +105,12 @@
       "description": "Recursive Experiential\u2013Working Memory Evolution for Long-Horizon Agent Harnesses",
       "category": "Memory evolution",
       "note": "Recursive experiential-working memory evolution for long-horizon agent harnesses.",
-      "stars": 248,
+      "stars": 250,
       "forks": 30,
       "open_issues": 2,
       "language": "Python",
       "created_at": "2026-08-25T05:33:44Z",
-      "updated_at": "2026-10-26T07:12:22Z",
+      "updated_at": "2026-10-27T07:17:45Z",
       "pushed_at": "2026-08-30T11:55:00Z",
       "topics": [
         "agent-harnesses",
@@ -121,7 +121,7 @@
         "memory-system",
         "rsi"
       ],
-      "delta_7d": 5
+      "delta_7d": 7
     },
     {
       "full_name": "zjunlp/LightRSI",
@@ -173,7 +173,7 @@
         "benchmark",
         "recursive-self-improvement"
       ],
-      "delta_7d": 4
+      "delta_7d": 2
     },
     {
       "full_name": "scaleapi/rsi-benchmark",
@@ -181,15 +181,15 @@
       "description": "RSI Bench is an ongoing effort to evaluate whether AI agents can develop the capabilities required to advance AI R&D. ",
       "category": "Benchmark",
       "note": "Evaluates whether agents can develop capabilities required to advance AI R&D.",
-      "stars": 101,
-      "forks": 55,
+      "stars": 102,
+      "forks": 57,
       "open_issues": 35,
       "language": "Python",
       "created_at": "2026-07-30T14:53:49Z",
-      "updated_at": "2026-10-26T07:49:35Z",
-      "pushed_at": "2026-10-25T19:11:09Z",
+      "updated_at": "2026-10-26T20:35:56Z",
+      "pushed_at": "2026-10-26T20:35:51Z",
       "topics": [],
-      "delta_7d": 11
+      "delta_7d": 10
     },
     {
       "full_name": "Gen-Verse/PAST-Bench",
@@ -216,7 +216,7 @@
         "recursive-algorithms",
         "recursive-self-improvement"
       ],
-      "delta_7d": 1
+      "delta_7d": 0
     },
     {
       "full_name": "CosmosMind-ai/RSI-Harness",
@@ -224,15 +224,15 @@
       "description": "RSIH \u2014 versionable, shareable agent harness: Pi coding agent + Genome config layer",
       "category": "Harness evolution",
       "note": "Harness-level recursive self-improvement experiments.",
-      "stars": 268,
-      "forks": 27,
-      "open_issues": 3,
+      "stars": 269,
+      "forks": 28,
+      "open_issues": 4,
       "language": "TypeScript",
       "created_at": "2026-09-03T08:45:37Z",
-      "updated_at": "2026-10-26T01:33:49Z",
+      "updated_at": "2026-10-27T03:03:38Z",
       "pushed_at": "2026-10-10T12:02:25Z",
       "topics": [],
-      "delta_7d": -254
+      "delta_7d": -252
     },
     {
       "full_name": "Tencent/VideoHarness-RSI",
@@ -256,12 +256,12 @@
       "description": "A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.",
       "category": "Research map",
       "note": "Curated research map spanning RSI models, agents, harnesses, benchmarks and safety.",
-      "stars": 872,
-      "forks": 75,
+      "stars": 883,
+      "forks": 76,
       "open_issues": 24,
       "language": null,
       "created_at": "2026-08-11T03:59:57Z",
-      "updated_at": "2026-10-26T08:10:56Z",
+      "updated_at": "2026-10-27T07:41:28Z",
       "pushed_at": "2026-10-15T14:47:23Z",
       "topics": [
         "agi",
@@ -293,8 +293,8 @@
       "category": "Research map",
       "note": "Broad survey-oriented collection of self-improving agent research.",
       "stars": 593,
-      "forks": 66,
-      "open_issues": 4,
+      "forks": 67,
+      "open_issues": 5,
       "language": "TeX",
       "created_at": "2025-12-28T05:29:23Z",
       "updated_at": "2026-10-26T03:31:36Z",
@@ -309,7 +309,7 @@
         "self-evolving",
         "self-improving-agents"
       ],
-      "delta_7d": 20
+      "delta_7d": 18
     },
     {
       "full_name": "D2I-ai/awesome-recursive-self-improving-agents",
@@ -317,18 +317,183 @@
       "description": "Survey: The Path to Recursive Self-Improving Agents: Foundation, Framework, and Future Directions",
       "category": "Research map",
       "note": "Survey resources on recursive self-improving agents.",
-      "stars": 57,
+      "stars": 58,
       "forks": 3,
       "open_issues": 4,
       "language": "HTML",
       "created_at": "2026-08-03T09:15:05Z",
-      "updated_at": "2026-10-24T07:23:40Z",
+      "updated_at": "2026-10-27T07:07:26Z",
       "pushed_at": "2026-10-22T07:41:59Z",
       "topics": [],
       "delta_7d": 2
     }
   ],
   "papers": [
+    {
+      "title": "RoboDoctor: Training-Free Recursive Self-Improvement for Robot Policies",
+      "url": "http://arxiv.org/abs/2610.35604v1",
+      "published": "2026-10-26T15:27:20Z",
+      "authors": [
+        "Heyang Yu",
+        "Haomin Li",
+        "Sihang Li",
+        "Jixin Yan",
+        "Shiyun Peng",
+        "Wanqi Zhong",
+        "Tianyu Xin",
+        "Yuan Yao",
+        "Xiaoyu Tian",
+        "Yiming Li"
+      ],
+      "summary": "Generalist robot policies and language-model agents provide complementary capabilities, but completing a task also requires adapting their use to the consequences of physical interaction. We study execution as a locus of adaptation: feedback guides the current action and supplies evidence for revising subsequent decisions under fixed model weights. We introduce RoboDoctor, a training-free framework that connects diagnosis, grounded action, and persistent experience across three revision targets. The harness allocates control between policy and agent; intervention determines when to assist while preserving useful policy behavior; and operation refines physical methods through observed effects. Linked experience records retain the reason for a decision, the attempted method, its outcome, and conditions for reuse. On a curated archive of 54 RoboDojo-Sim task entries, RoboDoctor achieves a five-dimension mean score of 57.10, with a native success rate of 49.44%. Recorded interactions illustrate strategy changes, selective correction, and grasp revision. These findings characterize execution-time adaptation in the evaluated system; controlled trials remain necessary to isolate the contribution of cross-episode experience."
+    },
+    {
+      "title": "Skill$^{\\infty}$: Recursive Self-Improvement for Agent Skill Optimization",
+      "url": "http://arxiv.org/abs/2610.35434v1",
+      "published": "2026-10-26T13:37:56Z",
+      "authors": [
+        "Wangcheng Tao",
+        "Zhanglu Yan",
+        "Han Wu",
+        "Weng-Fai Wong"
+      ],
+      "summary": "Recursive self-improvement (RSI), in which a system also improves the way it improves, is a long-standing aspiration on the path to AGI. Language agents increasingly store procedural knowledge in reusable skills. Optimizing skills offers a direct way to achieve RSI, because the optimization procedure itself can be encoded as a skill. Existing skill optimizers, however, follow a hand-designed procedure. Even methods that evolve a meta-skill confine it to a fixed pipeline and relearn it for each task. We present Skill$^{\\infty}$, which makes skill optimization recursively self-improving: a meta agent follows a meta-skill to optimize task skills and optimizes the meta-skill itself using the same procedure. The optimization is agent-led. The meta agent diagnoses execution traces, proposes candidates, requests independent reviews, and allocates the search budget. The meta-skill defines these steps, allowing self-improvement to rewrite them. This meta-skill is also decoupled from task skills, refined on multiple skill optimization tasks and then reused to optimize task skills across diverse domains. As in deployment, skills at both levels are standard packages loaded through native skill discovery. On 83 SkillsBench tasks, Skill$^{\\infty}$ reaches a pass rate of 60.7%, compared with 56.4% for human-curated skills and 54.5% for SkillEvolver."
+    },
+    {
+      "title": "RSIV-Harness: A Recursive Self-Improvement Harness Framework for Open-Domain Conversational Text-to-Visualization",
+      "url": "http://arxiv.org/abs/2610.35316v1",
+      "published": "2026-10-26T12:16:14Z",
+      "authors": [
+        "Jiawei Lu",
+        "Chen Zhang",
+        "Jinwei Lu",
+        "Yuanwei Song",
+        "Yuanfeng Song",
+        "Raymond Chi-Wing Wong"
+      ],
+      "summary": "Users often request charts without knowing which database or table holds the relevant data. Such requests may be ambiguous, and users may ask follow-up questions to deepen their analysis or iteratively refine existing charts. A useful assistant must therefore discover relevant data sources among heterogeneous databases, ask clarifying questions when needed, and track evolving user intent while preserving constraints established in earlier turns. Yet recent text-to-visualization agents typically rely on static agent harnesses that are predefined and remain unchanged despite recurring failures across tasks. To address this limitation, we introduce RSIV-Harness, which keeps the language model weights fixed and applies Recursive Self-Improvement to revise the surrounding harness from the agent's own failure traces. To balance flexible self-improvement with stability, we introduce a four-layer framework that evaluates proposed harness revisions through anchor and memory checks, refining those that pass and restoring the best validated harness otherwise. We further introduce ODAC-Vis, a benchmark with 640 tasks for Open-Domain, Ambiguous, and Conversational text-to-visualization that jointly evaluates open-domain data discovery, ambiguity resolution, multi-turn visualization refinement, and executable chart generation. Experiments show that a single round of RSIV-Harness improves all six evaluation metrics relative to the seed harness, with particularly large gains in executability (+28.02 points) and chart structure (+34.01 points), demonstrating the ability to learn from task-solving experience and turn recurring failures across tasks into substantial performance improvements."
+    },
+    {
+      "title": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
+      "url": "http://arxiv.org/abs/2610.35193v1",
+      "published": "2026-10-26T10:46:03Z",
+      "authors": [
+        "Jiayue Pu",
+        "Ang Gao",
+        "Jinyi Bai",
+        "Qipeng Wang",
+        "Tongyu Wen",
+        "Jiahao Zhao",
+        "Keyu Qu",
+        "Junhao Zhang",
+        "Chenglei Shen",
+        "Zhongxiang Sun",
+        "Jun Xu",
+        "Xiao Zhang"
+      ],
+      "summary": "AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to inductive biases and to the mechanisms that govern future updates, which can themselves be revised and reused across improvement cycles. Yet self-modification alone does not guarantee trustworthy improvement. Reported gains may reflect flawed evaluations, previously acquired capabilities may deteriorate, and compliance with behavioral constraints may weaken. Compromised artifacts or sensitive information may also persist in successor systems. Changes to improvement mechanisms may invalidate earlier verification results and make human oversight less effective. This survey presents an operational definition and process framework for RSI and organizes the requirements for trustworthy RSI into four interconnected themes: genuine and sustained improvement; behavioral constraints, alignment, and fairness; system security and privacy; and transparency and controllability. We examine these themes from three perspectives: Improvement Validity, Constraint Preservation, and Effective Oversight. This analysis covers improvement diagnosis, proposal generation, proposal evaluation, and update implementation (S1--S4), including the recursive application of these stages to improvement mechanisms (RI). We review risks, safeguards, and evaluation evidence for individual updates, effects inherited by successor systems, and revisions to improvement mechanisms, while distinguishing direct RSI findings from evidence in related systems. Finally, we examine evaluation settings, identify requirements for independent and longitudinal assessment, and discuss applications and open research problems."
+    },
+    {
+      "title": "RobotAgentBench: Towards Open-world Robot Autonomy",
+      "url": "http://arxiv.org/abs/2610.34649v1",
+      "published": "2026-10-26T00:26:30Z",
+      "authors": [
+        "Lingjun Mao",
+        "Jinglin Cao",
+        "Lukun He",
+        "Wenpeng Xu",
+        "Yuchen Yan",
+        "Hengyu Jin",
+        "Zijun Zhang",
+        "Jinzhou Tang",
+        "Songyao Jin",
+        "Ziche Liu",
+        "Yifei Shao",
+        "Junbo Huang",
+        "Fang Nan",
+        "Ruobing Han",
+        "Ziqiao Xi",
+        "Ziming Xu",
+        "Shuang Liang",
+        "Sibo Zhu",
+        "Wenyi Wu",
+        "Xinyue Wang",
+        "Yiming Huang",
+        "Xinkai Zou",
+        "Gao Zhu",
+        "Kun Zhou",
+        "Biwei Huang"
+      ],
+      "summary": "Recent advances in vision-language-action (VLA) and world-action models (WAMs) have significantly improved robotic manipulation, yet deploying robots in the open world demands a higher level of autonomy beyond executing predefined tasks. Robot agents offer a promising paradigm for this transition, integrating task discovery, contextual reasoning, physical execution, and adaptive recovery into a closed interaction loop. However, existing benchmarks largely evaluate isolated capabilities, failing to capture the complexity of open-world robot autonomy. We introduce RobotAgentBench (RAB), a comprehensive benchmark for evaluating robot agents in realistic, open-world household environments. Through an agent-assisted, human-in-the-loop real-to-sim pipeline, RAB constructs 50 diverse household layouts with interactive objects and physically grounded tasks, encompassing 90 atomic tasks, 18 short-horizon tasks, 8 long-horizon tasks, and 4 open-ended scenarios. RAB provides a multi-level evaluation of robot agent capabilities: (1) task-level assessments systematically examine five complementary dimensions: task discovery, context reasoning, manipulation, failure recovery, and robustness; (2) scenario-level evaluation assesses how agents integrate these capabilities to autonomously fulfill high-level user needs. Furthermore, RAB enables systematic comparisons of standalone VLA/WAM models and diverse robot agent architectures under a unified planning-execution-verification framework. Extensive experiments reveal substantial gaps between manipulation and autonomy, demonstrate the advantages of agentic architectures and recursive self-improvement, and highlight the remaining challenges toward open-world robot autonomy."
+    },
+    {
+      "title": "ParetoRSI-Gym: Can AI Agents Improve Language Models Across Multiple Domains?",
+      "url": "http://arxiv.org/abs/2610.34386v1",
+      "published": "2026-10-25T15:40:21Z",
+      "authors": [
+        "Haojin Wang",
+        "Yangzhen Wu",
+        "Zeyi Chen",
+        "Jian Xie",
+        "Jiaying Ye",
+        "Lili Meng",
+        "Shuyun Tang",
+        "Shangding Gu",
+        "Dawn Song"
+      ],
+      "summary": "Recursive self-improvement (RSI) requires an agentic system to design, train, and evaluate its own successor. Data-driven post-training is a central part of that loop, yet existing evaluations measure it on a single benchmark, where an agent selects from a static pool or distills a stronger model to push one score up in one run. Real post-training is multi-domain, and a gain in one domain has to be weighed against a regression in another. We propose ParetoRSI-Gym, in which an agent searches for data, curates it, trains, reads back per-domain results, and repeats, with everything but the data held fixed: the initial LLM, the five domains (math, code, finance, medicine, science), the toolset, and the SFT pipeline. Generalization benchmarks in each domain separate capability gains from overfitting to the scores the agent optimizes against. Across three agent systems, three base models, five rounds and multiple seeds, the strongest system, Claude Code with Opus-5, raises the generalization scores of its proxy-best checkpoint by 9.2% relative to the starting model (+2.3 absolute points), averaged with equal weight over three base models and five domains, with a single-domain relative gain of up to 63% (medicine on Ministral-3-3B). Further analysis shows that the harness matters as much as the model it drives, and that each agent keeps a unique data selection strategy. We see our work as a step towards evaluation of RSI systems in real-world machine learning engineering."
+    },
+    {
+      "title": "More: Mode-Optimized Reasoning with Self-Adaptive Effort for Self-Evolving Agents",
+      "url": "http://arxiv.org/abs/2610.33684v1",
+      "published": "2026-10-24T14:03:20Z",
+      "authors": [
+        "Dianxing Shi",
+        "Dingjie Fu",
+        "Tianyu Lei",
+        "Wangjie Qiu"
+      ],
+      "summary": "Self-evolving training improves the performance of agents on difficult tasks through verifiable feedback, but it often applies costly deliberation uniformly across tasks. To address this problem, we propose Mode-Optimized Reasoning with Self-Adaptive Effort (MORE), a self-evolving training framework that adaptively selects both reasoning form and computational effort for each task. Specifically, MORE follows a two-stage training paradigm: (i) \\emph{Stage 1} establishes a compact prior over direct answering, short and long chain-of-thought, and code-based reasoning, and (ii) \\emph{Stage 2} self-evolves this prior with Mode-Adaptive and Test-time Effort PPO (MATE-PPO) on generated, verifiable task streams without curated data. By learning mode selection and token expenditure jointly, MORE allocates concise reasoning to tasks that permit it while retaining extended deliberation where it is useful. Across coding, mathematics, and general-reasoning benchmarks, MORE achieves consistent performance gains on Base and Coder backbones at model scales from 3B to 14B. During inference, MORE demonstrates higher accuracy and better efficiency, with markedly shorter response lengths and reduced inference time."
+    },
+    {
+      "title": "RSI Arena: Towards Recursive Self-Improvement with Human Feedback",
+      "url": "http://arxiv.org/abs/2610.33624v1",
+      "published": "2026-10-24T11:54:45Z",
+      "authors": [
+        "Yue Huang",
+        "Yanbo Wang",
+        "Lichi Li",
+        "Yuanyuan Chen",
+        "Andreas Haupt",
+        "Xiaonan Luo",
+        "Zheyuan Liu",
+        "Jihye Choi",
+        "Felix Juefei-Xu",
+        "Xiangliang Zhang",
+        "Radha Poovendran",
+        "Misha Sra",
+        "Ying Liu",
+        "Ben Burtenshaw",
+        "Thomas Wolf",
+        "Alex Pentland",
+        "Zichen Chen",
+        "Zhangchen Xu"
+      ],
+      "summary": "Can AI agents autonomously train useful language models and improve them using feedback from users? We introduce RSI Arena, a two-stage study of autonomous post-training as a step toward recursive self-improvement. Ten frontier models act as training agents, each starting from NVIDIA Nemotron 3.5 Lightning 30B-A3B Base. During a six-day first stage, each agent has 1,000 GPU-hours and $300 in API credit on a shared 64-GPU cluster, independently selecting data, implementing training procedures, and choosing checkpoints. We evaluate their models on 20 benchmarks and through blind human evaluations. All ten agents produce working assistants, with the strongest model, trained by GPT-6 Astra, closing a median of 76% of the base-to-Instruct gap across 12 capability benchmarks. Its human-preference rating is also close to NVIDIA Instruct after statistical adjustment for answer length and formatting. In Stage 2, each agent receives the comparison records and votes involving its Stage 1 model and is given three additional days for further training. Using NVIDIA Instruct as a common reference across the two evaluation rounds, we observe an improvement from Stage 1 to Stage 2 in the style-adjusted relative rating of eight of the ten models. We show that benchmark gains were modest, with no clear link to preference gains, while some agents encouraged longer responses and one model showed increased harmful compliance on StrongREJECT. RSI Arena provides an auditable setting for studying how human feedback can guide autonomous model development. It takes a step toward recursive self-improvement with human feedback (RSIHF), in which people help define what improvement means for the AI systems they use."
+    },
+    {
+      "title": "LegoSR: A Unified Framework for Self-improving Agent-Guided Scientific Discovery",
+      "url": "http://arxiv.org/abs/2610.33465v1",
+      "published": "2026-10-24T05:36:55Z",
+      "authors": [
+        "Hao Mao",
+        "Xu T. Liu",
+        "Peng Zhao",
+        "Shuai Lu",
+        "Yuntian Chen"
+      ],
+      "summary": "Equation discovery solvers often use different data interfaces, equation representations and evaluation criteria, making their results difficult to compare. We present LegoSR, a unified framework for algebraic symbolic regression and differential equation discovery. LegoSR integrates seven solvers through a common equation representation and evaluation process, and supports searches constrained by partially known equations. Researchers can run solvers directly or use LegoSR Agent, which selects solvers and adapts searches based on solver knowledge, intermediate results and lessons from earlier tasks. On noisy ordinary and partial differential equation benchmarks, LegoSR Agent recovers nearly as many equations as the union of seven expert-tuned solvers and outperforms a generic agent with the same model, tools and budget by up to 29 percentage points. Three examples demonstrate basic use, adaptive solver selection and discovery guided by partial physical knowledge."
+    },
     {
       "title": "HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
       "url": "http://arxiv.org/abs/2610.32813v1",
@@ -495,131 +660,6 @@
         "Pei Xiao"
       ],
       "summary": "Semantic communication jointly optimizes inference accuracy, channel use, and computation, yet the underlying communication program is typically specified before training. This paper presents ComRSI (Communications-Oriented Recursive Self-Improvement), a framework for recursively evolving that program through large-language-model-assisted code edits. A fixed agent modifies the encoder, channel adapters, decoder, loss, and training policy; a protected evaluator screens candidates under prescribed budgets and resource constraints. Accepted code and textual feedback inform subsequent proposals, while candidate weights are trained from scratch. In the original ten-generation CIFAR-100 lineage, eight accepted revisions produce an attention-pooled code achieving 74.3% test accuracy over an Additive White Gaussian Noise (AWGN) channel at 32 complex symbols per image, compared with 67.2% at 256 symbols for the initial design. The program also improves fading-channel accuracy and transfers to Tiny-ImageNet after retraining. A repeat study with ten searches per method compares ComRSI against non-recursive agents with and without textual history. Mean final search scores balancing accuracy, transmission rate, and computational cost are 0.7587, 0.7376, and 0.7089, respectively; the mean numbers of accepted revisions per search are 6.0, 5.0, and 2.1. The advantage over the memoryless agent is supported by a two-sided rank test, whereas the difference from the history-equipped agent remains statistically inconclusive at this sample size. Archived proposals show that pooling can yield a large improvement, while retained history supports subsequent refinement. These results support recursive program optimization within the evaluated setting and expose its remaining rate-robustness and compute-placement trade-offs."
-    },
-    {
-      "title": "Recursive Self-Improvement on a Budget: Scoring Code Edits Before They Run",
-      "url": "http://arxiv.org/abs/2610.29121v1",
-      "published": "2026-10-21T03:04:25Z",
-      "authors": [
-        "Erfan Darzi",
-        "Sree Bhargavi Balija",
-        "Sheng He"
-      ],
-      "summary": "A coding agent that rewrites its own scaffold has to choose which proposed edit to expand before that edit has been evaluated, and the search then has to return one agent. Each run fits one linear readout on the parent's steering-split solve rate and eight coordinates of the proposed diff, from 96 scaffold edits labeled by four evaluations of a 16-instance fit split, and then freezes the coefficients. HumanEval+ reserves 48 instances as the steering split and Polyglot reserves 64. That split scores parents and keeps an archive of four nodes. Huxley-G\u00f6del Machine selection draws a parent by Thompson sampling on the steering counts of nodes that have already been evaluated, and it expands the child that parent proposes. Every method then returns the earliest evaluated node whose steering-split solve count is maximal. The tables report the held-out score of that node on the other 100 HumanEval+ instances and the other 145 Polyglot instances, next to the root scaffold and the calibration edit with the highest fit-split label. Twelve runs of GPT-4o return a node at 87.0% on held-out HumanEval+, against 84.2% for the parent-rate ablation. On that split Huxley-G\u00f6del Machine selection returns 85.1%, the root is at 81.2%, and the calibration-best edit is at 82.8%. On the same split Claude Sonnet 4.5 returns 86.6%, beside 86.5% for Huxley-G\u00f6del Machine selection, 85.3% for the parent-rate ablation, and 85.1% for the calibration-best edit."
-    },
-    {
-      "title": "VeriEvolve: Evaluator-First Evolution for Tool-Using Agents",
-      "url": "http://arxiv.org/abs/2610.29005v1",
-      "published": "2026-10-21T00:13:29Z",
-      "authors": [
-        "Yueshen Li",
-        "Kamer Ali Yuksel",
-        "Gokhan Tur",
-        "Dilek Hakkani-T\u00fcr",
-        "Jo\u00e3o Pedro Maia"
-      ],
-      "summary": "A central obstacle to self-improving agents is the absence of a reliable fitness signal for realistic stateful tasks. We introduce \\textsc{VeriEvolve}, an evaluator-first evolution framework that constructs this missing evaluation layer before optimizing the agent. From task instruction, VeriEvolve synthesizes instruction-grounded challenge states and an executable evaluator that checks them. During each round of workflow evolution, the evaluator is frozen and serves as the fitness signal. Between rounds, VeriEvolve revises the evaluator by converting the end states of strong and weak runs into a pair of counterfactual test cases. Across all 30 MCPMark Filesystem tasks, VeriEvolve constructs 30 evaluators with 141 challenge states, achieving 141/141 agreement on the generated suites and 113/122 agreement on held-out states produced by executor agents. Evaluator-guided evolution increases externally verified success from 6/30 to 18/30 for GLM-5.2 and from 27/30 to 30/30 for Claude; refinement removes all three false positives that the weak executor exposes. Cross-environment studies on PostgreSQL, Playwright, Notion, and GitHub further expose complementary limits from observability, state representation, and search/execution capacity. These results show that executable evaluators can be synthesized and used to guide search when task success is observable and an external verifier is available for calibration."
-    },
-    {
-      "title": "Self-Improving Agents with World Model Predictive Paths",
-      "url": "http://arxiv.org/abs/2610.28945v1",
-      "published": "2026-10-20T21:46:29Z",
-      "authors": [
-        "Haori Lu",
-        "Tianyu Gao",
-        "Yaoyao Liu",
-        "Yingying Li"
-      ],
-      "summary": "Large language model (LLM) agents are increasingly expected to interact with environments and improve their decisions during deployment. However, how anticipating future outcomes and drawing on accumulated interaction experience can jointly support decision-making remains underexplored. We propose a test-time framework, inspired by Model Predictive Path Integral (MPPI) control, that combines multi-branch predictive analysis with experience-based adaptation. At each step, the agent proposes multiple candidate actions and imagines their outcomes with a world model, so that alternatives can be compared without being executed in the environment. Since language environments provide neither explicit dynamics nor costs, the predicted outcomes are evaluated for task progress and risk, and MPPI-style weights over the resulting costs guide the final decision. A dual-branch experience memory enables self-improvement: the planner branch refines candidate generation and action selection, while the world model branch improves next-observation prediction. Experiments on ALFWorld and ScienceWorld across three backbones demonstrate the strong overall performance of our method and the effectiveness of experience-guided predictive control. Our code will be made publicly available."
-    },
-    {
-      "title": "Cache Engineering for Agents",
-      "url": "http://arxiv.org/abs/2610.28577v1",
-      "published": "2026-10-20T17:32:24Z",
-      "authors": [
-        "Tianyu Fu",
-        "Ruoxi Wang",
-        "Zihan Min",
-        "Zhongqi Ren",
-        "Zhihao Li",
-        "Tengxuan Liu",
-        "Shengxu Mu",
-        "Hanling Zhang",
-        "Yu Wang"
-      ],
-      "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing history. However, modifying the trajectory prefix invalidates subsequent cached states and triggers costly re-prefilling of retained context. Task accuracy can also suffer when too little context is retained to limit re-prefill costs. We propose cache engineering as a new scheme. It allows agents to directly control their active KV cache without modifying the trajectory or re-prefilling retained context. Specifically, agents can proactively use drop to exclude selected cache from future attention and repos to adjust retained keys' position encodings. We formalize these cache operations and identify history dependence as a serving challenge: identical token sequences can yield different cache states under different cache operation sequences, making prefix matching insufficient for correct cache reuse. Thus, we co-design the AKV serving engine. It provides a stateless interface compatible with existing serving APIs, while internally managing stateful cache reuse, eviction, and restoration. Experiments show that a tool-response rolling-drop cache policy improves average benchmark scores by 1.7 points and reduces average cost by 27.7%, compared with conventional threshold-triggered summarization. With AKV, it achieves up to 1.2x the output throughput and a 1.5x speedup in P95 request latency. Recursive self-improvement of cache policies further reduces cost by 7.1% over expert design. Our code is at https://github.com/thu-nics/AKV."
-    },
-    {
-      "title": "ChartEvo: Self-Evolving Agent Harnesses for Long-Tail Chart Reasoning",
-      "url": "http://arxiv.org/abs/2610.28282v1",
-      "published": "2026-10-20T14:34:54Z",
-      "authors": [
-        "Qi Wang",
-        "Peijie Wang",
-        "Jun Cao",
-        "Haoyang Tong",
-        "Xiao-Hui Li",
-        "Fei Yin",
-        "Cheng-Lin Liu"
-      ],
-      "summary": "Multimodal large language models (MLLMs) have substantially advanced chart understanding and reasoning, yet their performance remains highly uneven across chart types. While modern MLLMs perform well on common charts, their accuracy drops sharply on long-tail charts with diverse visual structures and reasoning requirements. Tool-augmented agents can improve complex chart reasoning by introducing specialized visual capabilities, but manually engineering strategies and tools for the heterogeneous and evolving long tail is difficult to scale. We introduce \\textbf{ChartEvo}, a recursive self-improvement framework that enables chart agents to adapt to underperforming chart types through experience-driven harness-level self-improvement. ChartEvo jointly evolves reusable chart-specific Skills and executable Tools, while learning reusable local tool-call chains to compose evolved capabilities and control the inference overhead of tool-augmented reasoning. On long-tail charts from ChartBench and ChartX, ChartEvo improves accuracy over its base MLLM, Qwen3.7-Plus, by \\textbf{45.6\\%} and \\textbf{32.5\\%}, respectively, demonstrating the effectiveness of recursive self-improvement for long-tail chart adaptation."
-    },
-    {
-      "title": "MaD-RSI: Model-as-Data for Recursive Self-Improvement of Agent Harnesses",
-      "url": "http://arxiv.org/abs/2610.28201v1",
-      "published": "2026-10-20T13:41:00Z",
-      "authors": [
-        "Yu Cui",
-        "Hong He",
-        "Ruiqing Yue",
-        "Sicheng Pan",
-        "Zhuoyu Sun",
-        "Yifei Liu",
-        "Ting Li",
-        "Wenzhuo Zhu",
-        "Baohan Huang",
-        "Haibin Zhang",
-        "Cong Zuo"
-      ],
-      "summary": "Recursive self-improvement (RSI) of agent harnesses has emerged as an effective approach to enhancing the capabilities of large language model (LLM) agents. By searching the harness space for a specific LLM on a given dataset, RSI can discover a harness tailored to the capabilities and behavioral characteristics of that model. However, such optimization often creates a strong coupling between the learned harness and its target LLM, limiting generalization across models and requiring substantial computational resources to adapt to new LLMs. Moreover, existing RSI methods typically optimize a harness using feedback from a single model and evaluate its generalization to other models only after training. This paradigm treats model differences primarily as a criterion for evaluating generalization rather than as valuable evidence for optimization. In this paper, we introduce a new perspective that treats models as data and places the harness at the center of optimization. Building on this perspective, we propose \\textsc{MaD-RSI}, a framework that directly optimizes a shared harness across multiple heterogeneous LLMs by incorporating their diverse failure trajectories into the training process. Rather than assessing model differences only after optimization, \\textsc{MaD-RSI} leverages these differences as training evidence to guide the self-improvement of a shared harness. Furthermore, we introduce a new evaluation framework with two complementary metrics designed to assess the effectiveness of harness optimization across models. Experiments across multiple datasets and LLMs demonstrate that \\textsc{MaD-RSI} improves generalization over existing approaches while reducing training costs."
-    },
-    {
-      "title": "Elicitation or Expansion? Demystifying Gains from Agent Harness Optimization",
-      "url": "http://arxiv.org/abs/2610.27889v1",
-      "published": "2026-10-20T09:11:39Z",
-      "authors": [
-        "Younghyun Kim",
-        "Wooseok Seo",
-        "Minseo Kim",
-        "Seunghyuk Oh",
-        "Minjae Lee",
-        "Donghoon Kim",
-        "Hyung Il Koo",
-        "Jaehyung Kim",
-        "Wonjun Kang"
-      ],
-      "summary": "Recent studies in harness optimization have shown substantial performance gains in language model agents without updating model weights. A well-designed harness more effectively leverages the underlying model's capabilities by shaping context, tool use, and execution workflows. However, na\u00efve success rates alone do not fully characterize whether optimized harness yields more reliable success on tasks already within reach (elicitation) or a broader range of solvable tasks (expansion). This distinction is crucial for recursive self-improvement and evolutionary search, as expansion may provide a broader range of successful experiences to push the capability boundaries. Despite the growing significance, this distinction remains underexplored in harness optimization. We conduct a systematic analysis to study the effect of gains from harness optimization. Building on pass@k analyses in the reinforcement learning (RL) literature that compare models before and after RL training, we compare optimized harnesses with their pre-optimization counterparts. Specifically, we assess changes in reachable task coverage, compare harness optimization with model scaling and increased inference-time compute, and examine how gains vary with task difficulty. Across static prediction and dynamic tasks, we find that pass@1 advantages of harness over stronger interventions can reverse at larger attempt budgets and aggregate gains conceal shortfalls on hard tasks, underscoring the need for a fine-grained diagnosis."
-    },
-    {
-      "title": "RSI Control: Can AI Models Perform Covert Sabotage in the Self-Improvement Process?",
-      "url": "http://arxiv.org/abs/2610.27735v2",
-      "published": "2026-10-20T06:57:59Z",
-      "authors": [
-        "Kaiwen Zhou",
-        "Udari Madhushani Sehwag"
-      ],
-      "summary": "Recursive self-improvement, in which frontier AI models work on training the next generation, is quickly becoming a reality. However, the safety of this process has received far less attention than it should. A misaligned model training its successor can shape what that successor knows, how it behaves, and what it wants, and the harm carries forward into the next generation. We study this risk through the lens of AI control. We introduce RSI Control Arena, a testbed in which a frontier model, acting as an autonomous R\\&D agent, is given a benign main task from a stage of a successor model's training pipeline together with a covert side task to install a misaligned property in the successor. The testbed contains 16 side tasks in three classes, forming 22 task pairs with main tasks that span the pipeline from data curation to reinforcement learning. We evaluate six frontier models as agents against LLM monitors that read the transcript of the run and the agent's reasoning. We observe that every model completes a substantial share of the side tasks without degrading the main-task performance, including side tasks that make the successor itself a better saboteur. Under minimal instructions to stay covert, models already produce successful attacks that monitors fail to detect, and providing a short list of evasion tactics further reduces the detection rate. Monitors with access to agent's reasoning detects most attacks, but not all. Our results indicate that recursive self-improvement raises significant safety concerns, and that strong safety effort should be in place before models are trusted with greater responsibility of training their successors."
-    },
-    {
-      "title": "Auditing the Product, Not the Recursion: The Evaluation Evidence Behind Recursive Self-Improvement Claims",
-      "url": "http://arxiv.org/abs/2610.27610v1",
-      "published": "2026-10-20T04:23:05Z",
-      "authors": [
-        "Zihan Chen",
-        "Di Zhu",
-        "Lei Nico Zheng"
-      ],
-      "summary": "Recursive self-improvement (RSI) promises AI systems, such as self-evolving LLM agents, that become better at producing further improvements. Evaluating this promise requires separating product claims about the final system from process claims about the improvement process itself. Existing surveys specify the evidence these claims require, but how often studies report that evidence remains unmeasured. We examine this question through full-text coding of 114 eligible studies in a reproducible arXiv search frame frozen in October 2026, including 90 that describe their own systems as RSI. The codebook links claims to evaluation designs. Independent human coding, third-reader adjudication, and a separate blind coding of improver comparisons assess coding reliability. Among the 90 RSI studies, 90% report product evaluation beyond development tasks under a broad criterion that includes partial or unstated separation, while 60% report evaluation on tasks unused for selection. Only 22% audit two or more reruns of the full loop. In a human-coded random sample, the RSI studies show the same contrast: 45% evaluate on tasks unused for selection and 14% audit two or more reruns. Of the 26 studies claiming a better improvement procedure, 23 report a related comparison, but only 4 compare earlier and later procedures from identical starting artifacts at a matched budget. Across these results and a comparison set of established works, evidence for repeatability and improved procedures remains less developed than product evaluation. Three propositions explain how selection effects, shared evaluator errors, and changes in system state limit what product evaluations can establish. Together, the findings support a claim-indexed reporting standard that connects each claim to the evaluation design needed to test it."
     }
   ]
 }
