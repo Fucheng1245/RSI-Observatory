@@ -1,6 +1,114 @@
 {
-  "generated_at": "2026-11-01T10:28:00.556825+00:00",
+  "generated_at": "2026-11-02T11:08:10.944214+00:00",
   "papers": [
+    {
+      "title": "TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents",
+      "url": "http://arxiv.org/abs/2610.41216v1",
+      "published": "2026-10-30T03:53:42Z",
+      "authors": [
+        "Kehong Gong",
+        "Xiaoxu Zheng",
+        "Guanli Hou",
+        "Seunghun Lee",
+        "Mengqi Guo",
+        "Runjia Tan",
+        "Zhengyu Wen",
+        "Qi Wang",
+        "Xiaoyu He",
+        "Mingyuan Zhang",
+        "Michael Bi Mi"
+      ],
+      "summary": "Robot agents built on vision-language models depend on both the planner and its harness: the tools, feedback, memory, and recovery logic around it. Can improvements to a large teacher's harness be carried into a compact agent with lower inference compute cost? We present TinyAstral, a two-stage approach. We first freeze an open-weight teacher and improve its harness through recursive self-improvement (RSI): frontier LLM agents read the teacher's trajectories and propose harness edits, and each edit is accepted only if it passes a paired statistical test. We then freeze the final harness, collect teacher trajectories with reasoning and failure recovery, and distill a small student that replaces the teacher in the same harness. On RoboTwin, harness evolution raises the teacher's success from 33.4% to 63.6%; the final 4B student reaches 62.8%. Across four harness versions, distilled 4B students score close to their corresponding teachers, and later versions yield stronger students, showing that harness evolution gains carry into compact models. The harness gains also transfer to other frozen planners without retraining. On identical episodes, the final 4B student outperforms open 4B agents, the open 27B harness-RSI model SenseNova-RoboRSI, and our own teacher model placed in three competitors' harnesses. It stays close to its teacher on all three training benchmarks, and on three benchmarks never used for RSI or training it scores close to a 552B planner running the same harness. On the measured deployment episodes, it uses about one fifth of its teacher's accelerator time."
+    },
+    {
+      "title": "From Evaluation to Evolution: Benchmarking Image Editing and Evolving Image Models",
+      "url": "http://arxiv.org/abs/2610.41210v1",
+      "published": "2026-10-30T03:42:15Z",
+      "authors": [
+        "Jun He",
+        "Canmiao Fu",
+        "Ying Zhang",
+        "Zhipeng Huang",
+        "Chenyu Mu",
+        "Yazhen Xie",
+        "Chen Li",
+        "Jing Lyu",
+        "Weijia Li",
+        "Xiang Zhang"
+      ],
+      "summary": "Real-world image editing requires coordinating multiple visual transformations with content preservation and reference constraints, yet aggregate scores can readily obscure unmet local requirements. Effective evaluation must therefore identify local failures and translate them into priorities for subsequent model improvement. We introduce WeGenEditBench, comprising 2,740 evaluation instances and 148 task types across single-image, text-intensive, and multi-reference editing. Pre-generated checklists shared across models decompose each request into atomic requirements; item-level deductions and visual evidence are established first and then summarized into scores for edit execution, preservation, visual quality, and task-specific correctness. To support the experience-acquisition component of recursive self-improvement (RSI), we develop WeGenEvoStudio, a unified multi-agent harness for RSI-oriented learning that integrates model-conditioned failure diagnosis, retrieval-grounded data construction, supervised adaptation, and re-evaluation. Among 15 evaluated configurations, GPT-Image-2 leads single-image editing with an Overall score of 4.076, while Seedream-5.0-Pro leads text-intensive editing at 4.291. Evolution experiments across four generation and editing benchmarks demonstrate substantial targeted gains: on their report-selected Top-5 single-image targets, FLUX.2 [dev] improves Overall from 1.083 to 3.517, while Qwen-Image-Edit-2511 gains 13.2%. Together, our benchmark and harness provide a foundation for developing more reliable image models through interpretable evaluation and feedback-driven learning."
+    },
+    {
+      "title": "TSFLab: A Self-Improving Agent-Agnostic Workbench for Time Series Forecasting Research",
+      "url": "http://arxiv.org/abs/2610.40901v1",
+      "published": "2026-10-29T19:22:33Z",
+      "authors": [
+        "ChengAo Shen",
+        "Yanjun Zhao",
+        "Haoxin Liu",
+        "Bonnie Chen",
+        "Miles Ma",
+        "Dongjin Song",
+        "Hanghang Tong",
+        "Qingsong Wen",
+        "Jingrui He",
+        "Jingchao Ni"
+      ],
+      "summary": "As publications and products on time series forecasting (TSF) proliferate, researchers face a growing burden of analyzing existing work. First, not all publications release code. For instance, only about 20% of arXiv TSF papers have a code link in the surveyed period. Second, released code also requires manual maintenance. Thus, TSF researchers must constantly adapt or implement existing works. However, independent implementations can differ in experimental settings and are difficult to maintain. We therefore propose to use AI agents for benchmarking TSF research and even supporting autoresearch, e.g., developing new TSF models. Yet directly applying existing coding agents, such as Claude Code and Codex, is suboptimal: prohibitive costs, limited scalability to large research projects (e.g., benchmarking), and lack of self-maintenance. To address these challenges, we propose TSFLab, a self-improving agent-agnostic \"workbench\" that equips compatible coding agents with shared resources and tools for low-cost TSF research and continuous maintenance of research resources. Our experiments cover reproduction, benchmarking, and new method development. In reproduction and benchmarking, TSFLab improves task completion by 20-163% and cuts fresh tokens per completed task by 11-66% across baselines. A pilot study of agent-driven method development also shows improved forecasting accuracy via TSFLab, with 32.8-73.6% fewer fresh tokens and 9.2-68.8% less development time than the other settings."
+    },
+    {
+      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+      "url": "http://arxiv.org/abs/2610.40758v1",
+      "published": "2026-10-29T17:00:10Z",
+      "authors": [
+        "Chenjie Qiu",
+        "Boyan Xu",
+        "Shaobin Shi",
+        "Bingfeng Chen",
+        "Ruichu Cai",
+        "Dongsheng Luo"
+      ],
+      "summary": "Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every new rule. We introduce CLR-Bench, a Curriculum of Latent Rules benchmark. Each chain adds one hidden rule per level on top of the earlier ones. A rule acts on an opaque label that stands for a named grouping published on the Web, such as the founding members of an airline alliance. The task gives one example value, practice feedback reveals one more member and one non-member, and the test checks unseen members and similar non-members. Probes certify that the base model knows the members of each grouping and does not guess it without feedback, and that the evidence identifies the grouping once labels are read as named groupings. An automated pipeline builds chains from a new data domain, and we release 20 chains over 10 domains. We evaluate six recent self-evolution methods. With the certifying model they barely learn. The best gain at most 5 points over a frozen agent and exclude only 6-12% of the unseen members from the count, fewer than the 20% reached by simply keeping the raw practice history. A fixed lesson that states the named-grouping convention lifts the same methods by 14.5 to 16.5 points. Their states hold the revealed member in 75-98% of cases and almost never the class name, and when practice exposes a member the list misses, they add that member to the list. With the stronger GPT-6-Sol, ACE and Dynamic Cheatsheet learn from feedback alone. They reach 78% accuracy and solve 59-60% of the single cells, against 53% and 8% with the certifying model, and they surpass the raw history. CLR-Bench therefore measures how well an agent learns, and this ability differs across models."
+    },
+    {
+      "title": "Safin-1.5: Safety-Native Architecture and Verifiable Reasoning for Recursive Safety Improvement",
+      "url": "http://arxiv.org/abs/2610.40751v1",
+      "published": "2026-10-29T16:14:36Z",
+      "authors": [
+        "Jingnan Zheng",
+        "Cheng Jin",
+        "Ming Zhang",
+        "Huan Sun",
+        "Zhongtian Ma",
+        "Kaisen Yang",
+        "Ziyuan Zhou",
+        "Tong Wu",
+        "Dongcheng Zhang",
+        "Yi Zhang",
+        "Xiao Wang",
+        "Han Qi",
+        "Shu Yu",
+        "Ermo Hua",
+        "Zongji Yu",
+        "Chaozhuo Li",
+        "Xiaoyu Wen",
+        "Zhekai Chen",
+        "Jiawei Zhou",
+        "Sirui Chen",
+        "Ning Ding",
+        "An Zhang",
+        "Tat-Seng Chua",
+        "Xiangnan He",
+        "Xia Hu",
+        "Bowen Zhou",
+        "Qiaosheng Zhang",
+        "Youbang Sun",
+        "Xiang Wang",
+        "Zhongyu Huang",
+        "Chaochao Lu"
+      ],
+      "summary": "Recursive self-improvement (RSI) enables large language models to advance their capabilities through successive updates, but these updates can also introduce new risks and weaken existing safeguards. In line with the AI-45\u00b0 Law, we pursue Safety RSI, in which safety develops as an intrinsic capability alongside general model capabilities through continual risk discovery and repair, while preserving utility and limiting over-refusal. We introduce Safin-1.5, a model built on a safety architecture and trained through recursive safety improvement, with an inference-time harness that extends its capabilities to formal reasoning. Our approach comprises three components: i) The safety architecture combines persistent safety states with hazardous-knowledge disentanglement. The former retains and selectively invokes safety knowledge, while the latter relocates targeted hazardous knowledge into removable experts, enabling its removal with minimal impact on general capabilities. ii) Recursive safety improvement establishes a discovery-evaluation-repair loop. The loop identifies new vulnerabilities and uses experimental feedback to develop repair strategies. It accepts updates only when they improve safety while preserving general capabilities and limiting over-refusal. iii) The formal reasoning harness combines the model's language understanding with symbolic inference and verification. Proof-obligation-guided semantic bridging recovers missing relations in formal representations, enabling symbolic solvers to construct checkable proofs under formalized premises and accepted semantic bridges. Experimental results demonstrate that Safin-1.5 achieves safety and reasoning performance, outperforming frontier models."
+    },
     {
       "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
       "url": "http://arxiv.org/abs/2610.40191v1",
@@ -42,7 +150,7 @@
     },
     {
       "title": "MoLRSI: A Recursive Self-Improving AI agent for Molecular Discovery",
-      "url": "http://arxiv.org/abs/2610.39714v1",
+      "url": "http://arxiv.org/abs/2610.39714v2",
       "published": "2026-10-29T09:46:50Z",
       "authors": [
         "Yikun Zhang",
@@ -221,6 +329,16 @@
         "Ivan Bulyko"
       ],
       "summary": "Reinforcement learning has made Audio Large Language Models (Audio LLMs) better reasoners, but the reward that drives it still comes from outside the model: a final-answer check, a hand-crafted process score, or an external LLM judge that stays fixed while the policy improves. We show that an Audio LLM can supply this reward itself, and can do so recursively: each improved model becomes the critic that trains its successor, so the training signal improves along with the model. We introduce AudioRSI (Recursively Self-Improving Audio Reasoners), a reinforcement learning framework in which a single model plays two roles: as an actor it generates reasoning paths, and as a critic it compares them pairwise, turning its own judgments into a process-level reward. The critic is periodically replaced by the current policy, which closes the recursive loop. Because the critic hears the same recording as the actor, it can reject reasoning that cites acoustic evidence the audio does not contain, rather than reward reasoning that merely sounds plausible. The recursion is what sustains progress: under a frozen external judge, out-of-distribution accuracy plateaus during training, while a critic refreshed from the improving policy keeps it rising. Across four out-of-distribution benchmarks, all disjoint from the AVQA training distribution, AudioRSI outperforms strong baselines including Audio Flamingo 3 and Gemini 2.5 Pro on MMAU test-mini, ranks first on MMSU, achieves a clear lead on the challenging Multi-Audio split of MMAU-Pro, and leads the 7B open-source tier on MMAR among methods without external reward models. With no reward specifying how to reason, AudioRSI also develops structured reasoning behaviors (logical reasoning, perception-aware analysis, and reduced hallucination), corroborated by an external LLM-as-Judge evaluation and a keyword-based behavior analysis."
+    },
+    {
+      "title": "Training for Alignment",
+      "url": "http://arxiv.org/abs/2610.40684v1",
+      "published": "2026-10-26T21:07:54Z",
+      "authors": [
+        "Eric Gao",
+        "Alexander Wolitzky"
+      ],
+      "summary": "We propose a simple model of training an agent with an endogenous bias. A principal chooses in which states to train the agent and what actions to prescribe in these states. In response, the agent updates their bias and then acts optimally given their new bias in untrained states, while following their training in trained states. The agent chooses their new bias to minimize a weighted average of their loss under their initial and final biases. Training can thus generalize to untrained states via the agent's bias updating. We characterize optimal training, which involves \\emph{over-correction} in trained states and \\emph{generalization-aware} (non-greedy) selection of training states. If only a small share of states can be trained, greedy state selection is approximately optimal, but over-correction remains essential. If any bias function is possible, or if the principal evaluates training robustly over bias functions that admit the possibility of full alignment, the value of training generalization vanishes, and greedy training becomes optimal. With a more pessimistic objective, \\emph{under-correction}, or even no training at all, may be optimal. The principal benefits from the agent's preferences being more flexible (\\emph{corrigibility}) when the set of possible biases is known and contains full alignment, but otherwise corrigibility can be harmful. Applications include socialization in organizations and families, and AI post-training and recursive self-improvement."
     },
     {
       "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
@@ -444,7 +562,7 @@
     },
     {
       "title": "LegoSR: A Unified Framework for Self-improving Agent-Guided Scientific Discovery",
-      "url": "http://arxiv.org/abs/2610.33465v1",
+      "url": "http://arxiv.org/abs/2610.33465v2",
       "published": "2026-10-24T05:36:55Z",
       "authors": [
         "Hao Mao",
@@ -453,95 +571,7 @@
         "Shuai Lu",
         "Yuntian Chen"
       ],
-      "summary": "Equation discovery solvers often use different data interfaces, equation representations and evaluation criteria, making their results difficult to compare. We present LegoSR, a unified framework for algebraic symbolic regression and differential equation discovery. LegoSR integrates seven solvers through a common equation representation and evaluation process, and supports searches constrained by partially known equations. Researchers can run solvers directly or use LegoSR Agent, which selects solvers and adapts searches based on solver knowledge, intermediate results and lessons from earlier tasks. On noisy ordinary and partial differential equation benchmarks, LegoSR Agent recovers nearly as many equations as the union of seven expert-tuned solvers and outperforms a generic agent with the same model, tools and budget by up to 29 percentage points. Three examples demonstrate basic use, adaptive solver selection and discovery guided by partial physical knowledge."
-    },
-    {
-      "title": "HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
-      "url": "http://arxiv.org/abs/2610.32813v1",
-      "published": "2026-10-23T15:47:47Z",
-      "authors": [
-        "Yuhua Jiang",
-        "Chang Xu",
-        "Feifei Gao",
-        "Li Zhao"
-      ],
-      "summary": "Agent harnesses repeatedly invoke reasoning after tool feedback, even when an earlier call has already fixed the next action. We introduce HarnessMM (Harness Minus Minus), a method for improving harness token efficiency through guarded decision reuse and recursive self-improvement (RSI). RSI iteratively refines companion harness configurations from training feedback, with validation selecting the configuration for deployment. A controller at the model-tool boundary reuses resolved decisions to replace later reasoning callbacks while actor weights remain fixed. Executable Decision Graphs store exact actions, literal arguments, causal dependencies, and public guards. Guarded Decision Reuse activates these persistent decisions from observed receipts; Certified Callback Substitution executes them through the native interface and records removal of the registered slow callback. New semantic decisions, unsupported evidence, and selector abstention invoke the original actor again. The representation restricts what feedback may change, while complete-task measurements establish quality and cost. On HumanEval, HarnessMM preserves Codex success at 90.82\\% while reducing Tokens/task (k) from 66.72 to 47.02 (29.54\\% saving). For DeepSeek Harness, success rises from 71.43\\% to 85.71\\% while Tokens/task (k) fall from 96.28 to 11.62 (87.93\\% saving). A separate MBPP ablation measures 26.91\\% lower cost than single-use graphs and 19.52\\% lower cost than retained callbacks. These results establish guarded decision reuse as a practical way to reduce repeated reasoning in existing harnesses."
-    },
-    {
-      "title": "TGR-EvoDAG: A DAG-based Multi-Agent Code Evolution Framework for Generative Recommendation on Tencent",
-      "url": "http://arxiv.org/abs/2610.32326v1",
-      "published": "2026-10-23T08:23:42Z",
-      "authors": [
-        "Junlin He",
-        "Junzhang Zhu",
-        "Yudong Li",
-        "Yihong Tang",
-        "Xuefeng Jiang",
-        "Wei Ma",
-        "Chengxiang Zhuo",
-        "Zang Li"
-      ],
-      "summary": "Large Language Model (LLM) agents have enabled automated code evolution for algorithm discovery. However, current recursive self-improvement (RSI) research for sequential recommendation faces a dilemma: general-purpose frameworks lack domain-specific feedback, while recommender-specific frameworks rely on linear evolution. Crucially, naively integrating them fails when applied to Generative Recommendation (GR). Unlike end-to-end models, GR relies on a module-cascaded pipeline (tokenization, pre-training, and alignment). In this paradigm, existing evolution methods suffer from: i) cost blindness, squandering budgets by ignoring stage-asymmetric retraining overheads; and ii) short-sighted evaluation, discarding promising upstream innovations that temporarily regress metrics before downstream adaptation. To bridge these gaps, we propose TGR-EvoDAG, a multi-agent code evolution framework tailored for GR. TGR-EvoDAG models code evolution as a Directed Acyclic Graph (DAG) to maintain multiple evolution branches and merge complementary innovations, unifying advanced search with rich GR diagnostic feedback. We further introduce stage-aware cost planning to optimize GPU-hour budgets, and active downstream co-adaptation to navigate temporary regressions and unlock cross-stage gains. On public Amazon datasets, TGR-EvoDAG enables the first autonomous evolution of a complete GR pipeline, improving offline metrics by up to 37.4% and Agent4Rec simulated user satisfaction by 19.7% over the strongest baseline. Furthermore, in industrial deployment on Tencent's large-scale commercial media platform, the evolved GR achieves a 12.16% relative improvement in offline Hit@1 and a statistically significant 0.40% increase in online click-through rate (CTR)."
-    },
-    {
-      "title": "ImageRSI: Verification-Driven Recursive Self-Improvement for Agentic Image Generation",
-      "url": "http://arxiv.org/abs/2610.32120v1",
-      "published": "2026-10-23T03:42:21Z",
-      "authors": [
-        "Shuo Han",
-        "Zhilin Wang",
-        "Peng Ling",
-        "Wenjia Gong",
-        "Yang Liu",
-        "Guanjun Jiang",
-        "Yukun Cao",
-        "Xike Xie"
-      ],
-      "summary": "Complex text-to-image requests remain difficult to satisfy reliably. Verifying and repairing an image can fix an individual output, but a successful repair does not necessarily carry over to other requests. We present ImageRSI, a framework that keeps the image generator frozen and combines three components: five-dimensional verification and repair within each task, an experience library shared across tasks, and offline updating of the judge. Candidate experiences enter the library only after paired A/B validation, and the judge is updated with supervised fine-tuning and GRPO on accumulated image-judgment records and evaluated before reuse. We also introduce ImageReq-Bench, a benchmark of 961 requests built around hard cases in real-world image-generation requests, each paired with an evaluation checklist. ImageRSI achieves a Checklist Strict Accuracy (CSA) of 52.6% on MindBench (with Nano Banana Pro as the generator) and 65.66% on ImageReq-Bench, and we compare system outcomes across judge-training configurations."
-    },
-    {
-      "title": "RSI-Opt: Recursive Self-Improvement Optimizer Agents For Model Training",
-      "url": "http://arxiv.org/abs/2610.32026v1",
-      "published": "2026-10-23T01:05:11Z",
-      "authors": [
-        "Binghang Lu",
-        "Yige Sun",
-        "Guang Lin"
-      ],
-      "summary": "Conventional neural-network training typically follows a predefined optimization recipe, motivating a LLM agent that monitors training dynamics and adjusts optimizer settings as training progresses, but a fixed agent policy does not accumulate experience across runs. We introduce RSI-Opt, a plug-and-play Recursive Self-Improvement Optimizer Agents which evolves the knowledge that guides this process: a prompt, a playbook of procedures, a library of tested optimizer code, and a decision cadence. A meta-agent rewrites this policy using evidence from earlier runs, and an archive retains evaluated policies for further evolution. Across 5 generations on three training tasks, the meta-agents develop reusable procedures and code and conduct their own CPU proxy experiments. RSI-Opt substantially improves optimizer-agent performance, with representative raw-space summary $z$-scores increasing from $+10.48$ to $+14.33$ on the evolution suite with Opus 5.5 and from $-0.36$ to $+3.11$ on held-out tasks with GPT-5.5 through cross-model policy transfer. On the Burgers PDE, it reduces mean relative $L_2$ error by approximately 2.7-fold with Opus 5.5 and 8.8-fold with GPT-6.1 over the fixed-prompt agent baseline, although PDE transfer varies across LLMs and tasks. Controlled comparisons show that the evolved policy combines reusable optimization knowledge with adaptation to each task: initial decisions capture most observed gains on seen tasks, while continued adaptation improves outcomes on unseen tasks. These findings demonstrate how procedures and executable tools accumulated across training runs can improve optimizer-agent performance and support transfer to scientific machine learning."
-    },
-    {
-      "title": "CANNBot-CAKE: Collaborative Agentic Kernel Evolution for Ascend NPU",
-      "url": "http://arxiv.org/abs/2610.31034v1",
-      "published": "2026-10-22T10:12:45Z",
-      "authors": [
-        "Deng Pan",
-        "Xue-Jian Gao",
-        "Junyi Fan",
-        "Bin Du",
-        "Jiasheng Li",
-        "Xinxian Chen",
-        "Nok Yan Chang",
-        "Xinlin Li",
-        "Lingchao Zheng",
-        "Jun Li",
-        "Yuwei Fan"
-      ],
-      "summary": "Efficient custom operators are essential for modern deep learning workloads, yet developing high-performance kernels for Ascend NPUs remains slow, expert-intensive, and difficult to automate. Although AI agents now approach expert performance on GPU kernel benchmarks, current models remain less capable of generating AscendC kernels for NPUs, potentially reflecting the relative scarcity of relevant training data. We thus present CAKE, a CANN-native system for deployable custom operators that combines adaptive multi-DSL routing, separate Generation and Evolution modes, and reviewed knowledge reuse through CAKE Book and a Self-Evolving Agent. On 53 CANN-Bench v1.1 operators on Ascend 950PR, CAKE's aggregated results achieve $100\\%$ case pass rate on the standard set (1,060/1,060) and $98.28\\%$ on the hidden set (4,167/4,240), with an overall mean score of 78.63 out of 100 and an average performance speedup of $1.334\\times$ over the baseline. Evolution then pushes correct operators further: EngramGateFusion cuts aggregate device time by $46.6\\%$ over 20 rounds and roughly halves the mean roofline gap. These results offer a practical path toward closing Ascend's AI-for-kernel capability gap."
-    },
-    {
-      "title": "HGM-Dual: Lineage-Aware Guided Agent Harness Optimization for Long-Horizon Planning",
-      "url": "http://arxiv.org/abs/2610.30042v1",
-      "published": "2026-10-21T17:02:28Z",
-      "authors": [
-        "Sudipta Paul",
-        "Pengrui Quan",
-        "Aounon Kumar",
-        "Nicholas Tzou",
-        "Vivek Kulkarni",
-        "Srinivas Chappidi"
-      ],
-      "summary": "Harness optimization, which improves an agent's prompts, tools, and workflows, is an increasingly effective way to enhance agents built on frozen or closed-source LLMs. Leading approaches such as the Darwin--Godel Machine and the Huxley--Godel Machine (HGM) rely on recursive self-improvement and were developed mainly for coding, where the competence needed to improve the agent coincides with the competence being improved. Planning tasks, in which an agent must produce a sequence of tool calls that jointly satisfies interacting constraints, break this alignment. There, open-ended self-modification repeatedly explores ineffective changes and consumes substantial evaluation budgets. We introduce HGM-Dual, a diagnostic-guided framework for budget-efficient harness evolution for planning agents. First, HGM-Dual represents agent evolution as lineage-aware context. This context records what each ancestor changed, which behaviors improved or regressed, and which modifications were ineffective, giving the editor explicit edit-outcome attribution instead of an unstructured archive of past agents. Second, HGM-Dual introduces error-conditioned dual-path child generation. For each selected parent, it generates a general child that preserves open-ended exploration and specialized children that target the harness components most likely responsible for the parent's highest-ranked constraint violations. HGM-Dual outperforms the strongest baseline by up to 14.45% relative improvement in case accuracy while matching HGM variants' final performance with 2x-4x fewer evaluation budget."
+      "summary": "Equation discovery solvers often use different data interfaces, equation representations and evaluation criteria, making their results hard to compare. We present LegoSR, a unified framework for algebraic symbolic regression and differential equation discovery. LegoSR integrates seven solvers through a common equation representation and evaluation process, and supports searches constrained by partially known equations. Researchers can run solvers directly or use LegoSR Agent, which selects solvers and adapts searches using solver knowledge, intermediate results and lessons from past tasks. On noisy ordinary and partial differential equation benchmarks, LegoSR Agent recovers nearly as many equations as the union of seven expert-tuned solvers and outperforms a generic agent with the same model, tools and budget by up to 29 percentage points. Three examples of increasing difficulty show the agent's role growing from running a solver to choosing one and then to building a partially known equation from failed searches."
     }
   ]
 }
