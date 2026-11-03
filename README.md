@@ -136,16 +136,16 @@ Seven-day changes require a snapshot from exactly seven days earlier. A dash mea
 <!-- TRENDING_START -->
 | Repository | Category | Stars | 7d Δ | Forks | Last push |
 |---|---|---:|---:|---:|---|
-| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | Self-improving agent | 22528 | +188 | 2491 | 2026-11-02 |
-| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Automated AI R&D | 14915 | +120 | 2085 | 2025-12-19 |
-| [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) | Research map | 927 | +55 | 80 | 2026-10-15 |
-| [jennyzzt/dgm](https://github.com/jennyzzt/dgm) | Open-ended agent evolution | 2476 | +23 | 460 | 2025-08-13 |
-| [Gen-Verse/Recuris](https://github.com/Gen-Verse/Recuris) | Memory evolution | 263 | +15 | 31 | 2026-08-30 |
-| [FrontisAI/OpenRSI](https://github.com/FrontisAI/OpenRSI) | Core / AI4AI | 869 | +13 | 81 | 2026-09-17 |
-| [scaleapi/rsi-benchmark](https://github.com/scaleapi/rsi-benchmark) | Benchmark | 110 | +9 | 61 | 2026-11-01 |
-| [selfimproving-agent/Awesome-Self-Improving-Agents](https://github.com/selfimproving-agent/Awesome-Self-Improving-Agents) | Research map | 600 | +7 | 68 | 2026-10-30 |
-| [CosmosMind-ai/RSI-Harness](https://github.com/CosmosMind-ai/RSI-Harness) | Harness evolution | 275 | +7 | 29 | 2026-10-10 |
-| [D2I-ai/awesome-recursive-self-improving-agents](https://github.com/D2I-ai/awesome-recursive-self-improving-agents) | Research map | 61 | +4 | 3 | 2026-10-22 |
+| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | Self-improving agent | 22554 | +173 | 2493 | 2026-11-03 |
+| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Automated AI R&D | 14931 | +124 | 2087 | 2025-12-19 |
+| [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) | Research map | 935 | +52 | 81 | 2026-10-15 |
+| [jennyzzt/dgm](https://github.com/jennyzzt/dgm) | Open-ended agent evolution | 2478 | +20 | 459 | 2025-08-13 |
+| [Gen-Verse/Recuris](https://github.com/Gen-Verse/Recuris) | Memory evolution | 265 | +15 | 33 | 2026-08-30 |
+| [FrontisAI/OpenRSI](https://github.com/FrontisAI/OpenRSI) | Core / AI4AI | 870 | +11 | 82 | 2026-09-17 |
+| [selfimproving-agent/Awesome-Self-Improving-Agents](https://github.com/selfimproving-agent/Awesome-Self-Improving-Agents) | Research map | 604 | +11 | 70 | 2026-11-02 |
+| [scaleapi/rsi-benchmark](https://github.com/scaleapi/rsi-benchmark) | Benchmark | 110 | +8 | 61 | 2026-11-02 |
+| [CosmosMind-ai/RSI-Harness](https://github.com/CosmosMind-ai/RSI-Harness) | Harness evolution | 276 | +7 | 28 | 2026-10-10 |
+| [D2I-ai/awesome-recursive-self-improving-agents](https://github.com/D2I-ai/awesome-recursive-self-improving-agents) | Research map | 62 | +4 | 3 | 2026-10-22 |
 | [HITsz-TMG/KnowAct](https://github.com/HITsz-TMG/KnowAct) | Personal agent | 482 | +1 | 41 | 2026-08-26 |
 | [aiming-lab/RSI-Exam](https://github.com/aiming-lab/RSI-Exam) | Benchmark | 192 | +1 | 9 | 2026-10-18 |
 | [Gen-Verse/PAST-Bench](https://github.com/Gen-Verse/PAST-Bench) | Benchmark | 35 | 0 | 7 | 2026-08-05 |
@@ -158,18 +158,18 @@ Seven-day changes require a snapshot from exactly seven days earlier. A dash mea
 Automatically discovered papers are candidates for review, not curated endorsements.
 
 <!-- PAPERS_START -->
-- **[TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents](http://arxiv.org/abs/2610.41216v1)** — Kehong Gong, Xiaoxu Zheng, Guanli Hou et al. (2026-10-30)
-- **[From Evaluation to Evolution: Benchmarking Image Editing and Evolving Image Models](http://arxiv.org/abs/2610.41210v1)** — Jun He, Canmiao Fu, Ying Zhang et al. (2026-10-30)
-- **[TSFLab: A Self-Improving Agent-Agnostic Workbench for Time Series Forecasting Research](http://arxiv.org/abs/2610.40901v1)** — ChengAo Shen, Yanjun Zhao, Haoxin Liu et al. (2026-10-29)
-- **[More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum](http://arxiv.org/abs/2610.40758v1)** — Chenjie Qiu, Boyan Xu, Shaobin Shi et al. (2026-10-29)
-- **[Safin-1.5: Safety-Native Architecture and Verifiable Reasoning for Recursive Safety Improvement](http://arxiv.org/abs/2610.40751v1)** — Jingnan Zheng, Cheng Jin, Ming Zhang et al. (2026-10-29)
-- **[Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement](http://arxiv.org/abs/2610.40191v1)** — Liaoyuan Fan, Yuhao Zheng, Dongxing Mao et al. (2026-10-29)
-- **[The Role of Self-Concept In Language Models](http://arxiv.org/abs/2610.39795v1)** — Yijie Hao, Joyce C. Ho (2026-10-29)
-- **[MoLRSI: A Recursive Self-Improving AI agent for Molecular Discovery](http://arxiv.org/abs/2610.39714v2)** — Yikun Zhang, Xiwei Cheng, Mingze Yuan et al. (2026-10-29)
-- **[Compile Away Uncertainty: Self-Evolving Agent Skills via Programmatic Compilation](http://arxiv.org/abs/2610.39508v1)** — Chengyu Yang, Yunxiang Zheng, Zongzheng Li et al. (2026-10-29)
-- **[Well-Specified and Well-Tested? Assessing SWE-bench-Style Datasets with a Self-Evolving Agent](http://arxiv.org/abs/2610.39417v1)** — Zhonghao Jiang, Xuyang Zheng, Yanfu Yan et al. (2026-10-29)
-- **[Try Before You Evolve: Ranking-Scored Trials for Recursive Self-Improvement of Recommender Systems](http://arxiv.org/abs/2610.39352v1)** — Xu Huang, Jiawei Feng, Jiancan Wu (2026-10-29)
-- **[From Grind to Grasp](http://arxiv.org/abs/2610.38728v1)** — Peter Sunehag (2026-10-28)
+- **[CARE: Grounded Recursive Self-Improvement for Production Customer-Service Agents](http://arxiv.org/abs/2611.02839v1)** — Yanbei Jiang, Chao Lei, Rena Gao et al. (2026-11-02)
+- **[SelfImprove-Bench: Evaluating Generalization in Self-Improving Agents](http://arxiv.org/abs/2611.02797v1)** — Bangrui Xu, Jie Yang, Sidi Chen et al. (2026-11-02)
+- **[Neuro Inspired Robotics: What Robot Learning Can Borrow from the Sensorimotor Brain](http://arxiv.org/abs/2611.02510v1)** — Ruihan Zhang, Davy Deng (2026-11-02)
+- **[NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale](http://arxiv.org/abs/2611.02102v1)** — Chaoyun Zhang, Bingxuan Li, Pinxue Guo et al. (2026-11-01)
+- **[EvoRec: A Unified Self-Evolving Agentic Recommender with Dynamic Reflection Trees](http://arxiv.org/abs/2611.01977v1)** — Mengting Li, Long Zhang, Hao Jiang et al. (2026-11-01)
+- **[Self-Evolving Agentic Workflows via Semantic Decomposition of Complex Tasks](http://arxiv.org/abs/2611.01840v1)** — Zichuan Fu, Junjia Qi, Xian Wu et al. (2026-11-01)
+- **[LegoEnv: Self-Evolving Agentic Environments via Modular Recombination](http://arxiv.org/abs/2611.01834v1)** — Zhuosong Jiang, Chengxu Wu, Junqi Liu et al. (2026-11-01)
+- **[Evolving Memory, Learning to Meta-Control: Test-Time Adaptation for Experience-augmented LLM Agents](http://arxiv.org/abs/2611.01747v1)** — Zeyuan Zhao, Yuanyuan Shi, Peng Yu et al. (2026-11-01)
+- **[From Single-Agent Self-Discovery to Multi-Agent Adaptation: Scaling Laws of Partner Feedback and Convention Rigidity in Meta Reinforcement Learning Algorithms](http://arxiv.org/abs/2611.01742v1)** — Haomin Luo, Ersha Li (2026-11-01)
+- **[RSI-Env: An Open-Ended Environment for Recursive Self-Improvement of Agents](http://arxiv.org/abs/2611.01736v1)** — Wanying Qu, Zhiyuan Fan, Jiyao Liu et al. (2026-11-01)
+- **[Recursive Self-Improvement of Exoskeleton Assistance Policies through Human-in-the-Loop Feedback](http://arxiv.org/abs/2611.01581v1)** — Muyuan Ma, Shuo Jiang, Lijun Han et al. (2026-11-01)
+- **[Latent Harness: Compiling Agent Behaviors into Post-Block Activation Shifts](http://arxiv.org/abs/2611.01415v1)** — Ran Li, Shimin Di, Zeyu Ren et al. (2026-11-01)
 <!-- PAPERS_END -->
 
 The automated layer tracks GitHub metadata, daily snapshots and a fresh paper feed. Human curation stays separate from automation.
