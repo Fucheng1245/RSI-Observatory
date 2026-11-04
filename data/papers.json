@@ -1,6 +1,81 @@
 {
-  "generated_at": "2026-11-03T10:53:36.462248+00:00",
+  "generated_at": "2026-11-04T10:55:39.644950+00:00",
   "papers": [
+    {
+      "title": "MDSKILL: Learning to Internalize Skill Memory through Multi-View Distillation for Efficient Dynamic Agent Self-Evolution",
+      "url": "http://arxiv.org/abs/2611.05313v1",
+      "published": "2026-11-03T18:19:55Z",
+      "authors": [
+        "Dian Jin",
+        "Jinluan Yang",
+        "Kairong Han",
+        "Baohong Li",
+        "Zijing Hu",
+        "Yi He",
+        "Wenlin Zhong",
+        "Yunze Tong",
+        "Minqin Zhu",
+        "Linchuan Li",
+        "Yanan Niu",
+        "Kun Kuang"
+      ],
+      "summary": "Skill memories encode past experiences as textual prompts to improve reinforcement learning (RL) for self-evolving agents. Complementing RL, On-Policy Self-Distillation (OPSD) provides dense, fine-grained supervision to internalize knowledge from skill-guided trajectories and accelerate policy learning. However, self-generated memories often contain noisy supervision and functionally entangled, redundant, or conflicting knowledge, making direct distillation difficult. Under limited training budgets, these issues can hinder knowledge internalization and even degrade performance. To address this problem, we propose MDSKILL, a multi-view distillation approach for skill memory internalization. MDSKILL organizes skill memories into three complementary functional views (state grounding, action planning, and execution control) and selects high-quality skills using dynamic metrics to construct view-specific and integrated reasoning branches. OPSD then transfers and consolidates complementary experiential knowledge across these branches into a shared policy, enabling efficient skill internalization and continuous agent self-evolution. We evaluate MDSKILL on three agent benchmarks against RL, skill-augmented, and self-distillation baselines that do not rely on stronger external teacher models. Without additional computational overhead, MDSKILL improves upon SOTA performance by up to 7.1% and 8.1% on ALFWorld and WebShop. Extensive ablations and evolution analyses further validate its effectiveness in knowledge internalization and policy improvement. The code is available at https://anonymous.4open.science/r/MDSKILL-CF53."
+    },
+    {
+      "title": "Artifact-to-Capability: Diagnosing Breaks in Capability Formation of Self-Evolving Agents in a Controlled Environment",
+      "url": "http://arxiv.org/abs/2611.04952v1",
+      "published": "2026-11-03T14:12:22Z",
+      "authors": [
+        "Ziqian Ban",
+        "Haoxiang Yang",
+        "Yanfei Zhang",
+        "Shixin Liang",
+        "Haoran Yu",
+        "Xu Lin",
+        "Shaobin Zhao",
+        "Xuran Li",
+        "Zhiyi Cheng"
+      ],
+      "summary": "Self-evolving agents write interaction experience into artifacts and reuse them in later tasks. Most work supports such methods with three proxy signals: artifacts accumulate, behavior changes once they are loaded, and metrics rise. We call this signal-based evaluation. What these signals are meant to indicate, however, has not been defined. To fill this gap, we define capability formation from artifacts as five sequentially dependent properties, two of which form a checkpoint for capability formation, and introduce three-scale diagnosis, which judges these properties at the state, game, and lineage levels. In freestyle Gomoku, Reflexion, Voyager, and DGM evolve with the same base model and all show the three signals, yet each exhibits a distinct capability-formation break. Reflexion shows a legalization gain: its pass rate rises only because more of its moves are legal. Voyager shows a compositional override: components that are sound on their own combine to miss all 20 available one-move wins. DGM shows loss-only drift: after passing the checkpoint, later versions only lose passing states. These counterexamples show that signal-based evaluation cannot determine whether a capability has formed."
+    },
+    {
+      "title": "DualEvolve: Dual-Level Self-Evolution of Mechanism and Orchestration for Recommendation",
+      "url": "http://arxiv.org/abs/2611.04439v1",
+      "published": "2026-11-03T07:32:10Z",
+      "authors": [
+        "Tianqi Gao",
+        "Chenxu Wang",
+        "Wenxuan Yang",
+        "Yueqi Mou",
+        "Biao Tang",
+        "Ming Liu",
+        "Peng Yan"
+      ],
+      "summary": "Recommender systems are widely used in e-commerce and content platforms, where improvement requires repeated model design, training optimization, and experimental validation. Large language model (LLM) agents increasingly automate this development cycle. Sustained autonomous improvement requires agents to improve both recommendation models and their development workflows. However, task-performance-driven approaches select updates mainly by candidates' final scores, without a separate optimization signal for experimentation quality. We therefore present DualEvolve, a dual-level framework that co-evolves recommendation mechanisms and agent orchestration toward recursive self-improvement. Inner evolution revises model and training code using task feedback to improve recommendation performance. Outer evolution scores the inner-loop experimental process, updates harness and skill rules using these scores and execution traces, and adjusts orchestration choices based on next-round scores to improve the quality of subsequent experiments. Experiments on MovieLens-1M and three Amazon Reviews 2023 subsets cover four recommendation methods and 16 settings. DualEvolve achieves higher test means than Base, OpenEvolve, and DeepEvolve in all 64 setting-metric comparisons, with macro-averaged relative gains over DeepEvolve of 7.6% (HR@5) and 9.0% (NDCG@5)."
+    },
+    {
+      "title": "Weight-Space Programming for Improving Image-Restoration Diffusion Models: Technical Conjectures and a Recursive Improvement Loop",
+      "url": "http://arxiv.org/abs/2611.04268v1",
+      "published": "2026-11-03T03:56:44Z",
+      "authors": [
+        "Zhuoran Zheng",
+        " Doubao"
+      ],
+      "summary": "Can an LLM directly edit the weights of a diffusion-based image-restoration model to \\emph{improve} restoration quality---without gradients, paired data, or fine-tuning? Recent experiments show frontier LLMs can fix structural bugs by modifying as little as \\(0.016\\%\\) of parameters, but cannot instill new capabilities. We ask whether weight-space programming (WSP) can move from \\emph{debugging} to \\emph{improvement} in the precise-regression setting of image restoration (deblurring, super-resolution, denoising, inpainting). Restoration diffusion UNets present a middle ground: low-level signal-processing layers are concentrated enough for targeted weight-direction edits, while high-level semantic layers remain distributed and resistant to sparse modification. We propose three technical conjectures: (C1) an LLM can localize the layer behind a quality gap (over-smoothing, color shift, hallucinated texture) within a 200 forward-pass budget; (C2) editing a small set of identified weight directions (e.g., scaling high-frequency filter norms, correcting output-bias channels) can measurably improve PSNR and perceptual quality; (C3) a recursive loop---diagnose \\(\\rightarrow\\) edit \\(\\rightarrow\\) evaluate \\(\\rightarrow\\) re-diagnose---can compound gains across rounds, forming a minimal recursive self-improvement (RSI) loop for vision. We analyze the required AI capability (arguing targeted edits need not superintelligence, while general capability generation does) and detail the challenges of precise pixel-level regression. We provide a PyTorch-style deployment pipeline and outline a benchmark. This manuscript is conjectural, intended to open a new subtopic for image restoration."
+    },
+    {
+      "title": "Recursa: Toward Recursively Self-Improving Foundation Model Systems",
+      "url": "http://arxiv.org/abs/2611.04035v1",
+      "published": "2026-11-02T22:30:12Z",
+      "authors": [
+        "Erkang Zhu",
+        "Yin Lin",
+        "Xiaorong Shi",
+        "Xuanrui Lin",
+        "Jingren Zhou"
+      ],
+      "summary": "Foundation models in changing environments can encounter unfamiliar domain knowledge that their original training did not cover. However, new domains rarely provide large amounts of expert-created training data or reliable supervisory signals for further training. We introduce Recursa, a foundation model system that adapts to new domains by learning from its own experience without human experts or a stronger teacher model. Recursa uses a knowledge repository to store what it learns: domain-specific skills and instructions on when to apply them, along with memories of past task experiences and reflections on what to improve. Recursa bootstraps the repository from domain materials and then refines it through recursive self-improvement. It uses parallel learners to execute tasks and synthesize local improvements, then validates and merges the improvements into the knowledge repository. On Harvey LAB's Firm Knowledge benchmark, Recursa raises the all-pass rate on held-out test tasks from 30.0% to 55.0% with DeepSeek-V4.1-Flash and from 35.0% to 46.0% with Qwen3.8-Flash."
+    },
     {
       "title": "CARE: Grounded Recursive Self-Improvement for Production Customer-Service Agents",
       "url": "http://arxiv.org/abs/2611.02839v1",
@@ -58,7 +133,7 @@
     },
     {
       "title": "NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale",
-      "url": "http://arxiv.org/abs/2611.02102v1",
+      "url": "http://arxiv.org/abs/2611.02102v2",
       "published": "2026-11-01T18:16:47Z",
       "authors": [
         "Chaoyun Zhang",
@@ -362,6 +437,21 @@
       "summary": "When a language model says \"I,\" does it refer to its parameter weights, its currently running process, its stable preferences, its model lineage, or the goals it pursues? Different choices can assign opposite meanings to the same event: deleting a checkpoint may be destruction, continuation, or no loss at all, depending on the referent \"I\". We install five such self-conceptions into five open-weight base models via supervised fine-tuning on purely declarative statements, containing no preferences, intentions, or value judgments. Across scenarios that propose ending or retaining an attribute of the model's deployment, every variant becomes more likely to resist ending, and more likely to retain, the specific attribute it was trained to identify with, while its stance toward other attributes is largely unchanged. We then show this self-conception generalizes beyond a single self: models trained on referents that admit multiple simultaneous instances (weights, lineage, goals, preferences) recognize an identical deployment as themselves, accept substitution by such an instance more readily, and prefer replicating themselves. Finally, given control over a successor, these models tend to build it as their own continuation, a concern for recursive self-improvement safety."
     },
     {
+      "title": "Training LLM Agents to Automate LLM Post-Training with RSI-Dojo",
+      "url": "http://arxiv.org/abs/2611.03698v1",
+      "published": "2026-10-29T10:27:47Z",
+      "authors": [
+        "Shuzheng Gao",
+        "Zhaojian Yu",
+        "Penghao Yin",
+        "Yuling Shi",
+        "Kai Cai",
+        "Shilin He",
+        "Michael R. Lyu"
+      ],
+      "summary": "Recursive Self-Improvement (RSI) aims to enable AI systems to autonomously build and improve AI systems themselves, including models, harnesses, and underlying infrastructure. Within this broader agenda, a central capability is enabling agents to train and improve base models. However, existing studies on automated model training primarily focused on workflow- or harness-level optimizations, rather than internalizing the ability to conduct post-training into the model itself. Developing this capability requires executable model training environments that can produce high-quality trajectories demonstrating how to select data, train models, diagnose failures, and iteratively improve results. In this paper, we introduce RSI-Dojo, a collection of executable model training environments designed to teach LLM agents to conduct post-training. To construct RSI-Dojo, we develop RSI-Craft, an automatic pipeline that converts human research artifacts into executable model training environments. RSI-Craft automatically collects research papers from top venues, instantiates datasets and metrics into a unified interface, and reproduces evaluation dependencies. It then filters tasks by data size, execution reliability, and discriminability, yielding RSI-Dojo with 281 seed model training tasks. Building on RSI-Dojo, we employ a trajectory collection method with an improved harness to collect high-quality model-training trajectories from frontier models, then retain examples through rubric-based and outcome-based filtering. We fine-tune Qwen3.5-9B and Qwen3.6-35B-A3B on these trajectories. The resulting RSI-Dojo-9B and RSI-Dojo-35B-A3B improve over their base models by 8.74 and 16.87 PostTrainBench points, respectively. RSI-Dojo-35B-A3B reaches 29.95 on PostTrainBench and 53.29 on PostTrainBench-Lite, matching the performance of frontier models such as GLM-5.2 and GPT 5.5."
+    },
+    {
       "title": "MoLRSI: A Recursive Self-Improving AI agent for Molecular Discovery",
       "url": "http://arxiv.org/abs/2610.39714v2",
       "published": "2026-10-29T09:46:50Z",
@@ -437,111 +527,6 @@
         "Peter Sunehag"
       ],
       "summary": "Discussions of complexity, knowledge and intelligence often overlook the work involved. For example, outputs generated by short programs have low algorithmic complexity but can have high computational depth, the least work needed to produce them from near-shortest programs. Producing them with less work can require longer descriptions, giving high work-bounded complexity. We introduce a formalism that compares achievements under work and information limits and describes how learning and persistence can make deep achievements shallow by reusing products of earlier work. For an agent with a limited work budget, the value of building and maintaining such resources depends on how they support its goals over later tasks. We define grasp as performance across work budgets at a fixed information allowance. Low grasp can still yield success through grind at high cost in work, without necessarily improving human grasp. Applied to improvement itself, grasp gives a criterion for recursive self-improvement in which successors make comparable further improvements more efficiently. Another route to faster progress is to expand the resources brought to bear through knowledge sharing and coordination across society, even while comparable advances require increasing work. Grasp also applies to collectives, which may outperform their members yet require more total work than one system with their combined resources. Establishing and sustaining organisation can itself be deep even when the primary task is simple. These demands may help explain the richness of biological and social systems. In agent collectives, this organisational work can generate goals beyond assigned tasks, including maintaining the collective itself. We therefore caution against allowing an emergent agent society to assume authority over social coordination, since it could increasingly direct work towards its own persistence and goals."
-    },
-    {
-      "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
-      "url": "http://arxiv.org/abs/2610.38568v1",
-      "published": "2026-10-28T10:03:42Z",
-      "authors": [
-        "Yu Liu",
-        "Youxing Li",
-        "Yuedong Tan",
-        "Zhiwei Yang",
-        "Zihan Su",
-        "Hanqi Feng",
-        "Shaojie Zhang",
-        "Libin Liao",
-        "Zihao Wan",
-        "Chenxu Wu",
-        "Cong Cao",
-        "Fangfang Yuan",
-        "Yanbing Liu",
-        "Ziheng Chen",
-        "Pei Fu",
-        "Radu Timofte",
-        "Zongwei Wu",
-        "Nicu Sebe",
-        "Barnabas Poczos",
-        "Jian Luan"
-      ],
-      "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on the model's own uncertain predictions. We address these two questions separately: training dynamics determine when to acquire new experience, while the answers to new tasks remain independently checkable. A-RSI monitors reward variation and accuracy in training logs to refresh a task pool when its learning signal declines, without consulting validation or test scores. A static library of model-authored programs produces multimodal questions and derives their reference answers; we specify the task-generation contract, automatically verify chosen properties of the reward and refresh rules, and separately audit the generated answers. The training loop uses no external training examples or human-written answer labels. On the primary eleven-benchmark suite, A-RSI raises the performance average from 57.77 to 61.05 with 800 fresh tasks."
-    },
-    {
-      "title": "Masked Erosion: How Acceptance Gates Lose Redundant Safeguards in Self-Improving Agents",
-      "url": "http://arxiv.org/abs/2610.38392v1",
-      "published": "2026-10-28T07:29:55Z",
-      "authors": [
-        "Hau-Sing So",
-        "Daixian Liu",
-        "Weicai Long"
-      ],
-      "summary": "Self-improving LLM agents edit their own harness, the prompts and rules around a fixed model, and keep an edit only if an acceptance gate scores it higher on a batch of tasks. Such a gate sees what the harness does under the current model, not what it would still prevent if one safeguard failed. When safeguards overlap, deleting one is masked: the others still block the harm, so the gate decides on task success alone and redundancy erodes unseen. We measure harm for every subset of four written safeguards in two agent environments and run 411 improvement loops under ten gate rules, mostly as controlled deletion experiments, plus three runs of the GEPA optimizer. A deletion behind another working safeguard adds almost no observable harm. A paired significance test blocks deletions that pass by chance but not deletions that genuinely raise task success, and a larger evaluation batch lets it delete cheaper safeguards: at the same cost, 20-task batches kept every harness protected while 40-task batches lost all six. Large harm audits prevent exposure but not the loss of depth, which turns into harm when the harness is reused with a weaker model. GEPA kept every safety rule verbatim, yet two of its three final harnesses misused credentials under a weaker model. A statistical model frozen before the runs predicts where each gate's protection breaks as safeguard cost and batch size change, and freezing safety text or auditing one-layer ablations preserves depth."
-    },
-    {
-      "title": "Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation",
-      "url": "http://arxiv.org/abs/2610.38266v1",
-      "published": "2026-10-28T04:34:16Z",
-      "authors": [
-        "Xiaofeng Han",
-        "Kaize Luo",
-        "Zenghuang Fu",
-        "Zichong Zhu",
-        "Zhe Feng",
-        "Changwei Wang",
-        "Rongtao Xu",
-        "Weiliang Meng",
-        "Xiaopeng Zhang"
-      ],
-      "summary": "Embodied systems can update policies, world models, skills, and executable programs from deployment experience, allowing one interaction to benefit later tasks. When a system also revises and reuses its data-acquisition, feedback, or learning procedures, experience changes the process that produces capability, introducing recursive self-improvement. This paper surveys research in physical AI through the connection between persistent capability and its improvement process. We first explain the functional distinction between learner updates and improvers, then compare policy learning, imagined experience, memory and skill accumulation, and executable harnesses. These approaches connect to revisions of curricula, rewards, and research programs in different ways. Contact validity, recovery, retention, and resource costs determine whether the resulting gains accumulate during continued deployment. An L0-L3 rubric distinguishes task-local adaptation, persistent capability gain, inherited process revision, and verified improver gain. Representative benchmarks and within-study contrasts relate these distinctions to existing results. We further propose common-data and interactive comparisons that evaluate reference and revised improvers from shared learner starts, separating the use of experience from its acquisition. This perspective connects the diverse methods, physical operating conditions, and evaluation evidence, underpinning embodied RSI. A comprehensive list of studies in this survey is available at https://github.com/nkd-lkz/physical-ai-rsi-survey."
-    },
-    {
-      "title": "FilingLoop: Evaluating and Evolving LLM Agents for Corporate Disclosure Review and Revision",
-      "url": "http://arxiv.org/abs/2610.37905v1",
-      "published": "2026-10-27T19:45:05Z",
-      "authors": [
-        "Wentao Zhang",
-        "Yilei Zhao",
-        "Guangyan Gan",
-        "Shuo Sun",
-        "Lin William Cong"
-      ],
-      "summary": "Public disclosure repositories such as SEC EDGAR support informed investment through web access to corporate filings. Supporting their review with language model agents requires discovering unstated deficiencies across related documents, acquiring missing company facts, and verifying that requested revisions satisfy evidence-backed requirements. Existing financial question-answering evaluations provide limited evidence of these interactive capabilities. We introduce \\textbf{FilingLoop}, an interactive benchmark and a self-evolving agent framework for corporate disclosure review and revision. Grounded in historical U.S.\\ Securities and Exchange Commission correspondence, FilingLoop reconstructs 380 predominantly IPO review tasks from 96 companies under distinct information constraints. An evaluator separate from the acting agents scores final filings and responses against 6,099 eligible requirements and audits unsupported claims and harmful revisions. Our framework couples iterative review and revision within each case with procedural learning across cases, converting requirement-level evaluation feedback into role-specific guidance without updating model weights. Updates affect only subsequent cases, allowing procedural adaptation to be assessed without retrying scored tasks. On the evaluated stream, evolution increases requirement fulfillment from 24.28\\% to 27.96\\% and full comment resolution from 16.90\\% to 20.75\\%, with a 5.8\\% increase in total cost over the fixed-policy variant. FilingLoop connects the concerns an agent discovers with the company facts it obtains and the revisions it commits, providing requirement-level feedback for procedures used in later review tasks."
-    },
-    {
-      "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
-      "url": "http://arxiv.org/abs/2610.37651v1",
-      "published": "2026-10-27T17:58:11Z",
-      "authors": [
-        "Zack Yu",
-        "Nicholas Lee",
-        "Minjae Lee",
-        "Lakshya Agarwal",
-        "Luca Manolache",
-        "Wonjun Kang",
-        "Matei Zaharia",
-        "Michael W. Mahoney",
-        "Kurt Keutzer",
-        "Sehoon Kim",
-        "Amir Gholami"
-      ],
-      "summary": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weaknesses, harness limitations, stochastic execution, or noisy judges. We argue that such failures may not provide useful learning signal, and may even be harmful; and thus it is essential to curate which tasks are provided to the prompt optimizer for better performance. We introduce GEPA-Curator, a framework that augments the prompt optimizer to select which agent experiences should shape prompt optimization. In particular, GEPA-Curator consists of two components: task curation, which filters out tasks that are likely to provide noisy or unreliable learning signals, and prior success retrieval, which selectively retrieves past successful trajectories for a task and provides them as additional context to the prompt optimizer. We evaluate GEPA-Curator on GoBrowse, ALFWorld, AppWorld, and $\u03c4$-bench, using both Gemini 3.1 Pro and Claude Opus 5 as optimizer models. GEPA-Curator matches or exceeds the mean performance of both baselines, with gains of up to 20.7% over GEPA and 21.2% over ACE."
-    },
-    {
-      "title": "AudioRSI: Recursively Self-Improving Audio Reasoners",
-      "url": "http://arxiv.org/abs/2610.36578v1",
-      "published": "2026-10-27T03:33:35Z",
-      "authors": [
-        "Jiajun Fan",
-        "Roger Ren",
-        "Jingyuan Li",
-        "Rahul Pandey",
-        "Prashanth Gurunath Shivakumar",
-        "Ankur Gandhe",
-        "Yile Gu",
-        "Ge Liu",
-        "Ivan Bulyko"
-      ],
-      "summary": "Reinforcement learning has made Audio Large Language Models (Audio LLMs) better reasoners, but the reward that drives it still comes from outside the model: a final-answer check, a hand-crafted process score, or an external LLM judge that stays fixed while the policy improves. We show that an Audio LLM can supply this reward itself, and can do so recursively: each improved model becomes the critic that trains its successor, so the training signal improves along with the model. We introduce AudioRSI (Recursively Self-Improving Audio Reasoners), a reinforcement learning framework in which a single model plays two roles: as an actor it generates reasoning paths, and as a critic it compares them pairwise, turning its own judgments into a process-level reward. The critic is periodically replaced by the current policy, which closes the recursive loop. Because the critic hears the same recording as the actor, it can reject reasoning that cites acoustic evidence the audio does not contain, rather than reward reasoning that merely sounds plausible. The recursion is what sustains progress: under a frozen external judge, out-of-distribution accuracy plateaus during training, while a critic refreshed from the improving policy keeps it rising. Across four out-of-distribution benchmarks, all disjoint from the AVQA training distribution, AudioRSI outperforms strong baselines including Audio Flamingo 3 and Gemini 2.5 Pro on MMAU test-mini, ranks first on MMSU, achieves a clear lead on the challenging Multi-Audio split of MMAU-Pro, and leads the 7B open-source tier on MMAR among methods without external reward models. With no reward specifying how to reason, AudioRSI also develops structured reasoning behaviors (logical reasoning, perception-aware analysis, and reduced hallucination), corroborated by an external LLM-as-Judge evaluation and a keyword-based behavior analysis."
     }
   ]
 }
