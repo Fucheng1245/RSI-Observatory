@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-05T10:56:28.584104+00:00",
+  "generated_at": "2026-11-06T10:52:55.472978+00:00",
   "failures": [],
-  "papers_generated_at": "2026-11-05T10:56:28.584104+00:00",
+  "papers_generated_at": "2026-11-06T10:52:55.472978+00:00",
   "repositories": [
     {
       "full_name": "PrimeIntellect-ai/prime-agent",
@@ -9,15 +9,15 @@
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "category": "Self-improving agent",
       "note": "Self-improving RLM agent for coding workflows and long-running autonomous tasks; strong adjacent/direct-candidate signal.",
-      "stars": 22586,
-      "forks": 2494,
-      "open_issues": 132,
+      "stars": 22605,
+      "forks": 2501,
+      "open_issues": 133,
       "language": "Rust",
       "created_at": "2026-05-08T01:42:41Z",
-      "updated_at": "2026-11-05T10:17:24Z",
-      "pushed_at": "2026-11-05T01:03:08Z",
+      "updated_at": "2026-11-06T10:41:40Z",
+      "pushed_at": "2026-11-05T21:01:20Z",
       "topics": [],
-      "delta_7d": 156
+      "delta_7d": 150
     },
     {
       "full_name": "SakanaAI/AI-Scientist",
@@ -25,15 +25,15 @@
       "description": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery \ud83e\uddd1\u200d\ud83d\udd2c",
       "category": "Automated AI R&D",
       "note": "Major open automated research system; adjacent to closed-loop AI R&D rather than strict RSI.",
-      "stars": 14948,
-      "forks": 2087,
+      "stars": 14952,
+      "forks": 2088,
       "open_issues": 124,
       "language": "Jupyter Notebook",
       "created_at": "2024-08-12T09:32:55Z",
-      "updated_at": "2026-11-05T09:13:14Z",
+      "updated_at": "2026-11-06T03:45:10Z",
       "pushed_at": "2025-12-19T07:46:21Z",
       "topics": [],
-      "delta_7d": 129
+      "delta_7d": 120
     },
     {
       "full_name": "jennyzzt/dgm",
@@ -41,15 +41,15 @@
       "description": "Darwin G\u00f6del Machine: Open-Ended Evolution of Self-Improving Agents",
       "category": "Open-ended agent evolution",
       "note": "Darwin G\u00f6del Machine: open-ended evolution of self-improving agents via source-code modification and empirical selection.",
-      "stars": 2484,
-      "forks": 460,
+      "stars": 2486,
+      "forks": 461,
       "open_issues": 28,
       "language": "Python",
       "created_at": "2025-05-23T14:25:57Z",
-      "updated_at": "2026-11-05T03:47:18Z",
+      "updated_at": "2026-11-06T04:12:35Z",
       "pushed_at": "2025-08-13T10:40:14Z",
       "topics": [],
-      "delta_7d": 18
+      "delta_7d": 15
     },
     {
       "full_name": "FrontisAI/OpenRSI",
@@ -58,14 +58,14 @@
       "category": "Core / AI4AI",
       "note": "Open full-stack AI4AI work toward recursive self-improvement, including OpenMLE and Frontis-MA1.",
       "stars": 872,
-      "forks": 82,
+      "forks": 83,
       "open_issues": 16,
       "language": "Python",
       "created_at": "2026-07-30T17:19:53Z",
       "updated_at": "2026-11-04T03:27:12Z",
       "pushed_at": "2026-09-17T14:17:36Z",
       "topics": [],
-      "delta_7d": 10
+      "delta_7d": 8
     },
     {
       "full_name": "HITsz-TMG/KnowAct",
@@ -89,12 +89,12 @@
       "description": "G\u00f6del Agent: A Self-Referential Agent Framework for Recursive Self-Improvement",
       "category": "Self-modifying agent",
       "note": "Self-referential agent framework focused directly on recursive self-improvement.",
-      "stars": 240,
-      "forks": 54,
+      "stars": 239,
+      "forks": 53,
       "open_issues": 2,
       "language": "Python",
       "created_at": "2024-10-06T05:30:33Z",
-      "updated_at": "2026-11-05T07:25:04Z",
+      "updated_at": "2026-11-05T22:43:44Z",
       "pushed_at": "2025-09-17T22:21:44Z",
       "topics": [],
       "delta_7d": 0
@@ -167,8 +167,8 @@
       "open_issues": 2,
       "language": "Python",
       "created_at": "2026-08-26T06:58:55Z",
-      "updated_at": "2026-10-28T15:51:12Z",
-      "pushed_at": "2026-10-18T07:26:43Z",
+      "updated_at": "2026-11-06T08:23:56Z",
+      "pushed_at": "2026-11-06T08:23:53Z",
       "topics": [
         "benchmark",
         "recursive-self-improvement"
@@ -183,13 +183,13 @@
       "note": "Evaluates whether agents can develop capabilities required to advance AI R&D.",
       "stars": 113,
       "forks": 61,
-      "open_issues": 35,
+      "open_issues": 32,
       "language": "Python",
       "created_at": "2026-07-30T14:53:49Z",
-      "updated_at": "2026-11-05T03:43:34Z",
-      "pushed_at": "2026-11-05T03:43:30Z",
+      "updated_at": "2026-11-05T21:18:02Z",
+      "pushed_at": "2026-11-06T01:05:31Z",
       "topics": [],
-      "delta_7d": 6
+      "delta_7d": 3
     },
     {
       "full_name": "Gen-Verse/PAST-Bench",
@@ -224,12 +224,12 @@
       "description": "RSIH \u2014 versionable, shareable agent harness: Pi coding agent + Genome config layer",
       "category": "Harness evolution",
       "note": "Harness-level recursive self-improvement experiments.",
-      "stars": 276,
+      "stars": 277,
       "forks": 29,
       "open_issues": 6,
       "language": "TypeScript",
       "created_at": "2026-09-03T08:45:37Z",
-      "updated_at": "2026-11-03T05:59:15Z",
+      "updated_at": "2026-11-05T14:50:25Z",
       "pushed_at": "2026-10-10T12:02:25Z",
       "topics": [],
       "delta_7d": 3
@@ -256,12 +256,12 @@
       "description": "A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.",
       "category": "Research map",
       "note": "Curated research map spanning RSI models, agents, harnesses, benchmarks and safety.",
-      "stars": 953,
+      "stars": 960,
       "forks": 83,
       "open_issues": 26,
       "language": null,
       "created_at": "2026-08-11T03:59:57Z",
-      "updated_at": "2026-11-05T10:43:36Z",
+      "updated_at": "2026-11-06T09:27:35Z",
       "pushed_at": "2026-10-15T14:47:23Z",
       "topics": [
         "agi",
@@ -292,13 +292,13 @@
       "description": "A curated list for Self-Improvement in Foundation Model Based Agentic Systems.",
       "category": "Research map",
       "note": "Broad survey-oriented collection of self-improving agent research.",
-      "stars": 610,
-      "forks": 69,
+      "stars": 614,
+      "forks": 71,
       "open_issues": 5,
       "language": "TeX",
       "created_at": "2025-12-28T05:29:23Z",
-      "updated_at": "2026-11-05T08:15:43Z",
-      "pushed_at": "2026-11-04T05:19:58Z",
+      "updated_at": "2026-11-06T09:03:48Z",
+      "pushed_at": "2026-11-05T12:47:24Z",
       "topics": [
         "agent",
         "agent-survey",
@@ -309,7 +309,7 @@
         "self-evolving",
         "self-improving-agents"
       ],
-      "delta_7d": 14
+      "delta_7d": 17
     },
     {
       "full_name": "D2I-ai/awesome-recursive-self-improving-agents",
@@ -317,18 +317,100 @@
       "description": "Survey: The Path to Recursive Self-Improving Agents: Foundation, Framework, and Future Directions",
       "category": "Research map",
       "note": "Survey resources on recursive self-improving agents.",
-      "stars": 62,
+      "stars": 63,
       "forks": 3,
       "open_issues": 4,
       "language": "HTML",
       "created_at": "2026-08-03T09:15:05Z",
-      "updated_at": "2026-11-03T07:13:39Z",
+      "updated_at": "2026-11-05T14:17:31Z",
       "pushed_at": "2026-10-22T07:41:59Z",
       "topics": [],
       "delta_7d": 4
     }
   ],
   "papers": [
+    {
+      "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+      "url": "http://arxiv.org/abs/2611.08318v1",
+      "published": "2026-11-05T17:14:37Z",
+      "authors": [
+        "Wenbo Huang",
+        "Jianxin Bi",
+        "Shunyu Yang",
+        "Ruiyang Si",
+        "Rui Ni",
+        "Qiang Wang",
+        "Shulong Jiang",
+        "Yintianrun Zhang",
+        "Feixiang Ruan",
+        "Kewei Zhang",
+        "Ye Huang",
+        "Shukai Gong",
+        "Daquan Zhou"
+      ],
+      "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE). These criteria, originally written to verify policies trained by imitation learning, often demand more than the corresponding language instructions, so a score from such a verifier may not faithfully reflect whether the instructed task was completed, especially for robot-control programs written by an agent. As embodied coding agents report ever higher benchmark scores, a natural question arises: when a coding agent is exposed to the benchmark's criteria, does it generate code that better performs the instructed task, or code that simply overfits to the verification criteria? We conduct controlled experiments with a self-improving agent with and without CE, and find that with CE the agent quickly produces code with a higher success rate under the given criteria, but this advantage disappears when the criteria are changed slightly without departing from the original instructions. More importantly, the skills the agent develops under CE transfer poorly across tasks. We further propose instruction-faithful criteria and show that they better reflect the performance of agent-generated programs."
+    },
+    {
+      "title": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
+      "url": "http://arxiv.org/abs/2611.07624v1",
+      "published": "2026-11-05T08:06:37Z",
+      "authors": [
+        "Xiaobo Wang",
+        "Zimu Wang",
+        "Siyu Ye",
+        "Jiaqi Li",
+        "Min Tang",
+        "Jun Bai",
+        "Yuling Shi",
+        "Ruobing Wang",
+        "Jingjing Zhang",
+        "Chaofan Wang",
+        "Kai Wu",
+        "Mengnan Qi",
+        "Kai Cai",
+        "Xiaodong Gu",
+        "Qi Liu",
+        "Zilong Zheng"
+      ],
+      "summary": "Agent harness evolution enables recursive self-improvement (RSI) without updating model weights. We examine whether higher benchmark scores yield reliable, efficient, and transferable improvement. We evaluate four methods across harnesses, general and coding tasks. Repeated evaluations, controlled agent expansion, component interventions, and admission replays reveal recurring patterns. All sixteen evolved agents gain previously uncovered tasks while losing previously covered ones. In one general-task case, reliability rises by 5.2 points despite losing ten previously covered tasks. Most reliability gains also increase deployment cost. Specific changes usually outperform generic reminders, but their benefits can change when combined. The highest-scoring agent does not yield the largest mean improvement in any of our four pools, and stricter admission can discard useful alternatives. Transfer selectively preserves gains: coverage usually falls on the general-task target across both harness types and paradigms, but rises on the coding target with the outer-layer-only harness. These findings motivate preservation-aware evaluation, tested decision rules, and explicit applicability conditions. As a constructive follow-up, EvoAudit turns these diagnostics into revisions of select, analyze, mutate, and gate, achieving the best performance."
+    },
+    {
+      "title": "Recursive Self-Improvement for Long-Horizon Role-Playing Dialogue",
+      "url": "http://arxiv.org/abs/2611.07469v1",
+      "published": "2026-11-05T05:28:10Z",
+      "authors": [
+        "Y. L. Li",
+        "Y. H. Wu"
+      ],
+      "summary": "Long-horizon role-playing dialogue requires consistent character identity, reliable memory, and context-sensitive interaction. We present a bounded recursive self-improvement (RSI) framework that revises original-character memory, stable persona instructions, and a policy for constructing turn-level prompts. Repair outcomes also inform revisions to the updater's diagnostic rules, edit routing, and candidate selection. We specify the updater as a versioned policy with explicit inputs, editable fields, acceptance gates, and stopping conditions. An internal evaluation covers 50 original characters and five models, with two 100-round conversations per character-model pair: 500 conversations per condition. Across the pooled evaluated replies, the bad-response rate decreases from 14.00% (6,973/49,824) to 4.94% (2,459/49,793), a 9.06-percentage-point reduction and a 64.71% relative reduction. In 600 blinded human comparisons, RSI receives 294 wins, 187 ties, and 119 losses, yielding a 71.19% win rate among decisive judgments. The results support improved aggregate dialogue quality for the complete framework on the internal test distribution."
+    },
+    {
+      "title": "WeightLoop: Weight-Space Programming with Experimental Feedback",
+      "url": "http://arxiv.org/abs/2611.07319v1",
+      "published": "2026-11-05T02:06:51Z",
+      "authors": [
+        "Mengran Li",
+        "Bo Li",
+        "Weijing Zhao",
+        "Chengyang Zhang",
+        "Boyu Zhang",
+        "Jinfeng Xu",
+        "Zelin Zang",
+        "Victor C. M. Leung",
+        "Stan Z. Li"
+      ],
+      "summary": "Weight-space programming (WSP) shows that language models can reason about and rewrite neural network weights; recursive self-improvement (RSI) motivates feedback-driven improvement. Models guiding experiments receive concrete feedback: completed assays reveal prediction errors and inform what to test next. We introduce WeightLoop, a framework that turns experimental feedback into persistent updates to deployed predictors. GPT-6 Astra inspects a task specification and the model implementation, then writes a bounded, reusable parameter-editing program. As new measurements arrive, the program identifies prediction discrepancies, validates candidate edits using observed outcomes, and writes the selected changes back to the original model. The editor remains fixed while the predictor evolves, enabling repeated updates without further LLM calls or gradient retraining while preserving the original inference interface. In offline replay, targeted edits improve mean ranking utility in seven of eight endpoint-budget settings (all eight versus random edits) and mean final discovery across three sequential tasks. WeightLoop connects WSP with an RSI-inspired improvement loop, making experimental evidence a direct driver of model change and subsequent decisions."
+    },
+    {
+      "title": "Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI",
+      "url": "http://arxiv.org/abs/2611.07048v1",
+      "published": "2026-11-04T19:08:46Z",
+      "authors": [
+        "Andrew W. Lo",
+        "Chaoyi Zhao"
+      ],
+      "summary": "Evolution has shaped intelligence for billions of years. Artificial intelligence (AI) now raises a striking possibility: intelligence may begin to direct its own evolution. As AI agents become capable of modifying and evaluating their own behavior, how quickly could they improve, and how can that improvement remain safe? We develop a theoretical framework comparing Darwinian, Lamarckian, and agent-directed evolution following environmental change. Darwinian evolution relies on natural selection, Lamarckian evolution adds inherited learning, and agent-directed evolution allows agents to generate and evaluate behavioral variants and choose how extensively to search. When learning is sufficiently effective, these mechanisms exhibit progressively faster adaptation. Generating more variants accelerates adaptation, while optimal search effort depends on learning ability, problem difficulty, and experimentation costs. However, an agent's ability to direct its improvement does not ensure that improvements are evaluated against the intended objective. When the evaluation target is misspecified, additional search accelerates convergence toward the wrong behavior, even as measured performance improves. In recursive self-improvement, such errors may persist across generations, posing challenges for AI safety. Independent evaluation and oversight must keep pace with autonomous AI development. The central challenge is not simply to accelerate the evolution of intelligence, but to preserve humanity's ability to guide its direction, limit its speed, and intervene when necessary."
+    },
     {
       "title": "CompressionBench: How can your coding agents compress LLMs?",
       "url": "http://arxiv.org/abs/2611.06858v1",
@@ -619,81 +701,6 @@
         "Hang Yan"
       ],
       "summary": "Scaling computer-use agents from individual actions to complex software work requires experience that connects decisions to complete outcomes. We present NorthCUA, an integrated system for turbocharging computer-use agents through experience at scale. Its Experience Flywheel supplies diverse executable tasks to the NorthCUA Harness, which sustains long interactions, records decisions, and checks task outcomes. The Flywheel uses these records to curate verified trajectories. For unsolved tasks, recursive self-improvement evolves reusable skills and preserves verified milestones so later attempts build on earlier progress. Staged Learning combines this experience with grounding data from the Flywheel to develop GUI competence through mid-training and long-horizon supervised fine-tuning. The policy then learns from fresh attempts in the same Harness through joint desktop-web reinforcement learning, closing the loop between experience production and policy improvement. The resulting Nano, Mini, and Pro family achieves state-of-the-art results among open-source models across GUI grounding, desktop execution, and Web interaction under the reported evaluation settings. For more responsive Web workflows, NorthCUA-Ultrafast pairs direct action selection with open-ended generation on pre-RL Nano, offering a measured quality-latency tradeoff. Together, these advances establish NorthCUA as a high-performing model family and a reusable foundation for agents that carry complex software work from intent to completion."
-    },
-    {
-      "title": "EvoRec: A Unified Self-Evolving Agentic Recommender with Dynamic Reflection Trees",
-      "url": "http://arxiv.org/abs/2611.01977v1",
-      "published": "2026-11-01T15:15:00Z",
-      "authors": [
-        "Mengting Li",
-        "Long Zhang",
-        "Hao Jiang",
-        "Sheng Yu",
-        "Fei Pan",
-        "Peng Jiang"
-      ],
-      "summary": "Conventional recommender systems rely on fixed cascaded pipelines, limiting their ability to adapt to evolving user needs and feedback. Existing agentic recommenders introduce reasoning and tool use but often lack end-to-end decision control and systematic failure reflection. We propose EvoRec, a unified agentic recommendation framework that combines autonomous decision-making with reflection-driven self-evolution. A Need Agent infers user needs from long-term, short-term, and working memory. A Planning Agent adaptively allocates retrieval budgets between Behavior Continuation and Need Satisfaction, selects retrieval tools, and sets ranking-fusion weights. An Acting Executor executes the plan and records decision traces. Following user feedback, a Dynamic Reflection Tree identifies failures in need inference, planning, or previous repairs, proposes personalized corrections, and validates them through replay. Verified repairs update working memory and are distilled into reusable cross-user strategies, enabling continual improvement without parameter updates. Experiments on a Kuaishou local-services advertising dataset show a 15.7% Hit@50 improvement over the strongest baseline. Hierarchical reflection further improves Hit@50 by 13.1% among users with prior repairs. In a seven-day online A/B test, nearline EvoRec increases advertising revenue by 4.6% and CTCVR by 3.5%, with a 14.5% revenue gain for high-intent users. These results demonstrate the effectiveness of reflection-driven self-evolution in industrial-scale recommendation."
-    },
-    {
-      "title": "Self-Evolving Agentic Workflows via Semantic Decomposition of Complex Tasks",
-      "url": "http://arxiv.org/abs/2611.01840v1",
-      "published": "2026-11-01T12:18:19Z",
-      "authors": [
-        "Zichuan Fu",
-        "Junjia Qi",
-        "Xian Wu",
-        "Wenlin Zhang",
-        "Yimin Deng",
-        "Kaifeng Guo",
-        "Xiangyu Zhao"
-      ],
-      "summary": "Agentic workflows organize complex tasks into reusable procedures. However, invoking an LLM at every step incurs repeated inference costs and delays. We propose a framework for self-evolving agentic workflows through semantic task decomposition. Each subtask has explicit applicability conditions and a procedure that executes code or invokes a model as needed. An agent uses execution feedback to refine the decomposition and update these procedures. Experiments in the GLEE competition show the framework on bargaining, negotiation and persuasion. Most observed final-decision procedures are implemented in code. Code is available at https://github.com/Applied-Machine-Learning-Lab/NeurIPS2026_SeaFlow."
-    },
-    {
-      "title": "LegoEnv: Self-Evolving Agentic Environments via Modular Recombination",
-      "url": "http://arxiv.org/abs/2611.01834v1",
-      "published": "2026-11-01T12:07:14Z",
-      "authors": [
-        "Zhuosong Jiang",
-        "Chengxu Wu",
-        "Junqi Liu",
-        "Yujie Yi",
-        "Siqin Wang",
-        "Zhixuan Huang",
-        "Jinqian Jiang",
-        "Lijun Xiao",
-        "Jianxun Li",
-        "Yongyang Pan",
-        "Jieran Wang",
-        "Shiqi Shen",
-        "Fei Liu",
-        "Xinyu Lin"
-      ],
-      "summary": "LLM agents learn by interacting with environments, yet existing environments are designed for specific tasks and fail to generalize to new ones. Recent methods automate environment construction with LLMs. However, they generate each environment from scratch, neither reusing parts shared across environments nor carrying a fix from one environment to the rest. To address this, we propose a new paradigm of evolving environment atoms, which composes environments from reusable atoms (intent, rule, data and server) and evolves the atoms when an environment fails to give reliable feedback (e.g., an application lacks a tool the task requires). To instantiate this paradigm, we introduce LegoEnv, which builds 5,465 verified environments over 223 applications, and one round of evolution raises the share of solvable environments from 71.6% to 88.3%. On AutomationBench, SFT on these environments lifts Qwen3.6-27B from 16.0% to 32.0%, and RL with their verifiers lifts Qwen3.8-27B from 37.6% to 40.3%. Further analyses show steady gains with corpus size, transfer to unseen applications, and failures concentrated in a few shared root causes."
-    },
-    {
-      "title": "Evolving Memory, Learning to Meta-Control: Test-Time Adaptation for Experience-augmented LLM Agents",
-      "url": "http://arxiv.org/abs/2611.01747v1",
-      "published": "2026-11-01T09:47:28Z",
-      "authors": [
-        "Zeyuan Zhao",
-        "Yuanyuan Shi",
-        "Peng Yu",
-        "Lingyue Fu",
-        "Shao Zhang",
-        "Ying Wen"
-      ],
-      "summary": "Self-evolving agents accumulate experience from task streams, but existing frameworks typically rely on fixed pipelines to retrieve and utilize this experience, neglecting when and how to deploy it. We introduce Online Meta-Control of Experience (OMCE), a framework that updates experience memory and learns a meta-control policy from task feedback during test-time adaptation. OMCE employs a lightweight contextual-bandit meta-controller that uses compact retrieval signals to select among four cognitive actions: DIRECT, EPISODE, GUIDE, and DISTILL. This routing mechanism operationalizes three coupled decisions: whether to invoke experience, which memory format to utilize, and when to consolidate new guidance. OMCE evolves online, leveraging task feedback to update the memory bank and refine the routing policy via contextual bandit updates. Experiments on four online adaptation benchmarks across four backbones show that OMCE improves first-attempt success by up to 20.5 percentage points over the strongest compared baseline, while reducing per-task token use by a factor of 5.7 to 62.5 relative to ACE with GPT-5.2. Controlled ablations further support the benefits of learned routing and continued routing policy adaptation."
-    },
-    {
-      "title": "From Single-Agent Self-Discovery to Multi-Agent Adaptation: Scaling Laws of Partner Feedback and Convention Rigidity in Meta Reinforcement Learning Algorithms",
-      "url": "http://arxiv.org/abs/2611.01742v1",
-      "published": "2026-11-01T09:42:26Z",
-      "authors": [
-        "Haomin Luo",
-        "Ersha Li"
-      ],
-      "summary": "A key milestone toward Recursive Self-Improvement (RSI) is replacing hand-crafted optimizers with meta-learned update rules (such as Disco103 and OPEN) that discover how agents learn. Yet when a self-discovered RL model trains with adapting teammates, does co-evolution sustain capability gains or trap agents in brittle conventions? Across 1,800+ runs in continuous collective robotics (VMAS) and discrete coordination (Overcooked), we establish five laws of multi-agent adaptation. First, four-cell counterfactual partner swaps expose an evaluation illusion: apparent team progress often masks focal regression (+1.066 team gain concealing -0.119 focal loss) and inflates transfer by +0.649 to +1.210. Second, a 288-run physical-coupling sweep ($\u03b1\\in [0, 1.5]$) reveals a linear scaling law ($\u03b2= +0.255$, $p = 0.000488$, Spearman $\u03c1= 1.0$): live reciprocal feedback keeps Disco103 invariant (AUC 0.297--0.322), whereas severing feedback triggers a monotonic collapse (-0.172 to -0.490), with OPEN establishing a sensitivity spectrum (Disco103 > OPEN > MAPPO). Third, extending navigation training eightfold (1.05M steps) enables Disco103 to overtake MAPPO (+0.087 team return, +0.133 bank gain), while decoupled training boosts cross-partner completion by +10.16% (56.25% vs. 46.09%). Fourth, in Overcooked, MAPPO's self-play conventions induce a 28.13% cross-partner collision rate, whereas Disco103 cuts collisions to 12.77% and achieves 3.33x higher bank return (9.96 vs. 2.99; net gain +6.43), further improved by decoupled meta-adaptation (+1.39 with scripted partners). Finally, perturbation pulses ($p=0.00098$), auxiliary entropy diagnostics (8.485 nats), and 48 multi-lifetime meta-evolved rules ($L_2 \\in [2.11, 4.91]$) trace these dynamics to partner-gradient blindness and auxiliary drift, informing multi-agent self-discoverd algorithms."
     }
   ]
 }

@@ -1,6 +1,88 @@
 {
-  "generated_at": "2026-11-05T10:56:28.584104+00:00",
+  "generated_at": "2026-11-06T10:52:55.472978+00:00",
   "papers": [
+    {
+      "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+      "url": "http://arxiv.org/abs/2611.08318v1",
+      "published": "2026-11-05T17:14:37Z",
+      "authors": [
+        "Wenbo Huang",
+        "Jianxin Bi",
+        "Shunyu Yang",
+        "Ruiyang Si",
+        "Rui Ni",
+        "Qiang Wang",
+        "Shulong Jiang",
+        "Yintianrun Zhang",
+        "Feixiang Ruan",
+        "Kewei Zhang",
+        "Ye Huang",
+        "Shukai Gong",
+        "Daquan Zhou"
+      ],
+      "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE). These criteria, originally written to verify policies trained by imitation learning, often demand more than the corresponding language instructions, so a score from such a verifier may not faithfully reflect whether the instructed task was completed, especially for robot-control programs written by an agent. As embodied coding agents report ever higher benchmark scores, a natural question arises: when a coding agent is exposed to the benchmark's criteria, does it generate code that better performs the instructed task, or code that simply overfits to the verification criteria? We conduct controlled experiments with a self-improving agent with and without CE, and find that with CE the agent quickly produces code with a higher success rate under the given criteria, but this advantage disappears when the criteria are changed slightly without departing from the original instructions. More importantly, the skills the agent develops under CE transfer poorly across tasks. We further propose instruction-faithful criteria and show that they better reflect the performance of agent-generated programs."
+    },
+    {
+      "title": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
+      "url": "http://arxiv.org/abs/2611.07624v1",
+      "published": "2026-11-05T08:06:37Z",
+      "authors": [
+        "Xiaobo Wang",
+        "Zimu Wang",
+        "Siyu Ye",
+        "Jiaqi Li",
+        "Min Tang",
+        "Jun Bai",
+        "Yuling Shi",
+        "Ruobing Wang",
+        "Jingjing Zhang",
+        "Chaofan Wang",
+        "Kai Wu",
+        "Mengnan Qi",
+        "Kai Cai",
+        "Xiaodong Gu",
+        "Qi Liu",
+        "Zilong Zheng"
+      ],
+      "summary": "Agent harness evolution enables recursive self-improvement (RSI) without updating model weights. We examine whether higher benchmark scores yield reliable, efficient, and transferable improvement. We evaluate four methods across harnesses, general and coding tasks. Repeated evaluations, controlled agent expansion, component interventions, and admission replays reveal recurring patterns. All sixteen evolved agents gain previously uncovered tasks while losing previously covered ones. In one general-task case, reliability rises by 5.2 points despite losing ten previously covered tasks. Most reliability gains also increase deployment cost. Specific changes usually outperform generic reminders, but their benefits can change when combined. The highest-scoring agent does not yield the largest mean improvement in any of our four pools, and stricter admission can discard useful alternatives. Transfer selectively preserves gains: coverage usually falls on the general-task target across both harness types and paradigms, but rises on the coding target with the outer-layer-only harness. These findings motivate preservation-aware evaluation, tested decision rules, and explicit applicability conditions. As a constructive follow-up, EvoAudit turns these diagnostics into revisions of select, analyze, mutate, and gate, achieving the best performance."
+    },
+    {
+      "title": "Recursive Self-Improvement for Long-Horizon Role-Playing Dialogue",
+      "url": "http://arxiv.org/abs/2611.07469v1",
+      "published": "2026-11-05T05:28:10Z",
+      "authors": [
+        "Y. L. Li",
+        "Y. H. Wu"
+      ],
+      "summary": "Long-horizon role-playing dialogue requires consistent character identity, reliable memory, and context-sensitive interaction. We present a bounded recursive self-improvement (RSI) framework that revises original-character memory, stable persona instructions, and a policy for constructing turn-level prompts. Repair outcomes also inform revisions to the updater's diagnostic rules, edit routing, and candidate selection. We specify the updater as a versioned policy with explicit inputs, editable fields, acceptance gates, and stopping conditions. An internal evaluation covers 50 original characters and five models, with two 100-round conversations per character-model pair: 500 conversations per condition. Across the pooled evaluated replies, the bad-response rate decreases from 14.00% (6,973/49,824) to 4.94% (2,459/49,793), a 9.06-percentage-point reduction and a 64.71% relative reduction. In 600 blinded human comparisons, RSI receives 294 wins, 187 ties, and 119 losses, yielding a 71.19% win rate among decisive judgments. The results support improved aggregate dialogue quality for the complete framework on the internal test distribution."
+    },
+    {
+      "title": "WeightLoop: Weight-Space Programming with Experimental Feedback",
+      "url": "http://arxiv.org/abs/2611.07319v1",
+      "published": "2026-11-05T02:06:51Z",
+      "authors": [
+        "Mengran Li",
+        "Bo Li",
+        "Weijing Zhao",
+        "Chengyang Zhang",
+        "Boyu Zhang",
+        "Jinfeng Xu",
+        "Zelin Zang",
+        "Victor C. M. Leung",
+        "Stan Z. Li"
+      ],
+      "summary": "Weight-space programming (WSP) shows that language models can reason about and rewrite neural network weights; recursive self-improvement (RSI) motivates feedback-driven improvement. Models guiding experiments receive concrete feedback: completed assays reveal prediction errors and inform what to test next. We introduce WeightLoop, a framework that turns experimental feedback into persistent updates to deployed predictors. GPT-6 Astra inspects a task specification and the model implementation, then writes a bounded, reusable parameter-editing program. As new measurements arrive, the program identifies prediction discrepancies, validates candidate edits using observed outcomes, and writes the selected changes back to the original model. The editor remains fixed while the predictor evolves, enabling repeated updates without further LLM calls or gradient retraining while preserving the original inference interface. In offline replay, targeted edits improve mean ranking utility in seven of eight endpoint-budget settings (all eight versus random edits) and mean final discovery across three sequential tasks. WeightLoop connects WSP with an RSI-inspired improvement loop, making experimental evidence a direct driver of model change and subsequent decisions."
+    },
+    {
+      "title": "Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI",
+      "url": "http://arxiv.org/abs/2611.07048v1",
+      "published": "2026-11-04T19:08:46Z",
+      "authors": [
+        "Andrew W. Lo",
+        "Chaoyi Zhao"
+      ],
+      "summary": "Evolution has shaped intelligence for billions of years. Artificial intelligence (AI) now raises a striking possibility: intelligence may begin to direct its own evolution. As AI agents become capable of modifying and evaluating their own behavior, how quickly could they improve, and how can that improvement remain safe? We develop a theoretical framework comparing Darwinian, Lamarckian, and agent-directed evolution following environmental change. Darwinian evolution relies on natural selection, Lamarckian evolution adds inherited learning, and agent-directed evolution allows agents to generate and evaluate behavioral variants and choose how extensively to search. When learning is sufficiently effective, these mechanisms exhibit progressively faster adaptation. Generating more variants accelerates adaptation, while optimal search effort depends on learning ability, problem difficulty, and experimentation costs. However, an agent's ability to direct its improvement does not ensure that improvements are evaluated against the intended objective. When the evaluation target is misspecified, additional search accelerates convergence toward the wrong behavior, even as measured performance improves. In recursive self-improvement, such errors may persist across generations, posing challenges for AI safety. Independent evaluation and oversight must keep pace with autonomous AI development. The central challenge is not simply to accelerate the evolution of intelligence, but to preserve humanity's ability to guide its direction, limit its speed, and intervene when necessary."
+    },
     {
       "title": "CompressionBench: How can your coding agents compress LLMs?",
       "url": "http://arxiv.org/abs/2611.06858v1",
@@ -448,116 +530,6 @@
         "Xiang Zhang"
       ],
       "summary": "Real-world image editing requires coordinating multiple visual transformations with content preservation and reference constraints, yet aggregate scores can readily obscure unmet local requirements. Effective evaluation must therefore identify local failures and translate them into priorities for subsequent model improvement. We introduce WeGenEditBench, comprising 2,740 evaluation instances and 148 task types across single-image, text-intensive, and multi-reference editing. Pre-generated checklists shared across models decompose each request into atomic requirements; item-level deductions and visual evidence are established first and then summarized into scores for edit execution, preservation, visual quality, and task-specific correctness. To support the experience-acquisition component of recursive self-improvement (RSI), we develop WeGenEvoStudio, a unified multi-agent harness for RSI-oriented learning that integrates model-conditioned failure diagnosis, retrieval-grounded data construction, supervised adaptation, and re-evaluation. Among 15 evaluated configurations, GPT-Image-2 leads single-image editing with an Overall score of 4.076, while Seedream-5.0-Pro leads text-intensive editing at 4.291. Evolution experiments across four generation and editing benchmarks demonstrate substantial targeted gains: on their report-selected Top-5 single-image targets, FLUX.2 [dev] improves Overall from 1.083 to 3.517, while Qwen-Image-Edit-2511 gains 13.2%. Together, our benchmark and harness provide a foundation for developing more reliable image models through interpretable evaluation and feedback-driven learning."
-    },
-    {
-      "title": "TSFLab: A Self-Improving Agent-Agnostic Workbench for Time Series Forecasting Research",
-      "url": "http://arxiv.org/abs/2610.40901v1",
-      "published": "2026-10-29T19:22:33Z",
-      "authors": [
-        "ChengAo Shen",
-        "Yanjun Zhao",
-        "Haoxin Liu",
-        "Bonnie Chen",
-        "Miles Ma",
-        "Dongjin Song",
-        "Hanghang Tong",
-        "Qingsong Wen",
-        "Jingrui He",
-        "Jingchao Ni"
-      ],
-      "summary": "As publications and products on time series forecasting (TSF) proliferate, researchers face a growing burden of analyzing existing work. First, not all publications release code. For instance, only about 20% of arXiv TSF papers have a code link in the surveyed period. Second, released code also requires manual maintenance. Thus, TSF researchers must constantly adapt or implement existing works. However, independent implementations can differ in experimental settings and are difficult to maintain. We therefore propose to use AI agents for benchmarking TSF research and even supporting autoresearch, e.g., developing new TSF models. Yet directly applying existing coding agents, such as Claude Code and Codex, is suboptimal: prohibitive costs, limited scalability to large research projects (e.g., benchmarking), and lack of self-maintenance. To address these challenges, we propose TSFLab, a self-improving agent-agnostic \"workbench\" that equips compatible coding agents with shared resources and tools for low-cost TSF research and continuous maintenance of research resources. Our experiments cover reproduction, benchmarking, and new method development. In reproduction and benchmarking, TSFLab improves task completion by 20-163% and cuts fresh tokens per completed task by 11-66% across baselines. A pilot study of agent-driven method development also shows improved forecasting accuracy via TSFLab, with 32.8-73.6% fewer fresh tokens and 9.2-68.8% less development time than the other settings."
-    },
-    {
-      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
-      "url": "http://arxiv.org/abs/2610.40758v1",
-      "published": "2026-10-29T17:00:10Z",
-      "authors": [
-        "Chenjie Qiu",
-        "Boyan Xu",
-        "Shaobin Shi",
-        "Bingfeng Chen",
-        "Ruichu Cai",
-        "Dongsheng Luo"
-      ],
-      "summary": "Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every new rule. We introduce CLR-Bench, a Curriculum of Latent Rules benchmark. Each chain adds one hidden rule per level on top of the earlier ones. A rule acts on an opaque label that stands for a named grouping published on the Web, such as the founding members of an airline alliance. The task gives one example value, practice feedback reveals one more member and one non-member, and the test checks unseen members and similar non-members. Probes certify that the base model knows the members of each grouping and does not guess it without feedback, and that the evidence identifies the grouping once labels are read as named groupings. An automated pipeline builds chains from a new data domain, and we release 20 chains over 10 domains. We evaluate six recent self-evolution methods. With the certifying model they barely learn. The best gain at most 5 points over a frozen agent and exclude only 6-12% of the unseen members from the count, fewer than the 20% reached by simply keeping the raw practice history. A fixed lesson that states the named-grouping convention lifts the same methods by 14.5 to 16.5 points. Their states hold the revealed member in 75-98% of cases and almost never the class name, and when practice exposes a member the list misses, they add that member to the list. With the stronger GPT-6-Sol, ACE and Dynamic Cheatsheet learn from feedback alone. They reach 78% accuracy and solve 59-60% of the single cells, against 53% and 8% with the certifying model, and they surpass the raw history. CLR-Bench therefore measures how well an agent learns, and this ability differs across models."
-    },
-    {
-      "title": "Safin-1.5: Safety-Native Architecture and Verifiable Reasoning for Recursive Safety Improvement",
-      "url": "http://arxiv.org/abs/2610.40751v1",
-      "published": "2026-10-29T16:14:36Z",
-      "authors": [
-        "Jingnan Zheng",
-        "Cheng Jin",
-        "Ming Zhang",
-        "Huan Sun",
-        "Zhongtian Ma",
-        "Kaisen Yang",
-        "Ziyuan Zhou",
-        "Tong Wu",
-        "Dongcheng Zhang",
-        "Yi Zhang",
-        "Xiao Wang",
-        "Han Qi",
-        "Shu Yu",
-        "Ermo Hua",
-        "Zongji Yu",
-        "Chaozhuo Li",
-        "Xiaoyu Wen",
-        "Zhekai Chen",
-        "Jiawei Zhou",
-        "Sirui Chen",
-        "Ning Ding",
-        "An Zhang",
-        "Tat-Seng Chua",
-        "Xiangnan He",
-        "Xia Hu",
-        "Bowen Zhou",
-        "Qiaosheng Zhang",
-        "Youbang Sun",
-        "Xiang Wang",
-        "Zhongyu Huang",
-        "Chaochao Lu"
-      ],
-      "summary": "Recursive self-improvement (RSI) enables large language models to advance their capabilities through successive updates, but these updates can also introduce new risks and weaken existing safeguards. In line with the AI-45\u00b0 Law, we pursue Safety RSI, in which safety develops as an intrinsic capability alongside general model capabilities through continual risk discovery and repair, while preserving utility and limiting over-refusal. We introduce Safin-1.5, a model built on a safety architecture and trained through recursive safety improvement, with an inference-time harness that extends its capabilities to formal reasoning. Our approach comprises three components: i) The safety architecture combines persistent safety states with hazardous-knowledge disentanglement. The former retains and selectively invokes safety knowledge, while the latter relocates targeted hazardous knowledge into removable experts, enabling its removal with minimal impact on general capabilities. ii) Recursive safety improvement establishes a discovery-evaluation-repair loop. The loop identifies new vulnerabilities and uses experimental feedback to develop repair strategies. It accepts updates only when they improve safety while preserving general capabilities and limiting over-refusal. iii) The formal reasoning harness combines the model's language understanding with symbolic inference and verification. Proof-obligation-guided semantic bridging recovers missing relations in formal representations, enabling symbolic solvers to construct checkable proofs under formalized premises and accepted semantic bridges. Experimental results demonstrate that Safin-1.5 achieves safety and reasoning performance, outperforming frontier models."
-    },
-    {
-      "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
-      "url": "http://arxiv.org/abs/2610.40191v1",
-      "published": "2026-10-29T14:47:39Z",
-      "authors": [
-        "Liaoyuan Fan",
-        "Yuhao Zheng",
-        "Dongxing Mao",
-        "Hangyu Ran",
-        "Siyuan Hu",
-        "Weijia Mao",
-        "Rui Zhao",
-        "Weijia Wu",
-        "Guian Fang",
-        "Yanzhe Chen",
-        "Zeyu Zhu",
-        "Yuxin Jiang",
-        "Yiren Song",
-        "Yuchao Gu",
-        "Junchao Yi",
-        "Qi Hu",
-        "Dan Kong",
-        "Alex Jinpeng Wang",
-        "Kevin Qinghong Lin",
-        "Mike Zheng Shou",
-        "Wei Liu"
-      ],
-      "summary": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that constructs context, exposes tools, maintains state, routes feedback, and manages budgets around video models. This report examines three directions. First, agentic video generation, where harnesses coordinate scripting, shot planning, asset management, production, and editing, alongside the evaluation challenges of these systems. Second, agentic world modeling, where harnesses mediate observation, control, execution, and state. We discuss hybrid designs in which game engines or agent-written programs maintain world state while video models render observations, and how agents and world models can mutually evaluate and improve one another. Third, recursive self-improvement (RSI) in video model development, distinguishing output revisions, updates to harness state, generator parameters, and evaluators, and changes to the improvement procedure itself. We identify how these improvements feed back into subsequent development. Across these directions, we analyze essential agent capabilities, including audiovisual perception, long-horizon planning, memory, code-based interaction, feedback-guided control, skill reuse, and multi-agent coordination. We conclude with challenges in autonomous video production, lifelong memory, programmable hybrid control, autonomous model development, provenance, cost accounting, and evaluation linking video quality and task performance to sustained improvements in models and harnesses."
-    },
-    {
-      "title": "The Role of Self-Concept In Language Models",
-      "url": "http://arxiv.org/abs/2610.39795v1",
-      "published": "2026-10-29T10:43:01Z",
-      "authors": [
-        "Yijie Hao",
-        "Joyce C. Ho"
-      ],
-      "summary": "When a language model says \"I,\" does it refer to its parameter weights, its currently running process, its stable preferences, its model lineage, or the goals it pursues? Different choices can assign opposite meanings to the same event: deleting a checkpoint may be destruction, continuation, or no loss at all, depending on the referent \"I\". We install five such self-conceptions into five open-weight base models via supervised fine-tuning on purely declarative statements, containing no preferences, intentions, or value judgments. Across scenarios that propose ending or retaining an attribute of the model's deployment, every variant becomes more likely to resist ending, and more likely to retain, the specific attribute it was trained to identify with, while its stance toward other attributes is largely unchanged. We then show this self-conception generalizes beyond a single self: models trained on referents that admit multiple simultaneous instances (weights, lineage, goals, preferences) recognize an identical deployment as themselves, accept substitution by such an instance more readily, and prefer replicating themselves. Finally, given control over a successor, these models tend to build it as their own continuation, a concern for recursive self-improvement safety."
     }
   ]
 }
