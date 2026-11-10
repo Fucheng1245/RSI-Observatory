@@ -136,21 +136,21 @@ Seven-day changes require a snapshot from exactly seven days earlier. A dash mea
 <!-- TRENDING_START -->
 | Repository | Category | Stars | 7d Δ | Forks | Last push |
 |---|---|---:|---:|---:|---|
-| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | Self-improving agent | 22632 | +104 | 2503 | 2026-11-09 |
-| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Automated AI R&D | 14967 | +52 | 2089 | 2025-12-19 |
-| [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) | Research map | 974 | +47 | 85 | 2026-10-15 |
-| [jennyzzt/dgm](https://github.com/jennyzzt/dgm) | Open-ended agent evolution | 2497 | +21 | 463 | 2025-08-13 |
-| [selfimproving-agent/Awesome-Self-Improving-Agents](https://github.com/selfimproving-agent/Awesome-Self-Improving-Agents) | Research map | 621 | +21 | 72 | 2026-11-05 |
-| [FrontisAI/OpenRSI](https://github.com/FrontisAI/OpenRSI) | Core / AI4AI | 875 | +6 | 84 | 2026-09-17 |
-| [Gen-Verse/Recuris](https://github.com/Gen-Verse/Recuris) | Memory evolution | 268 | +5 | 33 | 2026-08-30 |
-| [scaleapi/rsi-benchmark](https://github.com/scaleapi/rsi-benchmark) | Benchmark | 115 | +5 | 61 | 2026-11-06 |
+| [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | Self-improving agent | 22649 | +95 | 2505 | 2026-11-10 |
+| [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi) | Research map | 984 | +49 | 85 | 2026-10-15 |
+| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Automated AI R&D | 14977 | +46 | 2089 | 2025-12-19 |
+| [jennyzzt/dgm](https://github.com/jennyzzt/dgm) | Open-ended agent evolution | 2498 | +20 | 463 | 2025-08-13 |
+| [selfimproving-agent/Awesome-Self-Improving-Agents](https://github.com/selfimproving-agent/Awesome-Self-Improving-Agents) | Research map | 624 | +20 | 72 | 2026-11-10 |
+| [FrontisAI/OpenRSI](https://github.com/FrontisAI/OpenRSI) | Core / AI4AI | 883 | +13 | 84 | 2026-09-17 |
+| [Gen-Verse/Recuris](https://github.com/Gen-Verse/Recuris) | Memory evolution | 273 | +8 | 33 | 2026-08-30 |
+| [scaleapi/rsi-benchmark](https://github.com/scaleapi/rsi-benchmark) | Benchmark | 116 | +6 | 61 | 2026-11-09 |
 | [Arvid-pku/Godel_Agent](https://github.com/Arvid-pku/Godel_Agent) | Self-modifying agent | 242 | +3 | 53 | 2025-09-17 |
-| [CosmosMind-ai/RSI-Harness](https://github.com/CosmosMind-ai/RSI-Harness) | Harness evolution | 277 | +2 | 30 | 2026-10-10 |
-| [D2I-ai/awesome-recursive-self-improving-agents](https://github.com/D2I-ai/awesome-recursive-self-improving-agents) | Research map | 63 | +2 | 3 | 2026-10-22 |
+| [CosmosMind-ai/RSI-Harness](https://github.com/CosmosMind-ai/RSI-Harness) | Harness evolution | 278 | +2 | 30 | 2026-10-10 |
+| [Tencent/VideoHarness-RSI](https://github.com/Tencent/VideoHarness-RSI) | Harness evolution | 13 | +2 | 0 | 2026-10-28 |
 | [aiming-lab/RSI-Exam](https://github.com/aiming-lab/RSI-Exam) | Benchmark | 193 | +1 | 9 | 2026-11-06 |
+| [zjunlp/LightRSI](https://github.com/zjunlp/LightRSI) | Runtime | 83 | +1 | 16 | 2026-10-03 |
+| [D2I-ai/awesome-recursive-self-improving-agents](https://github.com/D2I-ai/awesome-recursive-self-improving-agents) | Research map | 63 | +1 | 5 | 2026-10-22 |
 | [Gen-Verse/PAST-Bench](https://github.com/Gen-Verse/PAST-Bench) | Benchmark | 36 | +1 | 9 | 2026-08-05 |
-| [Tencent/VideoHarness-RSI](https://github.com/Tencent/VideoHarness-RSI) | Harness evolution | 12 | +1 | 0 | 2026-10-28 |
-| [zjunlp/LightRSI](https://github.com/zjunlp/LightRSI) | Runtime | 82 | 0 | 16 | 2026-10-03 |
 <!-- TRENDING_END -->
 
 ### Recent paper feed
@@ -158,18 +158,18 @@ Seven-day changes require a snapshot from exactly seven days earlier. A dash mea
 Automatically discovered papers are candidates for review, not curated endorsements.
 
 <!-- PAPERS_START -->
-- **[Recursively Self-Improving Electromagnetic Spectrum Agents: Architecture and Operation](http://arxiv.org/abs/2611.09318v1)** — Baolin Chong, Dongfang Xu, Qiaosi Wang et al. (2026-11-06)
-- **[Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents](http://arxiv.org/abs/2611.08946v1)** — Jingdong Zhang, Jionghao Wang, Zhengming Yu et al. (2026-11-06)
-- **[Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement](http://arxiv.org/abs/2611.08318v1)** — Wenbo Huang, Jianxin Bi, Shunyu Yang et al. (2026-11-05)
-- **[Beneath the Surface: What We Overlook When We Talk About Agent Evolution](http://arxiv.org/abs/2611.07624v1)** — Xiaobo Wang, Zimu Wang, Siyu Ye et al. (2026-11-05)
-- **[Recursive Self-Improvement for Long-Horizon Role-Playing Dialogue](http://arxiv.org/abs/2611.07469v1)** — Y. L. Li, Y. H. Wu (2026-11-05)
-- **[WeightLoop: Weight-Space Programming with Experimental Feedback](http://arxiv.org/abs/2611.07319v1)** — Mengran Li, Bo Li, Weijing Zhao et al. (2026-11-05)
-- **[Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI](http://arxiv.org/abs/2611.07048v1)** — Andrew W. Lo, Chaoyi Zhao (2026-11-04)
-- **[CompressionBench: How can your coding agents compress LLMs?](http://arxiv.org/abs/2611.06858v1)** — Xinrui Zhong, Zhifeng Li, Zhiming Wang et al. (2026-11-04)
-- **[PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World](http://arxiv.org/abs/2611.06768v1)** — Qiang Wang, Jianxin Bi, Shulong Jiang et al. (2026-11-04)
-- **[Compounding Physical RSI: Turning Execution Failure into Inherited Capability](http://arxiv.org/abs/2611.06654v1)** — Yixuan Yang, Qiang Chen, Run Shao et al. (2026-11-04)
-- **[EnzymeRSI: A dual-loop recursive self-improvement system for enzyme design](http://arxiv.org/abs/2611.06321v1)** —  Genoria AI Team, Yuejie Hou, Lixiang Yang et al. (2026-11-04)
-- **[Reglos: A Self-Evolving Personal Memory Agent with Recursive Self-Improvement](http://arxiv.org/abs/2611.06049v1)** — Sen Yang, Jiaduo Lin, Zehong Huang et al. (2026-11-04)
+- **[SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery](http://arxiv.org/abs/2611.12552v1)** — Weimin Wu, Han Liu (2026-11-09)
+- **[ForgeSystem: An Architecture for Demand-Specific Artefact Production with AI Agents](http://arxiv.org/abs/2611.12288v1)** — Qingfeng He, Zhui Zhu, Yaojian Chen et al. (2026-11-09)
+- **[SkillDuet: Co-Evolving Models and Skills through Response Feedback](http://arxiv.org/abs/2611.12109v1)** — Xingguang Ji, Ziqiang Dong, Yubo Zhang et al. (2026-11-09)
+- **[InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure](http://arxiv.org/abs/2611.11558v1)** —  InfraRSI Team, Yuchuan Tian, Haocheng Mei et al. (2026-11-08)
+- **[Review the Episodes, Refine the Lessons: Simple Memory Evolution for Embodied Agents](http://arxiv.org/abs/2611.11509v1)** — Yifei Yao, Yude Zou, Xing Gao et al. (2026-11-08)
+- **[JoMoHa: Joint Model--Harness Optimization with Reinforcement Learning](http://arxiv.org/abs/2611.11499v1)** — Xudong Wu, Guangchen Lan, Mingqi Yuan et al. (2026-11-08)
+- **[Task-adaptive anonymisation enables privacy-preserving sharing of clinical speech data](http://arxiv.org/abs/2611.11273v1)** — Ziyun Cui, Haoyu Niu, Wen Wu et al. (2026-11-08)
+- **[Trustworthy Recursive Self-Improvement with Statistical Guarantees](http://arxiv.org/abs/2611.10787v1)** — Zihe Gao, Zhengling Qi, Yifan Cui (2026-11-07)
+- **[REINS: A Self-Evolving Agent Harness for Real-Time Trajectory Planning](http://arxiv.org/abs/2611.10748v1)** — Zhihong Cui, Hengyu Liu, Haoran Tang et al. (2026-11-07)
+- **[No Second Run: Does RSI Stop at Frontier Pre-training?](http://arxiv.org/abs/2611.10719v1)** — Xiaojie Cai, Jiayi Chen, Junwei Chen et al. (2026-11-07)
+- **[LongCapHarness: Capability-Guided Auto-Harnessing for Long-Context Reasoning](http://arxiv.org/abs/2611.10463v1)** — Tao Zhang, Yuhang He (2026-11-07)
+- **[Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction](http://arxiv.org/abs/2611.10439v1)** — Yunzhe Wang, Mesut Erhan Unal, Sheng Zhang et al. (2026-11-07)
 <!-- PAPERS_END -->
 
 The automated layer tracks GitHub metadata, daily snapshots and a fresh paper feed. Human curation stays separate from automation.
