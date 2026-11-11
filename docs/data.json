@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-10T11:12:30.743276+00:00",
+  "generated_at": "2026-11-11T10:58:00.271099+00:00",
   "failures": [],
-  "papers_generated_at": "2026-11-10T11:12:30.743276+00:00",
+  "papers_generated_at": "2026-11-11T10:58:00.271099+00:00",
   "repositories": [
     {
       "full_name": "PrimeIntellect-ai/prime-agent",
@@ -9,15 +9,15 @@
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "category": "Self-improving agent",
       "note": "Self-improving RLM agent for coding workflows and long-running autonomous tasks; strong adjacent/direct-candidate signal.",
-      "stars": 22649,
-      "forks": 2505,
-      "open_issues": 166,
+      "stars": 22661,
+      "forks": 2506,
+      "open_issues": 155,
       "language": "Rust",
       "created_at": "2026-05-08T01:42:41Z",
-      "updated_at": "2026-11-10T10:52:44Z",
-      "pushed_at": "2026-11-10T05:39:58Z",
+      "updated_at": "2026-11-11T10:17:08Z",
+      "pushed_at": "2026-11-11T09:20:24Z",
       "topics": [],
-      "delta_7d": 95
+      "delta_7d": 102
     },
     {
       "full_name": "SakanaAI/AI-Scientist",
@@ -25,15 +25,15 @@
       "description": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery \ud83e\uddd1\u200d\ud83d\udd2c",
       "category": "Automated AI R&D",
       "note": "Major open automated research system; adjacent to closed-loop AI R&D rather than strict RSI.",
-      "stars": 14977,
-      "forks": 2089,
+      "stars": 14982,
+      "forks": 2090,
       "open_issues": 124,
       "language": "Jupyter Notebook",
       "created_at": "2024-08-12T09:32:55Z",
-      "updated_at": "2026-11-10T07:28:37Z",
+      "updated_at": "2026-11-11T10:23:41Z",
       "pushed_at": "2025-12-19T07:46:21Z",
       "topics": [],
-      "delta_7d": 46
+      "delta_7d": 40
     },
     {
       "full_name": "jennyzzt/dgm",
@@ -41,15 +41,15 @@
       "description": "Darwin G\u00f6del Machine: Open-Ended Evolution of Self-Improving Agents",
       "category": "Open-ended agent evolution",
       "note": "Darwin G\u00f6del Machine: open-ended evolution of self-improving agents via source-code modification and empirical selection.",
-      "stars": 2498,
+      "stars": 2499,
       "forks": 463,
       "open_issues": 28,
       "language": "Python",
       "created_at": "2025-05-23T14:25:57Z",
-      "updated_at": "2026-11-10T05:12:32Z",
+      "updated_at": "2026-11-11T08:41:08Z",
       "pushed_at": "2025-08-13T10:40:14Z",
       "topics": [],
-      "delta_7d": 20
+      "delta_7d": 17
     },
     {
       "full_name": "FrontisAI/OpenRSI",
@@ -57,15 +57,15 @@
       "description": "Executable, measurable, and reproducible AI4AI toward recursive self-improvement. Home of OpenMLE and Frontis-MA1.",
       "category": "Core / AI4AI",
       "note": "Open full-stack AI4AI work toward recursive self-improvement, including OpenMLE and Frontis-MA1.",
-      "stars": 883,
-      "forks": 84,
+      "stars": 892,
+      "forks": 85,
       "open_issues": 16,
       "language": "Python",
       "created_at": "2026-07-30T17:19:53Z",
-      "updated_at": "2026-11-10T08:48:49Z",
+      "updated_at": "2026-11-11T08:57:39Z",
       "pushed_at": "2026-09-17T14:17:36Z",
       "topics": [],
-      "delta_7d": 13
+      "delta_7d": 20
     },
     {
       "full_name": "HITsz-TMG/KnowAct",
@@ -121,7 +121,7 @@
         "memory-system",
         "rsi"
       ],
-      "delta_7d": 8
+      "delta_7d": 7
     },
     {
       "full_name": "zjunlp/LightRSI",
@@ -162,18 +162,18 @@
       "description": "RSI-Exam: Measuring Recursive Self-Improvement on Long-Horizon, Executable Research Tasks \u00b7 Discord https://discord.gg/FBzhepyE",
       "category": "Benchmark",
       "note": "Measures recursive self-improvement through long-horizon executable research.",
-      "stars": 193,
+      "stars": 195,
       "forks": 9,
       "open_issues": 2,
       "language": "Python",
       "created_at": "2026-08-26T06:58:55Z",
-      "updated_at": "2026-11-09T03:28:39Z",
+      "updated_at": "2026-11-11T02:25:24Z",
       "pushed_at": "2026-11-06T08:23:53Z",
       "topics": [
         "benchmark",
         "recursive-self-improvement"
       ],
-      "delta_7d": 1
+      "delta_7d": 3
     },
     {
       "full_name": "scaleapi/rsi-benchmark",
@@ -181,15 +181,15 @@
       "description": "RSI Bench is an ongoing effort to evaluate whether AI agents can develop the capabilities required to advance AI R&D. ",
       "category": "Benchmark",
       "note": "Evaluates whether agents can develop capabilities required to advance AI R&D.",
-      "stars": 116,
+      "stars": 117,
       "forks": 61,
-      "open_issues": 30,
+      "open_issues": 29,
       "language": "Python",
       "created_at": "2026-07-30T14:53:49Z",
-      "updated_at": "2026-11-10T01:41:50Z",
-      "pushed_at": "2026-11-09T18:50:02Z",
+      "updated_at": "2026-11-11T06:40:55Z",
+      "pushed_at": "2026-11-10T16:07:09Z",
       "topics": [],
-      "delta_7d": 6
+      "delta_7d": 5
     },
     {
       "full_name": "Gen-Verse/PAST-Bench",
@@ -224,15 +224,15 @@
       "description": "RSIH \u2014 versionable, shareable agent harness: Pi coding agent + Genome config layer",
       "category": "Harness evolution",
       "note": "Harness-level recursive self-improvement experiments.",
-      "stars": 278,
+      "stars": 279,
       "forks": 30,
       "open_issues": 5,
       "language": "TypeScript",
       "created_at": "2026-09-03T08:45:37Z",
-      "updated_at": "2026-11-10T08:27:52Z",
+      "updated_at": "2026-11-11T01:29:28Z",
       "pushed_at": "2026-10-10T12:02:25Z",
       "topics": [],
-      "delta_7d": 2
+      "delta_7d": 3
     },
     {
       "full_name": "Tencent/VideoHarness-RSI",
@@ -248,7 +248,7 @@
       "updated_at": "2026-11-09T12:41:28Z",
       "pushed_at": "2026-10-28T03:01:29Z",
       "topics": [],
-      "delta_7d": 2
+      "delta_7d": 1
     },
     {
       "full_name": "lobehub/awesome-rsi",
@@ -256,12 +256,12 @@
       "description": "A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.",
       "category": "Research map",
       "note": "Curated research map spanning RSI models, agents, harnesses, benchmarks and safety.",
-      "stars": 984,
+      "stars": 989,
       "forks": 85,
       "open_issues": 26,
       "language": null,
       "created_at": "2026-08-11T03:59:57Z",
-      "updated_at": "2026-11-10T09:34:11Z",
+      "updated_at": "2026-11-11T09:51:43Z",
       "pushed_at": "2026-10-15T14:47:23Z",
       "topics": [
         "agi",
@@ -284,7 +284,7 @@
         "self-improving-ai",
         "self-improving-systems"
       ],
-      "delta_7d": 49
+      "delta_7d": 48
     },
     {
       "full_name": "selfimproving-agent/Awesome-Self-Improving-Agents",
@@ -292,12 +292,12 @@
       "description": "A curated list for Self-Improvement in Foundation Model Based Agentic Systems.",
       "category": "Research map",
       "note": "Broad survey-oriented collection of self-improving agent research.",
-      "stars": 624,
+      "stars": 625,
       "forks": 72,
       "open_issues": 4,
       "language": "TeX",
       "created_at": "2025-12-28T05:29:23Z",
-      "updated_at": "2026-11-10T09:34:49Z",
+      "updated_at": "2026-11-10T13:49:50Z",
       "pushed_at": "2026-11-10T04:26:45Z",
       "topics": [
         "agent",
@@ -309,7 +309,7 @@
         "self-evolving",
         "self-improving-agents"
       ],
-      "delta_7d": 20
+      "delta_7d": 18
     },
     {
       "full_name": "D2I-ai/awesome-recursive-self-improving-agents",
@@ -329,6 +329,54 @@
     }
   ],
   "papers": [
+    {
+      "title": "WAM is capable in BEHAVIOR-1K: the 2nd-place solution to the 2026 BEHAVIOR Challenge",
+      "url": "http://arxiv.org/abs/2611.13818v1",
+      "published": "2026-11-10T09:46:02Z",
+      "authors": [
+        "Yelin He",
+        "Jiaquan Ye",
+        "Xinming Wei",
+        "Wenjie Xiao",
+        "Gengming Zhang",
+        "Guoting Wei",
+        "Xianbiao Qi",
+        "Rong Xiao"
+      ],
+      "summary": "This work presents the 2nd-place solution (Team IF1001) to the 2026 BEHAVIOR Challenge, which evaluates mobile manipulation across 100 household tasks. Our method is built on a powerful world action model (WAM), Cosmos 3. We improve Cosmos 3 by using richer visual history, task-progress conditioning, and task-group and skill-specific LoRA adapters. During inference, we apply a separate progress estimator to supply task-progress context, and use task- and progress-conditioned routing to select a task-group or skill-specific policy, complemented by action-candidate aggregation, rolling inpainting, and task-specific temporal and gripper control. To meet the minimum inference requirement of 1 FPS, we use neither recursive self-improvement (RSI) nor agentic harness methods and rely on no closed-source models; during official private-test evaluation, our system handled concurrent requests across 100 evaluation ports with limited hardware resources, sustaining an average end-to-end inference rate above 2 FPS per port. Our method achieves a mean Q-score of 0.613 and a full-task success rate of 40.9%, averaged over 3 self-evaluation rounds across all 100 tasks. On the official private test set, with 20 instances per task, our system achieves a mean Q-score of 0.615 and a full-task success rate of 41.2%."
+    },
+    {
+      "title": "Toward Autonomous RTL and Synthesis Optimization: Benchmarking and Self-Improving Agents",
+      "url": "http://arxiv.org/abs/2611.13713v1",
+      "published": "2026-11-10T08:07:31Z",
+      "authors": [
+        "Wenji Fang",
+        "Yao Lu",
+        "Jinghua Wang",
+        "Zhiyao Xie"
+      ],
+      "summary": "Recent advances in large language models (LLMs) and autonomous agents are creating new opportunities for hardware design optimization. This paper examines three connected directions toward autonomous RTL and synthesis optimization: (1) Realistic benchmarking. We discuss reference-based and open-ended RTL optimization benchmarks that evaluate optimization opportunities under realistic EDA workflows. (2) Tool-grounded RTL optimization. We present Dr. RTL, a multi-agent framework that automates critical-path analysis, RTL rewriting, and implementation-level evaluation, while continuously improving through reusable optimization skills. Evaluated on 20 real-world RTL designs, Dr.~RTL achieves average WNS/TNS improvements of 21\\%/17\\% with a 6\\% area reduction over commercial synthesis. (3) Design-specific synthesis optimization. We explore agent-driven synthesis script tuning and the discovery of executable synthesis algorithms across intermediate representations, technology-independent optimization, and technology mapping. Finally, we envision AI-native design automation that jointly explores architectural, RTL, and EDA algorithm design spaces, guided by verification constraints and implementation feedback."
+    },
+    {
+      "title": "The RSI Tax: When Recursive Self-Improvement Is Not Worth the Cost",
+      "url": "http://arxiv.org/abs/2611.13524v1",
+      "published": "2026-11-10T03:48:55Z",
+      "authors": [
+        "Yitong Zhang",
+        "Ang Li",
+        "Yisen Wang"
+      ],
+      "summary": "Recursive self-improvement (RSI) seeks to improve an agent using its own task experience. Its practical value depends on whether performance gains justify the full cost of self-improvement and task execution. We evaluate this trade-off on continual task streams, scoring each task before its feedback is used for subsequent updates. We define the \\emph{RSI Tax} as the token cost of the self-improvement process and include it alongside task-execution costs in end-to-end evaluation. Across six methods and two language models, a bounded-note baseline matches or exceeds the observed accuracy of Meta-Harness, EvoSkill, and RRSI, with mean total-token savings of 65.6-71.0\\%. We decompose the RSI Tax into verification, exploration, and writing costs, and track subsequent use of the associated state or artifact. For these three RSI methods, verification accounts for 74.8--93.6% of the aggregate RSI Tax. A substantial share of the RSI Tax is also associated with states or artifacts that are not used later in the evaluated streams. These results expose a practical limitation of costly RSI procedures: improvements in the deployed agent need not justify the expense of the improvement process. They motivate RSI objectives that jointly optimize the RSI Tax and expected task-execution cost while ensuring continued growth in agent capabilities across the task stream."
+    },
+    {
+      "title": "NCP: Verifier-Guided Optimization of Weight-Space Control Policies",
+      "url": "http://arxiv.org/abs/2611.13236v1",
+      "published": "2026-11-09T21:05:21Z",
+      "authors": [
+        "Ekrem Aksoy"
+      ],
+      "summary": "We present the Neural Control Plane (NCP), a closed-loop system that observes language-model execution, synthesizes candidate weight-space intervention rules, evaluates them, and maintains a versioned table of admitted policies. NCP separates a pretrained model's inference data plane from the control policy that selects temporary parameter interventions. W-ISA supplies transactional execution and parameter restoration; NCP supplies telemetry, candidate synthesis, admission criteria, priorities, and rule lifetime management. The optimization state consists of active rules and an archive of evaluated candidates, while base-model parameters are restored after each request. In a local SmolLM-135M-Instruct experiment, NCP generated three candidates from development telemetry and evaluated them on separate task examples and a 4,095-target WikiText-2 slice. One projection reduced validation token repetition from 0.4133 to 0.2191, with a perplexity change of -0.0574%. All candidates produced zero newly correct exact answers, so the configured admission gate archived all three and retained the original active policy. Fresh-process repetition and saved-table resumption reproduced the measured outcomes. NCP provides an executable framework for studying recursive self-improvement at the control-policy level through explicit synthesis, verification, and state transitions."
+    },
     {
       "title": "SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery",
       "url": "http://arxiv.org/abs/2611.12552v1",
@@ -417,6 +465,19 @@
         "Jiayu Chen"
       ],
       "summary": "The performance of language agents depends jointly on model weights and the harness. Optimizing either alone can be constrained by the other component, limiting overall performance gains. Our analysis of naive alternating training reveals progressive incompatibility between the model and harness, which increasingly interferes with task execution and may also undermine model training, leading to performance degradation. To coordinate the evolution of models and harnesses, we introduce JoMoHa, to our knowledge the first framework to jointly train an executable harness generation policy and a task execution policy through reinforcement learning. JoMoHa outperforms the evaluated weight-only and harness-only baselines and achieves the highest success rates among the evaluated methods on ALFWorld, WebShop, and DBBench, averaging 70.3% and reaching 97.0% on ALFWorld. By learning both task execution and runtime improvement from its own generated trajectories, JoMoHa performs recursive self-improvement (RSI)."
+    },
+    {
+      "title": "Third Eye: Beyond Immediate Gains in Recursive Self-Improvement",
+      "url": "http://arxiv.org/abs/2611.12988v1",
+      "published": "2026-11-08T10:14:16Z",
+      "authors": [
+        "Sujato Dutta",
+        "Padala Indira Sneha",
+        "Kypu Mahitha",
+        "Shashank Vanga",
+        "Neeraj Choudhary"
+      ],
+      "summary": "Does a useful self-update remain useful after the model updates again? Third Eye separates immediate performance from the outcome of a further native update. We evaluate five 3-8B backbones on math and code: 64 fresh runs, three candidates per run, and three continuations per candidate. Selection and final scoring use disjoint items. In the balanced Qwen3-4B/Llama-3.2-3B comparison, immediate-selected utility is near zero, but continuation reduces it by 1.78 percentage points (simultaneous 95% interval [0.68, 2.88]). Candidate-averaged immediate utility is already negative: selection partly accounts for the apparently neutral first step. Continuation also lowers utility for SmolLM3-3B and Llama-3.1-8B; Qwen3-8B remains inconclusive. Target and out-of-distribution losses dominate retention changes. Matched recipe and recipient-donor controls identify neither a reliable mitigation nor a single mechanism. The results support evaluating persistent self-updates as adaptation transitions, with independent scoring and a no-update baseline, rather than interpreting immediate performance as their full value."
     },
     {
       "title": "Task-adaptive anonymisation enables privacy-preserving sharing of clinical speech data",
@@ -595,108 +656,6 @@
         "Qihui Wu"
       ],
       "summary": "Electromagnetic spectrum agents (ESAs) must contend with changing environments and task requirements during sustained autonomous operation, yet their existing capabilities may not remain suitable for new operating conditions. This article proposes recursively self-improving electromagnetic spectrum agents (RSI-ESAs) that use operational feedback to update their capabilities and build on prior improvements. We present their architecture and editable components, and describe a self-improvement process encompassing problem diagnosis, candidate generation, validation, and inheritance. By retaining effective task versions and using modification records and diagnostic knowledge to guide subsequent updates, RSI-ESAs can accumulate task capabilities and improvement experience across successive rounds. A shared-spectrum scheduling case study illustrates improved task performance and capability accumulation over multiple improvement rounds under the tested conditions. Finally, we discuss open challenges for broader tasks and long-term operation, outlining research directions for the continued capability development of ESAs."
-    },
-    {
-      "title": "Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents",
-      "url": "http://arxiv.org/abs/2611.08946v1",
-      "published": "2026-11-06T03:51:20Z",
-      "authors": [
-        "Jingdong Zhang",
-        "Jionghao Wang",
-        "Zhengming Yu",
-        "Yancheng Cai",
-        "Wei Chow",
-        "Chris Choy",
-        "Zhiyang Dou",
-        "Hang Hua",
-        "Jiachen Li",
-        "Zhixuan Liu",
-        "Chen Wang",
-        "Songlin Wei",
-        "Siyuan Yang",
-        "Yu Yuan",
-        "Xiaohang Zhan",
-        "Yucheng Zhang",
-        "Shuhong Zheng",
-        "Xin Li",
-        "Lingjie Liu",
-        "Wojciech Matusik",
-        "Zhengzhong Tu",
-        "Wenping Wang"
-      ],
-      "summary": "Frontier language models are increasingly deployed as agents, and how well an agent performs depends not only on its model but also on its harness: the prompts, tools, memory, and control loop through which the model acts. When an agent is applied to a new problem, a natural question is whether it can use the feedback of the task to improve the way it works, and not merely its answer. Most existing benchmarks keep the agent's harness fixed and score the solution it produces, or target large-scale model training. We introduce Flex-RSI, a benchmark for the recursive self-improvement of agents on vision and robotics tasks under a fixed budget. In each round, an executor improves the task solution, which is kept only if it scores higher on held-out validation data, and an improver then revises the harness, including the executor and itself. Every run starts from the same general-purpose harness, and the final solution is scored on hidden test data. Evaluating closed-source and open-weight models on tasks spanning perception, reasoning, robot action, 3D reconstruction, visual creation, and infrastructure, we find that self-improvement helps most when the agent builds its own solution, that feedback recording only success or failure holds back open-weight models, and that open-weight models fall furthest behind where outputs must pass strict checks of physical stability or exact correctness. Paired runs further show that editing the harness itself contributes to the gains."
-    },
-    {
-      "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
-      "url": "http://arxiv.org/abs/2611.08318v1",
-      "published": "2026-11-05T17:14:37Z",
-      "authors": [
-        "Wenbo Huang",
-        "Jianxin Bi",
-        "Shunyu Yang",
-        "Ruiyang Si",
-        "Rui Ni",
-        "Qiang Wang",
-        "Shulong Jiang",
-        "Yintianrun Zhang",
-        "Feixiang Ruan",
-        "Kewei Zhang",
-        "Ye Huang",
-        "Shukai Gong",
-        "Daquan Zhou"
-      ],
-      "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE). These criteria, originally written to verify policies trained by imitation learning, often demand more than the corresponding language instructions, so a score from such a verifier may not faithfully reflect whether the instructed task was completed, especially for robot-control programs written by an agent. As embodied coding agents report ever higher benchmark scores, a natural question arises: when a coding agent is exposed to the benchmark's criteria, does it generate code that better performs the instructed task, or code that simply overfits to the verification criteria? We conduct controlled experiments with a self-improving agent with and without CE, and find that with CE the agent quickly produces code with a higher success rate under the given criteria, but this advantage disappears when the criteria are changed slightly without departing from the original instructions. More importantly, the skills the agent develops under CE transfer poorly across tasks. We further propose instruction-faithful criteria and show that they better reflect the performance of agent-generated programs."
-    },
-    {
-      "title": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
-      "url": "http://arxiv.org/abs/2611.07624v1",
-      "published": "2026-11-05T08:06:37Z",
-      "authors": [
-        "Xiaobo Wang",
-        "Zimu Wang",
-        "Siyu Ye",
-        "Jiaqi Li",
-        "Min Tang",
-        "Jun Bai",
-        "Yuling Shi",
-        "Ruobing Wang",
-        "Jingjing Zhang",
-        "Chaofan Wang",
-        "Kai Wu",
-        "Mengnan Qi",
-        "Kai Cai",
-        "Xiaodong Gu",
-        "Qi Liu",
-        "Zilong Zheng"
-      ],
-      "summary": "Agent harness evolution enables recursive self-improvement (RSI) without updating model weights. We examine whether higher benchmark scores yield reliable, efficient, and transferable improvement. We evaluate four methods across harnesses, general and coding tasks. Repeated evaluations, controlled agent expansion, component interventions, and admission replays reveal recurring patterns. All sixteen evolved agents gain previously uncovered tasks while losing previously covered ones. In one general-task case, reliability rises by 5.2 points despite losing ten previously covered tasks. Most reliability gains also increase deployment cost. Specific changes usually outperform generic reminders, but their benefits can change when combined. The highest-scoring agent does not yield the largest mean improvement in any of our four pools, and stricter admission can discard useful alternatives. Transfer selectively preserves gains: coverage usually falls on the general-task target across both harness types and paradigms, but rises on the coding target with the outer-layer-only harness. These findings motivate preservation-aware evaluation, tested decision rules, and explicit applicability conditions. As a constructive follow-up, EvoAudit turns these diagnostics into revisions of select, analyze, mutate, and gate, achieving the best performance."
-    },
-    {
-      "title": "Recursive Self-Improvement for Long-Horizon Role-Playing Dialogue",
-      "url": "http://arxiv.org/abs/2611.07469v1",
-      "published": "2026-11-05T05:28:10Z",
-      "authors": [
-        "Y. L. Li",
-        "Y. H. Wu"
-      ],
-      "summary": "Long-horizon role-playing dialogue requires consistent character identity, reliable memory, and context-sensitive interaction. We present a bounded recursive self-improvement (RSI) framework that revises original-character memory, stable persona instructions, and a policy for constructing turn-level prompts. Repair outcomes also inform revisions to the updater's diagnostic rules, edit routing, and candidate selection. We specify the updater as a versioned policy with explicit inputs, editable fields, acceptance gates, and stopping conditions. An internal evaluation covers 50 original characters and five models, with two 100-round conversations per character-model pair: 500 conversations per condition. Across the pooled evaluated replies, the bad-response rate decreases from 14.00% (6,973/49,824) to 4.94% (2,459/49,793), a 9.06-percentage-point reduction and a 64.71% relative reduction. In 600 blinded human comparisons, RSI receives 294 wins, 187 ties, and 119 losses, yielding a 71.19% win rate among decisive judgments. The results support improved aggregate dialogue quality for the complete framework on the internal test distribution."
-    },
-    {
-      "title": "WeightLoop: Weight-Space Programming with Experimental Feedback",
-      "url": "http://arxiv.org/abs/2611.07319v1",
-      "published": "2026-11-05T02:06:51Z",
-      "authors": [
-        "Mengran Li",
-        "Bo Li",
-        "Weijing Zhao",
-        "Chengyang Zhang",
-        "Boyu Zhang",
-        "Jinfeng Xu",
-        "Zelin Zang",
-        "Victor C. M. Leung",
-        "Stan Z. Li"
-      ],
-      "summary": "Weight-space programming (WSP) shows that language models can reason about and rewrite neural network weights; recursive self-improvement (RSI) motivates feedback-driven improvement. Models guiding experiments receive concrete feedback: completed assays reveal prediction errors and inform what to test next. We introduce WeightLoop, a framework that turns experimental feedback into persistent updates to deployed predictors. GPT-6 Astra inspects a task specification and the model implementation, then writes a bounded, reusable parameter-editing program. As new measurements arrive, the program identifies prediction discrepancies, validates candidate edits using observed outcomes, and writes the selected changes back to the original model. The editor remains fixed while the predictor evolves, enabling repeated updates without further LLM calls or gradient retraining while preserving the original inference interface. In offline replay, targeted edits improve mean ranking utility in seven of eight endpoint-budget settings (all eight versus random edits) and mean final discovery across three sequential tasks. WeightLoop connects WSP with an RSI-inspired improvement loop, making experimental evidence a direct driver of model change and subsequent decisions."
     }
   ]
 }
