@@ -1,6 +1,88 @@
 {
-  "generated_at": "2026-11-12T11:10:56.986753+00:00",
+  "generated_at": "2026-11-13T10:58:56.053605+00:00",
   "papers": [
+    {
+      "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+      "url": "http://arxiv.org/abs/2611.16748v1",
+      "published": "2026-11-12T12:59:35Z",
+      "authors": [
+        "Yuxuan Chen",
+        "Xiaojie Li",
+        "Hao Chen",
+        "Juncheng Ma",
+        "Kewei Zhang",
+        "Zhongjing Du",
+        "Guoqiang Wei",
+        "Fangfang Wang",
+        "Zhen Dong",
+        "Zhiyang Dou",
+        "Liming Zhao",
+        "Yan Zeng",
+        "Jianwei Zhang",
+        "Daquan Zhou"
+      ],
+      "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video generation models in producing their training videos. We present PhysLoop, a unified harness designed to support physically grounded self-improvement in video generation models. The harness guides and constrains LLMs throughout video generation, selection, and correction, distilling their physical knowledge into physically consistent videos. The framework supports controllable training-data construction and inference-time video repair. By identifying and correcting failures, PhysLoop marks a key milestone toward recursive self-improvement (RSI) in video generation models with limited human intervention. We release 100K videos spanning diverse, realistic indoor and outdoor scenes, along with generation tools and two evaluation datasets: PhysLoop-Gen and PhysLoop-Repair. We evaluate controllable generation and localized repair on these datasets, respectively, and assess physical behavior on the external Physics-IQ Verified benchmark."
+    },
+    {
+      "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+      "url": "http://arxiv.org/abs/2611.16409v1",
+      "published": "2026-11-12T07:18:30Z",
+      "authors": [
+        "Doyoung Kim",
+        "Byeongguk Jeon",
+        "Kailin Zhang",
+        "Sherry Yang"
+      ],
+      "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards. However, this throws away the fine-grained information about the environment that the agent experienced during the trial (e.g., error logs). To utilize this rich information, recent works wrap the agent in a harness that refines its own inputs through reflection or compaction and hands past experience to future rollouts, but the construction of the handed-off artifacts (e.g., a playbook) is itself not learned. We want the best of both worlds: gradient updates from a scalar reward, while also utilizing environment information to hand off experience. As a concrete testbed, we fix the Agentic Context Engineering (\\ace{}) harness and train one model to act, reflect, and curate task-local playbooks. Our method, \\acerl{}, evaluates candidate experience-handoff artifacts by their downstream effect on future actor rollouts, and co-optimizes the role-specific behaviors (action generator, insight reflector, and playbook curator) under a fixed scaffold. Across agentic benchmarks, \\acerl{} achieves higher held-out performance than baseline methods. The results suggest that agent training should optimize not only the actions in the current rollout, but also the model-written experience that future rollouts inherit."
+    },
+    {
+      "title": "Reward-Driven Collider Physics Challenges for Self-Improving Agentic AI via Reinforcement Learning",
+      "url": "http://arxiv.org/abs/2611.15885v1",
+      "published": "2026-11-11T19:00:41Z",
+      "authors": [
+        "Alexander Yue",
+        "Qibin Liu",
+        "Julia Gonski"
+      ],
+      "summary": "Recent advances in agentic AI have demonstrated the potential to automate complex high-energy physics (HEP) workflows. We focus on the regime of HEP tasks where frontier models still struggle to provide correct and complete solutions, and introduce an open-ended optimization task format with continuous, automatically evaluated rewards. Unlike conventional benchmarks focused on task completion, these tasks target reinforcement learning (RL) environments to generate agentic improvement on state- of-the-art HEP challenges. We benchmark frontier reasoning models on several HEP tasks and demonstrate an initial proof of concept in which a small language model improves through RL using automated feedback without human intervention. By connecting challenging HEP problems with verifiable scientific rewards and RL, we aim to advance agentic AI from reproducing established workflows to autonomously discovering better scientific solutions, paving the way toward self-improving scientific agents."
+    },
+    {
+      "title": "AskALCF: A Self-Improving Agentic System for Intelligent HPC User Support",
+      "url": "http://arxiv.org/abs/2611.15700v1",
+      "published": "2026-11-11T16:38:54Z",
+      "authors": [
+        "Jingyan Jiang",
+        "Akhilesh Bondapalli",
+        "Krishna Rauniyar",
+        "Murat Keceli",
+        "Yasaman Ghadar",
+        "Haritha Siddabathuni Som",
+        "Venkatram Vishwanath",
+        "Michael E. Papka",
+        "Rong Ge",
+        "Huihuo Zheng"
+      ],
+      "summary": "AI-based question-answering systems are increasingly used for user support, including at high-performance computing (HPC) facilities. However, existing systems lack a systematic, deployment-oriented approach for evaluating final-answer quality and attributing failures to specific components. They also remain largely static after deployment, apart from periodic knowledge-base updates. We present AskALCF, an agentic log-analysis and improvement pipeline for HPC user support. AskALCF evaluates production interactions at a fine-grained level, identifies whether failures arise from missing knowledge, retrieval, prompting, model behavior, or tool execution, and routes each failure to an actionable repair. Its diagnostic core combines answer-quality assessment with a two-scope sufficiency test that distinguishes information missing from the documentation corpus from information present but not retrieved. We further introduce a controlled harness-training process that uses expert references, null edits, and explicit ship, revert, or decline decisions to improve the diagnostic pipeline reliably. Across 2,174 support turns, AskALCF reduced unattributable failures from 41.4% to 14.2%, while harness training improved expert agreement from 108/150 to 123/150 turns. These results demonstrate a governed form of self-evolution in which production evidence drives targeted system improvements. By turning production interactions into fine-grained diagnoses and actionable repairs, AskALCF provides a systematic foundation for continuously improving deployed AI support systems beyond knowledge-base updates alone."
+    },
+    {
+      "title": "RSI-PDEbench: A Benchmark for Self-Improving Agents in PDE Solving",
+      "url": "http://arxiv.org/abs/2611.14949v1",
+      "published": "2026-11-11T02:55:14Z",
+      "authors": [
+        "Binghang Lu",
+        "Lang Cao",
+        "Changhong Mou",
+        "Yige Sun",
+        "Cindy Xiangrui Kong",
+        "Zheyuan Deng",
+        "Tian Yuan",
+        "Bing Hu",
+        "Runyu Zhang",
+        "Na Lu",
+        "Guang Lin"
+      ],
+      "summary": "Identifying and solving partial differential equations (PDEs) from sampled solution data often requires substantial expert effort in equation discovery, coefficient estimation, and numerical solver configuration, especially under noise and distribution shifts. Can large language model (LLM) agents automate this workflow accurately and efficiently? To investigate this question, we introduce \\bench{}, a benchmark of 1,001 cases spanning 42 equation templates, including both classical and fractional PDEs. It provides three evaluation settings: Full evaluates performance on noise-free solution data; Noisy tests robustness to Gaussian noise with an RMS equal to 50\\% of the clean-signal RMS; and Hard-OOD tests challenging out-of-distribution generalization to unseen equation templates and shifted coefficient ranges. We further introduce RSI-PDE, a recursively self-improving agent harness that shortlists candidate equations by residual loss, uses relative $L^2$ feedback to refine coefficients and numerical solvers, and applies a validation gate to policy and memory updates. We compare RSI-PDE with single-run baselines and native agent harnesses (Claude Code or Codex) across four frontier models. Across the three settings, RSI-PDE improves the pass rate averaged across the four models by 106.5--181.9\\% relative to single-run baselines and by 3.0--19.6\\% relative to native harnesses, while reducing total recorded model calls by 46.9\\% across the 12 model--setting pairs. These results highlight the potential of validated recursive self-improvement in LLM agents to advance scientific computing."
+    },
     {
       "title": "WAM is capable in BEHAVIOR-1K: the 2nd-place solution to the 2026 BEHAVIOR Challenge",
       "url": "http://arxiv.org/abs/2611.13818v1",
@@ -79,13 +161,14 @@
     },
     {
       "title": "SkillDuet: Co-Evolving Models and Skills through Response Feedback",
-      "url": "http://arxiv.org/abs/2611.12109v1",
+      "url": "http://arxiv.org/abs/2611.12109v2",
       "published": "2026-11-09T09:23:26Z",
       "authors": [
         "Xingguang Ji",
         "Ziqiang Dong",
         "Yubo Zhang",
         "Xi Leng",
+        "Ninghua Yan",
         "Yang Yang",
         "Guanjun Jiang"
       ],
@@ -430,109 +513,6 @@
         "Stan Z. Li"
       ],
       "summary": "Weight-space programming (WSP) shows that language models can reason about and rewrite neural network weights; recursive self-improvement (RSI) motivates feedback-driven improvement. Models guiding experiments receive concrete feedback: completed assays reveal prediction errors and inform what to test next. We introduce WeightLoop, a framework that turns experimental feedback into persistent updates to deployed predictors. GPT-6 Astra inspects a task specification and the model implementation, then writes a bounded, reusable parameter-editing program. As new measurements arrive, the program identifies prediction discrepancies, validates candidate edits using observed outcomes, and writes the selected changes back to the original model. The editor remains fixed while the predictor evolves, enabling repeated updates without further LLM calls or gradient retraining while preserving the original inference interface. In offline replay, targeted edits improve mean ranking utility in seven of eight endpoint-budget settings (all eight versus random edits) and mean final discovery across three sequential tasks. WeightLoop connects WSP with an RSI-inspired improvement loop, making experimental evidence a direct driver of model change and subsequent decisions."
-    },
-    {
-      "title": "Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI",
-      "url": "http://arxiv.org/abs/2611.07048v1",
-      "published": "2026-11-04T19:08:46Z",
-      "authors": [
-        "Andrew W. Lo",
-        "Chaoyi Zhao"
-      ],
-      "summary": "Evolution has shaped intelligence for billions of years. Artificial intelligence (AI) now raises a striking possibility: intelligence may begin to direct its own evolution. As AI agents become capable of modifying and evaluating their own behavior, how quickly could they improve, and how can that improvement remain safe? We develop a theoretical framework comparing Darwinian, Lamarckian, and agent-directed evolution following environmental change. Darwinian evolution relies on natural selection, Lamarckian evolution adds inherited learning, and agent-directed evolution allows agents to generate and evaluate behavioral variants and choose how extensively to search. When learning is sufficiently effective, these mechanisms exhibit progressively faster adaptation. Generating more variants accelerates adaptation, while optimal search effort depends on learning ability, problem difficulty, and experimentation costs. However, an agent's ability to direct its improvement does not ensure that improvements are evaluated against the intended objective. When the evaluation target is misspecified, additional search accelerates convergence toward the wrong behavior, even as measured performance improves. In recursive self-improvement, such errors may persist across generations, posing challenges for AI safety. Independent evaluation and oversight must keep pace with autonomous AI development. The central challenge is not simply to accelerate the evolution of intelligence, but to preserve humanity's ability to guide its direction, limit its speed, and intervene when necessary."
-    },
-    {
-      "title": "CompressionBench: How can your coding agents compress LLMs?",
-      "url": "http://arxiv.org/abs/2611.06858v2",
-      "published": "2026-11-04T18:14:50Z",
-      "authors": [
-        "Xinrui Zhong",
-        "Zhifeng Li",
-        "Zhiming Wang",
-        "Xinze Feng",
-        "Yongqi Liu",
-        "Shanglin Yang",
-        "Yang Zhou",
-        "Zikun Li",
-        "Zhuoming Chen",
-        "Beidi Chen"
-      ],
-      "summary": "Recursive self-improvement requires AI systems to improve the models and infrastructure used by subsequent systems. LLM compression offers a concrete efficiency objective: retain a pretrained model's behavior within a smaller model storage budget. We study whether coding agents can carry out this step autonomously. We formulate compression as a terminal task in which an agent receives a source checkpoint, storage limit, inference environment, and time budget, then constructs compressed weights and executable inference code. The agent controls its algorithm and experiments; perplexity feedback guides search, and independent verification checks the final model. Across six agents and six model--size settings, 29 of 36 submissions pass verification. Selecting the lowest-perplexity agent design per task yields an average 3.4% perplexity increase over BF16 and 77.33% downstream accuracy, compared with 79.56% for BF16. Recorded experiments reveal how agents achieve these outcomes and where improvement breaks down. Agents lower PPL in 21 of 24 revisions at nearly fixed storage; complete-model feedback reverses 17 of 79 prior local rankings; and generation and inference tests expose failures that likelihood alone misses. The results identify representation design, experimental judgment, and capability validation as central to agent-driven model compression, a measurable component of efficiency-oriented self-improvement."
-    },
-    {
-      "title": "PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World",
-      "url": "http://arxiv.org/abs/2611.06768v1",
-      "published": "2026-11-04T16:46:03Z",
-      "authors": [
-        "Qiang Wang",
-        "Jianxin Bi",
-        "Shulong Jiang",
-        "Ruiyang Si",
-        "Wenbo Huang",
-        "Kaiqi Chen",
-        "Jiaxin Li",
-        "Liyun Li",
-        "Xuanyi Li",
-        "Daquan Zhou"
-      ],
-      "summary": "Coding agents powered by models such as GPT-6-Astra connect spatial reasoning with executable robot behavior, raising the question of how such agents can produce lasting improvements in robot capabilities from physical interaction. In this work, we study embodied recursive self-improvement (RSI) through real-world exploration, code refinement, and deployment using PyRUA-REAL, a framework in which coding agents retain interaction experience as persistent memory and reusable executable skills that inform subsequent exploration and improvement. Our empirical study places physical manipulation at the center of the improvement process, examining how agents collaborate, what kinds of execution feedback support effective code refinement, and how task specifications and previously acquired skills influence robustness and task transfer. We further investigate the efficiency and capability of the resulting programs when deployed without involving an online agent for decision-making. Across eight real-world tasks, PyRUA-REAL achieves an average success rate of 91.1%. In complementary evaluation on 42 tasks from the RoboDojo benchmark, it achieves an average success rate of 84.4%. This study provides empirical guidance for turning physical exploration into reusable robot skills that support continued improvement and robust, efficient deployment."
-    },
-    {
-      "title": "Compounding Physical RSI: Turning Execution Failure into Inherited Capability",
-      "url": "http://arxiv.org/abs/2611.06654v1",
-      "published": "2026-11-04T15:31:04Z",
-      "authors": [
-        "Yixuan Yang",
-        "Qiang Chen",
-        "Run Shao",
-        "Shuwei Dong",
-        "Wenhao Li",
-        "Yunpeng Wang",
-        "Wenhan Fang",
-        "Haomiao Wu",
-        "Xingyu Wang",
-        "Lichen Man",
-        "Rong Zhang",
-        "Xuezhi Cui",
-        "Yuan Liu",
-        "Bingyan Lu",
-        "Jiawei Ma",
-        "Xiaoyang Ma",
-        "Zhemin Sun",
-        "Zhuorui Yao",
-        "Yutong Dong",
-        "Yuxuan Zhao",
-        "Yichong Mu",
-        "Jiabao Jiang",
-        "Wenxuan Deng",
-        "Junling Zhou",
-        "Yi Chen",
-        "Deyu Zhang",
-        "Yiming Yan",
-        "Yige Yuan",
-        "Shan You",
-        "Fei Wang",
-        "Haifeng Li",
-        "Hongyan Xu",
-        "Yichao Cao",
-        "Xiu Su"
-      ],
-      "summary": "Generalist robot policies are trained on static offline datasets, yet physical manipulation unfolds sequentially across stages. Because a weakness in a downstream stage remains unobservable until the policy passes earlier ones, each resolved bottleneck exposes the next hidden failure mode. This staged structure calls for Recursive Self-Improvement (RSI), in which a policy iteratively executes, diagnoses failures, and updates itself. Moreover, because task completion behaves like a product of stage-level pass rates, recursive gains can multiply across generations. In physical environments, three bottlenecks obstruct compounding: terminal execution feedback rarely localizes the stage that caused a failure, failed trajectories do not supply the corrective action, and updating shared parameters can degrade previously mastered skills. We propose Compounding Physical RSI, a self-evolving policy framework that turns execution failures into heritable capability. First, automated capability-gap assessment traces failed rollouts to the task stage where progression breaks down and formulates a structured improvement objective. Second, conditioned on this objective, our remedy stage curates validated, stage-relevant experience and refines the policy via behavior-regularized offline reinforcement learning, without requiring costly online rollouts at each optimization step. Third, to safeguard existing skills, our retention stage constructs weight-space candidates between the inherited reference policy and the refined policy, evaluates them across the task suite, and promotes the best candidate as the reference state for the next generation. Evaluated across all 42 tasks of the RoboDojo-Sim benchmark, CSU-AI-07 ranks first on the leaderboard with a three-seed mean Overall Score of 26.15 and Success Rate of 20.70%, outperforming the next-best entry by 5.92 points and 5.82 percentage points."
-    },
-    {
-      "title": "EnzymeRSI: A dual-loop recursive self-improvement system for enzyme design",
-      "url": "http://arxiv.org/abs/2611.06321v2",
-      "published": "2026-11-04T10:54:35Z",
-      "authors": [
-        " Genoria AI Team",
-        "Yuejie Hou",
-        "Lixiang Yang",
-        "Yisi Liu",
-        "Weiting Tang",
-        "Yueyuxiao Yang",
-        "Meng Yang"
-      ],
-      "summary": "Enzyme engineering usually optimises which candidates to assay within a fixed model and workflow; when the bottleneck is a mismatched method or a failing workflow, that route is hard to escape. We present EnzymeRSI, a dual-loop system for recursive self-improvement (RSI). The outer loop evolves harness assets without changing model weights; the inner loop develops prediction and selection algorithms under controlled conditions; a cloud laboratory system is specified for closing the physical loop with quality-controlled feedback. The outer loop raised the mean development-set Spearman correlation on ProteinGym by 0.044 across five assays, reaching 0.335 on CD19 and 0.683 on OPSD (rhodopsin); of the two first places, only CD19 was produced by the outer loop itself. In ThermoMPNN self-improvement the inner loop reached a PCC of 0.849, and on TadA-Bench a Spearman correlation of 0.307 in 1.13 h. We examined the system's experimental decision-making in three enzyme systems. For the luciferase RLuc, 10 of the 32 nominated substitutions not pre-specified reached at least twice wild-type activity in a single round. For the cytidine deaminase A3A, a variant selected by a rule that caps loss of unmodified C raised 5mC conversion in the weaker CT context from 11.4% to 46.5% and reversed the substrate preference in both contexts. For the DNA polymerase KOD-E, 189 single-substitution variants defined a landscape on which different objective functions selected divergent next steps from the same parent; one assayed combination reached 31.1 times the parent on a modified substrate. By treating the organisation of research and the development of algorithms as separately scored objects of evolution, and linking a frozen decision record to a physical measurement, this work offers an evolutionary paradigm for moving beyond the blind spots of a fixed method and for autonomous enzyme engineering."
     }
   ]
 }
