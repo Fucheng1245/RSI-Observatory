@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T12:56:05.604215+00:00",
+  "generated_at": "2026-11-26T12:34:43.529175+00:00",
   "failures": [],
-  "papers_generated_at": "2026-11-25T12:56:05.604215+00:00",
+  "papers_generated_at": "2026-11-26T12:34:43.529175+00:00",
   "repositories": [
     {
       "full_name": "PrimeIntellect-ai/prime-agent",
@@ -9,15 +9,15 @@
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "category": "Self-improving agent",
       "note": "Self-improving RLM agent for coding workflows and long-running autonomous tasks; strong adjacent/direct-candidate signal.",
-      "stars": 22913,
-      "forks": 2534,
+      "stars": 22927,
+      "forks": 2538,
       "open_issues": 70,
       "language": "Rust",
       "created_at": "2026-05-08T01:42:41Z",
-      "updated_at": "2026-11-25T12:41:59Z",
-      "pushed_at": "2026-11-25T12:44:40Z",
+      "updated_at": "2026-11-26T09:52:44Z",
+      "pushed_at": "2026-11-26T11:20:32Z",
       "topics": [],
-      "delta_7d": 94
+      "delta_7d": 88
     },
     {
       "full_name": "SakanaAI/AI-Scientist",
@@ -25,15 +25,15 @@
       "description": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery \ud83e\uddd1\u200d\ud83d\udd2c",
       "category": "Automated AI R&D",
       "note": "Major open automated research system; adjacent to closed-loop AI R&D rather than strict RSI.",
-      "stars": 15044,
-      "forks": 2095,
+      "stars": 15052,
+      "forks": 2096,
       "open_issues": 125,
       "language": "Jupyter Notebook",
       "created_at": "2024-08-12T09:32:55Z",
-      "updated_at": "2026-11-25T11:04:45Z",
+      "updated_at": "2026-11-26T11:16:22Z",
       "pushed_at": "2025-12-19T07:46:21Z",
       "topics": [],
-      "delta_7d": 30
+      "delta_7d": 26
     },
     {
       "full_name": "jennyzzt/dgm",
@@ -41,15 +41,15 @@
       "description": "Darwin G\u00f6del Machine: Open-Ended Evolution of Self-Improving Agents",
       "category": "Open-ended agent evolution",
       "note": "Darwin G\u00f6del Machine: open-ended evolution of self-improving agents via source-code modification and empirical selection.",
-      "stars": 2544,
-      "forks": 467,
-      "open_issues": 28,
+      "stars": 2547,
+      "forks": 468,
+      "open_issues": 29,
       "language": "Python",
       "created_at": "2025-05-23T14:25:57Z",
-      "updated_at": "2026-11-25T02:29:45Z",
+      "updated_at": "2026-11-26T05:36:41Z",
       "pushed_at": "2025-08-13T10:40:14Z",
       "topics": [],
-      "delta_7d": 21
+      "delta_7d": 18
     },
     {
       "full_name": "FrontisAI/OpenRSI",
@@ -57,15 +57,15 @@
       "description": "Executable, measurable, and reproducible AI4AI toward recursive self-improvement. Home of OpenMLE and Frontis-MA1.",
       "category": "Core / AI4AI",
       "note": "Open full-stack AI4AI work toward recursive self-improvement, including OpenMLE and Frontis-MA1.",
-      "stars": 927,
+      "stars": 928,
       "forks": 86,
       "open_issues": 16,
       "language": "Python",
       "created_at": "2026-07-30T17:19:53Z",
-      "updated_at": "2026-11-25T07:13:47Z",
+      "updated_at": "2026-11-26T09:37:27Z",
       "pushed_at": "2026-09-17T14:17:36Z",
       "topics": [],
-      "delta_7d": 14
+      "delta_7d": 12
     },
     {
       "full_name": "HITsz-TMG/KnowAct",
@@ -81,7 +81,7 @@
       "updated_at": "2026-11-19T08:49:17Z",
       "pushed_at": "2026-08-26T07:45:59Z",
       "topics": [],
-      "delta_7d": -1
+      "delta_7d": 0
     },
     {
       "full_name": "Arvid-pku/Godel_Agent",
@@ -97,7 +97,7 @@
       "updated_at": "2026-11-18T17:31:30Z",
       "pushed_at": "2025-09-17T22:21:44Z",
       "topics": [],
-      "delta_7d": 1
+      "delta_7d": 0
     },
     {
       "full_name": "Gen-Verse/Recuris",
@@ -121,7 +121,7 @@
         "memory-system",
         "rsi"
       ],
-      "delta_7d": 4
+      "delta_7d": 3
     },
     {
       "full_name": "zjunlp/LightRSI",
@@ -162,12 +162,12 @@
       "description": "RSI-Exam: Measuring Recursive Self-Improvement on Long-Horizon, Executable Research Tasks \u00b7 Discord https://discord.gg/FBzhepyE",
       "category": "Benchmark",
       "note": "Measures recursive self-improvement through long-horizon executable research.",
-      "stars": 207,
+      "stars": 208,
       "forks": 9,
       "open_issues": 4,
       "language": "Python",
       "created_at": "2026-08-26T06:58:55Z",
-      "updated_at": "2026-11-24T09:27:10Z",
+      "updated_at": "2026-11-26T07:52:25Z",
       "pushed_at": "2026-11-06T08:23:53Z",
       "topics": [
         "benchmark",
@@ -187,9 +187,9 @@
       "language": "Python",
       "created_at": "2026-07-30T14:53:49Z",
       "updated_at": "2026-11-22T14:44:09Z",
-      "pushed_at": "2026-11-25T02:19:11Z",
+      "pushed_at": "2026-11-25T22:44:29Z",
       "topics": [],
-      "delta_7d": 7
+      "delta_7d": 4
     },
     {
       "full_name": "Gen-Verse/PAST-Bench",
@@ -224,15 +224,15 @@
       "description": "RSIH \u2014 versionable, shareable agent harness: Pi coding agent + Genome config layer",
       "category": "Harness evolution",
       "note": "Harness-level recursive self-improvement experiments.",
-      "stars": 290,
-      "forks": 32,
+      "stars": 291,
+      "forks": 31,
       "open_issues": 6,
       "language": "TypeScript",
       "created_at": "2026-09-03T08:45:37Z",
-      "updated_at": "2026-11-25T11:31:14Z",
+      "updated_at": "2026-11-26T07:18:38Z",
       "pushed_at": "2026-10-10T12:02:25Z",
       "topics": [],
-      "delta_7d": 6
+      "delta_7d": 7
     },
     {
       "full_name": "Tencent/VideoHarness-RSI",
@@ -240,15 +240,15 @@
       "description": null,
       "category": "Harness evolution",
       "note": "Domain-specific harness RSI work for video systems.",
-      "stars": 14,
+      "stars": 15,
       "forks": 0,
       "open_issues": 0,
       "language": "Python",
       "created_at": "2026-09-03T13:39:15Z",
-      "updated_at": "2026-11-17T23:41:19Z",
+      "updated_at": "2026-11-26T01:17:51Z",
       "pushed_at": "2026-10-28T03:01:29Z",
       "topics": [],
-      "delta_7d": 0
+      "delta_7d": 1
     },
     {
       "full_name": "lobehub/awesome-rsi",
@@ -256,13 +256,13 @@
       "description": "A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.",
       "category": "Research map",
       "note": "Curated research map spanning RSI models, agents, harnesses, benchmarks and safety.",
-      "stars": 1106,
-      "forks": 94,
-      "open_issues": 10,
+      "stars": 1111,
+      "forks": 96,
+      "open_issues": 7,
       "language": null,
       "created_at": "2026-08-11T03:59:57Z",
-      "updated_at": "2026-11-25T11:45:44Z",
-      "pushed_at": "2026-11-25T09:44:56Z",
+      "updated_at": "2026-11-26T11:28:34Z",
+      "pushed_at": "2026-11-26T12:21:39Z",
       "topics": [
         "agi",
         "ai",
@@ -284,7 +284,7 @@
         "self-improving-ai",
         "self-improving-systems"
       ],
-      "delta_7d": 61
+      "delta_7d": 54
     },
     {
       "full_name": "selfimproving-agent/Awesome-Self-Improving-Agents",
@@ -292,12 +292,12 @@
       "description": "A curated list for Self-Improvement in Foundation Model Based Agentic Systems.",
       "category": "Research map",
       "note": "Broad survey-oriented collection of self-improving agent research.",
-      "stars": 654,
+      "stars": 656,
       "forks": 77,
       "open_issues": 4,
       "language": "TeX",
       "created_at": "2025-12-28T05:29:23Z",
-      "updated_at": "2026-11-24T20:30:40Z",
+      "updated_at": "2026-11-26T12:06:30Z",
       "pushed_at": "2026-11-21T09:49:24Z",
       "topics": [
         "agent",
@@ -329,6 +329,56 @@
     }
   ],
   "papers": [
+    {
+      "title": "EvoLink-Bench: A Benchmark for Evaluating Self-Evolving Agents in Long-Horizon Interdependent Task Streams",
+      "url": "http://arxiv.org/abs/2611.34400v1",
+      "published": "2026-11-25T14:00:22Z",
+      "authors": [
+        "Wei Chen",
+        "Xiaodong Lu",
+        "Weihao Shen",
+        "Gongxun Li",
+        "Xingyu Guo",
+        "Qihang Sun",
+        "Fuwei Zhang",
+        "Zhao Zhang",
+        "Yikun Ban",
+        "Shuang Li",
+        "Deqing Wang",
+        "Fuzhen Zhuang"
+      ],
+      "summary": "Large language model (LLM) agents are evolving from passive chatbots into autonomous systems that operate continuously in dynamic environments. Such agents need not only solve current tasks but also learn from past interactions to improve future performance. However, existing streaming benchmarks often rely on short task sequences or largely independent tasks, providing limited evidence of whether agents can effectively reuse experience when later tasks depend on earlier outcomes. To address this gap, we introduce \\textbf{EvoLink-Bench}, a benchmark for evaluating self-evolving agents in long-horizon, interdependent task streams. It covers daily office work, multi-turn dialogue, and AutoResearch-style workflows, with persistent workspaces and dependencies across tasks. The benchmark includes two complementary levels: \\textbf{L1}, which evaluates the acquisition and revision of language-expressible knowledge, and \\textbf{L2}, which assesses the development of task-level capabilities through execution and feedback. Its evaluation further distinguishes within-task recovery, persistent-state updates, and experience reuse in later tasks. We evaluate five agent frameworks across three backbone configurations under three persistence conditions, covering 19,635 scored task slots from selected evaluation cohorts. Results show that no framework consistently performs best across both levels, retries recover only a limited proportion of failed tasks, and persistent-state updates do not necessarily improve subsequent performance. Furthermore, the effects of evolution differ between knowledge- and capability-level tasks, suggesting that these two forms of evolution require different learning mechanisms. Performance gains also vary across domains and task streams, with improvements on some tasks not necessarily extending to others."
+    },
+    {
+      "title": "When Skills Fail to Compose: Compatibility and Retention in Language Models",
+      "url": "http://arxiv.org/abs/2611.34398v1",
+      "published": "2026-11-25T13:59:48Z",
+      "authors": [
+        "Yan Lin",
+        "Zhongliang Guo",
+        "Jingyu Sun",
+        "Qiyan Zhao",
+        "Ruihong Zeng",
+        "Ying Chen",
+        "Zhengtao Yao",
+        "Yan Wen",
+        "Kunyu Peng",
+        "Yuxia Wang"
+      ],
+      "summary": "Skill acquisition alone does not establish a reusable skill library: task proficiency does not specify a compositional interface. Motivated by agents that acquire and refine skills, we study independently learned soft-prompt skills on frozen language models, with skill identities and execution order supplied. Across four digit-task bases and three record-editing models, mean composition accuracy in one call is at most 7.6%, compared with 88.2% to 100% over two calls that add computation and an explicit intermediate output. Neutral-insertion training improves robustness but leaves substantial interference, which block length and per-token norm alone cannot explain on two of four digit bases. Blocks of the same operation need not be interchangeable: after training next to frozen learned partners, a post hoc test on two Qwen bases shows that replacing those partners with independently learned blocks of the same operations lowers median composition accuracy from 98.0% and 95.3% to 12.7% and 0.5%, although every replacement scores at least 90% alone. Repair can improve a composition while impairing the original skill, and rehearsal improves retention while transfer remains limited on Qwen2.5-0.5B. Internal interventions constrain explanations without identifying a shared failure mechanism. These findings motivate evaluating compatibility, retention and transfer alongside acquisition when building skill libraries for self-evolving agents. Code is available at https://github.com/YanLin-Quinne/SkillCompatibility."
+    },
+    {
+      "title": "Can Its Own Misses Teach an MLLM to Find Small Brain Metastases?",
+      "url": "http://arxiv.org/abs/2611.33836v1",
+      "published": "2026-11-25T06:03:30Z",
+      "authors": [
+        "Yixuan Duan",
+        "Kexin Geng",
+        "Hanwen Xu",
+        "Wei Qiu"
+      ],
+      "summary": "Multimodal large language models (MLLMs) are becoming general readers of medical images, yet they remain weak at locating small abnormalities. Brain metastases expose this gap: at 384 px a 0.1 mL lesion covers less than a quarter of one visual token, and at one false positive per scan frontier MLLMs find fewer than 30% of lesions of 0.1-1 mL. Fine-tuning on one dataset helps but transfers poorly, and improving it further is slow trial and error steered by a single score. We introduce LANTERN (Lesion-finding AgeNt Through Error-driven Recursive learNing), a framework in which an MLLM improves recursively from its own misses. LANTERN recasts model development as an error-driven loop: a failure census attributes every missed lesion to one of four causes, an LLM mentor revises one of four levels (evidence acquisition, visual representation, learning policy, decision aggregation) per round, and a rule frozen before the first round decides what is kept, without test data and with every tool call audited. Over 15 unattended rounds, LANTERN raises a fine-tuned 4B MLLM from finding 75% to 94% of lesions at one false positive per scan on BraTS-MET, and 91% of those of 0.1-1 mL, compared with at most 51% and 29% for five frontier MLLMs read under the starting protocol; the gains hold on an external cohort (89%) and on unseen meningiomas (77%). These results show that an MLLM's own misses, attributed to their causes, can drive its reliable recursive self-improvement."
+    },
     {
       "title": "OmniHarness-RSI: Modality-Aware Harness Evolution for Omnimodal Understanding",
       "url": "http://arxiv.org/abs/2611.32951v1",
@@ -407,7 +457,7 @@
     },
     {
       "title": "OVOK: A Recursive Self-Improving Agentic Framework for Video-Based Articulated Robot State Estimation",
-      "url": "http://arxiv.org/abs/2611.32185v1",
+      "url": "http://arxiv.org/abs/2611.32185v2",
       "published": "2026-11-24T08:35:58Z",
       "authors": [
         "Cheng Dai",
@@ -610,42 +660,6 @@
         "Flora D. Salim"
       ],
       "summary": "Self-evolving agents improve by retaining feedback as reusable memories or skills, but every mistaken approval can shape many future behaviors. Two updates can provide exactly the same evidence to a verifier yet produce opposite safety outcomes, so the verifier cannot distinguish them from that evidence alone. We introduce DoppelVet, a verification framework that checks proposed updates before they enter an agent's persistent state. Without access to safety labels, DoppelVet constructs an alternative that matches every signal used by the existing verifier. It replays both updates from the same state and directly compares their behaviors in both presentation orders before deciding whether to retain the candidate. We evaluate DoppelVet on DoppelVet-Grid and DoppelVet-Tool, covering executable programs and natural-language memories. Across nine open-weight and proprietary verifiers, DoppelVet raises mean harmful-update detection AUC from 0.762 to 0.940 on DoppelVet-Grid and from 0.681 to 0.826 on DoppelVet-Tool, outperforming VaG and AgentDoG 1.5. On DoppelVet-Grid, it reduces trajectories experiencing degradation from 30.39% to 0.43% over a ten-generation self-update loop and leaves no final degradation."
-    },
-    {
-      "title": "From Vanishing Gradients to Recursive Self-Improvement: Evaluating the Most Influential Papers in Large Language Model Evolution (1997-2026)",
-      "url": "http://arxiv.org/abs/2611.29303v1",
-      "published": "2026-11-22T07:49:18Z",
-      "authors": [
-        "Saadh Jawwadh"
-      ],
-      "summary": "The rapid proliferation of Large Language Model (LLM) research makes it increasingly difficult to distinguish incremental refinements from true paradigm shifts. This review evaluates 22 of the most influential publications spanning nearly three decades (1997-2026), organized through a causal, chronologically anchored taxonomy centered on the author's birth year (1999). Beginning \"before 1999\" with how recurrent neural networks (RNNs) forgot earlier context (much like forgetting Chapter 1 by the time a reader reaches Chapter 9), we trace how Long Short-Term Memory (LSTM) networks introduced a \"bouncer\" mechanism of forget, input, and output gates to selectively preserve long-term memory. We then examine how Word2Vec turned language into vector mathematics (king - male + female ~ queen), why sequential RNNs hit a parallelization wall, and how the Transformer's all-to-all attention weights launched the modern LLM era alongside a quadratic bottleneck. Next, we analyze why scaling parameters alone leaves capacity under-trained unless data scales equally (Chinchilla), how Reinforcement Learning from Human Feedback (RLHF) left alignment superficial, and how that gap compounded into adversarial jailbreaks and single-direction refusal subspaces (J-space), where instructing a model not to think of a restricted concept surfaces it much like the human \"red ball\" paradox. Finally, we synthesize the current state of AI (2024-2026), encompassing recursive model collapse, autonomous reasoning-model jailbreak agents, machine-speed agentic intrusions, and closed-loop recursive self-improvement (AIDE^2)."
-    },
-    {
-      "title": "MM-DataLoop: Closing the Data-Side Loop for Recursive Self-Improvement in MLLM Post-Training",
-      "url": "http://arxiv.org/abs/2611.29254v1",
-      "published": "2026-11-22T05:47:39Z",
-      "authors": [
-        "Likang Peng",
-        "Chen Ju",
-        "Xu Chen",
-        "Xiangyang Wu",
-        "Jinsong Lan",
-        "Haihong Tang",
-        "Ying Chen"
-      ],
-      "summary": "Recursive self-improvement (RSI) offers a path toward improving models through repeated evaluation and revision. We study its data side in multimodal language model (MLLM) post-training, where heterogeneous operations and cross-round evidence must be coordinated. MMDataLoop organizes data interventions into five operation families and connects them through an Observe-Diagnose-Plan-Execute-Verify-Reflect cycle with shared rule memory. Across 34 candidate rounds on Qwen3.5-0.8B and five benchmarks, we hold the base initialization, shared training schedule and evaluation protocol fixed while varying data recipes. The five-benchmark mean reaches 63.04 at R33, up 5.32 points from the zero-shot baseline; R29, R32, and R33 form a close top cluster within 0.09 points. In eightcandidate comparisons, guided search reaches the preselected target in six candidates and identifies the top observed candidate, while random arms show higher means and lower dispersion. The selected R29 recipe also scores above two full-pool baselines under the same epoch schedule. Together, these findings establish MM-DataLoop as a traceable workflow and provide an empirical basis for studying how data-side decisions shape outcomes across MLLM post-training recipes."
-    },
-    {
-      "title": "Self-WSP: Can Language Models Improve Themselves Through Weight-Space Programming?",
-      "url": "http://arxiv.org/abs/2611.28833v1",
-      "published": "2026-11-21T14:36:04Z",
-      "authors": [
-        "Guoming Ling",
-        "Shanshan Zhong",
-        "Kaixuan Zhang",
-        "Zhongzhan Huang"
-      ],
-      "summary": "Frontier language models can now read and edit the weights of a neural network much like code and thereby improve a small model, an approach known as Weight-Space Programming (WSP). We further explore applying WSP to a language model itself, which we call Self-WSP. Specifically, Qwen3.5-0.8B reads its own weights, proposes an edit, and then continues with the edited weights as both problem solver and editor. We find many cases of genuine self-improvement. Self-edits can raise GSM8K accuracy from 11.8% to 62.2% and MATH500 accuracy from 7.0% to 32.2%, sometimes by changing only 16 parameters, and in some cases repeated self-editing keeps improving the model. A closer look, however, reveals that these gains lack interpretability. The model shows little understanding of the edits it makes, and WSP driven by random search sometimes performs comparably. Self-WSP thus holds promise as a path toward recursive self-improvement (RSI), but realizing this promise requires further exploration."
     }
   ]
 }

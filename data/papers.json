@@ -1,6 +1,56 @@
 {
-  "generated_at": "2026-11-25T12:56:05.604215+00:00",
+  "generated_at": "2026-11-26T12:34:43.529175+00:00",
   "papers": [
+    {
+      "title": "EvoLink-Bench: A Benchmark for Evaluating Self-Evolving Agents in Long-Horizon Interdependent Task Streams",
+      "url": "http://arxiv.org/abs/2611.34400v1",
+      "published": "2026-11-25T14:00:22Z",
+      "authors": [
+        "Wei Chen",
+        "Xiaodong Lu",
+        "Weihao Shen",
+        "Gongxun Li",
+        "Xingyu Guo",
+        "Qihang Sun",
+        "Fuwei Zhang",
+        "Zhao Zhang",
+        "Yikun Ban",
+        "Shuang Li",
+        "Deqing Wang",
+        "Fuzhen Zhuang"
+      ],
+      "summary": "Large language model (LLM) agents are evolving from passive chatbots into autonomous systems that operate continuously in dynamic environments. Such agents need not only solve current tasks but also learn from past interactions to improve future performance. However, existing streaming benchmarks often rely on short task sequences or largely independent tasks, providing limited evidence of whether agents can effectively reuse experience when later tasks depend on earlier outcomes. To address this gap, we introduce \\textbf{EvoLink-Bench}, a benchmark for evaluating self-evolving agents in long-horizon, interdependent task streams. It covers daily office work, multi-turn dialogue, and AutoResearch-style workflows, with persistent workspaces and dependencies across tasks. The benchmark includes two complementary levels: \\textbf{L1}, which evaluates the acquisition and revision of language-expressible knowledge, and \\textbf{L2}, which assesses the development of task-level capabilities through execution and feedback. Its evaluation further distinguishes within-task recovery, persistent-state updates, and experience reuse in later tasks. We evaluate five agent frameworks across three backbone configurations under three persistence conditions, covering 19,635 scored task slots from selected evaluation cohorts. Results show that no framework consistently performs best across both levels, retries recover only a limited proportion of failed tasks, and persistent-state updates do not necessarily improve subsequent performance. Furthermore, the effects of evolution differ between knowledge- and capability-level tasks, suggesting that these two forms of evolution require different learning mechanisms. Performance gains also vary across domains and task streams, with improvements on some tasks not necessarily extending to others."
+    },
+    {
+      "title": "When Skills Fail to Compose: Compatibility and Retention in Language Models",
+      "url": "http://arxiv.org/abs/2611.34398v1",
+      "published": "2026-11-25T13:59:48Z",
+      "authors": [
+        "Yan Lin",
+        "Zhongliang Guo",
+        "Jingyu Sun",
+        "Qiyan Zhao",
+        "Ruihong Zeng",
+        "Ying Chen",
+        "Zhengtao Yao",
+        "Yan Wen",
+        "Kunyu Peng",
+        "Yuxia Wang"
+      ],
+      "summary": "Skill acquisition alone does not establish a reusable skill library: task proficiency does not specify a compositional interface. Motivated by agents that acquire and refine skills, we study independently learned soft-prompt skills on frozen language models, with skill identities and execution order supplied. Across four digit-task bases and three record-editing models, mean composition accuracy in one call is at most 7.6%, compared with 88.2% to 100% over two calls that add computation and an explicit intermediate output. Neutral-insertion training improves robustness but leaves substantial interference, which block length and per-token norm alone cannot explain on two of four digit bases. Blocks of the same operation need not be interchangeable: after training next to frozen learned partners, a post hoc test on two Qwen bases shows that replacing those partners with independently learned blocks of the same operations lowers median composition accuracy from 98.0% and 95.3% to 12.7% and 0.5%, although every replacement scores at least 90% alone. Repair can improve a composition while impairing the original skill, and rehearsal improves retention while transfer remains limited on Qwen2.5-0.5B. Internal interventions constrain explanations without identifying a shared failure mechanism. These findings motivate evaluating compatibility, retention and transfer alongside acquisition when building skill libraries for self-evolving agents. Code is available at https://github.com/YanLin-Quinne/SkillCompatibility."
+    },
+    {
+      "title": "Can Its Own Misses Teach an MLLM to Find Small Brain Metastases?",
+      "url": "http://arxiv.org/abs/2611.33836v1",
+      "published": "2026-11-25T06:03:30Z",
+      "authors": [
+        "Yixuan Duan",
+        "Kexin Geng",
+        "Hanwen Xu",
+        "Wei Qiu"
+      ],
+      "summary": "Multimodal large language models (MLLMs) are becoming general readers of medical images, yet they remain weak at locating small abnormalities. Brain metastases expose this gap: at 384 px a 0.1 mL lesion covers less than a quarter of one visual token, and at one false positive per scan frontier MLLMs find fewer than 30% of lesions of 0.1-1 mL. Fine-tuning on one dataset helps but transfers poorly, and improving it further is slow trial and error steered by a single score. We introduce LANTERN (Lesion-finding AgeNt Through Error-driven Recursive learNing), a framework in which an MLLM improves recursively from its own misses. LANTERN recasts model development as an error-driven loop: a failure census attributes every missed lesion to one of four causes, an LLM mentor revises one of four levels (evidence acquisition, visual representation, learning policy, decision aggregation) per round, and a rule frozen before the first round decides what is kept, without test data and with every tool call audited. Over 15 unattended rounds, LANTERN raises a fine-tuned 4B MLLM from finding 75% to 94% of lesions at one false positive per scan on BraTS-MET, and 91% of those of 0.1-1 mL, compared with at most 51% and 29% for five frontier MLLMs read under the starting protocol; the gains hold on an external cohort (89%) and on unseen meningiomas (77%). These results show that an MLLM's own misses, attributed to their causes, can drive its reliable recursive self-improvement."
+    },
     {
       "title": "OmniHarness-RSI: Modality-Aware Harness Evolution for Omnimodal Understanding",
       "url": "http://arxiv.org/abs/2611.32951v1",
@@ -79,7 +129,7 @@
     },
     {
       "title": "OVOK: A Recursive Self-Improving Agentic Framework for Video-Based Articulated Robot State Estimation",
-      "url": "http://arxiv.org/abs/2611.32185v1",
+      "url": "http://arxiv.org/abs/2611.32185v2",
       "published": "2026-11-24T08:35:58Z",
       "authors": [
         "Cheng Dai",
@@ -421,57 +471,6 @@
         "Bin Zhu"
       ],
       "summary": "Frontier large language models (LLMs) have enabled vision-and-language navigation (VLN) through direct closed-loop perception and action. However, navigation performance depends strongly on the harness governing LLM-environment interactions, while existing harnesses largely rely on manually designed navigation tools, memory, and agent roles. We introduce NavRSI, a harness-centric recursive self-improvement framework that optimizes the navigation behavior of frozen LLMs through closed-loop experience. In each round, NavRSI iteratively collects navigation trajectories and failure diagnostics, employs a designer agent to rewrite the harness, and retains the revisions that prove effective, while the designer accumulates experience from previous revisions so that the harness and this experience co-evolve. Privileged simulator diagnostics guide only the designer and remain inaccessible to the navigating LLM, enabling deployment with a single RGB camera and primitive actions, without task-specific model training or additional navigation tools. Experiments demonstrate consistent improvements across LLMs from four vendors, with 85.64% success rate on the full R2R-CE val-unseen split with GPT-6-Astra, surpassing the previously reported best by 4.13%. Evaluations on RxR-CE, NavRAG-CE, and a real humanoid robot further demonstrate its generalizability."
-    },
-    {
-      "title": "$\u03b3$-Scape: An Agent-Centric World for Mobile Embodied Intelligence",
-      "url": "http://arxiv.org/abs/2611.27306v1",
-      "published": "2026-11-20T08:49:02Z",
-      "authors": [
-        "Xiaotao Zhang",
-        "Lin Qian",
-        "Hao Zhang",
-        "Xuanrui Cui",
-        "Yuehao Huang",
-        "Yunzi Wu",
-        "Yucheng Deng",
-        "Jiankun Dong",
-        "Hujun Yin",
-        "Xinhai Li",
-        "Chenjia Bai",
-        "Xuelong Li"
-      ],
-      "summary": "Recent embodied agents construct and adapt robot behavior through executable programs, tool use, and interaction feedback. Studying these systems in mobile manipulation calls for physical worlds that connect agent-directed execution with its physical consequences and reusable interaction experience. We introduce $\u03b3$-Scape, an agent-centric simulation and benchmark platform for mobile embodied intelligence. Agents compose motion tools and learned skills to carry out complete tasks that combine navigation and manipulation in a persistent physical world. BenchForge grounds structured objectives in physical task instances with instructions, reference programs, and goal evaluators, defining task goals while preserving agents' choice of valid solutions. An agentic collection harness further enables agents to produce demonstrations by carrying out contact-rich interactions through sustained control and physical feedback. Assisted reference execution and human guidance provide complementary experience. The resulting tool traces and aligned observation-action records support program refinement and policy learning, with common task-goal criteria for subsequent evaluation. We benchmark representative agent systems on complete tasks and demonstrate contact collection and trace-informed program revision. Together, these workflows provide infrastructure for research on embodied recursive self-improvement."
-    },
-    {
-      "title": "SIR-Agent: Skill-Augmented Image Restoration Agent with Recursive Self-Improvement",
-      "url": "http://arxiv.org/abs/2611.27285v1",
-      "published": "2026-11-20T08:24:50Z",
-      "authors": [
-        "Yijian Wang",
-        "Qingsen Yan",
-        "Weiyu Zhou",
-        "Mingde Zhang",
-        "Axi Niu",
-        "Haokui Zhang",
-        "Jiantao Zhou"
-      ],
-      "summary": "Agents for Image Restoration (IR) aim to leverage Multimodal Large Language Models (MLLMs) to autonomously perceive image degradation and invoke IR tools. However, existing IR agents typically rely on fine-tuning MLLM parameters to adapt to new IR tasks, leading to catastrophic forgetting of IR knowledge. To address this limitation, we propose a skill-augmented IR agent, dubbed SIR-Agent, that maintains IR knowledge in a scalable skill library and uses Recursive Self-Improvement (RSI) to facilitate efficient skill-library evolution. Specifically, we design a Chain Feedback-driven Skill Revision (CFSR) to evolve the skill library. The CFSR analyzes restoration chains to identify and revise weak operations in existing skills. The compatibility of a revised skill with known tasks decides if it replaces the original skill or is appended independently. Furthermore, to advance CFSR's skill-library evolution, we present an RSI-driven skill meta-learning mechanism, which identifies CFSR's inefficient operations and autonomously refines its revision strategy. Extensive experiments across 14 IR benchmarks, covering 6 single-degradation and 8 mixed-degradation scenarios, demonstrate SIR-Agent's superior IR performance. Further evaluation on 7 unseen tasks validates SIR-Agent's generalization to new IR tasks."
-    },
-    {
-      "title": "Physics-Guided Recursive Self-Improvement of Amortized Bayesian Inference Across Physics",
-      "url": "http://arxiv.org/abs/2611.27006v1",
-      "published": "2026-11-20T02:36:12Z",
-      "authors": [
-        "Bo Liang",
-        "Mingtao Chen",
-        "Minghui Du",
-        "Ziren Luo",
-        "Guohua Wang",
-        "Peng Xu",
-        "Zhichao Hu",
-        "Maxm Pan"
-      ],
-      "summary": "Across physics, from the orbits of imaged exoplanets and the matter inside neutron stars to thin films at synchrotrons and cortical neurons, conservation laws, interference, and compensating currents compress the posteriors of precise data into tiny, curved regions where Markov chains need minutes to days. We introduce PhyRSI (physics-guided recursive self-improvement), in which an AI agent coupled to the simulator writes and revises an amortized Bayesian inference algorithm for each field, scored by the importance weights of the exact likelihood because the true posterior is unknown. It evolves coordinates, symmetries, and factorizations matched to the physics: orbital elements at the best-measured epoch, Fresnel-normalized reflectivity with a chart for each of its multiple solutions, coordinates along which Na+ and K+ currents compensate, a shared neutron-star equation of state that factorizes a 32-dimensional joint analysis, and the time-rescaling symmetry of predator-prey dynamics. In six fields, networks trained once on simulations return 36 posteriors of real observations in seconds, reweighted by the likelihood and agreeing with converged Markov chains about as closely as two independent chains agree with each other. Such posteriors could steer synchrotron film growth and patch-clamp recordings as they run, follow X-ray transients while they are bright, update the dense-matter equation of state as neutron stars are added, and compare physical models across catalogs. Inference can thus be evolved and checked by the physics itself rather than designed by hand for each problem."
     }
   ]
 }
